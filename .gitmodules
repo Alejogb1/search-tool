@@ -1,0 +1,3 @@
+[submodule "integrations/nebulakw"]
+	path = integrations/nebulakw
+	url = https://github.com/eneiromatos/NebulaKeywordResearcher.git
