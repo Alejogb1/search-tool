@@ -2,14 +2,17 @@
 
 import sys
 import os
+import asyncio
+
 "get current working directory"
 sys.path.append(os.getcwd())
 from integrations.nebulakw.search_engines import SearchEngineSuggestions as SES
 from integrations.nebulakw.file_writter import FileWriter as FW
 from integrations.nebulakw import config
 from string import ascii_lowercase
-from integrations.llm_client import generate
 
+from data_access import repository, models
+from data_access.database import SessionLocal
 def perform_research():
     try:
         with open('input-keywords.txt', encoding='utf-8') as seed_kws:
@@ -56,12 +59,40 @@ def perform_research():
 
 class AnalysisOrchestrator:
     def __init__(self):
-        pass
+        self.db = SessionLocal()
 
-    seed_keywords = generate("https://www.planroadmap.com/")
-    
-    expanded_keywords = perform_research(seed_keywords)
-    
-    # Create the logic to store seed keywords in the database, linked to the domain.
+    async def run_full_analysis(self, domain_url:str):
+        db_domain = None,
+        db = self.db
 
+        #seed_keywords = generate(domain_url)
+        
+        #expanded_keywords = perform_research(seed_keywords)
+        with open("output-keywords.txt", encoding='utf-8') as f:
+            seed_keywords = [kw.strip('\n').strip() for kw in f.readlines() if kw not in ('', ' ', '\n', None)]
+
+
+        try:
+            # Create the logic to store seed keywords in the database, linked to the domain.
+
+            repository.create_domain_and_keywords(db, domain_url, seed_keywords)
+
+            # here it is missing job update to be completed
+        
+        except Exception as e:
+            print(f"Error running analysis: {e}")
+            sys.exit(1)
+        finally:
+            db.close()
     
+
+async def main():
+    # Create an instance of AnalysisOrchestrator
+    orchestrator_instance = AnalysisOrchestrator()
+
+    # Call the asynchronous method using await
+    await orchestrator_instance.run_full_analysis(domain_url="https://www.planroadmap.com/")
+
+# Run the main asynchronous function
+if __name__ == "__main__":
+    asyncio.run(main())
