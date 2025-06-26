@@ -14,7 +14,7 @@
 - [ ] **1.3: Initial Domain Analysis & Seed Keyword Generation**
     - [X] Create a web scraping utility to extract text content from a domain URL.
     - [X] Develop an LLM prompt chain to generate seed keywords from scraped text.
-    - [doing] Create the logic to store seed keywords in the database, linked to the domain.
+    - [X] Create the logic to store seed keywords in the database, linked to the domain.
 
 ### Phase 2: Core Processing & Intelligence Layer
 

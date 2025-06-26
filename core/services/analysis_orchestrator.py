@@ -65,9 +65,12 @@ class AnalysisOrchestrator:
         db_domain = None,
         db = self.db
 
+
+        
         #seed_keywords = generate(domain_url)
         
-        #expanded_keywords = perform_research(seed_keywords)
+        perform_research()
+
         with open("output-keywords.txt", encoding='utf-8') as f:
             seed_keywords = [kw.strip('\n').strip() for kw in f.readlines() if kw not in ('', ' ', '\n', None)]
 
@@ -85,13 +88,12 @@ class AnalysisOrchestrator:
         finally:
             db.close()
     
-
 async def main():
     # Create an instance of AnalysisOrchestrator
     orchestrator_instance = AnalysisOrchestrator()
 
     # Call the asynchronous method using await
-    await orchestrator_instance.run_full_analysis(domain_url="https://www.planroadmap.com/")
+    await orchestrator_instance.run_full_analysis(domain_url="lans.co")
 
 # Run the main asynchronous function
 if __name__ == "__main__":
