@@ -7,8 +7,8 @@
     - [ ] Implement a basic CI/CD pipeline.
 
 - [ ] **1.2: External API Integration Module**
-    - [ ] Develop a resilient client for the LLM API (error handling, retries, rate limits).
-    - [ ] **[BLOCKED]** Develop a client for the Google Ads API.
+    - [X] Develop a resilient client for the LLM API (error handling, retries, rate limits).
+    - [X] **[BLOCKED]** Develop a client for the Google Ads API.
     - [ ] Implement a mock/stubbed Google Ads API service for parallel development.
 
 - [ ] **1.3: Initial Domain Analysis & Seed Keyword Generation**
@@ -19,9 +19,9 @@
 ### Phase 2: Core Processing & Intelligence Layer
 
 - [ ] **2.1: Keyword Expansion & Enrichment**
-    - [ ] Integrate the Google Ads API client to expand the seed keyword list.
-    - [ ] Fetch key metrics (avg. monthly searches, competition, CPC) for each keyword.
-    - [ ] Implement logic to bulk-save the expanded keywords and their metrics to the database.
+    - [X] Integrate the Google Ads API client to expand the seed keyword list.
+    - [X] Fetch key metrics (avg. monthly searches, competition, CPC) for each keyword.
+    - [Doing] Implement logic to bulk-save the expanded keywords and their metrics to the database.
 
 - [ ] **2.2: NLP-driven Keyword Clustering**
     - [ ] Integrate a sentence-embedding model to generate vectors for each keyword.
