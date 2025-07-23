@@ -1,5 +1,5 @@
-from google import genai
-from google.genai import types
+import google.generativeai as genai
+from google.generativeai import types
 from web_scraper import Webscraper
 import asyncio
 import json
@@ -11,6 +11,10 @@ from typing import List, Dict, Set, Optional
 from dataclasses import dataclass
 from enum import Enum
 import hashlib
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class KeywordCategory(Enum):
     CORE_SERVICES = "core_services"
@@ -38,47 +42,74 @@ class APIKeyManager:
         self.current_key_index = 0
         self.key_usage_count = {}
         self.key_last_used = {}
+        self.key_rate_limited_until = {}
         self.rate_limit_delay = 60  # seconds to wait after rate limit
+        self.min_interval = 1  # minimum seconds between uses of same key
+        self.logger = logging.getLogger(__name__)
         
         # Initialize tracking for each key
         for key in api_keys:
             self.key_usage_count[key] = 0
             self.key_last_used[key] = 0
+            self.key_rate_limited_until[key] = 0
     
     def get_next_key(self) -> str:
-        """Get the next available API key with rotation"""
+        """Get the next available API key with intelligent rotation"""
         current_time = time.time()
+        best_key = None
+        min_usage = float('inf')
         
-        # Try to find a key that hasn't been used recently
+        # Find the best available key based on usage and rate limits
         for i in range(len(self.api_keys)):
             key_index = (self.current_key_index + i) % len(self.api_keys)
             key = self.api_keys[key_index]
             
-            # Check if enough time has passed since last use
-            if current_time - self.key_last_used[key] >= 1:  # 1 second minimum between uses
-                self.current_key_index = (key_index + 1) % len(self.api_keys)
-                self.key_last_used[key] = current_time
-                return key
+            # Skip if key is currently rate limited
+            if current_time < self.key_rate_limited_until[key]:
+                continue
+                
+            # Check minimum interval between uses
+            if current_time - self.key_last_used[key] < self.min_interval:
+                continue
+                
+            # Prefer key with lowest usage count
+            if self.key_usage_count[key] < min_usage:
+                best_key = key
+                min_usage = self.key_usage_count[key]
         
-        # If all keys used recently, wait and return the next one
+        if best_key:
+            self.current_key_index = (self.api_keys.index(best_key) + 1) % len(self.api_keys)
+            self.key_last_used[best_key] = current_time
+            self.key_usage_count[best_key] += 1
+            self.logger.debug(f"Selected API key ending in ...{best_key[-8:]} (usage: {self.key_usage_count[best_key]})")
+            return best_key
+        
+        # If no key available, wait and try again
+        self.logger.warning("All API keys in use or rate limited - waiting before retry")
         time.sleep(2)
-        key = self.api_keys[self.current_key_index]
-        self.current_key_index = (self.current_key_index + 1) % len(self.api_keys)
-        self.key_last_used[key] = current_time
-        return key
+        return self.get_next_key()
     
     def mark_rate_limited(self, api_key: str):
-        """Mark a key as rate limited"""
-        self.key_last_used[api_key] = time.time() + self.rate_limit_delay
-        print(f"API key ending in ...{api_key[-8:]} is rate limited. Switching to next key.")
+        """Mark a key as rate limited and update tracking"""
+        current_time = time.time()
+        self.key_rate_limited_until[api_key] = current_time + self.rate_limit_delay
+        self.key_last_used[api_key] = current_time  # Reset last used time
+        self.logger.warning(f"API key ending in ...{api_key[-8:]} rate limited until {self.key_rate_limited_until[api_key]}")
 
 class EnhancedGeminiKeywordGenerator:
-    def __init__(self, api_keys: List[str], model_name: str = 'gemini-2.0-flash-exp'):
+    def __init__(self, api_keys: List[str], model_configs: List[Dict] = None, parallel: bool = True):
         self.api_key_manager = APIKeyManager(api_keys)
-        self.model_name = model_name
+        self.model_configs = model_configs if model_configs else [{'name': 'gemini-2.0-flash-exp', 'rpm': 200}]
+        self.current_model_config = self.model_configs[0]
         self.logger = logging.getLogger(__name__)
         self.generated_keywords = set()
         self.clients = {}  # Cache clients for each API key
+        self.file_lock = asyncio.Lock()  # For thread-safe file operations
+        self.keyword_lock = asyncio.Lock()  # For thread-safe keyword tracking
+        self.model_request_counts = {} # Track requests per minute for each model
+        self.parallel = parallel
+        for cfg in self.model_configs:
+            self.model_request_counts[cfg['name']] = []
         
         # Setup logging
         logging.basicConfig(
@@ -91,13 +122,71 @@ class EnhancedGeminiKeywordGenerator:
         )
         
     def _get_client(self, api_key: str):
-        """Get or create a client for the given API key"""
+        """Get or create a client for the given API key using the current model configuration"""
+        model_name = self.current_model_config['name']
         if api_key not in self.clients:
-            self.clients[api_key] = genai.Client(api_key=api_key)
-        return self.clients[api_key]
+            self.clients[api_key] = {}
+        
+        if model_name not in self.clients[api_key]:
+            genai.configure(api_key=api_key)
+            self.clients[api_key][model_name] = genai.GenerativeModel(model_name)
+        return self.clients[api_key][model_name]
+
+    def _can_make_request(self) -> bool:
+        """Check if a request can be made with the current model without exceeding RPM."""
+        model_name = self.current_model_config['name']
+        rpm_limit = self.current_model_config['rpm']
+        current_time = time.time()
+
+        # Clean up old requests (older than 60 seconds)
+        self.model_request_counts[model_name] = [
+            t for t in self.model_request_counts.get(model_name, []) if current_time - t < 60
+        ]
+
+        if len(self.model_request_counts[model_name]) < rpm_limit:
+            return True
+        else:
+            self.logger.warning(f"Model {model_name} RPM limit reached ({rpm_limit} RPM).")
+            # Automatically switch to next model when limit reached
+            self._switch_model()
+            return False
+
+    def _record_request(self):
+        """Record a successful request for the current model."""
+        model_name = self.current_model_config['name']
+        self.model_request_counts[model_name].append(time.time())
+
+    def _switch_model(self):
+        """Switch to the next available model with proper cooldown."""
+        current_model_index = self.model_configs.index(self.current_model_config)
+        next_model_index = (current_model_index + 1) % len(self.model_configs)
+        self.current_model_config = self.model_configs[next_model_index]
+        
+        # Reset request count for new model
+        self.model_request_counts[self.current_model_config['name']] = []
+        
+        # Add cooldown period if previous model was rate limited
+        cooldown = 5 if len(self.model_request_counts) > 1 else 0
+        time.sleep(cooldown)
+        
+        self.logger.info(f"Switched to model: {self.current_model_config['name']} (RPM: {self.current_model_config['rpm']})")
     
+    async def _append_keywords_to_file_async(self, keywords: Set[str], filename: str):
+        """Thread-safe version of append_keywords_to_file"""
+        if not keywords:
+            return
+            
+        try:
+            async with self.file_lock:
+                with open(filename, 'a', encoding='utf-8') as f:
+                    for keyword in keywords:
+                        f.write(keyword + '\n')
+                print(f"Appended {len(keywords)} keywords to {filename}")
+        except Exception as e:
+            self.logger.error(f"Error appending keywords to file: {e}")
+            
     def _append_keywords_to_file(self, keywords: Set[str], filename: str):
-        """Append new keywords to file immediately"""
+        """Sync version for backward compatibility"""
         if not keywords:
             return
             
@@ -120,31 +209,43 @@ class EnhancedGeminiKeywordGenerator:
             self.logger.error(f"Error loading existing keywords: {e}")
             return set()
     
-    def generate_30k_keywords(self, domain_url: str, output_file: str = 'input-keywords.txt') -> str:
+    async def generate_30k_keywords_async(self, domain_url: str, output_file: str = 'input-keywords.txt') -> str:
         """
-        Generate 30,000 keywords using the enhanced multi-stage approach with progress tracking
+        Async version of generate_30k_keywords with parallel processing
         """
+        # Ensure the output file exists
+        with open(output_file, 'a') as f:
+            pass
+            
         try:
             # Initialize progress tracking
             start_time = time.time()
             total_generated = 0
+            failed_batches = 0
+            successful_batches = 0
             
             # Load existing keywords to avoid duplicates
             existing_keywords = self._load_existing_keywords(output_file)
             self.generated_keywords.update(existing_keywords)
             
-            print(f"Starting keyword generation for {domain_url}")
-            print(f"Found {len(existing_keywords)} existing keywords")
+            self.logger.info(f"Starting keyword generation for {domain_url}")
+            self.logger.info(f"Found {len(existing_keywords)} existing keywords")
+            print(f"\n=== KEYWORD GENERATION STARTED ===")
+            print(f"Target: 30,000 keywords")
+            print(f"Existing keywords: {len(existing_keywords)}")
+            print(f"API keys available: {len(self.api_key_manager.api_keys)}")
+            print(f"Models available: {len(self.model_configs)}")
             
             # Stage 1: Scrape domain content
             print("Stage 1: Scraping domain content...")
             scraper_response = Webscraper(domain_url)
-            domain_content = scraper_response.text
+
+            domain_content = scraper_response.text 
             print(f"Scraped {len(domain_content)} characters of content")
             
             # Stage 2: Analyze domain content
             print("Stage 2: Analyzing domain content...")
-            domain_analysis = self._analyze_domain_content(domain_content)
+            domain_analysis = await self._analyze_domain_content(domain_content)
             print("Domain analysis completed")
             
             # Stage 3: Create keyword generation batches
@@ -160,7 +261,7 @@ class EnhancedGeminiKeywordGenerator:
                 print(f"Target: {batch.target_count} keywords")
                 
                 try:
-                    batch_keywords = self._generate_keywords_for_batch_with_progress(
+                    batch_keywords = await self._generate_keywords_for_batch_with_progress(
                         batch, domain_content, output_file
                     )
                     
@@ -180,79 +281,123 @@ class EnhancedGeminiKeywordGenerator:
             
             # Final summary
             total_time = time.time() - start_time
-            print(f"\n=== GENERATION COMPLETE ===")
-            print(f"Total keywords generated: {total_generated}")
-            print(f"Total time: {total_time:.1f} seconds")
-            print(f"Average rate: {total_generated/total_time:.1f} keywords/second")
-            print(f"Keywords saved to: {output_file}")
+            minutes, seconds = divmod(total_time, 60)
+            hours, minutes = divmod(minutes, 60)
             
-            return f"Generated {total_generated} keywords and saved to {output_file}"
+            self.logger.info(f"Main generation process finished. Total time: {total_time:.1f}s")
+            print(f"\n=== GENERATION COMPLETE ===")
+            print(f"╔════════════════════════════════════╗")
+            print(f"║          KEYWORD GENERATION        ║")
+            print(f"╠════════════════════════════════════╣")
+            print(f"║ Total keywords generated: {str(total_generated).ljust(8)} ║")
+            print(f"║ Existing keywords:       {str(len(existing_keywords)).ljust(8)} ║")
+            print(f"║ New unique keywords:     {str(total_generated - len(existing_keywords)).ljust(8)} ║")
+            print(f"║ Time elapsed:            {f'{int(hours)}h {int(minutes)}m {int(seconds)}s'.ljust(8)} ║")
+            print(f"║ Generation rate:         {f'{total_generated/total_time:.1f} keywords/s'.ljust(8)} ║")
+            print(f"║ Output file:             {output_file.ljust(8)} ║")
+            print(f"╚════════════════════════════════════╝")
+            
+            return (
+                f"Generated {total_generated} keywords ({total_generated - len(existing_keywords)} new unique)\n"
+                f"Time: {int(hours)}h {int(minutes)}m {int(seconds)}s\n"
+                f"Rate: {total_generated/total_time:.1f} keywords/s\n"
+                f"Saved to: {output_file}"
+            )
             
         except Exception as e:
             self.logger.error(f"Error in main generation process: {e}")
             return f"Error: {e}"
-    
-    def _generate_keywords_for_batch_with_progress(self, batch: KeywordBatch, domain_content: str, output_file: str) -> Set[str]:
+        finally:
+            self.logger.info("Script finished.")
+
+    def generate_30k_keywords(self, domain_url: str, output_file: str = 'input-keywords.txt') -> str:
         """
-        Generate keywords for a specific batch with progress tracking and immediate file writing
+        Generate 30,000 keywords using the enhanced multi-stage approach with progress tracking
+        """
+        return asyncio.run(self.generate_30k_keywords_async(domain_url, output_file))
+    
+    async def _generate_keywords_for_batch_with_progress(self, batch: KeywordBatch, domain_content: str, output_file: str) -> Set[str]:
+        """
+        Generate keywords for a specific batch with progress tracking and immediate file writing (parallel version)
         """
         all_keywords = set()
+        failed_sub_batches = 0
         
         # Calculate smaller sub-batches for free API limits (250 keywords per call)
         sub_batch_size = 250
         num_sub_batches = (batch.target_count + sub_batch_size - 1) // sub_batch_size
         
+        print(f"\nProcessing batch: {batch.category.value}")
+        print(f"Target keywords: {batch.target_count}")
         print(f"Splitting into {num_sub_batches} sub-batches of {sub_batch_size} keywords each")
         
-        for i in range(num_sub_batches):
+        # Create a semaphore to limit concurrent requests based on available API keys
+        semaphore = asyncio.Semaphore(len(self.api_key_manager.api_keys))
+        
+        async def process_sub_batch(i: int):
+            nonlocal all_keywords, failed_sub_batches
             current_target = min(sub_batch_size, batch.target_count - len(all_keywords))
             if current_target <= 0:
-                break
+                return
                 
-            print(f"  Sub-batch {i+1}/{num_sub_batches}: Generating {current_target} keywords...")
+            print(f"\n  Sub-batch {i+1}/{num_sub_batches}: Generating {current_target} keywords...")
             
             # Retry logic for each sub-batch
             max_retries = 3
+            last_error = None
+            
             for attempt in range(max_retries):
                 try:
-                    sub_keywords = self._generate_sub_batch_with_retry(
-                        batch, current_target, i, domain_content
-                    )
+                    async with semaphore:
+                        sub_keywords = await self._generate_sub_batch_with_retry_async(
+                            batch, current_target, i, domain_content
+                        )
                     
-                    # Remove duplicates and filter new keywords
-                    new_keywords = sub_keywords - self.generated_keywords - all_keywords
+                    # Thread-safe keyword tracking
+                    async with self.keyword_lock:
+                        new_keywords = sub_keywords - self.generated_keywords - all_keywords
+                        if new_keywords:
+                            all_keywords.update(new_keywords)
+                            # Thread-safe file writing
+                            await self._append_keywords_to_file_async(new_keywords, output_file)
+                            print(f"    ✅ Generated {len(new_keywords)} new keywords")
+                        else:
+                            print(f"    ⚠️ No new keywords generated (all duplicates)")
                     
-                    if new_keywords:
-                        all_keywords.update(new_keywords)
-                        # Immediately append to file
-                        self._append_keywords_to_file(new_keywords, output_file)
-                        print(f"    Generated {len(new_keywords)} new keywords")
-                    else:
-                        print(f"    No new keywords generated (all duplicates)")
-                    
-                    break  # Success, break retry loop
+                    return  # Success, exit retry loop
                     
                 except Exception as e:
-                    self.logger.error(f"Attempt {attempt+1} failed for sub-batch {i+1}: {e}")
+                    last_error = e
+                    self.logger.error(f"Attempt {attempt+1} failed for sub-batch {i+1}: {str(e)}")
                     if attempt < max_retries - 1:
                         wait_time = (attempt + 1) * 5
-                        print(f"    Retrying in {wait_time} seconds...")
-                        time.sleep(wait_time)
-                    else:
-                        print(f"    Sub-batch {i+1} failed after {max_retries} attempts")
+                        print(f"    ⏳ Retrying in {wait_time} seconds...")
+                        await asyncio.sleep(wait_time)
+            
+            # If we get here, all attempts failed
+            failed_sub_batches += 1
+            print(f"    ❌ Sub-batch {i+1} failed after {max_retries} attempts")
+            if last_error:
+                print(f"    Last error: {str(last_error)}")
             
             # Progress update
             progress = len(all_keywords) / batch.target_count * 100
-            print(f"  Batch progress: {len(all_keywords)}/{batch.target_count} ({progress:.1f}%)")
-            
-            # Delay between sub-batches to respect rate limits
-            time.sleep(2)
+            print(f"\n  Batch progress: {len(all_keywords)}/{batch.target_count} keywords ({progress:.1f}%)")
+            print(f"  Failed sub-batches: {failed_sub_batches}/{num_sub_batches}")
+
+        # Run sub-batches concurrently or sequentially based on the `parallel` flag
+        if self.parallel:
+            await asyncio.gather(*[process_sub_batch(i) for i in range(num_sub_batches)])
+        else:
+            for i in range(num_sub_batches):
+                await process_sub_batch(i)
         
+        self.logger.info(f"Finished processing batch {batch.category.value}. Total keywords: {len(all_keywords)}")
         return all_keywords
     
-    def _generate_sub_batch_with_retry(self, batch: KeywordBatch, count: int, iteration: int, domain_content: str) -> Set[str]:
+    async def _generate_sub_batch_with_retry_async(self, batch: KeywordBatch, count: int, iteration: int, domain_content: str) -> Set[str]:
         """
-        Generate a sub-batch of keywords with API key rotation and retry logic
+        Generate a sub-batch of keywords with API key rotation and retry logic (async version)
         """
         variation_strategies = [
             "Focus on 1-2 word short-tail keywords",
@@ -262,6 +407,8 @@ class EnhancedGeminiKeywordGenerator:
         ]
         
         current_strategy = variation_strategies[iteration % len(variation_strategies)]
+        self.logger.info(f"Starting sub-batch generation with strategy: {current_strategy}")
+        start_time = time.time()
         
         prompt = f"""
         You are a Keyword Research Specialist. Generate exactly {count} unique keywords for keyword research.
@@ -274,6 +421,17 @@ class EnhancedGeminiKeywordGenerator:
         DOMAIN CONTENT SAMPLE:
         {domain_content[:2000]}
         
+        STRICT SEARCH TERM REQUIREMENTS:
+        1. Must be actual search query patterns (not statements or commentary)
+        2. No special characters except hyphens and apostrophes 
+        3. No colons or semantic separators
+        4. Must resemble real Google search queries
+        5. Reject any terms similar to these problematic patterns:
+           - "freelancers: ¿cómo recibir pagos?"
+           - "saldo sin fronteras: seguridad"  
+           - "tipo de cambio: análisis"
+           - "¿cómo usar usd digitales?"
+        
         KEYWORD GENERATION RULES:
         - Generate exactly {count} unique keywords
         - Use actual terminology from the domain, not assumed phrases
@@ -284,38 +442,59 @@ class EnhancedGeminiKeywordGenerator:
         - No artificially constructed phrases
         - No repetitive keyword stuffing patterns
         - Each keyword serves distinct search intent
-        - Mix of 1-5 word phrases
+        - Mix of 1-5 word phrases (no more than 5 words)
         - Focus on generic/solution terms, some competitor brand names allowed
         - Prioritize problem-solution keywords based on actual site content
+        - Questions are allowed but without explicit question marks
+        - Must be directly searchable in Google Ads
         
         OUTPUT FORMAT:
         Return only the keywords, one per line, no explanations, no headers, no numbering.
         
+        VALIDATION CRITERIA (ask yourself):
+        - Would someone actually search this on Google?
+        - Does this clearly relate to a product/service?
+        - Is this specific enough to trigger relevant ads?
+        
         Generate keywords based on what the domain actually offers and discusses, not theoretical user search patterns.
         """
         
-        max_api_retries = len(self.api_key_manager.api_keys) * 2
+        max_api_retries = len(self.api_key_manager.api_keys) * len(self.model_configs) * 2 # Consider retries for each model
         
         for api_attempt in range(max_api_retries):
             try:
+                # Check and switch model if RPM limit is reached
+                if not self._can_make_request():
+                    self._switch_model()
+                    self.logger.info(f"Switched to model: {self.current_model_config['name']}")
+                    await asyncio.sleep(5) # Wait a bit before trying again with the new model
+                    continue
+
                 # Get next API key
                 api_key = self.api_key_manager.get_next_key()
                 client = self._get_client(api_key)
                 
-                # Make API call
-                response = client.models.generate_content(
-                    model=self.model_name,
+                # Make async API call
+                response = await asyncio.to_thread(
+                    client.generate_content,
                     contents=prompt
                 )
                 
+                # Record the request regardless of the response
+                self._record_request()
+
                 # Parse response
-                keywords = self._parse_keyword_response(response.text)
+                if response and response.text:
+                    keywords = self._parse_keyword_response(response.text)
+                    if len(keywords) > 0:
+                        return keywords
                 
-                if len(keywords) > 0:
-                    return keywords
-                else:
-                    print(f"    Empty response from API, retrying...")
-                    continue
+                # Handle empty or invalid response
+                self.logger.warning(f"Empty/invalid response from API for model {self.current_model_config['name']}")
+                self._switch_model()
+                self.logger.info(f"Switched to model: {self.current_model_config['name']} after empty response")
+                await asyncio.sleep(5)
+                continue
                     
             except Exception as e:
                 error_msg = str(e).lower()
@@ -324,13 +503,21 @@ class EnhancedGeminiKeywordGenerator:
                 if 'rate limit' in error_msg or 'quota' in error_msg or '429' in error_msg:
                     self.api_key_manager.mark_rate_limited(api_key)
                     print(f"    Rate limited, switching API key...")
-                    time.sleep(5)
+                    await asyncio.sleep(5)
+                    continue
+                    
+                # Check for timeout errors
+                elif '504' in error_msg or 'deadline' in error_msg:
+                    self._switch_model()
+                    self.logger.warning(f"Timeout error, switched to model: {self.current_model_config['name']}")
+                    await asyncio.sleep(5)
                     continue
                     
                 # Check for other API errors
                 elif 'api' in error_msg or 'request' in error_msg:
-                    print(f"    API error: {e}")
-                    time.sleep(3)
+                    self._switch_model()
+                    self.logger.warning(f"API error, switched to model: {self.current_model_config['name']}")
+                    await asyncio.sleep(3)
                     continue
                     
                 else:
@@ -338,10 +525,12 @@ class EnhancedGeminiKeywordGenerator:
                     raise e
         
         # If we get here, all API attempts failed
-        self.logger.error(f"All API attempts failed for sub-batch")
+        elapsed = time.time() - start_time
+        self.logger.error(f"All API attempts failed for sub-batch after {elapsed:.1f}s")
+        self.logger.error(f"Failed batch details: Category={batch.category.value}, Target={count}, Strategy={current_strategy}")
         return set()
     
-    def _analyze_domain_content(self, content: str) -> Dict:
+    async def _analyze_domain_content(self, content: str) -> Dict:
         """
         Analyze domain content to extract structured data using Gemini with retry logic
         """
@@ -375,8 +564,8 @@ class EnhancedGeminiKeywordGenerator:
                 api_key = self.api_key_manager.get_next_key()
                 client = self._get_client(api_key)
                 
-                response = client.models.generate_content(
-                    model=self.model_name,
+                response = await asyncio.to_thread(
+                    client.generate_content,
                     contents=analysis_prompt
                 )
                 
@@ -391,7 +580,7 @@ class EnhancedGeminiKeywordGenerator:
                 else:
                     if attempt < max_retries - 1:
                         print(f"JSON parsing failed, retrying... (attempt {attempt + 1})")
-                        time.sleep(2)
+                        await asyncio.sleep(2)
                         continue
                     else:
                         return self._create_fallback_analysis(content)
@@ -399,7 +588,7 @@ class EnhancedGeminiKeywordGenerator:
             except Exception as e:
                 self.logger.error(f"Error analyzing domain content (attempt {attempt + 1}): {e}")
                 if attempt < max_retries - 1:
-                    time.sleep(3)
+                    await asyncio.sleep(3)
                     continue
                 else:
                     return self._create_fallback_analysis(content)
@@ -416,7 +605,7 @@ class EnhancedGeminiKeywordGenerator:
             seed_terms=analysis.get("core_services", [])[:10],
             target_count=4000,
             context=f"Generate keywords for core services offered by {domain_url}. Focus on direct service terms, variations, and related searches.",
-            variation_strategy="Focus on 1-3 word service-related keywords"
+            variation_strategy="Focus on 1-8 word service-related keywords"
         ))
         
         # Problem-Solution Batch
@@ -443,7 +632,7 @@ class EnhancedGeminiKeywordGenerator:
             seed_terms=analysis.get("use_cases", [])[:10],
             target_count=5000,
             context="Generate long-tail keyword variations, specific use cases, and niche applications.",
-            variation_strategy="Focus on 4-5 word long-tail variations"
+            variation_strategy="Focus on 4-8 word long-tail variations"
         ))
         
         # Competitor Analysis Batch
@@ -504,7 +693,7 @@ class EnhancedGeminiKeywordGenerator:
     
     def _parse_keyword_response(self, response: str) -> Set[str]:
         """
-        Parse Gemini response into clean keyword set
+        Parse Gemini response into clean keyword set with commercial optimization
         """
         lines = response.strip().split('\n')
         keywords = set()
@@ -512,11 +701,13 @@ class EnhancedGeminiKeywordGenerator:
         for line in lines:
             # Clean the line
             keyword = line.strip().lower()
-            
-            # Remove numbering, bullets, quotes
             keyword = self._clean_keyword(keyword)
             
-            # Validate keyword
+            # Enforce commercial optimization rules
+            word_count = len(keyword.split())
+            if word_count > 4:  # Skip keywords longer than 4 words
+                continue
+                
             if self._is_valid_keyword(keyword):
                 keywords.add(keyword)
         
@@ -543,27 +734,24 @@ class EnhancedGeminiKeywordGenerator:
     
     def _is_valid_keyword(self, keyword: str) -> bool:
         """
-        Validate if keyword meets quality criteria
-        """
-        if not keyword or len(keyword) < 3:
-            return False
-        
-        # Check word count (1-5 words)
+        Validate if keyword meets commercial quality criteria
+        """        
+        # Check word count (1-4 words)
         word_count = len(keyword.split())
-        if word_count < 1 or word_count > 5:
+        if word_count < 1 or word_count > 4:
             return False
         
         # Avoid obvious spam patterns
-        if keyword.count(' ') > 4:  # Too many words
+        if keyword.count(' ') > 3:  # Max 4 words total
             return False
         
         # Check for repetitive patterns
         words = keyword.split()
         if len(words) > 1 and len(words) != len(set(words)):  # Duplicate words
             return False
-        
-        # Avoid keywords that are too short or too long
-        if len(keyword) < 3 or len(keyword) > 80:
+            
+        # Check for commercial intent
+        if len(words) == 1 and len(words[0]) < 4:  # Too short to be meaningful
             return False
         
         return True
@@ -600,12 +788,15 @@ class EnhancedGeminiKeywordGenerator:
         }
 
 # Enhanced generation function with multiple API keys
-def generate_30k_keywords(domain_url: str, api_keys: List[str], output_file: str = 'input-keywords.txt'):
+def generate_30k_keywords(domain_url: str, api_keys: List[str], model_configs: List[Dict], output_file: str = 'input-keywords.txt', parallel: bool = True):
     """
     Generate 30,000 keywords using multiple API keys with rotation
     """
-    generator = EnhancedGeminiKeywordGenerator(api_keys=api_keys)
-    result = generator.generate_30k_keywords(domain_url, output_file)
+    generator = EnhancedGeminiKeywordGenerator(api_keys=api_keys, model_configs=model_configs, parallel=parallel)
+    if parallel:
+        result = asyncio.run(generator.generate_30k_keywords_async(domain_url, output_file))
+    else:
+        result = generator.generate_30k_keywords(domain_url, output_file)
     return result
 
 # Backward compatibility - original function signature
@@ -619,25 +810,41 @@ def generate(domain_url: str, api_key: str = "", output_file: str = 'input-keywo
     
     # Convert single API key to list for compatibility
     api_keys = [api_key]
-    return generate_30k_keywords(domain_url, api_keys, output_file)
+    return generate_30k_keywords(domain_url, api_keys, [])
 
 # Multi-API key function
-def generate_with_multiple_keys(domain_url: str, api_keys: List[str], output_file: str = 'input-keywords.txt'):
+def generate_with_multiple_keys(domain_url: str, api_keys: List[str], model_configs: List[Dict], output_file: str = 'input-keywords.txt', parallel: bool = True):
     """
     Generate 30k keywords using multiple API keys
     """
     if not api_keys:
         raise ValueError("At least one API key is required")
     
-    return generate_30k_keywords(domain_url, api_keys, output_file)
+    return generate_30k_keywords(domain_url, api_keys, model_configs, output_file, parallel)
 
 # Example usage
 if __name__ == "__main__":
-    # Replace with your actual API keys
-    API_KEYS = [
-        "", # magnicetio
+    # Load API keys from .env file
+    api_keys_str = os.getenv("GOOGLE_API_KEYS")
+    if not api_keys_str:
+        print("ERROR: GOOGLE_API_KEYS not found in .env file.")
+        print("Please add your keys as a comma-separated list.")
+        exit(1)
+    
+    API_KEYS = [key.strip() for key in api_keys_str.split(',')]
+    
+    MODEL_CONFIGS = [
+        {"name": "gemini-2.5-pro", "rpm": 5},
+        {"name": "gemini-2.5-flash", "rpm": 10},
+        {"name": "gemini-2.5-flash-lite-preview-06-17", "rpm": 15},
+        {"name": "gemini-2.0-flash", "rpm": 15},
+        {"name": "gemini-2.0-flash-lite", "rpm": 30},
     ]
     
-    # Generate 30k keywords with multiple API keys
-    result = generate_with_multiple_keys("https://sakana.ai", API_KEYS)
+    # Generate 30k keywords with multiple API keys in parallel
+    result = generate_with_multiple_keys("https://www.sorcerer.earth", API_KEYS, MODEL_CONFIGS, parallel=False)
     print(result)
+    
+    # To run sequentially, set parallel=False
+    # result_seq = generate_with_multiple_keys("https://agentazlon.com", API_KEYS, MODEL_CONFIGS, parallel=False)
+    # print(result_seq)
