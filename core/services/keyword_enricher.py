@@ -45,7 +45,7 @@ if __name__ == '__main__':
     # This is an example of how to use the KeywordEnricher
     # You should replace 'your-customer-id' with your actual Google Ads customer ID.
     # You can also load it from a config file or environment variable.
-    customer_id = "9417012125"  # IMPORTANT: Replace with a valid customer ID
+    customer_id = "YOUR CUSTOMER ID"  # IMPORTANT: Replace with a valid customer ID
     
     # Read seed keywords from input-keywords.txt
     try:
