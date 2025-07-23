@@ -1,27 +1,27 @@
 ### Phase 1: Foundation & Data Ingestion Pipeline
 
 - [ ] **1.1: Environment & Database Setup**
-    - [ ] Provision a relational database (e.g., PostgreSQL).
-    - [ ] Design and deploy the database schema (`domains`, `keywords`, `clusters`, `reports`).
+    - [X] Provision a relational database (e.g., PostgreSQL).
+    - [X] Design and deploy the database schema (`domains`, `keywords`, `clusters`, `reports`).
     - [X] Set up a version-controlled repository (Git).
     - [ ] Implement a basic CI/CD pipeline.
 
-- [ ] **1.2: External API Integration Module**
+- [X] **1.2: External API Integration Module**
     - [X] Develop a resilient client for the LLM API (error handling, retries, rate limits).
     - [X] **[BLOCKED]** Develop a client for the Google Ads API.
-    - [ ] Implement a mock/stubbed Google Ads API service for parallel development.
+    - [X] Implement a mock/stubbed Google Ads API service for parallel development.
 
-- [ ] **1.3: Initial Domain Analysis & Seed Keyword Generation**
+- [X] **1.3: Initial Domain Analysis & Seed Keyword Generation**
     - [X] Create a web scraping utility to extract text content from a domain URL.
     - [X] Develop an LLM prompt chain to generate seed keywords from scraped text.
     - [X] Create the logic to store seed keywords in the database, linked to the domain.
 
 ### Phase 2: Core Processing & Intelligence Layer
 
-- [ ] **2.1: Keyword Expansion & Enrichment**
+- [X] **2.1: Keyword Expansion & Enrichment**
     - [X] Integrate the Google Ads API client to expand the seed keyword list.
     - [X] Fetch key metrics (avg. monthly searches, competition, CPC) for each keyword.
-    - [Doing] Implement logic to bulk-save the expanded keywords and their metrics to the database.
+    - [X] Implement logic to bulk-save the expanded keywords and their metrics to the database.
 
 - [ ] **2.2: NLP-driven Keyword Clustering**
     - [ ] Integrate a sentence-embedding model to generate vectors for each keyword.
@@ -33,6 +33,13 @@
     - [ ] Design LLM prompts to analyze clusters for strategic insights.
     - [ ] Implement logic to tag clusters as "Use Cases", "Features", "Competitors", etc.
     - [ ] Update the cluster records in the database with these knowledge signal tags.
+
+- [ ] **2.4: Knowledge Graph Construction**
+    - [ ] Design graph schema for representing keyword relationships
+    - [ ] Implement graph building from clustered keywords and extracted signals
+    - [ ] Add visualization capabilities for the knowledge graph
+    - [ ] Store graph structure in database (nodes and edges)
+    - [ ] Integrate with analysis_orchestrator pipeline
 
 ### Phase 3: API Development & Delivery
 
