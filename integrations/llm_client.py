@@ -323,8 +323,8 @@ class EnhancedGeminiKeywordGenerator:
         all_keywords = set()
         failed_sub_batches = 0
         
-        # Calculate smaller sub-batches for free API limits (250 keywords per call)
-        sub_batch_size = 250
+        # Calculate smaller sub-batches for free API limits (8000 tokens per call)
+        sub_batch_size = 8000
         num_sub_batches = (batch.target_count + sub_batch_size - 1) // sub_batch_size
         
         print(f"\nProcessing batch: {batch.category.value}")
@@ -433,6 +433,7 @@ class EnhancedGeminiKeywordGenerator:
            - "¿cómo usar usd digitales?"
         
         KEYWORD GENERATION RULES:
+        - In spanish
         - Generate exactly {count} unique keywords
         - Use actual terminology from the domain, not assumed phrases
         - Include variations of real terms found on the site
@@ -538,7 +539,7 @@ class EnhancedGeminiKeywordGenerator:
         Analyze this domain content and extract structured data for keyword generation.
         
         CONTENT:
-        {content[:6000]}  # Truncate for token limits
+        {content[:8000]}  # Truncate for token limits
         
         Extract and return ONLY a JSON object with these exact keys:
         {{
@@ -842,7 +843,7 @@ if __name__ == "__main__":
     ]
     
     # Generate 30k keywords with multiple API keys in parallel
-    result = generate_with_multiple_keys("https://www.sorcerer.earth", API_KEYS, MODEL_CONFIGS, parallel=False)
+    result = generate_with_multiple_keys("https://curval.io", API_KEYS, MODEL_CONFIGS, parallel=False)
     print(result)
     
     # To run sequentially, set parallel=False
