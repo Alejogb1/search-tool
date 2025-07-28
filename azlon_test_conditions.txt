@@ -1,0 +1,26 @@
+# Test Conditions for Azlon Keyword Analysis
+
+## Input Validation
+1. Verify output-keywords-lans.csv contains required columns: 'text', 'avg_monthly_searches', 'competition'
+2. Confirm no null values in 'text' column
+3. Validate numerical ranges: 'avg_monthly_searches' ≥ 0, 'competition' between 0-1
+
+## Analysis Validation
+1. Cluster analysis should group semantically similar keywords (cosine similarity > 0.7)
+2. High-value keywords must meet: avg_monthly_searches > 1000 AND competition < 0.5
+3. Language-specific analysis should maintain >90% accuracy in keyword-language matching
+
+## Output Validation
+1. Report must contain at least 5 actionable recommendations
+2. All visualizations should render without errors
+3. Code execution time < 5 minutes for 100k rows
+4. Memory usage < 4GB throughout execution
+
+## Success Criteria
+1. 100% of test cases pass
+2. Analysis reproduces same results on repeated runs
+3. Code handles edge cases gracefully (empty inputs, malformed data)
+
+
+## PROMPT
+Analyze the 'output-keywords-lans.csv' file containing keyword data derived from large source documents (~100k words each) to extract actionable insights for content strategy and SEO optimization. The CSV contains keyword text along with metrics like average monthly searches and competition levels, potentially segmented by language (indicated by 'lans' in filename). Your analysis must run efficiently in a Google Colab environment without GPU acceleration, so implement memory optimization techniques like chunked CSV reading and CPU-friendly algorithms. First, load the data using pandas with appropriate data types to minimize memory usage - consider categorical types for text columns and downcasting numerical columns. Perform comprehensive exploratory analysis including: distribution of search volumes across different competition levels (low/medium/high), identification of high-value keywords (high search volume + low competition), language-specific trends if language data exists, and keyword clustering based on semantic similarity using efficient techniques like TF-IDF or word embeddings optimized for CPU. Generate clear visualizations of key metrics using matplotlib/seaborn - focus on histograms of search volume distributions, scatter plots of search volume vs competition, and bar charts of top performing keywords by category. For clustering analysis, use algorithms like K-means with optimal cluster count determined by elbow method - but implement careful memory management for larger datasets. Include thorough data quality checks - handle missing values appropriately, validate metric distributions for outliers, and ensure text normalization. The final output should be a comprehensive report with: 1) Executive summary of key findings, 2) Detailed analysis sections for each metric cluster, 3) Visualizations with clear interpretations, 4) Specific actionable recommendations for content strategy prioritized by potential impact, and 5) Complete reproducible Python code implementing the analysis. Structure your code professionally with functions for each analysis task, proper error handling, and clear documentation. Optimize all operations for the Colab environment - use generators instead of lists where possible, employ efficient data structures, and implement progress tracking for longer operations. The analysis should autonomously validate its own results at each stage, ensuring statistical validity of findings and practical relevance of recommendations. For text processing, implement efficient NLP techniques that don't require GPU acceleration - consider CountVectorizer instead of heavy transformers, and use stemming/lemmatization rather than complex embeddings when possible. The final deliverable must be production-ready code that could be deployed in a business environment, with all dependencies clearly specified and environment constraints properly handled. Include specific examples of high-potential keywords identified through the analysis, along with quantitative justification for why they represent good opportunities. For any language-specific findings, provide separate analysis and recommendations per language segment. The entire solution should follow Python best practices and include unit tests for critical functions to ensure reliability. Package the complete analysis in a way that allows for easy modification of parameters and regeneration of results as new data becomes available.
