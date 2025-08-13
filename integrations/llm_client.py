@@ -97,7 +97,7 @@ class APIKeyManager:
         self.logger.warning(f"API key ending in ...{api_key[-8:]} rate limited until {self.key_rate_limited_until[api_key]}")
 
 class EnhancedGeminiKeywordGenerator:
-    def __init__(self, api_keys: List[str], model_configs: List[Dict] = None, parallel: bool = True):
+    def __init__(self, api_keys: List[str], model_configs: List[Dict] = None, parallel: bool = True, mode: str = "commercial"):
         self.api_key_manager = APIKeyManager(api_keys)
         self.model_configs = model_configs if model_configs else [{'name': 'gemini-2.0-flash-exp', 'rpm': 200}]
         self.current_model_config = self.model_configs[0]
@@ -108,6 +108,7 @@ class EnhancedGeminiKeywordGenerator:
         self.keyword_lock = asyncio.Lock()  # For thread-safe keyword tracking
         self.model_request_counts = {} # Track requests per minute for each model
         self.parallel = parallel
+        self.mode = mode
         for cfg in self.model_configs:
             self.model_request_counts[cfg['name']] = []
         
@@ -239,6 +240,8 @@ class EnhancedGeminiKeywordGenerator:
             # Stage 1: Scrape domain content
             print("Stage 1: Scraping domain content...")
             scraper_response = Webscraper(domain_url)
+            scraper_response2 = Webscraper("https://synagroweb.com/nuestro-software/")
+            scraper_response3 = Webscraper("https://synagroweb.com/nuestro-software/")
 
             domain_content = scraper_response.text 
             print(f"Scraped {len(domain_content)} characters of content")
@@ -262,7 +265,7 @@ class EnhancedGeminiKeywordGenerator:
                 
                 try:
                     batch_keywords = await self._generate_keywords_for_batch_with_progress(
-                        batch, domain_content, output_file
+                        batch, domain_content, output_file, domain_url
                     )
                     
                     # Update totals
@@ -316,7 +319,7 @@ class EnhancedGeminiKeywordGenerator:
         """
         return asyncio.run(self.generate_30k_keywords_async(domain_url, output_file))
     
-    async def _generate_keywords_for_batch_with_progress(self, batch: KeywordBatch, domain_content: str, output_file: str) -> Set[str]:
+    async def _generate_keywords_for_batch_with_progress(self, batch: KeywordBatch, domain_content: str, output_file: str, domain_url: str) -> Set[str]:
         """
         Generate keywords for a specific batch with progress tracking and immediate file writing (parallel version)
         """
@@ -350,7 +353,7 @@ class EnhancedGeminiKeywordGenerator:
                 try:
                     async with semaphore:
                         sub_keywords = await self._generate_sub_batch_with_retry_async(
-                            batch, current_target, i, domain_content
+                            batch, current_target, i, domain_content, domain_url
                         )
                     
                     # Thread-safe keyword tracking
@@ -395,22 +398,15 @@ class EnhancedGeminiKeywordGenerator:
         self.logger.info(f"Finished processing batch {batch.category.value}. Total keywords: {len(all_keywords)}")
         return all_keywords
     
-    async def _generate_sub_batch_with_retry_async(self, batch: KeywordBatch, count: int, iteration: int, domain_content: str) -> Set[str]:
-        """
-        Generate a sub-batch of keywords with API key rotation and retry logic (async version)
-        """
+    def _get_commercial_prompt(self, batch: KeywordBatch, count: int, iteration: int, domain_content: str) -> str:
         variation_strategies = [
             "Focus on 1-2 word short-tail keywords",
-            "Focus on 3-4 word mid-tail keywords", 
+            "Focus on 3-4 word mid-tail keywords",
             "Focus on 5+ word long-tail keywords",
             "Focus on question-based and conversational keywords"
         ]
-        
         current_strategy = variation_strategies[iteration % len(variation_strategies)]
-        self.logger.info(f"Starting sub-batch generation with strategy: {current_strategy}")
-        start_time = time.time()
-        
-        prompt = f"""
+        return f"""
         You are a Keyword Research Specialist. Generate exactly {count} unique keywords for keyword research.
         
         CATEGORY: {batch.category.value}
@@ -459,7 +455,49 @@ class EnhancedGeminiKeywordGenerator:
         
         Generate keywords based on what the domain actually offers and discusses, not theoretical user search patterns.
         """
+
+    def _get_scientific_prompt(self, batch: KeywordBatch, count: int, iteration: int, domain_content: str, domain_url: str) -> str:
+        return f"""
+    You are a Senior Scientific Research Specialist and Frontier Research Analyst.
+    Your task is to generate exactly {count} **unique, long-tail, frontier-level research terms or phrases** that are semantically rich, academically rigorous, and suitable for advanced discovery across any scientific domain.
+
+    CATEGORY: {batch.category.value}
+    DOMAIN: {domain_url}
+    CONTEXT: {batch.context}
+
+    INSTRUCTIONS AND REQUIREMENTS:
+    1. Focus on generating terms that reflect **novel, open-ended, and exploratory research directions**, probing areas not fully defined or experimentally investigated.  
+    2. Include **technical terminology, research methodologies, experimental design, mechanistic modeling, theoretical frameworks, empirical evaluation, and validation techniques**.  
+    3. Integrate **semantic qualifiers that imply authority and rigor**, such as peer-reviewed, validated, reproducible, high-impact, recognized laboratory, canonical study, or foundational research.  
+    4. Encourage terms that **span interdisciplinary and hybrid approaches**, capturing emergent phenomena, adaptive behaviors, co-evolution, multi-component interactions, and complex system dynamics.  
+    5. Include **meta-level or conceptual terms** (e.g., self-organizing structures, recursive evaluation frameworks, hierarchical emergent behaviors, latent representation dynamics).  
+    6. Terms may imply **experimental, computational, observational, or procedural implementations**, without being restricted to any specific domain.  
+    7. Prioritize **accuracy, academic relevance, and novelty** over popularity or common usage.  
+    8. Use **long-tail phrases**, typically 5–8 words, that are semantically precise, descriptive, and rich in context.  
+    9. Avoid **commercial, marketing, tutorial-style, or superficial terms**; focus solely on scientific, technical, or experimental language.  
+    10. Encourage **open-ended inquiry and discovery**, allowing terms to suggest uncharted areas, emerging mechanisms, or unexplored interactions.  
+    11. Integrate the **combined layers of exploration, academic rigor, and authority** so that each term communicates both novelty and reliability.  
+    12. Terms should be suitable for use in **scholarly databases, peer-reviewed publications, technical reports, or frontier experimental studies**.  
+    13. Emphasize **mechanistic, empirical, or formal analysis perspectives**, while allowing conceptual and theoretical framing.  
+    14. Where appropriate, include **phrases suggesting adaptive systems, multi-agent interactions, emergent behaviors, or discovery-oriented procedural frameworks**.  
+
+    OUTPUT FORMAT:
+    - Return only the terms or phrases.
+    - One term per line.
+    - No numbering, bullet points, or explanations.
+    """
+
+    async def _generate_sub_batch_with_retry_async(self, batch: KeywordBatch, count: int, iteration: int, domain_content: str, domain_url: str) -> Set[str]:
+        """
+        Generate a sub-batch of keywords with API key rotation and retry logic (async version)
+        """
+        start_time = time.time()
         
+        if self.mode == "scientific":
+            prompt = self._get_scientific_prompt(batch, count, iteration, domain_content, domain_url)
+        else:
+            prompt = self._get_commercial_prompt(batch, count, iteration, domain_content)
+
         max_api_retries = len(self.api_key_manager.api_keys) * len(self.model_configs) * 2 # Consider retries for each model
         
         for api_attempt in range(max_api_retries):
@@ -704,11 +742,6 @@ class EnhancedGeminiKeywordGenerator:
             keyword = line.strip().lower()
             keyword = self._clean_keyword(keyword)
             
-            # Enforce commercial optimization rules
-            word_count = len(keyword.split())
-            if word_count > 4:  # Skip keywords longer than 4 words
-                continue
-                
             if self._is_valid_keyword(keyword):
                 keywords.add(keyword)
         
@@ -735,24 +768,12 @@ class EnhancedGeminiKeywordGenerator:
     
     def _is_valid_keyword(self, keyword: str) -> bool:
         """
-        Validate if keyword meets commercial quality criteria
-        """        
-        # Check word count (1-4 words)
+        Validate if keyword meets quality criteria based on the current mode.
+        """
         word_count = len(keyword.split())
-        if word_count < 1 or word_count > 4:
-            return False
-        
-        # Avoid obvious spam patterns
-        if keyword.count(' ') > 3:  # Max 4 words total
-            return False
-        
-        # Check for repetitive patterns
-        words = keyword.split()
-        if len(words) > 1 and len(words) != len(set(words)):  # Duplicate words
-            return False
-            
-        # Check for commercial intent
-        if len(words) == 1 and len(words[0]) < 4:  # Too short to be meaningful
+
+        # Original rules for commercial keywords
+        if word_count < 1:
             return False
         
         return True
@@ -789,11 +810,11 @@ class EnhancedGeminiKeywordGenerator:
         }
 
 # Enhanced generation function with multiple API keys
-def generate_30k_keywords(domain_url: str, api_keys: List[str], model_configs: List[Dict], output_file: str = 'input-keywords.txt', parallel: bool = True):
+def generate_30k_keywords(domain_url: str, api_keys: List[str], model_configs: List[Dict], output_file: str = 'input-keywords.txt', parallel: bool = True, mode: str = "commercial"):
     """
     Generate 30,000 keywords using multiple API keys with rotation
     """
-    generator = EnhancedGeminiKeywordGenerator(api_keys=api_keys, model_configs=model_configs, parallel=parallel)
+    generator = EnhancedGeminiKeywordGenerator(api_keys=api_keys, model_configs=model_configs, parallel=parallel, mode=mode)
     if parallel:
         result = asyncio.run(generator.generate_30k_keywords_async(domain_url, output_file))
     else:
@@ -814,14 +835,14 @@ def generate(domain_url: str, api_key: str = "", output_file: str = 'input-keywo
     return generate_30k_keywords(domain_url, api_keys, [])
 
 # Multi-API key function
-def generate_with_multiple_keys(domain_url: str, api_keys: List[str], model_configs: List[Dict], output_file: str = 'input-keywords.txt', parallel: bool = True):
+def generate_with_multiple_keys(domain_url: str, api_keys: List[str], model_configs: List[Dict], output_file: str = 'input-keywords.txt', parallel: bool = True, mode: str = "commercial"):
     """
     Generate 30k keywords using multiple API keys
     """
     if not api_keys:
         raise ValueError("At least one API key is required")
     
-    return generate_30k_keywords(domain_url, api_keys, model_configs, output_file, parallel)
+    return generate_30k_keywords(domain_url, api_keys, model_configs, output_file, parallel, mode)
 
 # Example usage
 if __name__ == "__main__":
@@ -843,7 +864,12 @@ if __name__ == "__main__":
     ]
     
     # Generate 30k keywords with multiple API keys in parallel
-    result = generate_with_multiple_keys("https://curval.io", API_KEYS, MODEL_CONFIGS, parallel=False)
+    # Commercial mode example
+    # result = generate_with_multiple_keys("https://synagroweb.com", API_KEYS, MODEL_CONFIGS, parallel=False, mode="commercial")
+    # print(result)
+
+    # Scientific mode example
+    result = generate_with_multiple_keys("https://www.nature.com/subjects/cancer-immunology", API_KEYS, MODEL_CONFIGS, output_file='input-keywords-scientific.txt', parallel=False, mode="scientific")
     print(result)
     
     # To run sequentially, set parallel=False
