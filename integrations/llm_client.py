@@ -248,6 +248,7 @@ class EnhancedGeminiKeywordGenerator:
                     raise ValueError("Domain URL is required when using domain context source")
                 print(f"Stage 1: Scraping domain content from {domain_url}...")
                 scraper_response = Webscraper(domain_url)
+                scraper_response2 = Webscraper(domain_url)
                 domain_content = scraper_response.text
                 print(f"Scraped {len(domain_content)} characters of content")
                 context_name = domain_url
@@ -256,8 +257,10 @@ class EnhancedGeminiKeywordGenerator:
                 print("Scientific mode: Using content without analysis")
                 # Create a single batch with the entire content
                 if self.context_source == "file":
+                    print("Context source is file")
                     context_desc = f"Generate frontier-level research terms from the provided file: {self.context_file}"
                 else:
+                    print("Context source is domain")
                     context_desc = f"Generate frontier-level research terms from domain: {domain_url}"
                 
                 scientific_batch = KeywordBatch(
@@ -450,7 +453,7 @@ class EnhancedGeminiKeywordGenerator:
         VARIATION STRATEGY: {current_strategy}
         
         DOMAIN CONTENT SAMPLE:
-        {domain_content[:2000]}
+        {domain_content[:500000]}
         
         STRICT SEARCH TERM REQUIREMENTS:
         1. Must be actual search query patterns (not statements or commentary)
@@ -464,7 +467,6 @@ class EnhancedGeminiKeywordGenerator:
            - "¿cómo usar usd digitales?"
         
         KEYWORD GENERATION RULES:
-        - In spanish
         - Generate exactly {count} unique keywords
         - Use actual terminology from the domain, not assumed phrases
         - Include variations of real terms found on the site
@@ -497,7 +499,7 @@ class EnhancedGeminiKeywordGenerator:
     Your task is to generate exactly {count} **unique, long-tail, frontier-level research terms or phrases** that are semantically rich, academically rigorous, and suitable for advanced discovery across any scientific domain.
 
     CATEGORY: {batch.category.value}
-    CONTEXT: {batch.context}
+    CONTEXT: {batch.context} + {domain_content[:500000]}
 
     INSTRUCTIONS AND REQUIREMENTS:
     1. Focus on generating terms that reflect **novel, open-ended, and exploratory research directions**, probing areas not fully defined or experimentally investigated.  
@@ -611,7 +613,7 @@ class EnhancedGeminiKeywordGenerator:
         Analyze this domain content and extract structured data for keyword generation.
         
         CONTENT:
-        {content[:8000]}  # Truncate for token limits
+        {content:500000}  # Truncate for token limits
         
         Extract and return ONLY a JSON object with these exact keys:
         {{
@@ -919,13 +921,14 @@ if __name__ == "__main__":
     # Domain-based    
     # File-based
     file_result = generate_with_multiple_keys(
-        context_source="domain",
-        domain_url="https://qri.org",
+        context_source="file",
+        context_file="context.txt",
         api_keys=API_KEYS, 
         model_configs=MODEL_CONFIGS, 
-        output_file='input-keywords-scientific-qualias.txt', 
+        output_file='input-keywords-P-.txt', 
+        domain_url=None,
         parallel=False, 
-        mode="scientific"
+        mode="commercial"
     )
     print(file_result)
     
