@@ -27,6 +27,7 @@ class Domain(Base):
     id = Column(Integer, primary_key=True, index=True)
     url = Column(String, nullable=False, unique=True, index=True)
     status = Column(Enum(JobStatus), nullable=False, default=JobStatus.PENDING)
+    keyword_count = Column(Integer, default=0, nullable=False)  # New keyword count column
     
     # Timestamps are managed by the database server for reliability
     created_at = Column(DateTime(timezone=True), server_default=func.now())

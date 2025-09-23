@@ -6,7 +6,7 @@ def generate_permutations(keyword):
     For example, 'a b c' -> ['a b', 'a c', 'b c']
     """
     words = keyword.split()
-    if len(words) < 3:
+    if len(words) < 4:
         return []
 
     all_combinations = []
@@ -55,6 +55,6 @@ if __name__ == "__main__":
     # For now, let's assume a default name 'input-keywords.txt'
     # and output to 'permutated-keywords.txt'.
     # This can be changed to use command-line arguments if needed.
-    input_filename = "input-keywords.txt"
+    input_filename = "input-keywords-Zelmira-.txt"
     output_filename = "permutated-keywords.txt"
     process_keyword_file(input_filename, output_filename)

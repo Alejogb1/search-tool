@@ -1,0 +1,1608 @@
+2025-07-12 20:00:38,952 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:00:39,954 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 400 Bad Request"
+2025-07-12 20:00:39,956 - ERROR - Error analyzing domain content (attempt 1): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}
+2025-07-12 20:00:42,966 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:01:18,238 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:01:19,363 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-12 20:01:19,364 - ERROR - Error analyzing domain content (attempt 1): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': "Quota exceeded for quota metric 'Generate Content API requests per minute' and limit 'GenerateContent request limit per minute for a region' of service 'generativelanguage.googleapis.com' for consumer 'project_number:870215436321'.", 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'RATE_LIMIT_EXCEEDED', 'domain': 'googleapis.com', 'metadata': {'quota_limit': 'GenerateContentRequestsPerMinutePerProjectPerRegion', 'quota_location': 'us-south1', 'quota_limit_value': '0', 'quota_unit': '1/min/{project}/{region}', 'service': 'generativelanguage.googleapis.com', 'quota_metric': 'generativelanguage.googleapis.com/generate_content_requests', 'consumer': 'projects/870215436321'}}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Request a higher quota limit.', 'url': 'https://cloud.google.com/docs/quotas/help/request_increase'}]}]}}
+2025-07-12 20:02:04,799 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:02:07,692 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:02:07,696 - INFO - AFC remote call 1 is done.
+2025-07-12 20:02:07,706 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:02:19,716 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:02:19,717 - INFO - AFC remote call 1 is done.
+2025-07-12 20:02:21,736 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:02:31,535 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:02:31,538 - INFO - AFC remote call 1 is done.
+2025-07-12 20:02:33,569 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:02:45,616 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:02:45,621 - INFO - AFC remote call 1 is done.
+2025-07-12 20:02:47,632 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:03:01,154 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:03:01,159 - INFO - AFC remote call 1 is done.
+2025-07-12 20:03:03,172 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:03:11,783 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:03:11,794 - INFO - AFC remote call 1 is done.
+2025-07-12 20:03:13,804 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:03:22,577 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:03:22,582 - INFO - AFC remote call 1 is done.
+2025-07-12 20:03:24,590 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:03:36,601 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:03:36,605 - INFO - AFC remote call 1 is done.
+2025-07-12 20:03:38,612 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:03:48,834 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:03:48,838 - INFO - AFC remote call 1 is done.
+2025-07-12 20:03:50,847 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:04:00,698 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:04:00,708 - INFO - AFC remote call 1 is done.
+2025-07-12 20:04:02,714 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:04:13,291 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:04:13,294 - INFO - AFC remote call 1 is done.
+2025-07-12 20:04:15,302 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:04:25,898 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:04:25,902 - INFO - AFC remote call 1 is done.
+2025-07-12 20:04:27,908 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:04:38,470 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:04:38,480 - INFO - AFC remote call 1 is done.
+2025-07-12 20:04:40,489 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:04:49,987 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:04:49,988 - INFO - AFC remote call 1 is done.
+2025-07-12 20:04:51,997 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:05:02,025 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:05:02,031 - INFO - AFC remote call 1 is done.
+2025-07-12 20:05:04,037 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:05:15,081 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:05:15,093 - INFO - AFC remote call 1 is done.
+2025-07-12 20:05:17,106 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:05:28,751 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:05:28,761 - INFO - AFC remote call 1 is done.
+2025-07-12 20:05:30,770 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:05:39,488 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:05:39,491 - INFO - AFC remote call 1 is done.
+2025-07-12 20:05:41,498 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:05:50,360 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:05:50,365 - INFO - AFC remote call 1 is done.
+2025-07-12 20:05:52,374 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:06:08,940 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:06:08,960 - INFO - AFC remote call 1 is done.
+2025-07-12 20:06:10,978 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:06:39,681 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:06:39,684 - INFO - AFC remote call 1 is done.
+2025-07-12 20:06:41,699 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:06:52,107 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:06:52,110 - INFO - AFC remote call 1 is done.
+2025-07-12 20:06:54,119 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:07:10,741 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:07:10,745 - INFO - AFC remote call 1 is done.
+2025-07-12 20:07:12,751 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:07:25,935 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:07:25,940 - INFO - AFC remote call 1 is done.
+2025-07-12 20:07:27,946 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:07:38,908 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:07:38,911 - INFO - AFC remote call 1 is done.
+2025-07-12 20:07:40,920 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:08:20,535 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:08:20,546 - INFO - AFC remote call 1 is done.
+2025-07-12 20:08:22,589 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:08:31,772 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:08:31,776 - INFO - AFC remote call 1 is done.
+2025-07-12 20:08:33,788 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:09:12,607 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:09:12,612 - INFO - AFC remote call 1 is done.
+2025-07-12 20:09:14,629 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:09:24,066 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:09:24,069 - INFO - AFC remote call 1 is done.
+2025-07-12 20:09:26,075 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:09:42,603 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:09:42,607 - INFO - AFC remote call 1 is done.
+2025-07-12 20:09:44,618 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:10:11,216 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:10:11,223 - INFO - AFC remote call 1 is done.
+2025-07-12 20:10:13,240 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:10:22,123 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:10:22,125 - INFO - AFC remote call 1 is done.
+2025-07-12 20:10:24,131 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:10:36,432 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:10:36,436 - INFO - AFC remote call 1 is done.
+2025-07-12 20:10:38,449 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:10:49,159 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:10:49,162 - INFO - AFC remote call 1 is done.
+2025-07-12 20:10:51,169 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:10:59,952 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:10:59,955 - INFO - AFC remote call 1 is done.
+2025-07-12 20:11:01,963 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:11:10,556 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:11:10,559 - INFO - AFC remote call 1 is done.
+2025-07-12 20:11:12,567 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:25:48,079 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:25:50,388 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:25:50,391 - INFO - AFC remote call 1 is done.
+2025-07-12 20:25:50,400 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:25:57,228 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:25:57,229 - INFO - AFC remote call 1 is done.
+2025-07-12 20:25:59,244 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:26:08,578 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:26:08,582 - INFO - AFC remote call 1 is done.
+2025-07-12 20:26:10,591 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:26:19,350 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:26:19,356 - INFO - AFC remote call 1 is done.
+2025-07-12 20:26:21,363 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:26:32,387 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:26:32,397 - INFO - AFC remote call 1 is done.
+2025-07-12 20:26:34,408 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:26:40,244 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:26:40,247 - INFO - AFC remote call 1 is done.
+2025-07-12 20:26:42,259 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:26:52,644 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:26:52,648 - INFO - AFC remote call 1 is done.
+2025-07-12 20:26:54,654 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:27:06,246 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:27:06,250 - INFO - AFC remote call 1 is done.
+2025-07-12 20:27:08,258 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:27:18,667 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:27:18,672 - INFO - AFC remote call 1 is done.
+2025-07-12 20:27:20,681 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:27:27,580 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:27:27,587 - INFO - AFC remote call 1 is done.
+2025-07-12 20:27:29,595 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:27:46,996 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:27:47,002 - INFO - AFC remote call 1 is done.
+2025-07-12 20:27:49,013 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:28:04,598 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:28:04,604 - INFO - AFC remote call 1 is done.
+2025-07-12 20:28:06,738 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:28:16,838 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:28:16,841 - INFO - AFC remote call 1 is done.
+2025-07-12 20:28:18,847 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:28:26,476 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:28:26,480 - INFO - AFC remote call 1 is done.
+2025-07-12 20:28:28,487 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:28:40,187 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:28:40,198 - INFO - AFC remote call 1 is done.
+2025-07-12 20:28:42,215 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:28:58,990 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:28:58,996 - INFO - AFC remote call 1 is done.
+2025-07-12 20:29:01,005 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:29:09,972 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:29:09,975 - INFO - AFC remote call 1 is done.
+2025-07-12 20:29:11,984 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:29:25,586 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:29:25,591 - INFO - AFC remote call 1 is done.
+2025-07-12 20:29:27,596 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:29:34,497 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:29:34,505 - INFO - AFC remote call 1 is done.
+2025-07-12 20:29:36,511 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:29:54,577 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:29:54,582 - INFO - AFC remote call 1 is done.
+2025-07-12 20:29:56,592 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:30:08,285 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:30:08,289 - INFO - AFC remote call 1 is done.
+2025-07-12 20:30:10,293 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:30:20,744 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:30:20,762 - INFO - AFC remote call 1 is done.
+2025-07-12 20:30:22,771 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:30:32,944 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:30:32,950 - INFO - AFC remote call 1 is done.
+2025-07-12 20:30:34,960 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:30:51,759 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:30:51,777 - INFO - AFC remote call 1 is done.
+2025-07-12 20:30:53,794 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:31:03,320 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:31:03,332 - INFO - AFC remote call 1 is done.
+2025-07-12 20:31:05,339 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:31:13,354 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:31:13,356 - INFO - AFC remote call 1 is done.
+2025-07-12 20:31:15,365 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:31:26,364 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:31:26,377 - INFO - AFC remote call 1 is done.
+2025-07-12 20:31:28,384 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:31:39,307 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:31:39,319 - INFO - AFC remote call 1 is done.
+2025-07-12 20:31:41,328 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:31:52,264 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:31:52,270 - INFO - AFC remote call 1 is done.
+2025-07-12 20:31:54,282 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:32:01,478 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:32:01,483 - INFO - AFC remote call 1 is done.
+2025-07-12 20:32:03,488 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:32:12,878 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:32:12,930 - INFO - AFC remote call 1 is done.
+2025-07-12 20:32:14,941 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:32:21,843 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:32:21,848 - INFO - AFC remote call 1 is done.
+2025-07-12 20:32:23,856 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:32:37,451 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:32:37,462 - INFO - AFC remote call 1 is done.
+2025-07-12 20:32:39,468 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:32:48,437 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:32:48,463 - INFO - AFC remote call 1 is done.
+2025-07-12 20:32:50,472 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:32:59,737 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:32:59,743 - INFO - AFC remote call 1 is done.
+2025-07-12 20:33:01,753 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:33:21,139 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:33:21,156 - INFO - AFC remote call 1 is done.
+2025-07-12 20:33:23,169 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:33:40,843 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:33:40,858 - INFO - AFC remote call 1 is done.
+2025-07-12 20:33:42,876 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:33:52,690 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:33:52,698 - INFO - AFC remote call 1 is done.
+2025-07-12 20:33:54,708 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:34:02,979 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:34:02,985 - INFO - AFC remote call 1 is done.
+2025-07-12 20:34:04,994 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:34:14,097 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:34:14,100 - INFO - AFC remote call 1 is done.
+2025-07-12 20:34:16,106 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:34:18,079 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-12 20:34:23,094 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:34:37,093 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:34:37,101 - INFO - AFC remote call 1 is done.
+2025-07-12 20:34:39,118 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:34:51,919 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:34:51,927 - INFO - AFC remote call 1 is done.
+2025-07-12 20:34:53,935 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:35:01,383 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:35:01,387 - INFO - AFC remote call 1 is done.
+2025-07-12 20:35:03,395 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:35:12,567 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:35:12,571 - INFO - AFC remote call 1 is done.
+2025-07-12 20:35:14,582 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:35:58,435 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:35:58,465 - INFO - AFC remote call 1 is done.
+2025-07-12 20:36:00,483 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:36:13,966 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:36:13,970 - INFO - AFC remote call 1 is done.
+2025-07-12 20:36:15,976 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:36:28,441 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:36:28,447 - INFO - AFC remote call 1 is done.
+2025-07-12 20:36:30,458 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:36:37,895 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:36:37,907 - INFO - AFC remote call 1 is done.
+2025-07-12 20:36:39,925 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:36:52,277 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:36:52,281 - INFO - AFC remote call 1 is done.
+2025-07-12 20:36:54,294 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:37:11,572 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:37:11,580 - INFO - AFC remote call 1 is done.
+2025-07-12 20:37:13,592 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:37:42,802 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:37:42,806 - INFO - AFC remote call 1 is done.
+2025-07-12 20:37:44,827 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:37:54,596 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:37:54,602 - INFO - AFC remote call 1 is done.
+2025-07-12 20:37:56,609 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:38:04,483 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:38:04,486 - INFO - AFC remote call 1 is done.
+2025-07-12 20:38:06,492 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:38:21,830 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:38:21,834 - INFO - AFC remote call 1 is done.
+2025-07-12 20:38:23,845 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:38:37,625 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:38:37,629 - INFO - AFC remote call 1 is done.
+2025-07-12 20:38:39,639 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:38:40,860 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-12 20:38:45,867 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:38:54,758 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:38:54,762 - INFO - AFC remote call 1 is done.
+2025-07-12 20:38:56,771 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:39:06,103 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:39:06,107 - INFO - AFC remote call 1 is done.
+2025-07-12 20:39:08,116 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:39:21,663 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:39:21,676 - INFO - AFC remote call 1 is done.
+2025-07-12 20:39:23,684 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:39:47,075 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:39:47,080 - INFO - AFC remote call 1 is done.
+2025-07-12 20:39:49,095 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:39:50,403 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-12 20:39:55,406 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:40:04,617 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:40:04,624 - INFO - AFC remote call 1 is done.
+2025-07-12 20:40:06,638 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:40:16,257 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:40:16,286 - INFO - AFC remote call 1 is done.
+2025-07-12 20:40:18,295 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:40:30,028 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:40:30,040 - INFO - AFC remote call 1 is done.
+2025-07-12 20:40:32,046 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:40:42,582 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:40:42,590 - INFO - AFC remote call 1 is done.
+2025-07-12 20:40:44,603 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:40:51,595 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:40:51,602 - INFO - AFC remote call 1 is done.
+2025-07-12 20:40:53,610 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:41:02,666 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:41:02,669 - INFO - AFC remote call 1 is done.
+2025-07-12 20:41:04,677 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:41:05,797 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-12 20:41:10,805 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:41:23,163 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:41:23,166 - INFO - AFC remote call 1 is done.
+2025-07-12 20:41:25,172 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:41:35,724 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:41:35,738 - INFO - AFC remote call 1 is done.
+2025-07-12 20:41:37,748 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:41:44,270 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:41:44,278 - INFO - AFC remote call 1 is done.
+2025-07-12 20:41:46,284 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:41:58,116 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:41:58,121 - INFO - AFC remote call 1 is done.
+2025-07-12 20:42:00,132 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:42:10,410 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:42:10,436 - INFO - AFC remote call 1 is done.
+2025-07-12 20:42:12,460 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:42:23,544 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-07-12 20:42:23,548 - INFO - AFC remote call 1 is done.
+2025-07-12 20:42:25,554 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 20:42:27,093 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-12 20:42:32,101 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-17 20:06:05,387 - ERROR - Error analyzing domain content (attempt 1): Missing key inputs argument! To use the Google AI API, provide (`api_key`) arguments. To use the Google Cloud API, provide (`vertexai`, `project` & `location`) arguments.
+2025-07-17 20:06:08,401 - ERROR - Error analyzing domain content (attempt 2): Missing key inputs argument! To use the Google AI API, provide (`api_key`) arguments. To use the Google Cloud API, provide (`vertexai`, `project` & `location`) arguments.
+2025-07-17 20:06:11,416 - ERROR - Error analyzing domain content (attempt 3): Missing key inputs argument! To use the Google AI API, provide (`api_key`) arguments. To use the Google Cloud API, provide (`vertexai`, `project` & `location`) arguments.
+2025-07-17 20:06:19,437 - ERROR - All API attempts failed for sub-batch
+2025-07-17 20:06:27,451 - ERROR - All API attempts failed for sub-batch
+2025-07-17 20:06:35,472 - ERROR - All API attempts failed for sub-batch
+2025-07-17 20:06:43,496 - ERROR - All API attempts failed for sub-batch
+2025-07-17 20:06:51,509 - ERROR - All API attempts failed for sub-batch
+2025-07-17 20:06:59,522 - ERROR - All API attempts failed for sub-batch
+2025-07-17 20:07:07,539 - ERROR - All API attempts failed for sub-batch
+2025-07-17 20:07:15,554 - ERROR - All API attempts failed for sub-batch
+2025-07-17 20:07:23,572 - ERROR - All API attempts failed for sub-batch
+2025-07-17 20:30:53,628 - ERROR - Error analyzing domain content (attempt 1): module 'google.generativeai' has no attribute 'Client'
+2025-07-17 20:30:56,633 - ERROR - Error analyzing domain content (attempt 2): module 'google.generativeai' has no attribute 'Client'
+2025-07-17 20:53:03,729 - WARNING - Empty response for sub-batch. API Key: ...Bw-c
+2025-07-18 15:41:19,716 - INFO - Script finished.
+2025-07-18 15:57:43,885 - INFO - Script finished.
+2025-07-18 16:12:32,626 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 16:18:10,283 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 16:28:42,846 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 16:30:56,724 - INFO - Finished processing batch core_services. Total keywords: 1181
+2025-07-18 16:39:01,044 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 16:40:15,794 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 16:41:46,110 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 16:43:04,753 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 16:44:29,493 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 16:45:33,633 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 16:54:37,180 - INFO - Finished processing batch problem_statements. Total keywords: 851
+2025-07-18 17:06:07,597 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 17:07:17,166 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 17:09:03,950 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 17:10:04,602 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 17:12:48,580 - INFO - Finished processing batch technology_terms. Total keywords: 590
+2025-07-18 17:20:45,367 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 17:21:55,004 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 17:23:05,340 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 17:24:37,073 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 17:25:42,928 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 17:27:01,832 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 17:28:03,110 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 17:29:13,064 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 17:30:23,403 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 17:36:03,084 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 17:37:42,000 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 17:39:33,770 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 17:40:43,230 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 17:41:55,739 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 17:43:27,747 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 17:44:29,258 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 17:45:58,535 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 17:51:48,031 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 17:53:02,025 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 17:54:31,927 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 17:56:55,801 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 18:01:18,164 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 18:02:45,310 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 18:03:56,194 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 18:05:23,296 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 18:06:25,553 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 18:08:24,663 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 18:10:04,299 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 18:11:45,526 - INFO - Finished processing batch long_tail_variations. Total keywords: 928
+2025-07-18 18:14:55,641 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 18:20:47,964 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 18:21:55,668 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 18:22:59,787 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 18:24:07,134 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 18:25:32,893 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 18:26:36,278 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 18:30:55,529 - INFO - Finished processing batch competitor_analysis. Total keywords: 423
+2025-07-18 18:44:37,272 - INFO - Finished processing batch industry_terminology. Total keywords: 619
+2025-07-18 18:47:57,191 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 18:48:57,904 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 18:50:04,783 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 18:52:39,678 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 18:57:04,196 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 18:58:26,772 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 19:01:05,432 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 19:03:18,744 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 19:15:16,206 - ERROR - Attempt 1 failed for sub-batch 7: 504 Deadline Exceeded
+2025-07-18 19:29:04,064 - ERROR - Attempt 1 failed for sub-batch 10: 504 Deadline Exceeded
+2025-07-18 19:30:29,449 - INFO - Finished processing batch process_related. Total keywords: 458
+2025-07-18 19:33:51,968 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 19:35:14,638 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 19:41:37,085 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 19:45:12,943 - INFO - Finished processing batch alternative_phrasings. Total keywords: 611
+2025-07-18 19:49:02,956 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 19:50:08,982 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 19:51:18,519 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 19:52:48,440 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 19:58:25,869 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 20:00:02,802 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 20:01:07,811 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 20:02:20,358 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 20:05:08,012 - INFO - Finished processing batch educational_terms. Total keywords: 402
+2025-07-18 20:08:40,176 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 20:09:51,872 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 20:10:55,157 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 20:18:16,697 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 20:19:52,278 - INFO - Finished processing batch long_tail_variations. Total keywords: 327
+2025-07-18 20:19:52,280 - INFO - Main generation process finished. Total time: 15087.2s
+2025-07-18 20:19:52,280 - INFO - Script finished.
+2025-07-18 21:54:01,434 - INFO - Script finished.
+2025-07-18 21:56:01,778 - INFO - Script finished.
+2025-07-18 23:31:51,671 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 23:42:16,600 - INFO - Finished processing batch core_services. Total keywords: 823
+2025-07-18 23:46:13,664 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 23:47:38,091 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 23:48:49,635 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 23:49:59,788 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 23:51:27,559 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-18 23:53:10,033 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 23:54:29,474 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 23:57:36,629 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-18 23:58:44,506 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-18 23:59:58,589 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-19 00:05:44,871 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-19 00:07:13,792 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-19 00:13:15,974 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-19 00:14:34,657 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-19 00:27:53,898 - ERROR - Attempt 1 failed for sub-batch 12: 504 Deadline Exceeded
+2025-07-19 00:42:57,864 - ERROR - Attempt 1 failed for sub-batch 13: 504 Deadline Exceeded
+2025-07-19 02:18:13,328 - ERROR - Attempt 2 failed for sub-batch 13: 504 Deadline Exceeded
+2025-07-19 02:35:04,189 - ERROR - Attempt 3 failed for sub-batch 13: 504 Deadline Exceeded
+2025-07-19 03:19:13,915 - ERROR - Attempt 1 failed for sub-batch 14: 504 Deadline Exceeded
+2025-07-19 05:19:49,417 - ERROR - Attempt 2 failed for sub-batch 14: 504 Deadline Exceeded
+2025-07-19 05:49:57,148 - ERROR - Attempt 3 failed for sub-batch 14: 504 Deadline Exceeded
+2025-07-19 05:49:57,156 - INFO - Finished processing batch problem_statements. Total keywords: 495
+2025-07-19 06:06:22,736 - ERROR - Attempt 1 failed for sub-batch 1: 504 Deadline Exceeded
+2025-07-19 06:20:50,270 - ERROR - Attempt 2 failed for sub-batch 1: 504 Deadline Exceeded
+2025-07-19 07:21:50,665 - ERROR - Attempt 3 failed for sub-batch 1: 504 Deadline Exceeded
+2025-07-19 08:09:50,572 - ERROR - Attempt 1 failed for sub-batch 2: 504 Deadline Exceeded
+2025-07-19 08:13:27,503 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-19 08:18:18,823 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-19 08:19:37,238 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-19 08:35:55,636 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-19 08:38:58,520 - INFO - Finished processing batch core_services. Total keywords: 499
+2025-07-19 09:34:46,603 - ERROR - Attempt 1 failed for sub-batch 3: 504 Deadline Exceeded
+2025-07-19 09:51:53,423 - ERROR - Attempt 2 failed for sub-batch 3: 504 Deadline Exceeded
+2025-07-19 10:03:29,469 - ERROR - Attempt 3 failed for sub-batch 3: 504 Deadline Exceeded
+2025-07-19 10:16:38,314 - ERROR - Attempt 1 failed for sub-batch 4: 504 Deadline Exceeded
+2025-07-19 10:22:00,128 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-19 10:23:46,362 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-19 10:25:36,629 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-19 10:27:14,648 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-19 10:29:09,669 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-19 10:30:19,723 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-19 10:32:05,812 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-19 10:33:23,956 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-19 10:35:09,734 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-19 10:36:54,980 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-19 10:38:22,215 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-19 10:40:08,197 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-19 10:41:56,663 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-19 10:43:41,296 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-19 10:45:06,848 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-19 10:47:17,891 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-19 10:48:55,473 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-19 10:50:40,724 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-19 10:52:15,113 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-19 10:53:30,546 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-19 10:56:52,088 - WARNING - Empty response for sub-batch. API Key: ...Bw-c, Model: gemini-2.5-pro
+2025-07-19 11:01:53,119 - WARNING - Empty response for sub-batch. API Key: ...A6ik, Model: gemini-2.5-pro
+2025-07-19 11:03:43,308 - WARNING - Empty response for sub-batch. API Key: ...XmVw, Model: gemini-2.5-pro
+2025-07-19 11:04:54,620 - INFO - Script finished.
+2025-07-19 11:54:36,363 - INFO - Switched to model: gemini-2.5-flash
+2025-07-19 11:54:36,365 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.5-flash
+2025-07-19 11:56:01,902 - INFO - Switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-07-19 11:56:01,903 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-07-19 11:57:15,946 - INFO - Finished processing batch core_services. Total keywords: 1521
+2025-07-19 12:00:03,664 - INFO - Finished processing batch problem_statements. Total keywords: 1386
+2025-07-19 12:04:07,382 - INFO - Finished processing batch technology_terms. Total keywords: 1020
+2025-07-19 12:05:42,309 - INFO - Finished processing batch long_tail_variations. Total keywords: 914
+2025-07-19 12:08:03,983 - INFO - Switched to model: gemini-2.0-flash
+2025-07-19 12:08:03,985 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.0-flash
+2025-07-19 12:08:59,252 - INFO - Finished processing batch competitor_analysis. Total keywords: 1009
+2025-07-19 12:12:00,085 - INFO - Finished processing batch industry_terminology. Total keywords: 2881
+2025-07-19 12:13:35,488 - INFO - Finished processing batch process_related. Total keywords: 1374
+2025-07-19 12:15:08,322 - INFO - Finished processing batch alternative_phrasings. Total keywords: 1353
+2025-07-19 12:16:49,985 - INFO - Finished processing batch educational_terms. Total keywords: 1237
+2025-07-19 12:18:57,447 - INFO - Finished processing batch long_tail_variations. Total keywords: 1507
+2025-07-19 12:18:57,449 - INFO - Main generation process finished. Total time: 1729.3s
+2025-07-19 12:18:57,449 - INFO - Script finished.
+2025-07-20 15:41:58,570 - INFO - Switched to model: gemini-2.5-flash
+2025-07-20 15:41:58,576 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.5-flash
+2025-07-20 15:42:30,204 - INFO - Switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-07-20 15:42:30,207 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-07-20 15:45:56,116 - INFO - Finished processing batch core_services. Total keywords: 1427
+2025-07-20 15:48:01,914 - INFO - Switched to model: gemini-2.0-flash
+2025-07-20 15:48:01,915 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.0-flash
+2025-07-20 15:48:51,245 - INFO - Switched to model: gemini-2.0-flash-lite
+2025-07-20 15:48:51,247 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.0-flash-lite
+2025-07-20 15:49:58,816 - INFO - Switched to model: gemini-2.5-pro
+2025-07-20 15:49:58,819 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.5-pro
+2025-07-20 15:51:51,396 - INFO - Switched to model: gemini-2.5-flash
+2025-07-20 15:51:51,398 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.5-flash
+2025-07-20 15:52:53,858 - INFO - Switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-07-20 15:52:53,860 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-07-20 15:53:10,145 - INFO - Switched to model: gemini-2.0-flash
+2025-07-20 15:53:10,146 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.0-flash
+2025-07-20 15:53:28,963 - INFO - Switched to model: gemini-2.0-flash-lite
+2025-07-20 15:53:28,965 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.0-flash-lite
+2025-07-20 15:54:19,447 - INFO - Finished processing batch problem_statements. Total keywords: 1357
+2025-07-20 15:55:56,190 - INFO - Switched to model: gemini-2.5-pro
+2025-07-20 15:55:56,194 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.5-pro
+2025-07-20 15:57:44,107 - INFO - Switched to model: gemini-2.5-flash
+2025-07-20 15:57:44,109 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.5-flash
+2025-07-20 15:58:41,330 - INFO - Switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-07-20 15:58:41,332 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-07-20 16:01:03,694 - INFO - Switched to model: gemini-2.0-flash
+2025-07-20 16:01:03,695 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.0-flash
+2025-07-20 16:01:35,578 - INFO - Finished processing batch technology_terms. Total keywords: 1289
+2025-07-20 16:02:10,436 - INFO - Switched to model: gemini-2.0-flash-lite
+2025-07-20 16:02:10,439 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.0-flash-lite
+2025-07-20 16:02:30,436 - INFO - Switched to model: gemini-2.5-pro
+2025-07-20 16:02:30,437 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.5-pro
+2025-07-20 16:03:40,937 - INFO - Switched to model: gemini-2.5-flash
+2025-07-20 16:03:40,943 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.5-flash
+2025-07-20 16:04:38,437 - INFO - Switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-07-20 16:04:38,448 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-07-20 16:04:57,004 - INFO - Switched to model: gemini-2.0-flash
+2025-07-20 16:04:57,005 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.0-flash
+2025-07-20 16:05:14,380 - INFO - Switched to model: gemini-2.0-flash-lite
+2025-07-20 16:05:14,382 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.0-flash-lite
+2025-07-20 16:09:16,607 - INFO - Finished processing batch long_tail_variations. Total keywords: 998
+2025-07-20 16:11:01,325 - INFO - Finished processing batch competitor_analysis. Total keywords: 911
+2025-07-20 16:13:52,583 - INFO - Finished processing batch industry_terminology. Total keywords: 623
+2025-07-20 16:16:24,475 - INFO - Finished processing batch process_related. Total keywords: 310
+2025-07-20 16:17:09,186 - INFO - Switched to model: gemini-2.5-pro
+2025-07-20 16:17:09,188 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.5-pro
+2025-07-20 16:18:38,831 - INFO - Switched to model: gemini-2.5-flash
+2025-07-20 16:18:38,832 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.5-flash
+2025-07-20 16:19:21,621 - INFO - Switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-07-20 16:19:21,623 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-07-20 16:19:34,153 - INFO - Switched to model: gemini-2.0-flash
+2025-07-20 16:19:34,154 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.0-flash
+2025-07-20 16:19:52,436 - INFO - Switched to model: gemini-2.0-flash-lite
+2025-07-20 16:19:52,437 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.0-flash-lite
+2025-07-20 16:21:58,801 - INFO - Finished processing batch alternative_phrasings. Total keywords: 373
+2025-07-20 16:32:56,381 - INFO - Switched to model: gemini-2.5-pro
+2025-07-20 16:32:56,384 - WARNING - Timeout error, switched to model: gemini-2.5-pro
+2025-07-20 16:35:16,740 - INFO - Switched to model: gemini-2.5-flash
+2025-07-20 16:35:16,742 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.5-flash
+2025-07-20 16:36:17,327 - INFO - Switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-07-20 16:36:17,328 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-07-20 16:36:31,709 - INFO - Switched to model: gemini-2.0-flash
+2025-07-20 16:36:31,710 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.0-flash
+2025-07-20 16:37:10,635 - INFO - Finished processing batch educational_terms. Total keywords: 399
+2025-07-20 16:39:25,063 - INFO - Switched to model: gemini-2.0-flash-lite
+2025-07-20 16:39:25,066 - WARNING - Empty response for sub-batch. Switched to model: gemini-2.0-flash-lite
+2025-07-20 16:40:14,094 - INFO - Finished processing batch long_tail_variations. Total keywords: 705
+2025-07-20 16:40:14,095 - INFO - Main generation process finished. Total time: 3741.0s
+2025-07-20 16:40:14,095 - INFO - Script finished.
+2025-07-22 04:37:57,044 - INFO - Starting keyword generation for https://www.getgalaxy.io
+2025-07-22 04:37:57,044 - INFO - Found 0 existing keywords
+2025-07-22 04:38:04,645 - INFO - Script finished.
+2025-07-22 04:38:36,558 - INFO - Starting keyword generation for https://www.getgalaxy.io
+2025-07-22 04:38:36,559 - INFO - Found 0 existing keywords
+2025-07-22 04:38:55,519 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 04:39:48,326 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 04:40:58,861 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 04:42:06,063 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 04:43:14,618 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 04:44:28,155 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 04:45:26,395 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 04:46:31,218 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 04:47:50,085 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 04:49:04,733 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 04:50:20,453 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 04:51:01,866 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 04:51:52,946 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 04:52:44,097 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:08:46,516 - INFO - Switched to model: gemini-2.5-flash (RPM: 10)
+2025-07-22 05:08:46,517 - WARNING - Timeout error, switched to model: gemini-2.5-flash
+2025-07-22 05:09:22,165 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:24:31,522 - INFO - Switched to model: gemini-2.5-flash-lite-preview-06-17 (RPM: 15)
+2025-07-22 05:24:31,523 - WARNING - Timeout error, switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-07-22 05:24:42,858 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:25:24,704 - INFO - Finished processing batch core_services. Total keywords: 1729
+2025-07-22 05:25:24,705 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:25:31,513 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:25:42,992 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:25:47,735 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:25:54,709 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:26:00,101 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:26:34,981 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:26:40,903 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:26:48,482 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:26:55,449 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:26:59,525 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:27:05,119 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:27:10,466 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:27:16,938 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:27:22,302 - INFO - Finished processing batch problem_statements. Total keywords: 1482
+2025-07-22 05:27:22,302 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:27:26,280 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:27:31,815 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:27:40,749 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:27:47,310 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:27:51,677 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:27:56,782 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:28:02,443 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:28:06,057 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:28:09,452 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:28:16,888 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:28:21,163 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:28:23,400 - INFO - Finished processing batch technology_terms. Total keywords: 946
+2025-07-22 05:28:23,401 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:29:51,129 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:29:58,718 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:30:04,691 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:30:09,738 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:30:35,726 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:30:40,893 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:30:45,581 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:30:56,729 - WARNING - Empty/invalid response from API for model gemini-2.5-flash-lite-preview-06-17
+2025-07-22 05:31:01,740 - INFO - Switched to model: gemini-2.0-flash (RPM: 15)
+2025-07-22 05:31:01,740 - INFO - Switched to model: gemini-2.0-flash after empty response
+2025-07-22 05:31:20,304 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:31:29,339 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:31:41,698 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:31:50,758 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:32:01,442 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:32:10,731 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:32:21,981 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:32:34,052 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:32:41,927 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:32:50,007 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:32:59,312 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:33:11,305 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:33:21,754 - INFO - Finished processing batch long_tail_variations. Total keywords: 3264
+2025-07-22 05:33:21,755 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:34:11,306 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:34:18,897 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:34:31,093 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:34:40,602 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:34:50,492 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:35:07,536 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:35:19,347 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:35:29,834 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:35:57,090 - INFO - Finished processing batch competitor_analysis. Total keywords: 2788
+2025-07-22 05:35:57,092 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:36:03,994 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:36:17,989 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:36:29,767 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:36:39,118 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:36:48,877 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:37:04,786 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:37:19,526 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:38:06,267 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:38:14,589 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:39:06,466 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:39:20,736 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:39:28,287 - INFO - Finished processing batch industry_terminology. Total keywords: 2189
+2025-07-22 05:39:28,288 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:39:41,941 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:39:52,330 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:40:00,969 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:40:13,778 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:40:23,108 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:40:32,461 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:40:37,669 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:40:46,144 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:40:54,978 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:41:04,739 - INFO - Finished processing batch process_related. Total keywords: 1273
+2025-07-22 05:41:04,741 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:41:14,511 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:41:22,818 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:41:36,571 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:41:45,295 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:41:52,364 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:42:01,666 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:42:25,220 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:42:41,252 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:42:48,107 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:42:56,331 - INFO - Finished processing batch alternative_phrasings. Total keywords: 1408
+2025-07-22 05:42:56,331 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:43:04,208 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:43:11,770 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:43:24,172 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:43:33,386 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:43:41,306 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:43:49,598 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:43:57,337 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:44:07,669 - INFO - Finished processing batch educational_terms. Total keywords: 647
+2025-07-22 05:44:07,669 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:44:51,870 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:45:03,534 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 05:45:14,031 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 05:45:26,124 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 05:46:14,226 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 05:47:09,017 - INFO - Finished processing batch long_tail_variations. Total keywords: 2287
+2025-07-22 05:47:09,017 - INFO - Main generation process finished. Total time: 4112.5s
+2025-07-22 05:47:09,017 - INFO - Script finished.
+2025-07-22 11:23:18,231 - INFO - Starting keyword generation for https://www.sorcerer.earth
+2025-07-22 11:23:18,231 - INFO - Found 67335 existing keywords
+2025-07-22 11:23:22,484 - INFO - Script finished.
+2025-07-22 11:23:35,268 - INFO - Starting keyword generation for https://www.sorcerer.earth
+2025-07-22 11:23:35,269 - INFO - Found 0 existing keywords
+2025-07-22 11:24:21,071 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 11:25:33,217 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 11:26:27,425 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 11:27:12,059 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 11:27:57,846 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 11:28:50,956 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 11:30:13,907 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 11:31:34,167 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 11:32:54,411 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 11:33:45,089 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 11:34:51,320 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 11:36:01,286 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 11:36:54,955 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 11:38:13,441 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 11:39:21,094 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 11:40:24,090 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 11:41:45,205 - INFO - Finished processing batch core_services. Total keywords: 1825
+2025-07-22 11:41:45,207 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 11:42:30,294 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 11:43:37,345 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 11:44:38,997 - WARNING - Empty/invalid response from API for model gemini-2.5-pro
+2025-07-22 11:44:44,003 - INFO - Switched to model: gemini-2.5-flash (RPM: 10)
+2025-07-22 11:44:44,003 - INFO - Switched to model: gemini-2.5-flash after empty response
+2025-07-22 11:45:30,837 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 11:46:13,589 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 11:46:57,515 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 11:47:42,863 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 11:48:14,389 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 11:49:01,494 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 11:53:32,625 - INFO - Switched to model: gemini-2.5-flash-lite-preview-06-17 (RPM: 15)
+2025-07-22 11:53:32,626 - WARNING - API error, switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-07-22 11:53:41,526 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 11:53:47,526 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 11:53:54,729 - WARNING - Empty/invalid response from API for model gemini-2.5-flash-lite-preview-06-17
+2025-07-22 11:53:59,735 - INFO - Switched to model: gemini-2.0-flash (RPM: 15)
+2025-07-22 11:53:59,736 - INFO - Switched to model: gemini-2.0-flash after empty response
+2025-07-22 11:54:21,394 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 11:54:32,656 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 11:54:41,422 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 11:54:51,326 - INFO - Finished processing batch problem_statements. Total keywords: 1651
+2025-07-22 11:54:51,328 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 11:54:58,008 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 11:55:05,545 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 11:55:25,750 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 11:56:14,441 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 11:56:21,013 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 11:56:31,623 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 11:56:44,919 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 11:56:56,517 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 11:57:04,547 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 11:57:13,482 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 11:57:25,278 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 11:57:36,429 - INFO - Finished processing batch technology_terms. Total keywords: 1356
+2025-07-22 11:57:36,431 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 11:57:47,346 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 11:57:57,266 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 11:58:11,093 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 11:58:25,446 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 11:58:34,449 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 11:58:43,035 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 11:58:56,480 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 11:59:05,061 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 11:59:16,852 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 11:59:25,280 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 11:59:35,742 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 11:59:54,409 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 12:00:51,819 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 12:01:00,765 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 12:01:16,927 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 12:01:28,320 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 12:01:39,873 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 12:01:47,335 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 12:02:42,221 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 12:02:53,235 - INFO - Finished processing batch long_tail_variations. Total keywords: 2090
+2025-07-22 12:02:53,237 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 12:03:00,662 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 12:03:17,451 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 12:03:30,118 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 12:03:41,911 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 12:03:48,765 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 12:03:59,832 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 12:04:12,177 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 12:04:23,005 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 12:04:30,290 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 12:04:40,145 - INFO - Finished processing batch competitor_analysis. Total keywords: 602
+2025-07-22 12:04:40,148 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 12:04:49,795 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 12:05:16,576 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 12:05:30,195 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 12:05:50,808 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 12:06:04,503 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 12:06:32,889 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 12:06:52,405 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 12:07:14,560 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 12:07:27,996 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 12:07:45,097 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 12:08:17,133 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 12:08:28,561 - INFO - Finished processing batch industry_terminology. Total keywords: 1336
+2025-07-22 12:08:28,562 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 12:08:37,088 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 12:08:48,694 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 12:09:03,681 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 12:09:17,930 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 12:09:25,489 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 12:09:35,997 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 12:09:47,297 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 12:10:00,014 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 12:10:11,824 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 12:10:23,385 - INFO - Finished processing batch process_related. Total keywords: 1027
+2025-07-22 12:10:23,387 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 12:10:33,775 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 12:10:43,655 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 12:10:56,613 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 12:11:23,312 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 12:11:30,482 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 12:11:38,405 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 12:11:49,009 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 12:12:01,825 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 12:12:22,020 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 12:12:30,753 - INFO - Finished processing batch alternative_phrasings. Total keywords: 726
+2025-07-22 12:12:30,754 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 12:12:40,866 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 12:12:51,861 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 12:13:04,682 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 12:13:17,494 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 12:13:28,551 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 12:13:38,992 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 12:13:57,183 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 12:14:17,968 - INFO - Finished processing batch educational_terms. Total keywords: 644
+2025-07-22 12:14:17,971 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 12:14:27,058 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 12:14:36,456 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 12:14:48,043 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 12:15:14,857 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-22 12:15:22,561 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-22 12:15:29,241 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-22 12:15:40,960 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-22 12:15:51,629 - INFO - Finished processing batch long_tail_variations. Total keywords: 557
+2025-07-22 12:15:51,631 - INFO - Main generation process finished. Total time: 3136.4s
+2025-07-22 12:15:51,632 - INFO - Script finished.
+2025-07-23 11:59:33,030 - INFO - Starting keyword generation for https://www.top.legal
+2025-07-23 11:59:33,030 - INFO - Found 0 existing keywords
+2025-07-23 11:59:54,615 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 12:00:53,191 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-23 12:02:13,706 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-23 12:03:35,684 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-23 12:04:48,182 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 12:05:49,226 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-23 12:06:59,123 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-23 12:08:18,611 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-23 12:10:02,083 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 12:11:02,183 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-23 12:12:10,281 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-23 12:13:11,099 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-23 12:14:02,035 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 12:14:59,493 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-23 12:16:23,641 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-23 12:17:35,779 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-23 12:18:25,937 - INFO - Finished processing batch core_services. Total keywords: 2142
+2025-07-23 12:18:25,939 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 12:20:07,158 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-23 12:21:37,205 - INFO - Starting sub-batch generation with strategy: Focus on 5+ word long-tail keywords
+2025-07-23 12:23:17,245 - INFO - Starting sub-batch generation with strategy: Focus on question-based and conversational keywords
+2025-07-23 12:24:46,055 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 12:25:42,832 - INFO - Starting sub-batch generation with strategy: Focus on 3-4 word mid-tail keywords
+2025-07-23 12:25:47,713 - INFO - Script finished.
+2025-07-23 12:27:29,313 - INFO - Starting keyword generation for https://www.top.legal
+2025-07-23 12:27:29,314 - INFO - Found 2806 existing keywords
+2025-07-23 12:27:50,740 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 12:36:12,637 - INFO - Finished processing batch core_services. Total keywords: 3586
+2025-07-23 12:36:12,641 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 12:40:35,496 - INFO - Finished processing batch problem_statements. Total keywords: 2134
+2025-07-23 12:40:35,499 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 12:45:00,361 - INFO - Finished processing batch technology_terms. Total keywords: 1856
+2025-07-23 12:45:00,363 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 12:52:38,729 - INFO - Finished processing batch long_tail_variations. Total keywords: 1433
+2025-07-23 12:52:38,731 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 12:56:14,214 - INFO - Finished processing batch competitor_analysis. Total keywords: 1113
+2025-07-23 12:56:14,216 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 12:59:36,577 - INFO - Finished processing batch industry_terminology. Total keywords: 1216
+2025-07-23 12:59:36,579 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 13:03:20,886 - INFO - Finished processing batch process_related. Total keywords: 1335
+2025-07-23 13:03:20,888 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 13:07:22,383 - INFO - Finished processing batch alternative_phrasings. Total keywords: 1411
+2025-07-23 13:07:22,384 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 13:10:49,030 - INFO - Finished processing batch educational_terms. Total keywords: 1033
+2025-07-23 13:10:49,031 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 13:13:37,523 - INFO - Finished processing batch long_tail_variations. Total keywords: 882
+2025-07-23 13:13:37,525 - INFO - Main generation process finished. Total time: 2768.2s
+2025-07-23 13:13:37,525 - INFO - Script finished.
+2025-07-23 13:17:55,028 - INFO - Starting keyword generation for https://www.top.legal/en
+2025-07-23 13:17:55,029 - INFO - Found 0 existing keywords
+2025-07-23 13:18:08,020 - ERROR - Error analyzing domain content (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 51
+}
+]
+2025-07-23 13:18:27,028 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 13:24:49,689 - INFO - Finished processing batch core_services. Total keywords: 2989
+2025-07-23 13:24:49,691 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 13:24:50,724 - WARNING - API key ending in ...CJQUA6ik rate limited until 1753287950.7247648
+2025-07-23 13:40:17,816 - INFO - Switched to model: gemini-2.5-flash (RPM: 10)
+2025-07-23 13:40:17,818 - WARNING - Timeout error, switched to model: gemini-2.5-flash
+2025-07-23 13:45:00,389 - INFO - Finished processing batch problem_statements. Total keywords: 587
+2025-07-23 13:45:00,391 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 13:46:22,040 - INFO - Finished processing batch technology_terms. Total keywords: 2047
+2025-07-23 13:46:22,042 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 14:03:25,436 - INFO - Switched to model: gemini-2.5-flash-lite-preview-06-17 (RPM: 15)
+2025-07-23 14:03:25,437 - WARNING - Timeout error, switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-07-23 14:14:45,573 - INFO - Switched to model: gemini-2.0-flash (RPM: 15)
+2025-07-23 14:14:45,576 - WARNING - Timeout error, switched to model: gemini-2.0-flash
+2025-07-23 14:26:37,418 - INFO - Switched to model: gemini-2.0-flash-lite (RPM: 30)
+2025-07-23 14:26:37,420 - WARNING - Timeout error, switched to model: gemini-2.0-flash-lite
+2025-07-23 14:33:47,688 - INFO - Finished processing batch long_tail_variations. Total keywords: 1096
+2025-07-23 14:33:47,690 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 14:34:31,164 - INFO - Finished processing batch competitor_analysis. Total keywords: 7
+2025-07-23 14:34:31,165 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 14:35:15,019 - INFO - Finished processing batch industry_terminology. Total keywords: 837
+2025-07-23 14:35:15,021 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 14:36:00,503 - INFO - Finished processing batch process_related. Total keywords: 528
+2025-07-23 14:36:00,507 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 14:36:44,742 - INFO - Finished processing batch alternative_phrasings. Total keywords: 601
+2025-07-23 14:36:44,743 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 14:37:07,606 - INFO - Finished processing batch educational_terms. Total keywords: 266
+2025-07-23 14:37:07,607 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 14:37:28,444 - INFO - Finished processing batch long_tail_variations. Total keywords: 270
+2025-07-23 14:37:28,445 - INFO - Main generation process finished. Total time: 4773.4s
+2025-07-23 14:37:28,445 - INFO - Script finished.
+2025-07-23 20:11:48,234 - INFO - Starting keyword generation for https://curval.io
+2025-07-23 20:11:48,235 - INFO - Found 0 existing keywords
+2025-07-23 20:12:10,315 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 20:17:56,487 - INFO - Finished processing batch core_services. Total keywords: 3646
+2025-07-23 20:17:56,490 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 20:19:00,856 - INFO - Script finished.
+2025-07-23 20:25:57,146 - INFO - Starting keyword generation for https://curval.io
+2025-07-23 20:25:57,146 - INFO - Found 0 existing keywords
+2025-07-23 20:26:16,356 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 20:30:43,891 - INFO - Finished processing batch core_services. Total keywords: 1402
+2025-07-23 20:30:43,893 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 20:34:24,612 - INFO - Finished processing batch problem_statements. Total keywords: 2141
+2025-07-23 20:34:24,617 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 20:34:25,731 - WARNING - API key ending in ...CJQUA6ik rate limited until 1753313725.730947
+2025-07-23 20:38:18,790 - INFO - Finished processing batch technology_terms. Total keywords: 873
+2025-07-23 20:38:18,795 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 20:48:18,552 - ERROR - Attempt 1 failed for sub-batch 1: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-07-23 20:48:23,558 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 20:48:24,687 - WARNING - API key ending in ...CJQUA6ik rate limited until 1753314564.687198
+2025-07-23 20:53:08,035 - INFO - Finished processing batch long_tail_variations. Total keywords: 1636
+2025-07-23 20:53:08,039 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 20:56:01,251 - INFO - Finished processing batch competitor_analysis. Total keywords: 1110
+2025-07-23 20:56:01,256 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 20:56:02,418 - WARNING - API key ending in ...CJQUA6ik rate limited until 1753315022.41815
+2025-07-23 21:00:24,490 - INFO - Finished processing batch industry_terminology. Total keywords: 1499
+2025-07-23 21:00:24,492 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 21:04:43,528 - INFO - Finished processing batch process_related. Total keywords: 1005
+2025-07-23 21:04:43,532 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 21:04:44,845 - WARNING - API key ending in ...CJQUA6ik rate limited until 1753315544.8444538
+2025-07-23 21:08:36,837 - INFO - Finished processing batch alternative_phrasings. Total keywords: 1916
+2025-07-23 21:08:36,841 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 21:11:57,663 - INFO - Finished processing batch educational_terms. Total keywords: 835
+2025-07-23 21:11:57,664 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-23 21:11:58,052 - WARNING - API key ending in ...CJQUA6ik rate limited until 1753315978.0522869
+2025-07-23 21:15:29,750 - INFO - Finished processing batch long_tail_variations. Total keywords: 630
+2025-07-23 21:15:29,752 - INFO - Main generation process finished. Total time: 2972.6s
+2025-07-23 21:15:29,754 - INFO - Script finished.
+2025-07-25 11:23:16,930 - INFO - Starting keyword generation for https://curval.io
+2025-07-25 11:23:16,931 - INFO - Found 0 existing keywords
+2025-07-25 11:23:27,553 - INFO - Script finished.
+2025-07-25 11:23:41,637 - INFO - Starting keyword generation for https://curval.io
+2025-07-25 11:23:41,638 - INFO - Found 0 existing keywords
+2025-07-25 11:24:08,276 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-25 11:28:23,831 - INFO - Finished processing batch core_services. Total keywords: 1170
+2025-07-25 11:28:23,834 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-25 11:33:21,941 - INFO - Finished processing batch problem_statements. Total keywords: 996
+2025-07-25 11:33:21,942 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-25 11:38:35,159 - INFO - Finished processing batch technology_terms. Total keywords: 2475
+2025-07-25 11:38:35,174 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-25 11:44:38,868 - INFO - Finished processing batch long_tail_variations. Total keywords: 1302
+2025-07-25 11:44:38,872 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-25 11:48:55,593 - INFO - Finished processing batch competitor_analysis. Total keywords: 2398
+2025-07-25 11:48:55,596 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-25 11:52:18,412 - INFO - Finished processing batch industry_terminology. Total keywords: 1060
+2025-07-25 11:52:18,413 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-07-25 11:52:47,371 - INFO - Script finished.
+2025-08-11 12:33:07,763 - INFO - Starting keyword generation for https://synagroweb.com
+2025-08-11 12:33:07,764 - INFO - Found 0 existing keywords
+2025-08-11 12:33:58,776 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-08-11 12:38:22,497 - INFO - Script finished.
+2025-08-11 12:44:29,135 - INFO - Starting keyword generation for https://synagroweb.com
+2025-08-11 12:44:29,135 - INFO - Found 0 existing keywords
+2025-08-11 12:45:24,954 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-08-11 12:53:46,783 - INFO - Finished processing batch core_services. Total keywords: 3235
+2025-08-11 12:53:46,785 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-08-11 13:42:50,147 - INFO - Switched to model: gemini-2.5-flash (RPM: 10)
+2025-08-11 13:42:50,150 - WARNING - Timeout error, switched to model: gemini-2.5-flash
+2025-08-11 14:10:47,637 - INFO - Switched to model: gemini-2.5-flash-lite-preview-06-17 (RPM: 15)
+2025-08-11 14:10:47,641 - WARNING - Timeout error, switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-08-11 14:11:18,676 - INFO - Finished processing batch problem_statements. Total keywords: 632
+2025-08-11 14:11:18,677 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-08-11 14:14:28,827 - INFO - Finished processing batch technology_terms. Total keywords: 471
+2025-08-11 14:14:28,829 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-08-11 14:17:45,282 - INFO - Finished processing batch long_tail_variations. Total keywords: 424
+2025-08-11 14:17:45,283 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-08-11 14:21:08,180 - INFO - Finished processing batch competitor_analysis. Total keywords: 247
+2025-08-11 14:21:08,182 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-08-11 14:22:13,116 - INFO - Finished processing batch industry_terminology. Total keywords: 4699
+2025-08-11 14:22:13,117 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-08-11 14:23:09,955 - INFO - Finished processing batch process_related. Total keywords: 904
+2025-08-11 14:23:09,958 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-08-11 14:23:26,797 - INFO - Finished processing batch alternative_phrasings. Total keywords: 305
+2025-08-11 14:23:26,797 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-08-11 14:25:51,599 - INFO - Finished processing batch educational_terms. Total keywords: 201
+2025-08-11 14:25:51,600 - INFO - Starting sub-batch generation with strategy: Focus on 1-2 word short-tail keywords
+2025-08-11 14:26:27,318 - INFO - Finished processing batch long_tail_variations. Total keywords: 906
+2025-08-11 14:26:27,319 - INFO - Main generation process finished. Total time: 6118.2s
+2025-08-11 14:26:27,319 - INFO - Script finished.
+2025-08-13 08:09:18,060 - INFO - Starting keyword generation for https://www.nature.com/subjects/cancer-immunology
+2025-08-13 08:09:18,061 - INFO - Found 0 existing keywords
+2025-08-13 08:09:20,097 - INFO - Script finished.
+2025-08-13 08:09:34,844 - INFO - Starting keyword generation for https://www.nature.com/subjects/cancer-immunology
+2025-08-13 08:09:34,845 - INFO - Found 0 existing keywords
+2025-08-13 08:12:39,855 - INFO - Script finished.
+2025-08-13 08:12:59,913 - INFO - Starting keyword generation for https://www.nature.com/subjects/cancer-immunology
+2025-08-13 08:12:59,913 - INFO - Found 0 existing keywords
+2025-08-13 08:13:33,246 - INFO - Script finished.
+2025-08-13 08:14:36,106 - INFO - Starting keyword generation for https://www.nature.com/subjects/cancer-immunology
+2025-08-13 08:14:36,106 - INFO - Found 0 existing keywords
+2025-08-13 08:22:37,782 - INFO - Finished processing batch core_services. Total keywords: 2435
+2025-08-13 08:22:45,837 - INFO - Switched to model: gemini-2.5-flash (RPM: 10)
+2025-08-13 08:22:45,839 - WARNING - API error, switched to model: gemini-2.5-flash
+2025-08-13 08:25:56,984 - INFO - Finished processing batch problem_statements. Total keywords: 1442
+2025-08-13 08:26:41,633 - INFO - Script finished.
+2025-08-13 08:28:32,675 - INFO - Starting keyword generation for https://www.nature.com/subjects/cancer-immunology
+2025-08-13 08:28:32,675 - INFO - Found 0 existing keywords
+2025-08-13 08:34:11,004 - INFO - Script finished.
+2025-08-13 08:35:03,627 - INFO - Starting keyword generation for https://www.nature.com/subjects/cancer-immunology
+2025-08-13 08:35:03,628 - INFO - Found 0 existing keywords
+2025-08-13 08:35:06,037 - ERROR - Error in main generation process: 'str' object has no attribute 'get'
+2025-08-13 08:35:06,038 - INFO - Script finished.
+2025-08-13 08:41:13,435 - INFO - Starting keyword generation for https://www.nature.com/subjects/cancer-immunology
+2025-08-13 08:41:13,435 - INFO - Found 0 existing keywords
+2025-08-13 08:41:39,947 - INFO - Script finished.
+2025-08-13 08:41:54,974 - INFO - Starting keyword generation for https://www.nature.com/subjects/cancer-immunology
+2025-08-13 08:41:54,974 - INFO - Found 0 existing keywords
+2025-08-13 08:42:14,782 - INFO - Switched to model: gemini-2.5-flash (RPM: 10)
+2025-08-13 08:42:14,783 - WARNING - API error, switched to model: gemini-2.5-flash
+2025-08-13 08:47:21,347 - INFO - Switched to model: gemini-2.5-flash-lite-preview-06-17 (RPM: 15)
+2025-08-13 08:47:21,350 - WARNING - API error, switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-08-13 08:50:32,775 - INFO - Script finished.
+2025-08-13 08:50:59,929 - INFO - Starting keyword generation for https://www.nature.com/subjects/cancer-immunology
+2025-08-13 08:50:59,930 - INFO - Found 0 existing keywords
+2025-08-13 08:51:13,444 - INFO - Switched to model: gemini-2.5-flash (RPM: 10)
+2025-08-13 08:51:13,446 - WARNING - API error, switched to model: gemini-2.5-flash
+2025-08-13 08:56:28,740 - INFO - Switched to model: gemini-2.5-flash-lite-preview-06-17 (RPM: 15)
+2025-08-13 08:56:28,742 - WARNING - API error, switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-08-13 09:01:20,248 - INFO - Script finished.
+2025-08-13 09:12:11,013 - INFO - Script finished.
+2025-08-13 09:32:58,635 - INFO - Switched to model: gemini-2.5-flash (RPM: 10)
+2025-08-13 09:32:58,636 - WARNING - API error, switched to model: gemini-2.5-flash
+2025-08-13 09:59:37,085 - INFO - Script finished.
+2025-08-13 10:22:13,252 - INFO - Switched to model: gemini-2.5-flash (RPM: 10)
+2025-08-13 10:22:13,253 - WARNING - API error, switched to model: gemini-2.5-flash
+2025-08-13 10:26:40,346 - INFO - Script finished.
+2025-08-13 10:34:10,600 - INFO - Switched to model: gemini-2.5-flash (RPM: 10)
+2025-08-13 10:34:10,602 - WARNING - API error, switched to model: gemini-2.5-flash
+2025-08-13 10:42:13,286 - INFO - Script finished.
+2025-08-13 18:21:38,465 - INFO - Switched to model: gemini-2.5-flash (RPM: 10)
+2025-08-13 18:21:38,468 - WARNING - Timeout error, switched to model: gemini-2.5-flash
+2025-08-13 18:26:34,092 - INFO - Script finished.
+2025-08-13 18:27:07,796 - INFO - Script finished.
+2025-08-13 18:36:09,458 - INFO - Script finished.
+2025-08-13 18:58:16,779 - INFO - Switched to model: gemini-2.5-flash (RPM: 10)
+2025-08-13 18:58:16,781 - WARNING - Timeout error, switched to model: gemini-2.5-flash
+2025-08-13 19:25:54,338 - INFO - Switched to model: gemini-2.5-flash-lite-preview-06-17 (RPM: 15)
+2025-08-13 19:25:54,339 - WARNING - Timeout error, switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-08-13 19:40:22,395 - INFO - Switched to model: gemini-2.0-flash (RPM: 15)
+2025-08-13 19:40:22,396 - WARNING - Timeout error, switched to model: gemini-2.0-flash
+2025-08-13 19:58:30,878 - INFO - Switched to model: gemini-2.0-flash-lite (RPM: 30)
+2025-08-13 19:58:30,879 - WARNING - Timeout error, switched to model: gemini-2.0-flash-lite
+2025-08-13 20:09:26,781 - INFO - Switched to model: gemini-2.5-pro (RPM: 5)
+2025-08-13 20:09:26,782 - WARNING - Timeout error, switched to model: gemini-2.5-pro
+2025-08-13 20:42:03,717 - INFO - Switched to model: gemini-2.5-flash (RPM: 10)
+2025-08-13 20:42:03,717 - WARNING - Timeout error, switched to model: gemini-2.5-flash
+2025-08-13 20:56:37,740 - INFO - Switched to model: gemini-2.5-flash-lite-preview-06-17 (RPM: 15)
+2025-08-13 20:56:37,744 - WARNING - API error, switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-08-13 21:08:19,830 - INFO - Finished processing batch core_services. Total keywords: 11362
+2025-08-13 21:08:19,833 - INFO - Main generation process finished. Total time: 9107.9s
+2025-08-13 21:08:19,833 - INFO - Script finished.
+2025-08-14 07:50:07,261 - INFO - Script finished.
+2025-08-18 09:06:31,034 - INFO - Switched to model: gemini-2.5-flash (RPM: 10)
+2025-08-18 09:06:31,036 - WARNING - API error, switched to model: gemini-2.5-flash
+2025-08-18 09:10:12,064 - INFO - Script finished.
+2025-08-19 09:42:38,870 - INFO - Script finished.
+2025-08-19 09:54:33,608 - INFO - Switched to model: gemini-2.5-flash (RPM: 10)
+2025-08-19 09:54:33,623 - WARNING - API error, switched to model: gemini-2.5-flash
+2025-08-19 09:59:29,795 - INFO - Switched to model: gemini-2.5-flash-lite-preview-06-17 (RPM: 15)
+2025-08-19 09:59:29,801 - WARNING - API error, switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-08-19 10:15:40,611 - INFO - Finished processing batch core_services. Total keywords: 6025
+2025-08-19 10:15:40,642 - INFO - Main generation process finished. Total time: 1524.1s
+2025-08-19 10:15:40,642 - INFO - Script finished.
+2025-08-19 12:27:25,368 - INFO - Script finished.
+2025-08-19 12:27:42,590 - INFO - Switched to model: gemini-2.5-flash (RPM: 10)
+2025-08-19 12:27:42,593 - WARNING - API error, switched to model: gemini-2.5-flash
+2025-08-19 12:38:27,777 - INFO - Switched to model: gemini-2.5-flash-lite-preview-06-17 (RPM: 15)
+2025-08-19 12:38:27,781 - WARNING - API error, switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-08-19 13:29:50,680 - INFO - Switched to model: gemini-2.0-flash (RPM: 15)
+2025-08-19 13:29:50,688 - WARNING - Timeout error, switched to model: gemini-2.0-flash
+2025-08-20 10:49:01,421 - ERROR - Attempt 1 failed for sub-batch 2: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2025-08-20 10:49:15,849 - INFO - Switched to model: gemini-2.5-flash (RPM: 10)
+2025-08-20 10:49:15,851 - WARNING - API error, switched to model: gemini-2.5-flash
+2025-08-20 10:57:29,130 - INFO - Script finished.
+2025-08-21 10:30:47,556 - ERROR - Error analyzing domain content (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 125000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 12
+}
+]
+2025-08-21 10:30:51,854 - ERROR - Error analyzing domain content (attempt 2): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 125000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 8
+}
+]
+2025-08-21 10:30:56,746 - ERROR - Error analyzing domain content (attempt 3): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 125000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 3
+}
+]
+2025-08-21 10:31:09,452 - INFO - Switched to model: gemini-2.5-flash (RPM: 10)
+2025-08-21 10:31:09,453 - WARNING - API error, switched to model: gemini-2.5-flash
+2025-08-21 10:36:23,063 - INFO - Finished processing batch core_services. Total keywords: 4669
+2025-08-21 10:42:00,691 - INFO - Switched to model: gemini-2.5-flash-lite-preview-06-17 (RPM: 15)
+2025-08-21 10:42:00,694 - WARNING - API error, switched to model: gemini-2.5-flash-lite-preview-06-17
+2025-08-21 10:43:22,406 - INFO - Finished processing batch problem_statements. Total keywords: 1748
+2025-08-21 10:43:56,710 - INFO - Finished processing batch technology_terms. Total keywords: 961
+2025-08-21 10:50:00,034 - INFO - Finished processing batch long_tail_variations. Total keywords: 689
+2025-08-21 10:50:02,630 - INFO - Finished processing batch competitor_analysis. Total keywords: 1
+2025-08-21 10:50:03,867 - INFO - Finished processing batch industry_terminology. Total keywords: 6
+2025-08-21 10:53:37,823 - INFO - Finished processing batch process_related. Total keywords: 2930
+2025-08-21 10:54:06,285 - INFO - Finished processing batch alternative_phrasings. Total keywords: 505
+2025-08-21 10:54:11,987 - INFO - Finished processing batch educational_terms. Total keywords: 205
+2025-08-21 10:54:43,370 - INFO - Finished processing batch long_tail_variations. Total keywords: 608
+2025-08-21 10:54:43,373 - INFO - Main generation process finished. Total time: 1458.3s
+2025-08-21 10:54:43,374 - INFO - Script finished.
+2025-08-21 14:39:26,909 - INFO - Script finished.
+2025-08-21 14:56:50,180 - INFO - Switched to model: gemini-2.5-flash (RPM: 10)
+2025-08-21 14:56:50,188 - WARNING - Timeout error, switched to model: gemini-2.5-flash
+2025-08-21 15:07:34,511 - ERROR - Error in main generation process: Domain URL is required when using domain context source
+2025-08-21 15:07:34,512 - INFO - Script finished.
+2025-08-21 15:13:53,756 - INFO - Script finished.
+2025-08-21 15:21:40,018 - INFO - Script finished.
+2025-08-24 19:46:58,256 - INFO - Script finished.
+2025-08-24 19:54:50,297 - INFO - Script finished.
+2025-08-24 19:55:53,020 - INFO - Script finished.
+2025-08-24 19:56:47,305 - ERROR - Error in main generation process: EnhancedGeminiKeywordGenerator.generate_30k_keywords_async.<locals>.from_multiple_domains_scrape() missing 1 required positional argument: 'filename'
+2025-08-24 19:56:47,307 - INFO - Script finished.
+2025-08-24 19:57:37,939 - ERROR - Error in main generation process: EnhancedGeminiKeywordGenerator.generate_30k_keywords_async.<locals>.from_multiple_domains_scrape() missing 1 required positional argument: 'self'
+2025-08-24 19:57:37,940 - INFO - Script finished.
+2025-08-24 19:58:01,817 - ERROR - Error scraping domains: not readable
+2025-08-24 19:58:03,779 - ERROR - Error analyzing domain content (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 125000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 56
+}
+]
+2025-08-24 19:58:08,589 - ERROR - Error analyzing domain content (attempt 2): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 125000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 51
+}
+]
+2025-08-24 19:58:13,510 - ERROR - Error analyzing domain content (attempt 3): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 125000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 46
+}
+]
+2025-08-24 19:58:32,507 - INFO - Script finished.
+2025-08-24 20:01:27,773 - ERROR - Error scraping domains: not readable
+2025-08-24 20:01:29,706 - ERROR - Error analyzing domain content (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 125000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 30
+}
+]
+2025-08-24 20:01:34,502 - ERROR - Error analyzing domain content (attempt 2): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 125000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 25
+}
+]
+2025-08-24 20:01:39,338 - ERROR - Error analyzing domain content (attempt 3): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 125000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 20
+}
+]
+2025-08-24 20:02:01,917 - INFO - Script finished.
+2025-08-24 20:02:53,190 - ERROR - Error scraping domains: not readable
+2025-08-24 20:02:55,076 - ERROR - Error analyzing domain content (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 125000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 4
+}
+]
+2025-08-24 20:03:06,493 - INFO - Script finished.
+2025-08-24 20:03:28,992 - ERROR - Error scraping domains: not readable
+2025-08-24 20:03:30,923 - ERROR - Error analyzing domain content (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 125000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 29
+}
+]
+2025-08-24 20:03:35,729 - ERROR - Error analyzing domain content (attempt 2): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 125000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 24
+}
+]
+2025-08-24 20:03:38,606 - INFO - Script finished.
+2025-08-24 20:04:17,279 - ERROR - Error in main generation process: cannot access local variable 'line' where it is not associated with a value
+2025-08-24 20:04:17,281 - INFO - Script finished.
+2025-08-24 20:04:33,698 - ERROR - Error in main generation process: cannot access local variable 'line' where it is not associated with a value
+2025-08-24 20:04:33,699 - INFO - Script finished.
+2025-08-24 20:05:16,599 - ERROR - Error in main generation process: cannot access local variable 'line' where it is not associated with a value
+2025-08-24 20:05:16,600 - INFO - Script finished.
+2025-08-24 20:06:12,147 - ERROR - Error in main generation process: not readable
+2025-08-24 20:06:12,149 - INFO - Script finished.
+2025-08-24 20:06:42,285 - ERROR - Error analyzing domain content (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 125000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 17
+}
+]
+2025-08-24 20:06:46,023 - INFO - Script finished.
+2025-08-24 20:09:34,317 - ERROR - Error analyzing domain content (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 125000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 25
+}
+]
+2025-08-24 20:09:39,119 - ERROR - Error analyzing domain content (attempt 2): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 125000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 20
+}
+]
+2025-08-24 20:09:42,143 - INFO - Script finished.
+2025-08-24 20:10:51,839 - INFO - Script finished.
+2025-08-24 20:13:05,088 - ERROR - Error analyzing domain content (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 125000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 54
+}
+]
+2025-08-24 20:13:07,125 - INFO - Script finished.
+2025-08-25 11:27:18,568 - ERROR - Error analyzing domain content (attempt 1): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 125000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 41
+}
+]
+2025-08-25 11:27:22,824 - ERROR - Error analyzing domain content (attempt 2): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 125000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 37
+}
+]
+2025-08-25 11:27:27,660 - ERROR - Error analyzing domain content (attempt 3): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 125000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 32
+}
+]
+2025-08-25 11:27:37,547 - INFO - Switched to model: gemini-2.5-flash (RPM: 10)
+2025-08-25 11:27:37,549 - WARNING - API error, switched to model: gemini-2.5-flash
+2025-08-25 11:31:11,274 - INFO - Finished processing batch core_services. Total keywords: 3895
+2025-08-25 11:35:37,155 - INFO - Script finished.

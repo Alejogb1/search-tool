@@ -1,6 +1,6 @@
 import google.generativeai as genai
 from google.generativeai import types
-from web_scraper import Webscraper
+from .web_scraper import Webscraper
 import asyncio
 import json
 import logging
@@ -16,7 +16,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-class KeywordCategory(Enum):
+class KeywordCategory(Enum):  
+
     CORE_SERVICES = "core_services"
     PROBLEM_STATEMENTS = "problem_statements"
     TECHNOLOGY_TERMS = "technology_terms"
@@ -211,15 +212,41 @@ class EnhancedGeminiKeywordGenerator:
         except Exception as e:
             self.logger.error(f"Error loading existing keywords: {e}")
             return set()
+        
     
     async def generate_30k_keywords_async(self, domain_url: str = None, output_file: str = 'input-keywords.txt') -> str:
         """
         Async version of generate_30k_keywords with parallel processing
-        """
-        # Ensure the output file exists
-        with open(output_file, 'a') as f:
-            pass
+        """ 
+
+        def from_multiple_domains_scrape(input_file: str, output_file: str):
+            """Scrape multiple domains from input_file and save content to output_file"""
             
+            if not os.path.exists(input_file):
+                print(f"Input file {input_file} does not exist.")
+                return "Input file not found."
+            
+            # primero cargamos todas las líneas en memoria
+            with open(input_file, 'r', encoding='utf-8') as infile:
+                domains = [line.strip() for line in infile if line.strip()]
+            
+            print(f"Input file has {len(domains)} domains")
+            
+            with open(output_file, 'w', encoding='utf-8') as outfile:
+                for domain_url in domains:
+                    print(f"Scraping content from {domain_url}...")
+                    try:
+                        scraper_response = Webscraper(domain_url)
+                        if scraper_response.text:
+                            outfile.write(scraper_response.text + '\n')
+                            print(f"Content from {domain_url} saved.")
+                        else:
+                            print(f"No content found for {domain_url}")
+                    except Exception as e:
+                        print(f"Error scraping {domain_url}: {e}")
+
+            # asegurar que el archivo exista
+            open(output_file, 'a').close()            
         try:
             # Initialize progress tracking
             start_time = time.time()
@@ -248,7 +275,8 @@ class EnhancedGeminiKeywordGenerator:
                     raise ValueError("Domain URL is required when using domain context source")
                 print(f"Stage 1: Scraping domain content from {domain_url}...")
                 scraper_response = Webscraper(domain_url)
-                scraper_response2 = Webscraper(domain_url)
+                multiple_domains_response = from_multiple_domains_scrape(input_file="links.csv", output_file="domain_context.txt")
+                print(multiple_domains_response)
                 domain_content = scraper_response.text
                 print(f"Scraped {len(domain_content)} characters of content")
                 context_name = domain_url
@@ -351,11 +379,11 @@ class EnhancedGeminiKeywordGenerator:
         finally:
             self.logger.info("Script finished.")
 
-    def generate_30k_keywords(self, domain_url: str, output_file: str = 'input-keywords.txt') -> str:
+    async def generate_30k_keywords(self, domain_url: str, output_file: str = 'input-keywords.txt') -> str:
         """
         Generate 30,000 keywords using the enhanced multi-stage approach with progress tracking
         """
-        return asyncio.run(self.generate_30k_keywords_async(domain_url, output_file))
+        return await self.generate_30k_keywords_async(domain_url, output_file)
     
     async def _generate_keywords_for_batch_with_progress(self, batch: KeywordBatch, domain_content: str, output_file: str, domain_url: str) -> Set[str]:
         """
@@ -509,7 +537,7 @@ class EnhancedGeminiKeywordGenerator:
     5. Include **meta-level or conceptual terms** (e.g., self-organizing structures, recursive evaluation frameworks, hierarchical emergent behaviors, latent representation dynamics).  
     6. Terms may imply **experimental, computational, observational, or procedural implementations**, without being restricted to any specific domain.  
     7. Prioritize **accuracy, academic relevance, and novelty** over popularity or common usage.  
-    8. Use **long-tail phrases**, typically 3–4 words, but you can also use shorter terms 1-3 words (half long and half short distribution) that are semantically precise, descriptive, and rich in context.  
+    8. Use **long-tail phrases**, typically 2–4 words, but you can also use shorter terms 1-3 words (half long and half short distribution) that are semantically precise, descriptive, and rich in context.  
     9. Avoid **commercial, marketing, tutorial-style, or superficial terms**; focus solely on scientific, technical, or experimental language.  
     10. Encourage **open-ended inquiry and discovery**, allowing terms to suggest uncharted areas, emerging mechanisms, or unexplored interactions.  
     11. Integrate the **combined layers of exploration, academic rigor, and authority** so that each term communicates both novelty and reliability.  
@@ -843,7 +871,7 @@ class EnhancedGeminiKeywordGenerator:
         }
 
 # Enhanced generation function with multiple API keys
-def generate_30k_keywords(domain_url: str = None, api_keys: List[str] = None, model_configs: List[Dict] = None, output_file: str = 'input-keywords.txt', parallel: bool = True, mode: str = "commercial", context_source: str = "domain", context_file: str = None):
+async def generate_30k_keywords(domain_url: str = None, api_keys: List[str] = None, model_configs: List[Dict] = None, output_file: str = 'input-keywords.txt', parallel: bool = True, mode: str = "commercial", context_source: str = "domain", context_file: str = None):
     """
     Generate 30,000 keywords using multiple API keys with rotation
     """
@@ -856,13 +884,13 @@ def generate_30k_keywords(domain_url: str = None, api_keys: List[str] = None, mo
         context_file=context_file
     )
     if parallel:
-        result = asyncio.run(generator.generate_30k_keywords_async(domain_url, output_file))
+        result = await generator.generate_30k_keywords_async(domain_url, output_file)
     else:
-        result = generator.generate_30k_keywords(domain_url, output_file)
+        result = await generator.generate_30k_keywords(domain_url, output_file)
     return result
 
 # Backward compatibility - original function signature
-def generate(domain_url: str, api_key: str = "", output_file: str = 'input-keywords.txt'):
+async def generate(domain_url: str, api_key: str = "", output_file: str = 'input-keywords.txt'):
     """
     Original function signature for backward compatibility
     Enhanced to generate 30k keywords instead of 200
@@ -872,17 +900,17 @@ def generate(domain_url: str, api_key: str = "", output_file: str = 'input-keywo
     
     # Convert single API key to list for compatibility
     api_keys = [api_key]
-    return generate_30k_keywords(domain_url=domain_url, api_keys=api_keys, output_file=output_file)
+    return await generate_30k_keywords(domain_url=domain_url, api_keys=api_keys, output_file=output_file)
 
 # Multi-API key function
-def generate_with_multiple_keys(domain_url: str = None, api_keys: List[str] = None, model_configs: List[Dict] = None, output_file: str = 'input-keywords.txt', parallel: bool = True, mode: str = "commercial", context_source: str = "domain", context_file: str = None):
+async def generate_with_multiple_keys(domain_url: str = None, api_keys: List[str] = None, model_configs: List[Dict] = None, output_file: str = 'input-keywords.txt', parallel: bool = True, mode: str = "commercial", context_source: str = "domain", context_file: str = None):
     """
     Generate 30k keywords using multiple API keys
     """
     if not api_keys:
         raise ValueError("At least one API key is required")
     
-    return generate_30k_keywords(
+    return await generate_30k_keywords(
         domain_url=domain_url,
         api_keys=api_keys,
         model_configs=model_configs,
@@ -923,10 +951,10 @@ if __name__ == "__main__":
     file_result = generate_with_multiple_keys(
         context_source="file",
         context_file="context.txt",
+        domain_url=None,
         api_keys=API_KEYS, 
         model_configs=MODEL_CONFIGS, 
-        output_file='input-keywords-P-.txt', 
-        domain_url=None,
+        output_file='input-keywords-ChipMakers-.txt', 
         parallel=False, 
         mode="commercial"
     )

@@ -5,13 +5,12 @@ import os
 import configparser
 
 # Database URL
-DATABASE_URL = os.environ.get("DATABASE_URL")
+from dotenv import load_dotenv
+load_dotenv()
 
+DATABASE_URL = os.environ.get("DATABASE_URL")
 if not DATABASE_URL:
-    print("Warning: DATABASE_URL environment variable not set. Reading from alembic.ini.")
-    config = configparser.ConfigParser()
-    config.read("alembic.ini")
-    DATABASE_URL = config['alembic']['sqlalchemy.url']
+    raise ValueError("DATABASE_URL environment variable not set. Please configure it in .env file")
 
 # Create the engine
 engine = create_engine(DATABASE_URL)
