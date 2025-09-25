@@ -1,3 +1,8 @@
+
+RUN Api: uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload   
+
+
+
 # Market Intelligence Engine
 
 This tool is a market intelligence engine that automates the discovery and analysis of a company's Total Addressable Market (TAM) and models user search behavior. It moves beyond traditional, static keyword analysis by creating a dynamic, queryable model of a market's structure, intent, and competitive forces.
