@@ -1,0 +1,13 @@
+Hey Tom,
+
+Thanks for getting back to me! I figured you might have some NVIDIA-specific insights given your work there. Since you mentioned not being deep into dataset repos, I wanted to share a couple resources I've found useful in our work with large-scale data analysis:
+
+1. The Google Dataset Search (https://datasetsearch.research.google.com) has been great for discovering public datasets
+2. Kaggle's dataset collection often has interesting niche datasets (https://www.kaggle.com/datasets)
+
+We've been working on some interesting keyword clustering and analysis pipelines here - actually using some CUDA-accelerated NLP processing that I suspect your team at NVIDIA would appreciate. The performance gains from GPU-accelerated text processing have been game-changing for our workflows.
+
+If you ever want to compare notes on GPU-optimized data processing or have recommendations for tools in that space, I'd love to hear your thoughts. Always looking to learn from folks working at the cutting edge!
+
+Best,
+Alejo

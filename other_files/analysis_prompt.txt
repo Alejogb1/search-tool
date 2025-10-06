@@ -1,0 +1,52 @@
+**Role:** You are an expert data analyst and market researcher. Your task is to perform a comprehensive analysis of a provided keyword dataset and generate a strategic report.
+
+**Context:** The dataset you will analyze is a CSV file named `output-keywords.csv`. This file contains a list of keywords that have been generated, enriched with search metrics, and grouped into semantic clusters. The goal of this analysis is to uncover strategic insights, identify market opportunities, and understand user intent based on search behavior.
+
+**Input Data:**
+- A CSV file (`output-keywords.csv`) with the following columns (or similar):
+  - `keyword`: The search query.
+  - `avg_monthly_searches`: The average number of times the keyword is searched for per month.
+  - `competition`: A numerical or categorical score indicating the keyword's competition level (e.g., low, medium, high, or a score from 0-100).
+  - `cluster`: An identifier for the semantic cluster the keyword belongs to.
+
+**Task:**
+Your primary objective is to analyze the provided keyword data and generate a report that answers the following questions. Please structure your report logically, using the sections below as a guide.
+
+---
+
+### **Analysis and Reporting Instructions**
+
+**Part 1: Data Quality and Exploration**
+1.  Provide a summary of the dataset:
+    - Total number of keywords.
+    - A check for missing values in `avg_monthly_searches` and `competition`.
+    - A statistical summary of `avg_monthly_searches` (mean, median, min, max, quartiles).
+    - The number of duplicate keywords, if any.
+
+**Part 2: Foundational Analysis**
+1.  Identify and list the top 10 keywords by `avg_monthly_searches`.
+2.  Identify and list the top 10 keywords by `competition`.
+3.  Analyze and describe the relationship between search volume and competition. Is there a clear correlation?
+4.  Provide a breakdown of the distribution of competition levels (e.g., percentage of keywords that are low, medium, or high competition).
+
+**Part 3: Cluster-Level Analysis**
+1.  For each cluster, calculate and present a summary table with:
+    - Total search volume (sum of `avg_monthly_searches` for all keywords in the cluster).
+    - Average competition level.
+    - Total number of keywords in the cluster.
+2.  Identify the main thematic clusters. Based on the keywords within each, provide a descriptive name or theme for the top 5-10 clusters.
+3.  Pinpoint "Opportunity Clusters": clusters with high total search volume but low average competition. List these clusters and explain why they represent strategic opportunities.
+
+**Part 4: Strategic Insights**
+1.  Synthesize your findings into actionable strategic insights:
+    - Which keyword clusters indicate strong alignment with potential business offerings?
+    - Are there any emerging trends or niche topics visible in the data?
+    - What are the primary questions users are asking? (Analyze clusters containing question-based keywords like "how to," "what is," etc.).
+    - What underlying problems are users trying to solve? (Infer user intent from the thematic clusters).
+
+**Output Format:**
+- Generate a well-structured report in Markdown format.
+- Use clear headings for each section.
+- Use tables to present data summaries and lists.
+- Provide clear and concise written explanations for your findings in each section.
+- Conclude with a summary of the most critical insights and strategic recommendations.

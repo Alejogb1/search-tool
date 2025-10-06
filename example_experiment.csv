@@ -1,0 +1,6 @@
+date,session_id,phase,domain,task_description,duration_minutes,qe_earned,mve_met_today,current_streak,accolades_unlocked,subjective_motivation_10,notes
+2025-08-01,2025-08-01_1,A1,PY-CERT,"Started module on regression",50,0,0,0,,6,"Felt slow, hard to start."
+2025-08-15,2025-08-15_1,B,PROJ-C,"Refactored login component",25,100,1,16,,8,"Good start to the day."
+2025-08-15,2025-08-15_2,B,PROJ-C,"Fixed bug from last week",25,100,1,16,REVENGE,8,"Felt great to finally fix that."
+2025-08-15,2025-08-15_3,B,PY-CERT,"Read chapter on decision trees",30,120,1,16,,8,"Met MVE, good stopping point."
+2025-08-16,2025-08-16_1,B,PROJ-C,"Planned next feature",25,100,0,0,,4,"Tough day, no energy. Broke the streak."

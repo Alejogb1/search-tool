@@ -1,0 +1,1517 @@
+Title: Asprova Advanced Planning and Scheduling (APS) | Production Scheduling System
+
+URL Source: https://www.asprova.com/en/asprova.html
+
+Markdown Content:
+Asprova is an Advanced Planning & Scheduling (APS) system that creates production schedules at high speed for multiple items and multiple processes, fully integrating sales, manufacturing, inventory and purchase plans.
+
+**[Learn More](https://www.asprova.com/en/overview/)**
+
+Introduction Video
+------------------
+
+[Introduction of Asprova (about 14 minutes).](https://www.asprova.com/en/asprova/introvideo.html)
+
+[![Image 1: Asprova Flexible User Interface](https://www.asprova.com/en/wp-content/uploads/images/topimage.jpg)](https://www.asprova.com/en/wp-content/uploads/images/topimage.jpg)
+
+Core benefits
+-------------
+
+Asprova empowers you to achieve your business goals and increase company profit through the following core benefits:
+
+*   [Visual management](https://www.asprova.com/en/asprova/visual_management.html)
+*   [Inventory reduction](https://www.asprova.com/en/asprova/inventory_reduction.html)
+*   [Lead time reduction](https://www.asprova.com/en/asprova/lead_time_reduction.html)
+*   Increased throughput
+*   Improved customer service
+
+For details on the relationships between these benefits, company profit, and Asprova’s features, see the [Virtual Cycle of Profit Increase](https://www.asprova.com/en/wp-content/uploads/profit_increase_cycle.html).
+
+Market share and install base
+-----------------------------
+
+Asprova was originally developed in Japan, where Asprova is overwhelmingly the most widely used production scheduling system, with a market share of 52.4%. (According to Techno Systems Research Co.,Ltd Report 2011)
+
+So many of Japan’s leading manufacturers use Asprova that Asprova has come to be thought of by many as a crystallization of Japan’s manufacturing know-how, hence our motto “Join the WINNERS”.
+
+Now Asprova is supported in more than eighteen countries, is available in seven languages, and is in use by more than 1000 users worldwide in a wide range of fields.
+
+See our [Customers](https://www.asprova.com/en/case-studies/) page for details on Asprova customers and case studies by industry.
+
+Asprova main user introduction(Japan&Oversea)
+---------------------------------------------
+
+Asprova has a main user introduction results 1601 in Japan and 447 Overseas(by Jan,2015)
+
+The graph of the rate of the Manufacturing types of the Asprova users
+---------------------------------------------------------------------
+
+[![Image 2](https://www.asprova.com/en/wp-content/plugins/lazy-load/images/1x1.trans.gif)](https://www.asprova.com/en/wp-content/uploads/asprova/img/usertyperategraph.jpg)
+
+Awards
+------
+
+Asprova has received numerous awards both in Japan and internationally.
+
+![Image 3](https://www.asprova.com/en/wp-content/plugins/lazy-load/images/1x1.trans.gif) March 2013 Chinese manufacturing industry informatization excellent recommended products
+
+![Image 4](https://www.asprova.com/en/wp-content/plugins/lazy-load/images/1x1.trans.gif) March 2013 The Gold Medal at Automation Fair in Poland
+
+![Image 5](https://www.asprova.com/en/wp-content/plugins/lazy-load/images/1x1.trans.gif) May 2011 Industrial practice awards
+
+[Japan Industrial Management Association]
+
+![Image 6](https://www.asprova.com/en/wp-content/plugins/lazy-load/images/1x1.trans.gif) Jan 2011 China business software manufacturing field Top10
+
+![Image 7](https://www.asprova.com/en/wp-content/plugins/lazy-load/images/1x1.trans.gif) Dec 2009 Chinese business software Top10 in SCM field 2009
+
+[Chinese Business Software Award Conference]
+
+![Image 8](https://www.asprova.com/en/wp-content/plugins/lazy-load/images/1x1.trans.gif) Sep 2009 Scheduling Society Technology Awards 2009
+
+[Scheduling Society]
+
+![Image 9](https://www.asprova.com/en/wp-content/plugins/lazy-load/images/1x1.trans.gif) Nov 2007 KURUMAE Venture Awards 2007
+
+[Tokyo Institute of Technology]
+![Image 10](https://www.asprova.com/en/wp-content/plugins/lazy-load/images/1x1.trans.gif) Feb 2007 Japan Venture Awards
+
+[presented by the Ministry of Economy,Trade and Industry of the Japanese Government]
+![Image 11](https://www.asprova.com/en/wp-content/plugins/lazy-load/images/1x1.trans.gif) Nov 2000 Best Manufacturing Management System/Product
+
+[The Official CIM 2000 Awards in UK]
+![Image 12](https://www.asprova.com/en/wp-content/plugins/lazy-load/images/1x1.trans.gif) Apr 2000 12th Annual Small and Medium Enterprise Excellent New Technology – New Product Prize
+
+[The Asahi Bank Foundation For Small And Medium Enterprise Promotion / The Nikkan Kogyo Newspaper]
+![Image 13](https://www.asprova.com/en/wp-content/plugins/lazy-load/images/1x1.trans.gif) Oct 1999 Software Product of the Year 1999
+
+[Software Information Council]
+![Image 14](https://www.asprova.com/en/wp-content/plugins/lazy-load/images/1x1.trans.gif) Jun 1996 4th Annual Small and Medium Enterprise New Frontier Prize
+
+[Japan Industrial Newspaper]
+
+Title: SkyPlanner APS - Production planning with artificial intelligence
+
+URL Source: https://skyplanner.ai/
+
+Markdown Content:
+Production scheduling with artificial intelligence - SkyPlanner APS
+
+===============
+[Skip to content](https://skyplanner.ai/#content "Skip to content")
+
+[![Image 12: SkyPlanner](https://cdn.shortpixel.ai/spai/ret_img/skyplanner.ai/wp-content/uploads/2022/05/Skyplanner-logo-1.svg)](https://skyplanner.ai/)
+
+Menu
+
+Menu
+
+*   [Product](https://skyplanner.ai/ai-features/)
+    *   [Features](https://skyplanner.ai/ai-features/)
+    *   [Solutions](https://skyplanner.ai/solutions/)
+    *   [Integrations](https://skyplanner.ai/integrations/)
+
+*   [Services](https://skyplanner.ai/assisted-onboarding-services/)
+    *   [Assisted onboarding services](https://skyplanner.ai/assisted-onboarding-services/)
+    *   [Integration services](https://skyplanner.ai/integrations/)
+    *   [Customization services](https://skyplanner.ai/customization-services/)
+
+*   [Pricing](https://skyplanner.ai/pricing/)
+*   [Videos](https://skyplanner.ai/videos/)
+*   [Company](https://skyplanner.ai/about-us "company-title")
+    *   [About us](https://skyplanner.ai/about-us/)
+    *   [Contact](https://skyplanner.ai/contact-sales/)
+    *   [Become a SkyPlanner partner](https://skyplanner.ai/become-a-skyplanner-partner/)
+
+*   [Docs](https://skyplanner.ai/docs/)
+
+Menu
+
+*   [Get started for free!](https://skyplanner.ai/trial)
+*   [![Image 13](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png)English](https://skyplanner.ai/ "Switch to English")
+    *   [![Image 15](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/fi.png)Suomi](https://skyplanner.ai/fi/ "Switch to Suomi")
+    *   [![Image 17](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/cs.png)Čeština](https://skyplanner.ai/cs/ "Switch to Čeština")
+    *   [![Image 19](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/da.png)Dansk](https://skyplanner.ai/da/ "Switch to Dansk")
+    *   [![Image 21](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png)Deutsch](https://skyplanner.ai/de/ "Switch to Deutsch")
+    *   [![Image 23](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png)Español](https://skyplanner.ai/es/ "Switch to Español")
+    *   [![Image 25](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/et.png)Eesti](https://skyplanner.ai/et/ "Switch to Eesti")
+    *   [![Image 27](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png)Français](https://skyplanner.ai/fr/ "Switch to Français")
+    *   [![Image 29](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/it.png)Italiano](https://skyplanner.ai/it/ "Switch to Italiano")
+    *   [![Image 31](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/lv.png)Latviešu](https://skyplanner.ai/lv/ "Switch to Latviešu")
+    *   [![Image 33](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/lt.png)Lietuvių](https://skyplanner.ai/lt/ "Switch to Lietuvių")
+    *   [![Image 35](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/hu.png)Magyar](https://skyplanner.ai/hu/ "Switch to Magyar")
+    *   [![Image 37](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/nl.png)Nederlands](https://skyplanner.ai/nl/ "Switch to Nederlands")
+    *   [![Image 39](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/pl.png)Polski](https://skyplanner.ai/pl/ "Switch to Polski")
+    *   [![Image 41](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/pt-pt.png)Português](https://skyplanner.ai/pt-pt/ "Switch to Português")
+    *   [![Image 43](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/pt-br.png)Português](https://skyplanner.ai/pt-br/ "Switch to Português")
+    *   [![Image 45](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/sk.png)Slovenčina](https://skyplanner.ai/sk/ "Switch to Slovenčina")
+    *   [![Image 47](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/sl.png)Slovenščina](https://skyplanner.ai/sl/ "Switch to Slovenščina")
+    *   [![Image 49](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/sv.png)Svenska](https://skyplanner.ai/sv/ "Switch to Svenska")
+    *   [![Image 51](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/tr.png)Türkçe](https://skyplanner.ai/tr/ "Switch to Türkçe")
+    *   [![Image 53](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/zh.png)简体中文](https://skyplanner.ai/zh-hans/ "Switch to 简体中文")
+    *   [![Image 55](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/id.png)Indonesia](https://skyplanner.ai/id/ "Switch to Indonesia")
+    *   [![Image 57](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/ja.png)日本語](https://skyplanner.ai/ja/ "Switch to 日本語")
+    *   [![Image 59](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/ar.png)العربية](https://skyplanner.ai/ar/ "Switch to العربية")
+    *   [![Image 61](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/el.png)Ελληνικά](https://skyplanner.ai/el/ "Switch to Ελληνικά")
+    *   [![Image 63](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/ko.png)한국어](https://skyplanner.ai/ko/ "Switch to 한국어")
+    *   [![Image 65](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/no.png)Norsk bokmål](https://skyplanner.ai/no/ "Switch to Norsk bokmål")
+    *   [![Image 67](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/ro.png)Română](https://skyplanner.ai/ro/ "Switch to Română")
+    *   [![Image 69](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/uk.png)Українська](https://skyplanner.ai/uk/ "Switch to Українська")
+
+Production scheduling software with AI
+======================================
+
+Skyplanner APS is an automated software for production scheduling, planning, and finite capacity scheduling. SkyPlanner's built-in AI optimizes the production of a factory in seconds. Finally, it's time to say goodbye to spreadsheets and manual production planning.
+
+[Start free with Google](https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=290427695915-chpp0q9ad9d5e7sad7lcpqqejai77pab.apps.googleusercontent.com&redirect_uri=https://skyplanner.app/new-customer-google&state&scope=email%20profile&approval_prompt=auto)[Start free with Microsoft](https://login.microsoftonline.com/common/oauth2/v2.0/authorize?state=microsoft&client_id=129e325f-c8b2-44da-b8c6-543aeaa04b34&response_type=code&scope=https://graph.microsoft.com/user.read&redirect_uri=https://skyplanner.app/new-customer-outlook)[Get started for free](https://skyplanner.ai/trial/)
+
+[Book a free demo](https://skyplanner.ai/contact-sales/)
+
+[Download brochure](https://skyplanner.ai/get-started/)
+
+![Image 71: SkyPlanner APS - Production planning and scheduling product image straight view](https://cdn.shortpixel.ai/spai/q_lossy+w_408+h_273+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/06/Production-planning-Straight-PNG-1-2048x1370.png)
+
+Trusted by the biggest names in the industry
+--------------------------------------------
+
+![Image 73](https://cdn.shortpixel.ai/spai/q_lossy+w_157+h_59+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/03/Tuoteikoni_Nova.png)
+
+![Image 75](https://cdn.shortpixel.ai/spai/q_lossy+w_190+h_35+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/03/mycashflow_logo_2021.png)
+
+![Image 77](https://cdn.shortpixel.ai/spai/q_lossy+w_157+h_59+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/03/Tuoteikoni_Nova.png)
+
+![Image 79](https://cdn.shortpixel.ai/spai/q_lossy+w_190+h_35+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/03/mycashflow_logo_2021.png)
+
+![Image 81](https://cdn.shortpixel.ai/spai/q_lossy+w_157+h_59+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/03/Tuoteikoni_Nova.png)
+
+![Image 83](https://cdn.shortpixel.ai/spai/q_lossy+w_190+h_35+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/03/mycashflow_logo_2021.png)
+
+![Image 85](https://cdn.shortpixel.ai/spai/q_lossy+w_1056+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/04/205c964dfd623a7567c1c95b18b02b94.png)
+
+Production scheduling software with AI
+======================================
+
+Skyplanner APS is an automated software for production scheduling, planning and finite capacity scheduling. SkyPlanner's built-in AI optimizes the production of a factory in seconds. Finally it's time to say goodbye to spreadsheets and manual production planning.
+
+[Start free with Google](https://accounts.google.com/o/oauth2/v2/auth?response_type=code&access_type=online&client_id=290427695915-chpp0q9ad9d5e7sad7lcpqqejai77pab.apps.googleusercontent.com&redirect_uri=https://skyplanner.app/new-customer-google&state&scope=email%20profile&approval_prompt=auto)[Start free with Microsoft](https://login.microsoftonline.com/common/oauth2/v2.0/authorize?state=microsoft&client_id=129e325f-c8b2-44da-b8c6-543aeaa04b34&response_type=code&scope=https://graph.microsoft.com/user.read&redirect_uri=https://skyplanner.app/new-customer-outlook)[Get started for free!](https://skyplanner.ai/trial/)
+
+[Book a free demo](https://skyplanner.ai/contact-sales/)
+
+[Download brochure](https://skyplanner.ai/get-started/)
+
+Trusted by the biggest names in industry
+----------------------------------------
+
+![Image 87](https://cdn.shortpixel.ai/spai/q_lossy+w_157+h_59+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/03/Tuoteikoni_Nova.png)
+
+![Image 89](https://cdn.shortpixel.ai/spai/q_lossy+w_230+h_43+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/03/mycashflow_logo_2021.png)
+
+![Image 91](https://cdn.shortpixel.ai/spai/q_lossy+w_157+h_59+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/03/Tuoteikoni_Nova.png)
+
+![Image 93: SkyPlanner APS Logo AI](https://cdn.shortpixel.ai/spai/q_lossy+w_1162+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/05/Website-Featured-image-1.png)
+
+**Our satisfied customers trust Skyplanner**
+
+![Image 95](https://cdn.shortpixel.ai/spai/q_lossy+w_230+h_230+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/svshocks-logo-blue-300x54-1.png)
+
+![Image 97](https://cdn.shortpixel.ai/spai/q_lossy+w_230+h_230+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/Axer-2.webp)
+
+![Image 99](https://cdn.shortpixel.ai/spai/q_lossy+w_108+h_108+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/saajos.webp)
+
+![Image 101](https://cdn.shortpixel.ai/spai/q_lossy+w_143+h_143+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-pisko.png)
+
+![Image 103](https://cdn.shortpixel.ai/spai/q_lossy+w_143+h_143+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-paakkilan.png)
+
+![Image 105](https://cdn.shortpixel.ai/spai/q_lossy+w_157+h_157+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-kjh.png)
+
+![Image 107](https://cdn.shortpixel.ai/spai/q_lossy+w_157+h_106+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-opes.png)
+
+![Image 109](https://cdn.shortpixel.ai/spai/q_lossy+w_173+h_173+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-mamec.png)
+
+![Image 111](https://cdn.shortpixel.ai/spai/w_209+h_209+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-kroger.svg)
+
+![Image 113](https://cdn.shortpixel.ai/spai/q_lossy+w_190+h_190+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-kaskea.png)
+
+![Image 115](https://cdn.shortpixel.ai/spai/w_230+h_230+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-fredman.svg)
+
+![Image 117](https://cdn.shortpixel.ai/spai/q_lossy+w_230+h_230+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-eskomatic.png)
+
+![Image 119](https://cdn.shortpixel.ai/spai/q_lossy+w_230+h_230+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-dekotel.png)
+
+![Image 121](https://cdn.shortpixel.ai/spai/w_230+h_230+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-amphenol.svg)
+
+![Image 123](https://cdn.shortpixel.ai/spai/q_lossy+w_230+h_230+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-tikkakosken.png)
+
+![Image 125](https://cdn.shortpixel.ai/spai/q_lossy+w_108+h_105+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/lataus.jpg)
+
+![Image 127](https://cdn.shortpixel.ai/spai/q_lossy+w_230+h_230+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-power_tech_group.png)
+
+![Image 129](https://cdn.shortpixel.ai/spai/q_lossy+w_230+h_230+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/svshocks-logo-blue-300x54-1.png)
+
+![Image 131](https://cdn.shortpixel.ai/spai/q_lossy+w_230+h_230+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/Axer-2.webp)
+
+![Image 133](https://cdn.shortpixel.ai/spai/q_lossy+w_108+h_108+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/saajos.webp)
+
+![Image 135](https://cdn.shortpixel.ai/spai/q_lossy+w_143+h_143+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-pisko.png)
+
+![Image 137](https://cdn.shortpixel.ai/spai/q_lossy+w_143+h_143+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-paakkilan.png)
+
+![Image 139](https://cdn.shortpixel.ai/spai/q_lossy+w_157+h_157+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-kjh.png)
+
+![Image 141](https://cdn.shortpixel.ai/spai/q_lossy+w_157+h_106+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-opes.png)
+
+![Image 143](https://cdn.shortpixel.ai/spai/q_lossy+w_173+h_173+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-mamec.png)
+
+![Image 145](https://cdn.shortpixel.ai/spai/w_209+h_209+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-kroger.svg)
+
+![Image 147](https://cdn.shortpixel.ai/spai/q_lossy+w_190+h_190+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-kaskea.png)
+
+![Image 149](https://cdn.shortpixel.ai/spai/w_230+h_230+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-fredman.svg)
+
+![Image 151](https://cdn.shortpixel.ai/spai/q_lossy+w_230+h_230+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-eskomatic.png)
+
+![Image 153](https://cdn.shortpixel.ai/spai/q_lossy+w_230+h_230+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-dekotel.png)
+
+![Image 155](https://cdn.shortpixel.ai/spai/w_230+h_230+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-amphenol.svg)
+
+![Image 157](https://cdn.shortpixel.ai/spai/q_lossy+w_230+h_230+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-tikkakosken.png)
+
+![Image 159](https://cdn.shortpixel.ai/spai/q_lossy+w_108+h_105+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/lataus.jpg)
+
+![Image 161](https://cdn.shortpixel.ai/spai/q_lossy+w_230+h_230+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-power_tech_group.png)
+
+![Image 163](https://cdn.shortpixel.ai/spai/q_lossy+w_230+h_230+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/svshocks-logo-blue-300x54-1.png)
+
+![Image 165](https://cdn.shortpixel.ai/spai/q_lossy+w_230+h_230+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/Axer-2.webp)
+
+![Image 167](https://cdn.shortpixel.ai/spai/q_lossy+w_108+h_108+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/saajos.webp)
+
+![Image 169](https://cdn.shortpixel.ai/spai/q_lossy+w_143+h_143+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-pisko.png)
+
+![Image 171](https://cdn.shortpixel.ai/spai/q_lossy+w_143+h_143+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/01/logo-paakkilan.png)
+
+#### **Industries**
+
+**Metal**
+
+**Electronics**
+
+**Printing**
+
+**Plastics**
+
+**Pharmaceuticals**
+
+**Clothing**
+
+**Food**
+
+**Chemicals**
+
+**Wood**
+
+**Construction**
+
+**Automotive**
+
+### **Integrate to any ERP**
+
+SkyPlanner is designed to seamlessly integrate with all ERP and MES systems, as well as other software applications.
+
+![Image 173](https://cdn.shortpixel.ai/spai/q_lossy+w_67+h_34+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2023/12/logo-sap.png)
+
+![Image 175](https://cdn.shortpixel.ai/spai/q_lossy+w_67+h_34+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2025/02/logo-dynamics.png)
+
+![Image 177](https://cdn.shortpixel.ai/spai/q_lossy+w_67+h_34+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2023/12/logo-odoo.png)
+
+![Image 179](https://cdn.shortpixel.ai/spai/q_lossy+w_67+h_34+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2023/12/logo-infor.png)
+
+![Image 181](https://cdn.shortpixel.ai/spai/q_lossy+w_67+h_34+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2023/12/logo-epicor.png)
+
+![Image 183](https://cdn.shortpixel.ai/spai/q_lossy+w_67+h_34+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2023/12/logo-quickbooks.png)
+
+![Image 185](https://cdn.shortpixel.ai/spai/q_lossy+w_67+h_34+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2023/12/logo-sage.png)
+
+![Image 187](https://cdn.shortpixel.ai/spai/q_lossy+w_67+h_34+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2023/12/logo-monday.png)
+
+![Image 189](https://cdn.shortpixel.ai/spai/q_lossy+w_67+h_34+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2023/12/logo-google_sheets.png)
+
+![Image 191](https://cdn.shortpixel.ai/spai/q_lossy+w_67+h_34+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2023/12/logo-solidworks.png)
+
+![Image 193](https://cdn.shortpixel.ai/spai/q_lossy+w_67+h_34+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2023/12/logo-siemens.png)
+
+![Image 195: MRPeasy](https://cdn.shortpixel.ai/spai/q_lossy+w_67+h_16+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2023/12/Frame-122.png)
+
+[See all integrations](https://skyplanner.ai/integrations/)
+
+We call him Arcturus.
+---------------------
+
+SkyPlanner APS has built-in artificial intelligence that calculates complex production plans in seconds. We know him as Arcturus. Arcturus will seamlessly connect production data from your [ERP](https://skyplanner.ai/resources/what-is-erp/) or [MES system](https://skyplanner.ai/resources/mes-system-what-it-is-and-what-it-does/) to priorities set by production planners. The AI in SkyPlanner APS reacts to continuous changes in production and keeps production optimized. Just like a GPS navigator calculates a route.
+
+#### Arcturus AI and production scheduling
+
+The AI in SkyPlanner APS is designed to calculate the most optimal production plan fast. It also maintains production on an optimal level while reacting to changes automatically. Arcturus tells us in which order the tasks in a factory should be completed based on production data from your ERP system, the capacity of workstations, time logging, materials, set priorities, etc.
+
+![Image 197](https://cdn.shortpixel.ai/spai/w_542+h_315+ret_img/skyplanner.ai/wp-content/uploads/2022/05/Arcturus-AI-card-image.svg)
+
+#### Humans guiding AI
+
+Humans can easily limit and free up the power of Arcturus AI when needed. Humans set goals and priorities that the AI takes into account in the production scheduling process. Guiding Arcturus AI is fast and easy through a modern user interface. This means that when humans are using AI, they won’t stop thinking, but they actually start thinking.
+
+![Image 199](https://cdn.shortpixel.ai/spai/w_542+h_315+ret_img/skyplanner.ai/wp-content/uploads/2022/05/How-Skyplanner-works-card-image.svg)
+
+#### How Skyplanner can help
+
+SkyPlanner APS ensures that your facility works to its fullest capacity. Factories that are using SkyPlanner APS save an enormous amount of time and resources. Optimizing production plans after every single change can be frustrating and inefficient.
+
+Book a demo and see how SkyPlanner APS can help you.
+
+![Image 201](https://cdn.shortpixel.ai/spai/w_542+h_315+ret_img/skyplanner.ai/wp-content/uploads/2022/05/How-Skyplanner-can-help-card-image.svg)
+
+Organize all production steps with one single click
+---------------------------------------------------
+
+Changes occur all the time in industrial production. Machine malfunctions, changes in [lead times](https://skyplanner.ai/resources/how-to-optimize-lead-time-in-manufacturing/), changes in material availability, and priority orders happen daily in production. SkyPlanner’s built-in Arcturus AI addresses all issues with production scheduling and personnel in a matter of seconds. Welcome to the future of manufacturing.
+
+### SkyPlanner APS features
+
+#### Visual planning on Gantt timeline 
+
+![Image 203](https://skyplanner.ai/)
+
+Track your production process easily from a clean and visual view. You will see all the relevant information all the way to the delivery phase from SkyPlanner’s Scheduling view.
+
+[Get started for free](https://skyplanner.ai/trial/)[Read more](https://skyplanner.ai/ai-features/)
+
+[Book a free demo](https://skyplanner.ai/contact-sales/)
+
+[Download brochure](https://skyplanner.ai/get-started/)
+
+![Image 204: SkyPlanner APS - Production planning and scheduling view](https://cdn.shortpixel.ai/spai/q_lossy+w_1056+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/06/Production-planning-Tilted-PNG-2048x1175.png)
+
+#### Shift planning and scheduling 
+
+![Image 206](https://skyplanner.ai/)
+
+SkyPlanner’s intuitive calendar view and shift planning help you distribute resources to the right place. Manage capacities and resources more accurately with SkyPlanner’s Shift planning.
+
+[Get started for free](https://skyplanner.ai/trial/)[Read more](https://skyplanner.ai/ai-features/)
+
+[Book a free demo](https://skyplanner.ai/contact-sales/)
+
+[Download brochure](https://skyplanner.ai/get-started/)
+
+![Image 207](https://cdn.shortpixel.ai/spai/q_lossy+w_1056+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/05/Tilted-old-scheduling-1.png)
+
+#### Production chains in multiple facilities 
+
+![Image 209](https://skyplanner.ai/)
+
+With SkyPlanner’s help, you are able to manage phase chains more efficiently than ever. Connect multiple factories or subcontractors and organize your complete production process.
+
+[Get started for free](https://skyplanner.ai/trial/)[Read more](https://skyplanner.ai/ai-features/)
+
+[Book a free demo](https://skyplanner.ai/contact-sales/)
+
+[Download brochure](https://skyplanner.ai/get-started/)
+
+![Image 210](https://cdn.shortpixel.ai/spai/q_lossy+w_1056+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/05/Tilted-old-production-chains-1-2048x1334.png)
+
+#### Time logging in real-time 
+
+![Image 212](https://skyplanner.ai/)
+
+Production staff can log time to different tasks with SkyPlanner’s easy-to-use time-logging view. All logs are also visible on the Gantt timeline in real-time, making it effortless to stay on track with production.
+
+[Get started for free](https://skyplanner.ai/trial/)[Read more](https://skyplanner.ai/ai-features/)
+
+[Book a free demo](https://skyplanner.ai/contact-sales/)
+
+[Download brochure](https://skyplanner.ai/get-started/)
+
+![Image 213](https://cdn.shortpixel.ai/spai/q_lossy+w_1056+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/05/Tilted-old-real-time-logging-1.png)
+
+![Image 215: SkyPlanner APS - Production planning and scheduling product image straight view](https://cdn.shortpixel.ai/spai/q_lossy+w_408+h_273+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/06/Production-planning-Straight-PNG-1-2048x1370.png)![Image 217: SkyPlanner APS - Capacity and resource management](https://cdn.shortpixel.ai/spai/q_lossy+w_1056+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/06/Shift-planning-Straight-PNG-2048x1370.png)![Image 219: SkyPlanner APS production planning eco system](https://cdn.shortpixel.ai/spai/q_lossy+w_1056+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/06/Production-chain-Straight-PNG-1-2048x1434.png)![Image 221: SkyPlanner Advanced Planning and Scheduling Real time logging](https://cdn.shortpixel.ai/spai/q_lossy+w_1056+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/06/Time-logging-Straight-PNG-2048x1370.png)
+
+[All features](https://skyplanner.ai/ai-features/)
+
+### Request a meeting to see SkyPlanner APS in action
+
+#### Request a meeting to see SkyPlanner APS in action
+
+Companies and their processes are never a carbon copy of each other and shouldn’t be. That’s why SkyPlanner APS has endless customization possibilities. Request a meeting to see how SkyPlanner APS would work specifically for your company.
+
+[Get started for free](https://skyplanner.ai/trial/)[Book a free demo](https://skyplanner.ai/contact-sales/)
+
+![Image 223: SkyPlanner APS - Request a meeting to see SkyPlanner in action](https://cdn.shortpixel.ai/spai/q_lossy+w_794+h_961+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/06/Production-planning-Layers-PNG-1692x2048.png)
+
+New innovations to solve old problems
+-------------------------------------
+
+Manufacturing environments have operated using manual work and human logic for decades. Despite spending endless hours moving tasks around on a spreadsheet, our production still did not run efficiently. SkyPlanner’s Arcturus AI decreases the opportunity for human error and optimizes production plans in seconds. This way, your factory operates more efficiently, and the reliability of deliveries increases.
+
+### SkyPlanner APS solves production scheduling problems
+
+![Image 225](https://cdn.shortpixel.ai/spai/w_81+h_81+ret_img/skyplanner.ai/wp-content/uploads/2022/05/Etusivu-solutions-1.svg)
+
+##### Machines are not running at full capacity
+
+SkyPlanner APS optimizes a facility’s production to meet its fullest potential.
+
+![Image 227](https://cdn.shortpixel.ai/spai/w_81+h_81+ret_img/skyplanner.ai/wp-content/uploads/2022/05/Etusivu-solutions-3.svg)
+
+##### Changes in capacity
+
+SkyPlanner APS helps you cope with production stalls, sick leaves, overtime, and shift changes.
+
+![Image 229](https://cdn.shortpixel.ai/spai/w_81+h_81+ret_img/skyplanner.ai/wp-content/uploads/2022/05/Etusivu-solutions-2.svg)
+
+##### Products are often shipped late
+
+With the help of SkyPlanner APS, you can react to orders that are predicted to be delayed and prioritize tasks accordingly.
+
+![Image 231](https://cdn.shortpixel.ai/spai/w_81+h_81+ret_img/skyplanner.ai/wp-content/uploads/2022/05/Etusivu-solutions-4.svg)
+
+##### Co-operation issues with sub-contractors
+
+SkyPlanner APS helps you seamlessly operate with sub-contractors in the most optimal way.
+
+[Find a solution](https://skyplanner.ai/solutions/)
+
+![Image 233](https://cdn.shortpixel.ai/spai/w_794+h_657+ret_img/skyplanner.ai/wp-content/uploads/2022/03/card-1-1.svg)
+
+### Get the latest production planning tips and tricks delivered straight to your inbox.
+
+Subscribe to our monthly newsletter to receive the latest news on product development, tips, and other helpful information about SkyPlanner APS and production planning.
+
+[Subscribe](https://skyplanner.ai/contact-sales/)
+
+![Image 235](https://cdn.shortpixel.ai/spai/w_143+h_143+ret_img/skyplanner.ai/wp-content/uploads/2022/05/Etusivu-integraatiot-1.svg)
+
+Integration with every single ERP software
+------------------------------------------
+
+We have made it possible to get started with all ERP systems.
+
+SkyPlanner APS can be integrated into every single Enterprise resource planning software around the world. Here are a few ERP systems for which we already have an integration set up. If your ERP system is not on the list, don’t worry. SkyPlanner APS is integrable with any ERP system.
+
+[![Image 237](https://cdn.shortpixel.ai/spai/q_lossy+w_190+h_129+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/05/cgi-c9000.png)](https://www.cgi.com/fi/fi/tuoteratkaisut/c9000-toiminnanohjausjarjestelma)
+
+[![Image 239](https://cdn.shortpixel.ai/spai/q_lossy+w_209+h_80+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/05/Tuoteikoni_Nova-300x115-1.png)](https://www.visma.fi/nova/)
+
+[![Image 241](https://cdn.shortpixel.ai/spai/q_lossy+w_209+h_30+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/05/lemonsoft.png)](https://www.lemonsoft.fi/)
+
+[![Image 243](https://cdn.shortpixel.ai/spai/q_lossy+w_209+h_80+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/05/Tuoteikoni_VismanetERP-300x115-1.png)](https://www.visma.fi/vismanet/)
+
+#### And many more
+
+**Integrations**
+
+“Skyplanner has given us the ability to have our production lines continuously optimized and ensured that production times are as low as possible”
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Niko Ainali – Production manager, Liibalaaba Oy
+
+Play video
+
+A truly unique solution to production scheduling problems
+---------------------------------------------------------
+
+Imagine a production plant where every unit is constantly in use. Changes in shifts and manpower are instantly taken into account. Delays are calculated at all times to ensure your clients get their products on time.
+
+Now, it is possible.
+
+### Reasonable pricing for all-sized factories
+
+#### Reasonable pricing for all-sized factories
+
+Our pricing plan is designed to increase your profit margin – not eat it. SkyPlanner APS can also be customized to your company’s specific needs, turning it into an absolute production scheduling powerhouse.
+
+[Contact our sales team](https://skyplanner.ai/contact-sales/)
+
+Read and watch what our customers are saying!
+=============================================
+
+#### **Matti Järvinen**
+
+CEO, Factory Oy
+
+Skyplanner on mahdollistanut tehtaan käytön täydellä kapasiteetilla, ympäri vuorokauden. Muutoksien aiheuttamat viivästykset ovat historiaa Skyplannerin jatkuvan optimoinnin ansiosta, ja asiakastyytyväisyys on noussut huimasti.
+
+![Image 245](https://cdn.shortpixel.ai/spai/q_lossy+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/04/card-1.png)
+
+#### **Matti Järvinen**
+
+CEO, Factory Oy
+
+Skyplanner on mahdollistanut tehtaan käytön täydellä kapasiteetilla, ympäri vuorokauden. Muutoksien aiheuttamat viivästykset ovat historiaa Skyplannerin jatkuvan optimoinnin ansiosta, ja asiakastyytyväisyys on noussut huimasti.
+
+![Image 247](https://cdn.shortpixel.ai/spai/q_lossy+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/04/card-2.png)
+
+#### **Matti Järvinen**
+
+CEO, Factory Oy
+
+Skyplanner on mahdollistanut tehtaan käytön täydellä kapasiteetilla, ympäri vuorokauden. Muutoksien aiheuttamat viivästykset ovat historiaa Skyplannerin jatkuvan optimoinnin ansiosta, ja asiakastyytyväisyys on noussut huimasti.
+
+![Image 249](https://cdn.shortpixel.ai/spai/q_lossy+to_auto+ret_img/skyplanner.ai/wp-content/uploads/2022/04/card-3.png)
+
+All client stories
+
+![Image 251](https://cdn.shortpixel.ai/spai/w_230+h_44+ret_img/skyplanner.ai/wp-content/uploads/2022/05/Skyplanner-logo-white.svg)
+
+#### Contact sales
+
+Jussi Mäntylä
+
+[+358 40 700 0002](tel:+358407000002)
+
+[jussi@skycode.fi](mailto:jussi@skycode.fi)
+
+#### Product
+
+[Features](https://skyplanner.ai/features/)
+
+[Solutions](https://skyplanner.ai/solutions/)
+
+[Become a partner](https://skyplanner.ai/become-a-skyplanner-partner/)
+
+[Privacy policy](https://skyplanner.ai/privacy-policy/)
+
+#### Support
+
+[Free trial](https://skyplanner.ai/trial/)
+
+[Request a demo](https://skyplanner.ai/contact-sales/)
+
+[Contact sales](https://skyplanner.ai/contact-sales/)
+
+[Resources](https://skyplanner.ai/resources)
+
+[Videos](https://skyplanner.ai/videos/)
+
+#### Powered by Skycode Oy
+
+Rantakatu 2 G (11th floor)
+
+65100 Vaasa, Finland
+
+2204947-0
+
+[+358 40 700 0002](tel:+358407000002)
+
+[skycode.fi](http://www.skycode.fi/)
+
+* * *
+
+*   [Facebook](https://www.facebook.com/SkyPlanner-APS-Production-planning-scheduling-with-AI-105327365542079/)
+*   [LinkedIn](https://www.linkedin.com/company/skyplanner-aps/)
+
+ 2025 © Skycode Oy 
+
+Close
+
+*   [logo](https://skyplanner.ai/)
+*   [Home](https://skyplanner.ai/)
+*   [Product](https://skyplanner.ai/ai-features/)
+    *   [Features](https://skyplanner.ai/ai-features/)
+    *   [Solutions](https://skyplanner.ai/solutions/)
+    *   [Integrations](https://skyplanner.ai/integrations/)
+
+*   [Services](https://skyplanner.ai/customization-services/)
+    *   [Assisted onboarding services](https://skyplanner.ai/assisted-onboarding-services/)
+    *   [Integration services](https://skyplanner.ai/integrations/)
+    *   [Customization services](https://skyplanner.ai/customization-services/)
+
+*   [Pricing](https://skyplanner.ai/pricing/)
+*   [Videos](https://skyplanner.ai/videos/)
+*   [Company](https://skyplanner.ai/about-us/)
+    *   [About us](https://skyplanner.ai/about-us/)
+    *   [Contact](https://skyplanner.ai/contact-sales/)
+    *   [Become a SkyPlanner partner](https://skyplanner.ai/become-a-skyplanner-partner/)
+
+*   [Request a meeting](https://skyplanner.ai/contact-sales/)
+*   [Get started for free!](https://skyplanner.ai/trial)
+*   [![Image 253](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png)English](https://skyplanner.ai/ "Switch to English")
+    *   [![Image 255](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/fi.png)Suomi](https://skyplanner.ai/fi/ "Switch to Suomi")
+    *   [![Image 257](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/cs.png)Čeština](https://skyplanner.ai/cs/ "Switch to Čeština")
+    *   [![Image 259](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/da.png)Dansk](https://skyplanner.ai/da/ "Switch to Dansk")
+    *   [![Image 261](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png)Deutsch](https://skyplanner.ai/de/ "Switch to Deutsch")
+    *   [![Image 263](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png)Español](https://skyplanner.ai/es/ "Switch to Español")
+    *   [![Image 265](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/et.png)Eesti](https://skyplanner.ai/et/ "Switch to Eesti")
+    *   [![Image 267](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png)Français](https://skyplanner.ai/fr/ "Switch to Français")
+    *   [![Image 269](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/it.png)Italiano](https://skyplanner.ai/it/ "Switch to Italiano")
+    *   [![Image 271](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/lv.png)Latviešu](https://skyplanner.ai/lv/ "Switch to Latviešu")
+    *   [![Image 273](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/lt.png)Lietuvių](https://skyplanner.ai/lt/ "Switch to Lietuvių")
+    *   [![Image 275](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/hu.png)Magyar](https://skyplanner.ai/hu/ "Switch to Magyar")
+    *   [![Image 277](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/nl.png)Nederlands](https://skyplanner.ai/nl/ "Switch to Nederlands")
+    *   [![Image 279](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/pl.png)Polski](https://skyplanner.ai/pl/ "Switch to Polski")
+    *   [![Image 281](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/pt-pt.png)Português](https://skyplanner.ai/pt-pt/ "Switch to Português")
+    *   [![Image 283](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/pt-br.png)Português](https://skyplanner.ai/pt-br/ "Switch to Português")
+    *   [![Image 285](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/sk.png)Slovenčina](https://skyplanner.ai/sk/ "Switch to Slovenčina")
+    *   [![Image 287](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/sl.png)Slovenščina](https://skyplanner.ai/sl/ "Switch to Slovenščina")
+    *   [![Image 289](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/sv.png)Svenska](https://skyplanner.ai/sv/ "Switch to Svenska")
+    *   [![Image 291](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/tr.png)Türkçe](https://skyplanner.ai/tr/ "Switch to Türkçe")
+    *   [![Image 293](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/zh.png)简体中文](https://skyplanner.ai/zh-hans/ "Switch to 简体中文")
+    *   [![Image 295](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/id.png)Indonesia](https://skyplanner.ai/id/ "Switch to Indonesia")
+    *   [![Image 297](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/ja.png)日本語](https://skyplanner.ai/ja/ "Switch to 日本語")
+    *   [![Image 299](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/ar.png)العربية](https://skyplanner.ai/ar/ "Switch to العربية")
+    *   [![Image 301](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/el.png)Ελληνικά](https://skyplanner.ai/el/ "Switch to Ελληνικά")
+    *   [![Image 303](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/ko.png)한국어](https://skyplanner.ai/ko/ "Switch to 한국어")
+    *   [![Image 305](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/no.png)Norsk bokmål](https://skyplanner.ai/no/ "Switch to Norsk bokmål")
+    *   [![Image 307](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/ro.png)Română](https://skyplanner.ai/ro/ "Switch to Română")
+    *   [![Image 309](https://cdn.shortpixel.ai/spai/q_lossy+w_50+to_auto+ret_img/skyplanner.ai/wp-content/plugins/sitepress-multilingual-cms/res/flags/uk.png)Українська](https://skyplanner.ai/uk/ "Switch to Українська")
+
+![Image 312: Cookiebot session tracker icon loaded](https://cdn.shortpixel.ai/spai/q_lossy+w_1056+h_13250+to_auto+ret_img/imgsct.cookiebot.com/1.gif?dgi=11f68f6f-a0e8-4963-8a5a-7dbe776ffe18)
+
+![Image 313](https://bat.bing.com/action/0?ti=187024650&tm=gtm002&Ver=2&mid=1ae34f9f-67cb-4e28-8a5c-1c2a762cd844&bo=1&sid=0ce698c0a2c211f0918353b8eafb4645&vid=0ce680b0a2c211f08af339a6bcd7cbc4&vids=1&msclkid=N&gtm_tag_source=1&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&tl=Production%20scheduling%20with%20artificial%20intelligence%20-%20SkyPlanner%20APS&p=https%3A%2F%2Fskyplanner.ai%2F&r=&lt=2809&evt=pageLoad&sv=2&cdb=AQIR&rn=557820)
+
+Title: Quintiq
+
+URL Source: https://www.3ds.com/products/delmia/quintiq
+
+Published Time: 2023-02-06T18:55:00+0000
+
+Markdown Content:
+DELMIA Quintiq - Supply Chain Management Software | Dassault Systèmes
+
+===============
+
+![Image 1: Spinner: White decorative](https://cdn.userway.org/widgetapp/images/spin_wh.svg)
+
+![Image 2](https://cdn.userway.org/widgetapp/images/body_wh.svg)
+
+![Image 3: Spinner: White decorative](https://cdn.userway.org/widgetapp/images/spin_wh.svg)
+
+[![Image 4: (DELMIA)](https://www.3ds.com/assets/invest/logo/2025-02/delmia-black.png)](https://www.3ds.com/products/delmia)
+
+*   
+Featured Topics 
+    *   [Artificial Intelligence in Manufacturing & Supply Chain](https://www.3ds.com/products/delmia/artificial-intelligence-manufacturing-supply-chain)
+    *   [Augmented Reality for Manufacturing](https://www.3ds.com/products/delmia/augmented-reality-manufacturing)
+    *   [Future of Metals and Steel Manufacturing](https://www.3ds.com/products/delmia/future-metals-steel-manufacturing)
+    *   [Supply Chain Trends 2026](https://www.3ds.com/products/delmia/supply-chain-future)
+    *   [Sustainable Manufacturing](https://www.3ds.com/products/delmia/sustainable-manufacturing)
+    *   [Virtual Twin for Manufacturing](https://www.3ds.com/products/delmia/virtual-twin-manufacturing)
+
+*   
+Disciplines 
+    *   [Collaborative Operations](https://www.3ds.com/products/delmia/collaborative-operations)
+    *   [Industrial Engineering](https://www.3ds.com/products/delmia/industrial-engineering)
+    *   [Logistics & Workforce](https://www.3ds.com/products/delmia/logistics-workforce)
+    *   [Manufacturing & Operations](https://www.3ds.com/products/delmia/manufacturing-operations)
+    *   [Supply Chain Planning & Optimization](https://www.3ds.com/products/delmia/supply-chain-planning-optimization)
+
+*   
+More... 
+    *   Portfolio 
+        *   Portfolio
+        *   [All Products](https://www.3ds.com/products/delmia/portfolio)
+        *   [3DEXPERIENCE DELMIA](https://www.3ds.com/products/delmia/3dexperience)
+        *   [DELMIA Apriso](https://www.3ds.com/products/delmia/apriso)
+        *   [DELMIA Augmented Experience](https://www.3ds.com/products/delmia/augmented-experience)
+        *   [DELMIA Ortems](https://www.3ds.com/products/delmia/ortems)
+        *   [DELMIA Quintiq](https://www.3ds.com/products/delmia/quintiq)
+        *   [DELMIAWorks](https://www.3ds.com/products/delmia/delmiaworks)
+
+    *   Industry Solutions 
+        *   Industry Solutions
+        *   [Architecture, Engineering & Construction](https://www.3ds.com/products/delmia/architecture-engineering-construction)
+        *   [Aerospace & Defense](https://www.3ds.com/products/delmia/aerospace-defense)
+        *   [Business Services](https://www.3ds.com/products/delmia/business-services)
+        *   [Consumer Packaged Goods & Retail](https://www.3ds.com/products/delmia/consumer-packaged-goods-retail)
+        *   [High Tech](https://www.3ds.com/products/delmia/high-tech)
+        *   [Home & Lifestyle](https://www.3ds.com/products/delmia/home-lifestyle)
+        *   [Industrial Equipment](https://www.3ds.com/products/delmia/industrial-equipment)
+        *   [Infrastructure, Energy & Materials](https://www.3ds.com/products/delmia/infrastructure-energy-materials)
+        *   [Life Sciences & Healthcare](https://www.3ds.com/products/delmia/life-sciences-healthcare)
+        *   [Marine & Offshore](https://www.3ds.com/products/delmia/marine-offshore)
+        *   [Transportation & Mobility](https://www.3ds.com/products/delmia/transportation-mobility)
+
+    *   Communities 
+        *   Communities
+        *   [User Champions Program](https://www.3ds.com/products/delmia/champions-program)
+        *   [User Communities](https://www.3ds.com/products/delmia/user-communities)
+
+    *   Resources 
+        *   Resources
+        *   [Blogs](https://blog.3ds.com/brands/delmia/)
+        *   [Frequently Asked Questions](https://www.3ds.com/products/delmia/frequently-asked-questions)
+        *   [Glossary](https://www.3ds.com/products/delmia/glossary)
+        *   [Resource Center](https://www.3ds.com/products/delmia/resource-center)
+        *   [Analyst Insights](https://www.3ds.com/products/delmia/analysts-insight)
+
+*   [](https://www.3ds.com/ "Homepage")
+*   [Products](https://www.3ds.com/products "Products")
+*   [DELMIA](https://www.3ds.com/products/delmia "DELMIA")
+*   Quintiq
+
+*   [DELMIA](https://www.3ds.com/products/delmia)
+
+![Image 5: DELMIA Quintiq, supply chain planning & optimization > Dassault Systèmes](https://www.3ds.com/assets/invest/2023-02/delmia-quintiq-1920x696.jpg)
+
+DELMIA Quintiq
+==============
+
+Drive Continuous Improvements across the Supply Chain
+
+[Contact us](https://www.3ds.com/how-to-buy)
+
+[Visit DELMIA Planning & Optimization Community](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:F808hrMlRu6muF3FamipVQ)
+
+What is DELMIA Quintiq?
+-----------------------
+
+**DELMIA Quintiq** is a market leader in [supply chain planning](https://www.3ds.com/products/delmia/supply-chain-planning-optimization "Supply Chain Planning & Optimization ") and optimization. It provides organizations with end-to-end supply chain modeling solutions to balance operational and business goals, leveraging world record-breaking optimization technology. As with all DELMIA products, DELMIA Quintiq connects the virtual and real worlds so that organizations can create a **virtual twin of the supply chain**. Achieve supply chain optimization with DELMIA Quintiq, driving continuous improvement across the entire supply chain. Leveraging **Artificial Intelligence** (AI) and **Machine Learning**(ML), it delivers real-time visibility and collaborative synchronization across all planning and operations stakeholders within the organization and the extended value network. Manufacturers and service providers can plan and optimize any or all areas of their supply chain—from complex global production, detailed logistics and diverse workforce operations.
+
+DELMIA Quintiq supports **Planning & Scheduling of Manufacturing and the Supply Chain**, **Logistics** and the **Workforce**with key capabilities, such as predictive and prescriptive data analytics and forecasting. In addition, it provides unlimited what-if scenario and business-based KPI planning to enable agile decision-making and mitigate the impact of disruptions. With DELMIA Quintiq, manufacturing planners and organizations can build **resilient supply chains**to improve productivity and efficiency, ensure on-time delivery with shorter lead times and take advantage of opportunities for innovation and sustainable growth.
+
+Discover DELMIA Quintiq solutions for seven domains: Advanced Analytics for enhanced reporting & analysis, [Logistics Planning](https://www.3ds.com/products/delmia/quintiq/logistics-planning "Logistics Planning") for increased profitability, Optimized Supply Planning for performance efficiency, Production and [Sales & Operations Planning](https://www.3ds.com/products/delmia/quintiq/sales-operations "Sales & Operations Planning") for higher ROI, [Rail Planning](https://www.3ds.com/products/delmia/logistics-workforce/rail-planning-operations "Rail Planning & Operations") for higher service levels and, finally, [Workforce Scheduling](https://www.3ds.com/products/delmia/quintiq/workforce-planning "Workforce Planning") for employee productivity.
+
+Benefits of DELMIA Quintiq
+--------------------------
+
+![Image 6](https://www.3ds.com/assets/invest/2024-01/icon-294-supply-chain-monitoring.png)
+
+### Enhanced Supply Chain Efficiency
+
+By establishing a cohesive ecosystem that facilitates seamless collaboration among crucial external partners, cutting-edge technology introduces flexibility and resilience into supply chain optimization. This mitigates the adverse effects of disruptions, ensuring smooth operations and enabling manufacturers to sustain continuity across their supply chains.
+
+![Image 7](https://www.3ds.com/assets/invest/2024-01/icon-076-holistic.png)
+
+### Holistic Connectivity in Systems
+
+Utilizing the [**3D**EXPERIENCE platform](https://www.3ds.com/products/delmia/3dexperience "3DEXPERIENCE DELMIA"), you have the capability to link essential touchpoints across the manufacturing, engineering, sales and operations, and supply chain domains within a unified ecosystem. This ensures coordinated decision support for [Integrated Business Planning](https://www.3ds.com/products/delmia/supply-chain-planning-optimization/integrated-business-planning "Integrated Business Planning") and operations.
+
+![Image 8](https://www.3ds.com/assets/invest/2024-01/icon-355-data-optimization.png)
+
+### Advanced Optimization Technology
+
+DELMIA Quintiq is comprised of a synergy of five robust technologies: mathematical programming, constraint programming, path optimization algorithms, graph programming, and a proprietary configuration language.
+
+Key Features of DELMIA Quintiq
+------------------------------
+
+1.   **Advanced Planning and Optimization**
+
+ Utilizes advanced algorithms and optimization techniques to enhance planning processes, ensuring efficiency and cost-effectiveness.
+2.   **Real-time Decision Support**
+
+ Provides real-time insights and data analytics to support informed decision-making across various operational aspects.
+3.   **Visibility and Control**
+
+ Provides comprehensive visibility and control over various aspects of operations, allowing managers to monitor and manage processes in real-time.
+4.   **User-Friendly Interface**
+
+ Features an intuitive and user-friendly interface to facilitate easy navigation and use by planners, managers, and other users.
+5.   **KPI Monitoring**
+
+ Includes key performance indicator (KPI) monitoring and reporting tools to track and measure the success of planning and optimization efforts.
+6.   **Supply Chain Visibility**
+
+ Enhances supply chain visibility by tracking and managing the movement of goods, inventory levels, and production processes.
+
+DELMIA Quintiq Solutions
+------------------------
+
+![Image 9: DELMIA Quintiq Advanced Analytics > Dassault Systèmes](https://www.3ds.com/assets/invest/styles/card/public/2023-02/delmia-quintiq-advanced-analytics_1920x696.jpg.webp?itok=5BWyGCy8)
+
+DELMIA Quintiq
+
+Advanced Analytics
+
+Predictive Analytics Software for Greater Insight
+
+[Learn more](https://www.3ds.com/products/delmia/quintiq/advanced-analytics)
+
+![Image 10: DELMIA Quintiq Logistics Planning](https://www.3ds.com/assets/invest/styles/card/public/2023-02/delima-quntiq-logistic-planning_1920x696.jpg.webp?itok=b574fPRm)
+
+DELMIA Quintiq
+
+Logistics Planning
+
+Create Profitable Logistics Plans from the First to Last Mile
+
+[Learn more](https://www.3ds.com/products/delmia/quintiq/logistics-planning)
+
+![Image 11: DELMIA Quintiq Optimized Planning](https://www.3ds.com/assets/invest/styles/card/public/2023-02/delmia-quintiq-optimized-planning_1920x696-.jpg.webp?itok=oTREskPA)
+
+DELMIA Quintiq
+
+Optimized Supply Planning
+
+Optimized Planning Software for Higher ROI and Performance Efficiency
+
+[Learn more](https://www.3ds.com/products/delmia/quintiq/optimized-planning)
+
+![Image 12: DELMIA Quintiq Production Planning > Dassault Systèmes ](https://www.3ds.com/assets/invest/styles/card/public/2023-02/delmia-quintiq-production-planning-1920x696.jpg.webp?itok=bX7z6BES)
+
+DELMIA Quintiq
+
+Production Planning & Scheduling
+
+Support your Production with Powerful Planning Software
+
+[Learn more](https://www.3ds.com/products/delmia/quintiq/production-planning)
+
+![Image 13: DELMIA Quintiq Rail Fleet Crew > Dassault Systèmes ](https://www.3ds.com/assets/invest/styles/card/public/2023-05/rail-fleet-crew-1920x696.jpg.webp?itok=zifaic1m)
+
+DELMIA Quintiq
+
+Rail Service, Fleet, & Crew Planning
+
+Improve Your Railway Operations
+
+[Learn more](https://www.3ds.com/products/delmia/quintiq/rail-service-fleet-crew-planning)
+
+![Image 14: DELMIA Quintiq Sales & Operations Planning](https://www.3ds.com/assets/invest/styles/card/public/2023-02/delmia-quintiq-sales-operatons-planning-1920x696.jpg.webp?itok=MqzNJdJV)
+
+DELMIA Quintiq
+
+Sales & Operations Planning
+
+Strategically Plan and Optimize Your Business End-to-End
+
+[Learn more](https://www.3ds.com/products/delmia/quintiq/sales-operations)
+
+![Image 15: DELMIA Quintiq Workforce Scheduling](https://www.3ds.com/assets/invest/styles/card/public/2023-02/delmia-quintiq-workforce-scheduling_1920x696-.jpg.webp?itok=_laoVEL4)
+
+DELMIA Quintiq
+
+Workforce Planning
+
+Integrate planning and scheduling processes in a single workforce planning software for full visibility. Create schedules, track hours and assign tasks.
+
+[Learn more](https://www.3ds.com/products/delmia/quintiq/workforce-planning)
+
+> Not only has the amount of manual work we do been reduced, but we’re now able to optimize our processes and end up with better results.
+> 
+> 
+> 
+> ![Image 16: Finnair Case Study](https://www.3ds.com/assets/invest/styles/thumbnail/public/2021-03/finnair-quote-tiina-lahti.jpg.webp?itok=U1mKCyCL)
+> 
+> Tiina Lahti
+> 
+> 
+> Head of Ground Resource Planning, Finnair
+
+Start Your Journey
+------------------
+
+The world of manufacturing & operations is changing. Discover how to stay a step ahead with DELMIA.
+
+![Image 17: Unleashing Supply Chain Resilience using Ai And Virtual Twins](https://discover.3ds.com/sites/default/files/styles/card/public/2023-12/unleashing-supply-chain-resilience-using-ai-and-virtual-twin-hero-banner-1905x540.jpg.webp)
+
+EBooks
+
+[Unleashing Supply Chai…](https://discover.3ds.com/unleashing-supply-chain-resilience)
+Explore the transformative …
+
+[Learn more](https://discover.3ds.com/unleashing-supply-chain-resilience)
+
+![Image 18: Rail Freight Operations](https://www.3ds.com/assets/invest/styles/card/public/2025-06/bs-rail-freight-operations-hero-banner-1920x856.webp?itok=vAgD-8zb)
+
+Article
+
+[Rail Freight Operations](https://www.3ds.com/industries/business-services/rail-freight-operations)
+Discover how integrated pla…
+
+[Learn more](https://www.3ds.com/industries/business-services/rail-freight-operations)
+
+![Image 19: Leveraging AI to Transform Supply Chain Planning and Resilience | Dassault Systèmes®](https://events.3ds.com/sites/default/files/styles/card/public/leveraging-ai-to-transform-supply-chain-hero-banner.jpg)
+
+On demand
+
+E-seminar
+
+[Leveraging AI to Transfo…](https://events.3ds.com/leveraging-ai-to-transform-supply-chain)
+This webinar uncovers AI's …
+
+[Learn more](https://events.3ds.com/leveraging-ai-to-transform-supply-chain)
+
+![Image 20: Achieving Supply Chain Planning Resilience - a study on the impact of manufacturing and engineering](https://discover.3ds.com/sites/default/files/styles/card/public/2023-09/achieving-supply-chain-resilience-1905x540.jpeg.webp)
+
+White Papers
+
+[Achieving Supply Chai…](https://discover.3ds.com/achieving-supply-chain-resilience-survey)
+Results from a survey done by…
+
+[Learn more](https://discover.3ds.com/achieving-supply-chain-resilience-survey)
+
+![Image 21: Supply Chain Resiliency](https://discover.3ds.com/sites/default/files/styles/card/public/2023-03/supply-chain-resiliency-drive-innovation-through-evolution-1905x540.jpg.webp)
+
+White Papers
+
+[Supply Chain Resiliency](https://discover.3ds.com/supply-chain-resiliency-drive-innovation-through-evolution)
+Drive Innovation Through Evolut…
+
+[Learn more](https://discover.3ds.com/supply-chain-resiliency-drive-innovation-through-evolution)
+
+![Image 22: Factory Virtual Twin as a Service | Dassault Systèmes®](https://events.3ds.com/sites/default/files/styles/card/public/adopt-virtual-twin-benefit-hero-banner.jpg)
+
+On demand
+
+E-seminar
+
+[Factory Virtual Tw…](https://events.3ds.com/factory-virtual-twin-service)
+Discover quick path to digital t…
+
+[Learn more](https://events.3ds.com/factory-virtual-twin-service)
+
+1 / 4
+
+Useful Resources
+----------------
+
+Article
+
+[Mastering Animal Protei…](https://blog.3ds.com/brands/delmia/mastering-the-protein-supply-chain-and-operations/)
+Our latest eBook “The Fully Con…
+
+Podcast
+
+[Ep: 2 Make Fast Decisions on …](https://www.3ds.com/podcasts/delmia/global-operations-on-the-go/episode-02-supply-planner)
+During this time of global crisis, glob…
+
+Podcast
+
+[Ep:1 Build Emergency …](https://www.3ds.com/podcasts/delmia/global-operations-on-the-go/episode-01-workforce-planner)
+Listen our latest podcast to find ou…
+
+1 / 1
+
+FAQs
+----
+
+### What is Advanced Analytics used by DELMIA Quintiq?
+
+DELMIA Quintiq uses powerful algorithms to analyze large amounts of data, providing valuable insights, predictions, and recommendations. This technology helps improve planning and scheduling by learning from your business, leading to a more efficient and informed supply chain, often referred to as a Self-Learning Supply Chain.
+
+### What is DELMIA Quintiq workforce management solution?
+
+DELMIA Quintiq [Workforce Scheduling](https://www.3ds.com/products/delmia/quintiq/workforce-scheduling) revolutionizes workforce management. With integrated planning and scheduling, it ensures optimal productivity and profitability. This solution offers full visibility and control, covering everything from long-term planning to daily scheduling and real-time adjustments.
+
+Also Discover
+-------------
+
+![Image 23: Delmia 3dexperience > Dassault Systèmes](https://www.3ds.com/assets/invest/styles/banner_small/public/2023-03/delmia-3dexperience-hero-banner-1920x696.jpg.webp?itok=6alWsjJT)
+
+[3DEXPERIENCE DELMIA](https://www.3ds.com/products/delmia/3dexperience)
+
+Efficiently Plan, Manage and Optimize Manufacturing Operations
+
+![Image 24: DELMIA Apriso > Dassault Systèmes](https://www.3ds.com/assets/invest/styles/banner_small/public/2023-02/delmia-apriso-1920x696.jpg.webp?itok=O0huhRfm)
+
+[DELMIA Apriso](https://www.3ds.com/products/delmia/apriso)
+
+Transform Global Production Operations
+
+![Image 25: DELMIA Augmented Experiences > Dassault Systèmes](https://www.3ds.com/assets/invest/styles/banner_small/public/2023-02/delmia-augmented-experience-1920x696.jpg.webp?itok=ym_AKINH)
+
+[DELMIA Augmented Experience](https://www.3ds.com/products/delmia/augmented-experience)
+
+Revolutionize Your Manufacturing Processes with Augmented Reality Solutions
+
+![Image 26: DELMIA Ortems, planning & optimization > Dassault Systèmes](https://www.3ds.com/assets/invest/styles/banner_small/public/2023-02/delmia-ortems-1920x696.jpg.webp?itok=ETsK2vL9)
+
+[DELMIA Ortems](https://www.3ds.com/products/delmia/ortems)
+
+Balance and Solve Operational and Planning Issues
+
+1 / 3
+
+Learn What DELMIA Can Do for You
+--------------------------------
+
+Speak with a DELMIA expert to learn how our solutions enable seamless collaboration and sustainable innovation at organizations of every size.
+
+[Contact us](https://www.3ds.com/how-to-buy)
+
+[Visit a user community](https://www.3ds.com/products/delmia/user-communities)
+
+Get Started
+-----------
+
+Courses and classes are available for students, academia, professionals and companies. Find the right DELMIA training for you.
+
+[Find training](https://www.3ds.com/edu)
+
+Get Help
+--------
+
+Find information on software & hardware certification, software downloads, user documentation, support contact and services offering
+
+[Get support](https://www.3ds.com/support)
+
+[Get services](https://www.3ds.com/consulting-services-value-engagement)
+
+Let's connect
+
+Live chat
+
+ONLINE
+
+Our sales team is available to chat
+
+Start chat
+
+Call
+
+ONLINE
+
+Call our Sales team via a Toll-Free Number
+
+[18556961125](tel:18556961125)
+
+Contact form
+
+Send us your request
+
+Contact Sales
+
+[1855 696 1125 USA&Canada:1855 696 1125 India:+91 806 814 88 03 Other English countries:+800 379 78 361](tel:18556961125)
+
+CONTACT US FOR SALES (free of charge from landlines)
+
+[](javascript:void(0);)
+
+Live Sales chat!
+
+![Image 27](https://3ds-en.widget.custhelp.com/euf/assets/images/orcl_logo.png)
+
+ Got a question? A member of our team is available to chat 
+
+![Image 28: Got a question? A member of our team is available to chat](https://3ds-en.widget.custhelp.com/euf/assets/images/avatar_photo.jpg)
+
+Chat Now No
+
+- [x] Do not ask again 
+
+[Close](https://www.3ds.com/products/delmia/quintiq#)
+
+Continue with only necessary cookies You decide what cookies 3DS will use
+-------------------------------------------------------------------------
+
+We, Dassault Systèmes, together with our trusted 3DS business stakeholders, use cookies to give you the best experience on our websites by : measuring their audience and improving their performance, by providing you with content and proposals that correspond to your interactions, by serving ads that are relevant to your interests and by allowing you to share content on social networks.
+
+Your preferences will be kept for 6 months and you can change them at any time by clicking on the "Manage my cookies preferences" link in the footer of each webpage. To learn more about how this site uses cookies, please visit our [privacy policy](https://discover.3ds.com/privacy-policy).
+
+Accept All Manage my preferences
+
+Title: Autonomous Resilient Supply Chain Planning
+
+URL Source: https://deepvu.co/
+
+Markdown Content:
+**Resilience**
+--------------
+
+Resilient planning substantially impacts your company’s key CFO-level metrics including BoM cost, time-to-market, inventory holding costs, expedited freight costs, OTIF penalties, energy costs, labor costs, stockout events and missed revenue, emissions and sustainability.
+
+#### We're committed to building and enabling a sustainable, resilient future that protects both the quality of life for humanity and the planet.
+
+Give your planners AI superpowers to navigate supply chain risks & optimize intelligently.
+------------------------------------------------------------------------------------------
+
+### Shock-Resilient
+
+Forecasting models alone have been failing to deliver true resilience, as they get thrown with every new shock that breaks historical patterns!
+
+DeepVu's Solution: DeepVu's AI decisioning Agents are trained on top of digital twins that simulate normal scenario, shock scenario-A, shock scenario-B etc that recommend actions to optimize for your business KPIs. The human planner selects which Agent is pertinent and the corresponding action most applicable to today’s scenario in that specific market/geo.
+
+### Generative & Autonomous
+
+With traditional planning, humans make all recurring decisions, which is error prone, has long lead times, and the impact on KPIs is delayed or never evaluated.
+
+DeepVu's Solution: Leverage multi-agent Generative AI decisioning Agents to make intelligent planning decisions that learn from historical human decisions, and improve upon them as they get smarter over time with usage and human feedback. The impact of each generated action on the business KPIs is imediately available.
+
+### Sustainable
+
+Annual marketing oriented sustainability reports are neither granular nor an accurate account of a company’s supply chain emissions.
+
+DeepVu's Solution: DeepVu takes sustainability as one of the business KPIs for which the AI decisioning Agents are optimizing. The weight of the KPI is per each customer’s requirement. Hence the impact of each decision on sustainability metrics is readily available in the logs and aggregated quarterly for full transparency and accuracy in compliance reports.
+
+### Rich Data
+
+Traditional shallow forecasting, such as ARIMA and basic ML forecasting, fall short in leveraging hundreds of important external signals.
+
+DeepVu's Solution: Enrich your internal forecasting models with a rich industry and global context by leverag\ ing ever-growing supply chain knowledge graphs that incorporate hundreds of external signals that capture shocks as they emerge.
+
+### Collaborative
+
+Integrating a B2B enterprise platform into your existing work flow can be a time-consuming and challenging process.
+
+DeepVu's Solution: Our platform is sold as SaaS subscription "à la carte" per use case, and seamlessly integrates with any legacy or ERP system using cloud APIs, or used via a beautiful dashboard to boost planner’s productivity and effectiveness.
+
+![Image 1](https://deepvu.co/img/real-time-vector.svg)
+
+### Real Time
+
+Get insights and actionable shock resilient decisions in real-time. DeepVu analyzes data streams of the external signals as they arrive which enriches the decisioning Agents with current global context.
+
+![Image 2](https://deepvu.co/img/deep-learning-vector.svg)
+
+### Generative AI/DRL
+
+Deep Reinforcement Learning (DRL) is the most advanced, scalable, self-tuning type of Generative AI decisioning Agents. Handles complexities and scale that traditional machine-learning cannot.
+
+![Image 3](https://deepvu.co/img/full-stack-vector.svg)
+
+### Full Stack
+
+A versatile resilient planning solution capable of handling any supply chain data-set and use-case including demand planning, order fulfillment, auto-replenishment, production planning, and freight.
+
+![Image 4](https://deepvu.co/img/scalable-dot-vector.svg)
+
+### Scalable
+
+No feature-engineering work or thousands of rule updates needed. DeepVu's models will scale up as your company scales to new products, SKUs, fulfillment centers, and markets.
+
+Discover crucial external macro & micro indicators that impact your supply chain
+--------------------------------------------------------------------------------
+
+Unlock invaluable insights by utilizing DeepVu's supply chain knowledge graphs (VuGraph),
+
+which include hundreds of external signals with their predictive weights. These signals range
+
+from macro and microeconomics to commodity prices, and global trade metrics.
+
+By identifying the most impactful signals and integrating them into your model,
+
+you can substantially improve the accuracy of your forecasting.
+
+![Image 5: Generic Knowledge Graph Image](https://deepvu.co/img/housing_vugraph.png)
+
+Learn About Our Success Stories
+-------------------------------
+
+![Image 6](https://deepvu.co/img/B2B_Demand.jpg)
+
+### B2B Demand Forecasting for CPG
+
+DeepVu's model forecasts demand per (retailer-id, SKU, month) in 5 countries with a forecast horizon of 1-3 months out, taking numerous external signals
+
+[Request Case Study](https://deepvu.co/#)
+
+![Image 7](https://deepvu.co/img/homegoods.jpg)
+
+### Stockout Forecasting for Home Goods
+
+DeepVu's model forecasts the probability of a stockout per (store/DC, SKU, week) with a forecast horizon of 2--6 weeks out.
+
+[Request Case Study](https://deepvu.co/#)
+
+![Image 8](https://deepvu.co/img/CaseStudyyStockout.jpeg)
+
+### Commodity Price Forecasting
+
+DeepVu's model forecasts the weekly price of hot-rolled-coil steel in Shanghai market with forecast horizon of 2--12 weeks out with an accuracy of 91%--95% (with MAPE as the metric)
+
+[Request Case Study](https://deepvu.co/#)
+
+Sustainability: Did you know?
+-----------------------------
+
+Eight supply chains are responsible for more than 51% of global emissions (source: World Economic Forum 2024)
+
+Moreover, supply chain emissions are 11.4 times higher than operational emissions (source: CDP Report 2020).
+
+Climate disruptions have become the new norm. All manufacturers are experiencing adverse effects as a result of
+
+supply chain challenges exacerbated by ongoing shocks. Over the past decade, big companies started talking
+
+about connected planning and integrated planning, but none of these approaches could deliver true resilience.
+
+Now is the time for a revolutionary shift towards resilient autonomous sustainable supply chain planning, ensuring
+
+long-term sustainability for both businesses and the planet.
+
+An end to end AI planning platform that's particularly distinguished in
+-----------------------------------------------------------------------
+
+*   [Order Fulfillment & Auto Replenishment](https://deepvu.co/inventory.html)
+AI Decisioning Agents to map customer orders to one or more DCs to optimize delivery date (OTIF), minimize shipping cost, splitting orders, and stockout events
+
+*   [Shock-resilient Demand Planning](https://deepvu.co/demand-planning.html)
+Shock-resilient S & OP AI Agent for deciding near-optimal production and inventory levels, including forecasting shelf availability and preventing stock-outs per SKU, per DC/store per day
+
+*   [Procurement](https://deepvu.co/procurement.html)
+AI Decisioning Agents to allocate purchase orders to suppliers to optimize BoM cost, delivery date, and sustainability while de-risking production disruptions
+
+*   [Production Planning & Capacity Optimization](https://deepvu.co/production.html)
+AI Decisioning Agents to recommend scheduling actions to optimize for multiple KPIs including factory production capacity, energy usage, labor cost, and sustainability
+
+*   [Logistics and Freight](https://deepvu.co/logistics.html)
+AI assistant for logistics and freight optimization, including demand forecasting per lane, decisioning Agents to optimize OTIF, fuel consumption, labor allocation etc.
+
+![Image 9: Manufacturing Services Image](https://deepvu.co/img/largestock.jpeg)
+
+We are committed to boosting the efficiency of your supply chain planning, maximizing your profit margins, and unlocking greater resilience and sustainability for your supply chains. Our solutions guarantee a minimum 8x ROI.
+
+[Book me a demo](https://calendly.com/deepvu-mr/15min?back=1&month=2024-05)
+
+We are ROI-focused. In 90 seconds, get an estimate of how much you could save in BoM cost, expedited freight costs, stockout events, production disruptions, and inventory holding costs with DeepVu's resilient planning system.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[ROI Calculator](https://deepvu.co/roi-calculator.html)
+
+Title: AI production planning & scheduling for Industry 4.0 I Vernaio
+
+URL Source: https://www.vernaio.com/solutions/kayros
+
+Markdown Content:
+The backbone of your Smart Factory
+----------------------------------
+
+At the heart of any smart factory is a production planning and scheduling engine that drives efficiency, flexibility, and cost-effectiveness. However, not just any algorithm will suffice; to maximize production, a high-performance, agile, and advanced planning engine is essential.
+
+![Image 1](https://cdn.prod.website-files.com/659d9d54ef12383a9f8e7fe5/659d9d54ef12383a9f8e8406_functionality-kayros.png)
+
+Kayros is a cutting-edge production planning engine that leverages AI-powered cognitive planning to optimize the use of all production resources. By streamlining production routes, minimizing costs, maximizing on-time delivery, and adhering to various technical requirements, Kayros goes beyond mere planning and scheduling.
+
+#### Kayros is the backbone that propels your production to peak productivity, even in the most complex production environments.
+
+Highlights
+----------
+
+While superior AI drives exceptional scheduling and planning, production-ready scheduling demands meticulous precision. Kayros excels in this area by combining extraordinary planning performance with an unparalleled focus on detail.
+
+#### **AI Master Data Extraction**
+
+Automatically creating & maintaining digital production twins just from MES/ERP accounting data
+
+#### **"What if" - analyses**
+
+Simulate whether a specific order pool can be produced with the available production capacity and determine the total time for production and the estimated costs.
+
+#### **Dynamic planning**
+
+The great speed of Kayros allows for dynamic production planning, maintaining an always up-to-date production plan with respect to the latest changes.
+
+How Kayros works
+----------------
+
+Our **production planning software** can be integrated with any existing ERP and MES IT systems.
+
+![Image 2](https://cdn.prod.website-files.com/659d9d54ef12383a9f8e7fe5/659d9d54ef12383a9f8e8406_functionality-kayros.png)
+
+*   ![Image 3](https://cdn.prod.website-files.com/659d9d54ef12383a9f8e7fe5/659d9d54ef12383a9f8e840e_velocity.png)##### Kayros plans the entire order pool in the shortest possible time.
+
+Any capacity bottlenecks are identified well in advance and can be avoided effectively. This creates scope for decision-making and ensures that deadlines are met. 
+
+*   ![Image 4](https://cdn.prod.website-files.com/659d9d54ef12383a9f8e7fe5/659d9d54ef12383a9f8e840f_speaking.png)##### Kayros has its own language for modeling and describing machines and production networks
+
+With this flexibility, Kayros can model even the most diverse requirements of mechanical engineering. 
+
+*   ![Image 5](https://cdn.prod.website-files.com/659d9d54ef12383a9f8e7fe5/659d9d54ef12383a9f8e83fb_wheel.png)##### Kayros always knows the exact structure of the production network.
+
+It records the transport routes and helps to minimize the transport of materials between machines. 
+
+*   ![Image 6](https://cdn.prod.website-files.com/659d9d54ef12383a9f8e7fe5/659d9d54ef12383a9f8e83ff_graph.png)##### Kayros automatically determines the most efficient production flow.
+
+It independently considers all possible production alternatives that meet the product's requirements and selects the most efficient one. 
+
+Features
+--------
+
+While superior AI drives exceptional scheduling and planning, production-ready scheduling demands meticulous precision. Kayros excels in this area by combining extraordinary planning performance with an unparalleled focus on detail.
+
+#### **Bottleneck Compensation**
+
+Distributing production orders across the whole available production network
+
+#### **Product Routing**
+
+Identification of the most appropriate route per product through the production network
+
+#### **Tool management**
+
+Ensuring that special tools are available in the right place at the required time
+
+#### **Transport management**
+
+Identification of the most efficient production routes across machines, halls and sites
+
+#### SUCCESS STORY
+
+Improving on-time delivery in a complex production planning process
+-------------------------------------------------------------------
+
+**Vacom Vakuum Komponenten & Messtechnik GmbH** is a vacuum specialist that produces many components to customer specifications. The 322-strong company operates worldwide and generates annual revenues of more than 35 million euros.
+
+##### Challenge
+
+Vacom has 1,200 orders in constant circulation, each with up to 20 operations, two to three orders per machine per day, and a planning horizon of six months. The challenge was to resolve the conflicts between meeting all planned delivery dates and reducing overall costs (setup and lead times) while respecting certain constraints. In addition, **manual planning was no longer feasible** due to the high complexity of the production processes.
+
+![Image 7](https://cdn.prod.website-files.com/659d9d54ef12383a9f8e7fe5/659d9d54ef12383a9f8e8410_vacuum.jpg)
+
+##### Solution
+
+The solution was AI-based planning using [MPDV's Fedra Advanced Planning and Scheduling System (APS)](https://www.mpdv.com/de/produkte-loesungen/aps-fedra), powered by **Kayros**. As an integrated part of MPDV's MES system, Kayros calculated a production plan with 28,000 steps on 700 machines on a standard PC in less than 60 minutes.
+
+![Image 8](https://cdn.prod.website-files.com/659d9d54ef12383a9f8e7fe5/659d9d54ef12383a9f8e8411_kevin-mahler-vacom.png)
+
+“The Smart Factory approach has enabled us to increase production by 25 percent. At least 10 percent of this performance increase is due to better production planning with Kayros!”
+
+#### Kevin Mahler
+
+Chief Operating Officer, Vacom
+
+With the help of Kayros, Vacom is able to identify and avoid capacity bottlenecks in advance. The total **time saved in production planning with AI-based planning is around 50%** compared to manual planning. This has increased Vacom's production output by at least 10%.
+
+More features
+-------------
+
+While superior AI drives exceptional scheduling and planning, production-ready scheduling demands meticulous precision. Kayros excels in this area by combining extraordinary planning performance with an unparalleled focus on detail.
+
+#### **State-dependent setup**
+
+Each job starts with a setup, the cost and duration of which depends on the previous job on the machine.
+
+#### **Performance variability**
+
+Duration and costs for a job can vary from machine to machine.
+
+#### **Blocking times and breaks**
+
+Pre-defined slots for maintenance and break times.
+
+#### **Job dependencies**
+
+Some jobs may only start when another job is finished
+
+#### **People skills**
+
+Taking skill-sets of specialists into account for special tasks
+
+#### **Stock accounting**
+
+A job can only start, if the material it consumes is available. Also, it produces new materials potentially for other jobs.
+
+#### ...and more.
+
+Title: AI Production Planning Software | BrainPack ERP Scheduler
+
+URL Source: https://www.brainpack.ai/brainpack-planning
+
+Markdown Content:
+##### Optimize Resources. Automate Scheduling. Achieve Operational Efficiency.
+
+**Operations & Logistic**
+
+### Plan with Precision Using AI-Driven Scheduling
+
+BrainPack AI Planning helps you streamline resource allocation, schedule tasks, and coordinate projects efficiently. Automate planning processes, forecast workload demands, and adjust schedules dynamically based on real-time data.
+
+[Get started](https://www.brainpack.ai/contactus)
+
+Next-Gen Planning Capabilities
+------------------------------
+
+✔Automated scheduling to maximize efficiency
+
+✔Resource allocation optimization for balanced workloads
+
+✔Dynamic workload forecasting to anticipate demands
+
+✔AI-driven project management for real-time updates
+
+✔Task prioritization to focus on critical activities
+
+**Why BrainPack AI Planning?**
+------------------------------
+
+##### Plan smarter, adapt faster, and optimize resource use.
+
+BrainPack AI Planning automates scheduling, forecasts workload, and dynamically adjusts plans based on resource availability. Reduce bottlenecks, increase productivity, and keep your operations running smoothly.
+
+Part of the Operations & Logistics Pack
+---------------------------------------
+
+Includes: Planning, Manufacturing, Inventory, Purchase, PLM, Quality, Maintenance, Fleet — everything you need to efficiently plan and manage operations.
+
+Key Features
+------------
+
+BrainPack AI Planning offers comprehensive tools to automate project planning, resource allocation, and workload management. Stay on top of your schedules while minimizing manual effort.
+
+#### Real-Time Project Tracking
+
+Monitor progress in real time with AI-powered dashboards. Get alerts when tasks fall behind or resources are overutilized.
+
+#### Automated Reporting and Analytics
+
+Generate reports on project progress, resource utilization, and bottleneck analysis. AI highlights improvement areas and suggests optimizations.
+
+#### Works With All BrainPack Apps
+
+Integrates seamlessly with Manufacturing, Maintenance, Quality, Fleet, and more. Create a unified planning environment that supports your entire operation.
+
+#### Mobile-Optimized Planning Tools
+
+Access schedules, assign tasks, and track progress from any device. AI ensures the interface adapts for efficient mobile use.
+
+#### Task Prioritization and Automation
+
+Automatically prioritize tasks based on impact, urgency, and resource availability. Keep your team focused on high-value activities.
+
+#### Dynamic Resource Allocation
+
+Optimize manpower, machinery, and material usage. AI recommends adjustments based on current workload and projected demand.
+
+#### Predictive Workload Balancing
+
+Forecast workload fluctuations and redistribute tasks accordingly. AI helps you prepare for peak periods and avoid overloading resources.
+
+#### Smart Task Scheduling
+
+Create and assign tasks automatically based on priority, resource availability, and deadlines. AI optimizes the schedule to prevent conflicts.
+
+#### **Automated Task Prioritization**
+
+AI evaluates task urgency and impact.
+
+#### **Resource Utilization Forecasts**
+
+Plan resource needs based on workload predictions.
+
+#### **Performance Optimization Alerts**
+
+Detect planning inefficiencies in real time.
+
+#### **Risk Mitigation Suggestions**
+
+AI identifies potential delays and recommends solutions.
+
+#### **Custom Workflow Templates**
+
+Automate repetitive planning tasks with AI-generated templates.
+
+Integrations & Compatibility
+----------------------------
+
+*   Works with BrainPack: Manufacturing, Maintenance, Fleet, Quality
+*   Open API for custom integrations
+*   Native support for Gantt charts and workload visualization
+*   Fully mobile-optimized for planning management on any device
+
+Plan Smarter with BrainPack AI
+------------------------------
+
+Automate scheduling, optimize resource use, and enhance project management.
+
+BrainPack AI Planning keeps your operations efficient and your team on track.
+
+[Contact Us](https://www.brainpack.ai/contactus)
+
+### Frequently asked questions
+
+Yes — AI prioritizes tasks and assigns them based on resource availability.
+
+Absolutely — monitor schedules and receive alerts on task completion.
+
+Yes — AI analyzes workload trends and predicts future demands.
+
+Yes — automate production schedules and sync with resource planning.
+

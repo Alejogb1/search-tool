@@ -1,0 +1,3940 @@
+Title: Software de gestión de clínicas
+
+URL Source: https://clinicapp.es/
+
+Published Time: Fri, 02 May 2025 18:50:00 GMT
+
+Markdown Content:
+ClinicApp.es - Software de gestión de clínicas
+
+===============
+
+[![Image 3](https://clinicapp.es/assets/img/ClinicApp.png)](https://clinicapp.es/)
+
+*   
+[Especialidades](https://clinicapp.es/#)
+    *   [Software para logopedas](https://clinicapp.es/software-para-logopedas)
+    *   [Software para psicólogos y psiquiatras](https://clinicapp.es/software-para-psicologos)
+    *   [Software para fisioterapeutas](https://clinicapp.es/software-para-fisioterapeutas)
+    *   [Software para dietistas-nutricionistas](https://clinicapp.es/software-para-nutricionistas)
+    *   [Software para podólogos](https://clinicapp.es/software-para-podologos)
+    *   [Software para centros estéticos](https://clinicapp.es/software-para-centros-esteticos)
+    *   
+* * *
+
+    *   [Software para policlínicas](https://clinicapp.es/)
+
+*   [Ventajas](https://clinicapp.es/#about)
+*   [Características](https://clinicapp.es/#features)
+*   [Precios](https://clinicapp.es/#pricing)
+*   [Contacto](https://clinicapp.es/#contact)
+*   [](https://clinicapp.es/)
+[Entrar en la App](https://app.clinicapp.es/)
+
+![Image 4](https://clinicapp.es/assets/img/All-devices_2.webp)
+
+Simplifica la gestión
+
+de tu clínica
+
+y ahorra tiempo
+-----------------------------------------------------
+
+[¡Pruébalo gratis!](https://app.clinicapp.es/login/registro)[Características](https://clinicapp.es/#features)
+
+### ¿Qué ofrece ClinicApp.es?
+
+¿Buscas un software en la nube para tu clínica que te ayude a organizar las citas, historiales y sesiones además de poder crear facturas y registrar pagos de forma rápida e intuitiva?
+
+#### [Mejora de la atención al paciente](https://clinicapp.es/)
+
+Ofrece una atención más personalizada y eficaz a los pacientes al tener toda la información en un solo lugar y tener acceso a ella desde donde quieras.
+
+#### [Optimiza tu tiempo](https://clinicapp.es/)
+
+Asigna las citas de tus especialistas, programa todo el mes con series de citas, registra los pagos realizados y manten el control en todo momento de forma sencilla y ágil.
+
+#### [Ahorra dinero](https://clinicapp.es/)
+
+Agendas, facturación ilimitada, videollamadas, almacenamiento de informes y documentos... no necesitarás más herramientas para gestionar tu clínica.
+
+#### [Une al equipo](https://clinicapp.es/)
+
+Comparte información con otros especialistas de tu centro involucrados en el tratamiento del mismo paciente, como psicólogos y terapeutas ocupacionales.
+
+![Image 5](https://clinicapp.es/assets/img/4424583.webp)
+
+![Image 6](https://clinicapp.es/assets/img/20944983.webp)
+
+#### Diseñado por y para ti
+
+¿Estas cansado de llevar un sinfín de notas y registros en papel para cada uno de tus pacientes?
+
+¿Has probado otros softwares complicados y difíciles de adaptar a tu centro?
+
+ClinicApp.es ha sido diseñado en clínicas con diferentes especialidades, lo que significa que está repleto de características útiles que se adaptan a tus necesidades independientemente del área en el que trabajes, desde la posibilidad de agregar terapias personalizadas y objetivos, llevando un registro detallado de las sesiones de cada paciente hasta la capacidad de realizar video-citas online directamente desde la aplicación, compartiendo pantalla y ejercicios.
+
+Nuestro objetivo es ayudarte a mejorar la atención al paciente y la productividad de tu clínica facilitando todas las tareas administrativas como la gestión de citas, de información o la facturación. Por esto ClinicApp.es sigue creciendo y mejorando cada día, con nuevas funcionalidades sugeridas por vosotros, ¡cuéntanos qué necesitas!
+
+Si estás buscando mejorar tu productividad y ofrecer un mejor servicio a tus pacientes, no busques más. ¡Prueba tu aplicación de gestión de clínicas!
+
+### Características principales
+
+[Facturación de citas y servicios](https://clinicapp.es/caracteristicas/facturacion-de-citas-y-servicios.html)
+
+[Control de pagos](https://clinicapp.es/caracteristicas/control-de-pagos.html)
+
+[Agendas individuales](https://clinicapp.es/caracteristicas/agendas-individuales.html)
+
+[Visión global de agendas](https://clinicapp.es/caracteristicas/vision-global-de-agendas.html)
+
+[Citas individuales y de grupo](https://clinicapp.es/caracteristicas/citas-individuales-y-de-grupo.html)
+
+[Series de citas](https://clinicapp.es/caracteristicas/series-de-citas.html)
+
+[Control de citas canceladas](https://clinicapp.es/caracteristicas/control-de-citas-canceladas.html)
+
+[Video citas online](https://clinicapp.es/caracteristicas/video-citas-online.html)
+
+[Especialidades](https://clinicapp.es/caracteristicas/especialidades.html)
+
+[Servicios](https://clinicapp.es/caracteristicas/servicios.html)
+
+[Registro de pacientes](https://clinicapp.es/caracteristicas/registro-de-pacientes.html)
+
+[Historias clínicas](https://clinicapp.es/caracteristicas/historias-clinicas.html)
+
+[Recursos personalizados](https://clinicapp.es/caracteristicas/recursos-personalizados.html)
+
+[Histórico de sesiones](https://clinicapp.es/caracteristicas/historico-de-sesiones.html)
+
+[Objetivos de terapias](https://clinicapp.es/caracteristicas/objetivos-de-terapias.html)
+
+[Archivos y documentos adjuntos](https://clinicapp.es/caracteristicas/documentos-adjuntos.html)
+
+[Notas de audio](https://clinicapp.es/caracteristicas/notas-de-audio.html)
+
+[Registro de usuarios](https://clinicapp.es/caracteristicas/registro-de-usuarios.html)
+
+[Roles de usuarios](https://clinicapp.es/caracteristicas/roles-de-usuarios.html)
+
+[Horarios y festivos personalizados](https://clinicapp.es/caracteristicas/horarios-y-festivos-personalizados.html)
+
+[Registro horario de empleados](https://clinicapp.es/caracteristicas/registro-horario-de-empleados.html)
+
+[Gestor de archivos](https://clinicapp.es/caracteristicas/gestor-de-archivos.html)
+
+[Espacio para documentación legal y normativas](https://clinicapp.es/caracteristicas/documentacion-legal-y-normativas.html)
+
+[Cumplimiento RGPD, LOPIVI, otras normativas y protocolos](https://clinicapp.es/caracteristicas/cumplimiento-rgpd-lopivi.html)
+
+![Image 7: Image](https://clinicapp.es/assets/img/iphone.webp)
+
+#### ¡Pruébalo gratis!
+
+¿Quieres probar el software de gestión de clínicas? Regístrate y prueba gratis el plan Empresa durante 30 días para que puedas ver lo fácil que es usarlo. ¡No esperes más! Solicítala ahora y da el primer paso hacia un futuro más eficiente para tu clínica.
+
+[¡Regístrate!](https://app.clinicapp.es/login/registro)
+
+### Comentarios de nuestros clientes
+
+"Una herramienta imprescindible en mi clínica. ¡Gracias, Clinicapp!"
+
+##### Laura M.
+
+Psicóloga clínica
+
+### Precios
+
+¡Contacta con nosotros indicando el plan que más te interese y te aconsejaremos!
+
+Gratuito
+--------
+
+### 0€ mes *
+
+¡Simplemente gratis!
+
+*    1 Usuario
+*    10 Pacientes
+*    Control de citas
+*    Sesiones
+*    Historias clínicas
+
+[Contratar](https://app.clinicapp.es/login/registro)
+
+Básico
+------
+
+### 9,90€ mes *
+
+¡Empieza a crecer!
+
+*    2 Usuarios
+*    25 Pacientes
+*    Archivos adjuntos 5Gb
+*    Plan Gratuito +
+*    Roles de usuario
+
+[Contratar](https://app.clinicapp.es/login/registro)
+
+Empresa
+-------
+
+### 29,90€ mes *
+
+¡Todo bajo control!
+
+*    10 Usuarios
+*    Pacientes ilimitados
+*    Adjuntos 50Gb
+*    Plan Básico +
+*    Facturación No-VeriFactu
+*    Control de pagos
+*    Registro de jornada
+
+[Contratar](https://app.clinicapp.es/login/registro)
+
+Premium
+-------
+
+### 49,90€ mes *
+
+¡Máximo rendimiento! (i)
+
+*    Adjuntos 100Gb
+*    Plan Empresa +
+*    Facturación VeriFactu
+*    Módulo de estadísticas
+*    Tableros de tareas
+*    Sistema de reservas online
+
+[Contratar](https://app.clinicapp.es/login/registro)
+
+* Impuestos no incluidos
+
+(i) Opción de contratar packs de ampliación
+
+### Contacta con nosotros
+
+clientes@clinicapp.es
+
+Enviar
+
+##### ¡ En breve nos pondremos en contacto !
+
+[](https://www.instagram.com/clinicapp.es?r=nametag)[](https://www.instagram.com/clinicapp.es?r=nametag)
+
+[](https://www.instagram.com/clinicapp.es?r=nametag)
+
+[](https://www.instagram.com/clinicapp.es?r=nametag)[Ventajas](https://clinicapp.es/#about)[Características](https://clinicapp.es/#features)[Precios](https://clinicapp.es/#pricing)[Contacto](https://clinicapp.es/#contact)[Política de privacidad](https://clinicapp.es/Privacidad.html)[Aviso Legal](https://clinicapp.es/AvisoLegal.html)[Política de cookies](https://clinicapp.es/Cookies.html)[Blog](https://clinicapp.es/blog-list.html)
+
+ © Copyright **ClinicApp.es**. Todos los derechos reservados 
+
+[](https://clinicapp.es/#)
+
+Cookies
+
+### Uso de cookies
+
+Utilizamos cookies propias y de terceros para analizar el tráfico de la web. [Ver más sobre las cookies](https://clinicapp.es/Cookies)
+
+ Aceptar cookies  Rechazar
+
+Title: Software de gestión, ficha electrónica y reserva web
+
+URL Source: https://www.citamedica.cl/
+
+Markdown Content:
+![Image 1](https://www.citamedica.cl/images/background-01-1920x870.jpg)
+
+#### Seleccione región y ciudad de búsqueda
+
+Seleccione Región
+
+Seleccione Ciudad/Comuna...
+
+35690
+
+Horas disponibles 
+
+1220866
+
+Reservas 
+
+299
+
+Profesionales 
+
+81
+
+Especialidades 
+
+Conoce algunas de las funciones
+-------------------------------
+
+* * *
+
+###### RESERVA DE CONSULTAS MÉDICAS
+
+Los pacientes reservan sus consultas online, buscando por especialidad, profesional o institución de salud.
+
+###### AGENDA ADAPTABLE
+
+Los profesionales de salud o los administradores de centros médicos crean las agendas de acuerdo a sus necesidades.
+
+###### REGISTRO CLÍNICO
+
+Los prestadores de salud disponen de registro clínico electrónico, emisión de solicitud de exámenes, receta electrónica y documentos clínicos.
+
+###### ESTADÍSTICAS EN TIEMPO REAL
+
+El centro médico dispone, a través de CitaMedica, de diversas variables estadísticas necesarias para evaluar en forma objetiva su funcionamiento.
+
+###### GESTIÓN DE INGRESOS
+
+El administrador y/o los profesionales controlan el flujo de caja en tiempo real, realice el cálculo de comisiones de forma automática, permitiendo una mejor gestión.
+
+###### CUENTA CON NOSOTROS
+
+En CitaMedica hemos hecho de la capacitación y del soporte uno de nuestros principales pilares.
+
+![Image 2](https://www.citamedica.cl/images/background-02-1920x870.jpg)
+
+![Image 3](https://www.citamedica.cl/images/background-02-1920x870.jpg)
+
+Prueba la plataforma gratis por 1 mes 
+
+ +56 9 50983715
+-------------------------------------------------------
+
+Title: Turnos Fun aplicación de turnos
+
+URL Source: https://turnos-fun.com/
+
+Published Time: 2023-03-31T00:00:00+0200
+
+Markdown Content:
+Turnos Fun aplicación de turnos 
+
+===============
+
+[![Image 12: Turnos Fun: sistema de turnos](https://turnos-fun.com/images/logo-default-223x50.png)](https://turnos-fun.com/index.html)
+
+*   [](https://turnos-fun.com/#)
+*   [](https://turnos-fun.com/#)
+*   [](https://turnos-fun.com/#)
+*   [](https://turnos-fun.com/#)
+
+*   [Inicio](https://turnos-fun.com/#Inicio)
+*   [Elegí El Plan](https://turnos-fun.com/#servicios)
+
+**Turnos Fun** Reservas online | Tus clientes/pacientes podrán sacar un turno a cualquier horario y desde cualquier lugar.
+==========================================================================================================================
+
+Recuperá el tiempo que puedas estar gastando en coordinar y agendar turnos de tus clientes
+
+[¡Pedí tu Turno!](https://wa.me/message/YREPPMMHV3GCM1)
+
+Comenzá en minutos con una plataforma confiable, practica y dinámica
+--------------------------------------------------------------------
+
+Llená tu agenda de turnos incluso mientras dormís
+
+[Pedí tu Turno](https://wa.me/message/YREPPMMHV3GCM1)
+
+Gestioná tu staff
+-----------------
+
+Agregá profesionales y definí los servicios que prestarán, junto con sus días y horarios
+
+[¡Pedí tu Turno!](https://wa.me/message/YREPPMMHV3GCM1)
+
+**Turnos Fun** Reservas online | Tus clientes/pacientes podrán sacar un turno a cualquier horario y desde cualquier lugar.
+==========================================================================================================================
+
+Recuperá el tiempo que puedas estar gastando en coordinar y agendar turnos de tus clientes
+
+[¡Pedí tu Turno!](https://wa.me/message/YREPPMMHV3GCM1)
+
+Comenzá en minutos con una plataforma confiable, practica y dinámica
+--------------------------------------------------------------------
+
+Llená tu agenda de turnos incluso mientras dormís
+
+[Pedí tu Turno](https://wa.me/message/YREPPMMHV3GCM1)
+
+01/03
+
+Obtenga más con nosotros
+------------------------
+
+*   [01](https://turnos-fun.com/#tabs-7-1)
+*   [02](https://turnos-fun.com/#tabs-7-2)
+*   [03](https://turnos-fun.com/#tabs-7-3)
+*   [04](https://turnos-fun.com/#tabs-7-4)
+
+##### **SISTEMA DE TURNOS ONLINE**
+
+Podés empezar a usar nuestra plataforma hoy mismo haciendo click [ACÁ](https://wa.me/message/YREPPMMHV3GCM1 "Comenzá hoy mismo!").
+
+Te vamos a pedir que completes un simple formulario. y en cuestión de minutos nos comunicaremos con vos para empezar la configuración de tu agenda de turnos.
+
+[![Image 13: Gratis](https://turnos-fun.com/images/229535967_137404358464227_5728740907418427043_n.png)](https://wa.me/message/YREPPMMHV3GCM1)
+##### [Adquirilo YA!](https://wa.me/message/YREPPMMHV3GCM1)
+
+**CONTRATAR**
+
+##### **¿ME AYUDAN ACONFIGURARLO?**
+
+la configuración inicial y puesta en marcha la hacemos nosotros. Luego, vas a poder ir haciendo las modificaciones que quieras, por ejemplo cambios de horarios, precios, configuración de vacaciones, etc… Configurá cada uno de los consultorios donde trabajás. Administrá tus agendas, o que tu secretaria lo haga por vos. Administre todas sus citas con diseños y visualizaciones de calendario flexibles. Maneja toda la información del cliente y su historial de reservas más fácilmente que nunca.
+
+[![Image 14: Gratis](https://turnos-fun.com/images/229535967_137404358464227_5728740907418427043_n.png)](https://wa.me/message/YREPPMMHV3GCM1)
+##### [Adquirilo YA!](https://wa.me/message/YREPPMMHV3GCM1)
+
+**CONTRATAR**
+
+##### **¿SIRVE PARA CUALQUIER COMERCIO?**
+
+Sí, el sistema es adaptable a cualquier tipo de comercio, por ejemplo clínicas, laboratorios, veterinarias, peluquerias, centros de spa, centros deportivos, profesionales autónomos, reparación vehicular, etc…
+
+**QUIÉNES PUEDEN USAR EL SISTEMA**
+
+Profesionales y Servicios de la salud : Médicos, Odontólogos, Psicólogos, Clínicas y Hospitales. Personal Trainers, Canchas de Tenis / Fútbol, Reserva de Salas, Licencia de Conducir, centros de Estética, Peluquerías, Gimnasios, Eventos, Masajes y todo tipo de servicio que requiera cita previa. No hay limites para tus servicios o prestaciones 💪! Podés armar tu calendario con los servicios y categorías de servicios que quieras!, de igual manera podés tener la cantidad de profesionales o personal abocado a la tarea que necesites.
+
+[![Image 15: Gratis](https://turnos-fun.com/images/229535967_137404358464227_5728740907418427043_n.png)](https://wa.me/message/YREPPMMHV3GCM1)
+##### [Adquirilo YA!](https://wa.me/message/YREPPMMHV3GCM1)
+
+**CONTRATAR**
+
+##### **¿Está habilitada tu plataforma?**
+
+Tranqui! te vamos a generar el link de pago, mediante una suscripción mensual, para que continues usando tu agenda de turnos online. Si decidiste no continuar con nuestro servicio no hace falta que hagas ninguna acción, automaticamente se da de baja y se anula tu agenda. Igualmente, mantenemos tu configuración por 30 días por si te arrepentis y querés contratar nuevamente el servicio.
+
+[![Image 16: Gratis](https://turnos-fun.com/images/229535967_137404358464227_5728740907418427043_n.png)](https://wa.me/message/YREPPMMHV3GCM1)
+##### [Adquirilo YA!](https://wa.me/message/YREPPMMHV3GCM1)
+
+**CONTRATAR**
+
+[![Image 17](https://turnos-fun.com/images/index-5-313x580.png)](https://wa.me/message/YREPPMMHV3GCM1)
+
+[![Image 18](https://turnos-fun.com/images/index-6-313x580.png)](https://wa.me/message/YREPPMMHV3GCM1)
+
+[![Image 19: Saca turno para cita](https://turnos-fun.com/images/index-4-313x580.png)](https://wa.me/message/YREPPMMHV3GCM1)
+
+[![Image 20](https://turnos-fun.com/images/index-5-313x580.png)](https://wa.me/message/YREPPMMHV3GCM1)
+
+[![Image 21](https://turnos-fun.com/images/index-6-313x580.png)](https://wa.me/message/YREPPMMHV3GCM1)
+
+[![Image 22: Saca turno para cita](https://turnos-fun.com/images/index-4-313x580.png)](https://wa.me/message/YREPPMMHV3GCM1)
+
+[![Image 23](https://turnos-fun.com/images/index-5-313x580.png)](https://wa.me/message/YREPPMMHV3GCM1)
+
+![Image 24](https://turnos-fun.com/images/parallax-1.jpg)
+
+![Image 25](https://turnos-fun.com/images/parallax-1.jpg)
+
+### turnos-fun.com
+
+Sistema de gestion de Turnos
+
+[¡Pedí tu Turno!](https://turnos-fun.com/tecnico/index.php)
+
+Turno Fun es una aplicación web para la administración de emprendimientos que gestionan turnos, como por ejemplo Peluquerías, Centros de Estética, Barberías, etc, y se encuentra disponible para cualquier país de habla hispana.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+popular
+
+![Image 26: argentina-circular](https://img.icons8.com/fluency/28/argentina-circular.png)**Argentina**
+
+El paquete perfecto para webs de turnos
+
+~~USD~~~~38~~~~/anual~~
+
+ 40% **OFF**
+
+USD 23/anual
+
+Básica
+
+*   Turnos ilimitados 
+*   Turnos simultáneos 
+*   Sin restricciones
+*   Recordatorios por mail
+*   Sin límite de agendas
+*   Profesionales ilimitados
+*   Soporte 24/7
+
+[CONTRATAR](https://wa.me/message/YREPPMMHV3GCM1)
+
+popular
+
+popular
+
+![Image 27: world](https://img.icons8.com/color-glass/28/world.png) Fuera de Argentina
+
+El paquete perfecto para webs de turnos
+
+~~USD~~~~43~~~~/anual~~
+
+ 40% **OFF**
+
+USD 26/anual
+
+Básica
+
+*   Turnos ilimitados 
+*   Turnos simultáneos 
+*   Sin restricciones
+*   Recordatorios por mail
+*   Sin límite de agendas
+*   Profesionales ilimitados
+*   Soporte 24/7
+
+[CONTRATAR](https://wa.me/message/YREPPMMHV3GCM1)
+
+[![Image 28](http://www.afip.gob.ar/images/f960/DATAWEB.jpg)](http://qr.afip.gob.ar/?qr=1Asq0wLrpgC5wkvmTLN96w,,)
+
+##### **_Contacto_**
+
+*    [+54 9 11 3639-3837](tel:#)  
+*    [info@turnos-fun.com](mailto:#)  
+*    [Bartolomé Mitre 4420, CABA, C1201AAS](https://turnos-fun.com/#)  
+
+##### **_LEGALES_**
+
+ Politicas de Privacidad 
+
+Politicas de Privacidad
+-----------------------
+
+Política de privacidad describe cómo se recopila, utiliza y comparte su información personal cuando visita o hace una compra en[https://turnos-fun.com](https://turnos-fun.com/)(denominado en lo sucesivo el “Sitio”).
+
+##### INFORMACIÓN PERSONAL QUE RECOPILAMOS
+
+Cuando visita el Sitio, recopilamos automáticamente cierta información sobre su dispositivo, incluida información sobre su navegador web, dirección IP, zona horaria y algunas de las cookies que están instaladas en su dispositivo. Además, a medida que navega por el Sitio, recopilamos información sobre las páginas web individuales o los productos que ve, las páginas web o los términos de búsqueda que lo remitieron al Sitio e información sobre cómo interactúa usted con el Sitio. Nos referimos a esta información recopilada automáticamente como “Información del dispositivo”.
+
+Recopilamos Información del dispositivo mediante el uso de las siguientes tecnologías:
+
+*   Los “Archivos de registro” rastrean las acciones que ocurren en el Sitio y recopilan datos, incluyendo su dirección IP, tipo de navegador, proveedor de servicio de Internet, páginas de referencia/salida y marcas de fecha/horario.
+*   Las “balizas web”, las “etiquetas” y los “píxeles” son archivos electrónicos utilizados para registrar información sobre cómo navega usted por el Sitio.
+
+Además, cuando hace una compra o intenta hacer una compra a través del Sitio, recopilamos cierta información de usted, entre la que se incluye su nombre, dirección de facturación, dirección de envío, información de pago (incluidos los números de la tarjeta de crédito y correo asociado a su cuenta de mercadopago), dirección de correo electrónico y número de teléfono. Nos referimos a esta información como “Información del pedido”.
+
+Cuando hablamos de “Información personal” en la presente Política de privacidad, nos referimos tanto a la Información del dispositivo como a la Información del pedido.
+
+##### ¿CÓMO UTILIZAMOS SU INFORMACIÓN PERSONAL?
+
+Usamos la Información del pedido que recopilamos en general para preparar los pedidos realizados a través del Sitio (incluido el procesamiento de su información de pago, la organización de los envíos y la entrega de facturas y/o confirmaciones de pedido). Además, utilizamos esta Información del pedido para: comunicarnos con usted; examinar nuestros pedidos en busca de fraudes o riesgos potenciales; y cuando de acuerdo con las preferencias que usted compartió con nosotros, le proporcionamos información o publicidad relacionada con nuestros productos o servicios.
+
+Utilizamos la Información del dispositivo que recopilamos para ayudarnos a detectar posibles riesgos y fraudes (en particular, su dirección IP) y, en general, para mejorar y optimizar nuestro Sitio (por ejemplo, al generar informes y estadísticas sobre cómo nuestros clientes navegan e interactúan con el Sitio y para evaluar el éxito de nuestras campañas publicitarias y de marketing).
+
+##### COMPARTIR SU INFORMACIÓN PERSONAL
+
+Compartimos su Información personal con terceros para que nos ayuden a utilizar su Información personal, tal como se describió anteriormente. Por ejemplo, utilizamos Google Analytics para ayudarnos a comprender cómo usan nuestros clientes el Sitio. Puede obtener más información sobre cómo Google utiliza su Información personal aquí:[https://www.google.com/intl/es/policies/privacy/](https://www.google.com/intl/es/policies/privacy/). Puede darse de baja de Google Analytics aquí:[https://tools.google.com/dlpage/gaoptout](https://tools.google.com/dlpage/gaoptout).
+
+Finalmente, también podemos compartir su Información personal para cumplir con las leyes y regulaciones aplicables, para responder a una citación, orden de registro u otra solicitud legal de información que recibamos, o para proteger nuestros derechos.
+
+##### PUBLICIDAD ORIENTADA POR EL COMPORTAMIENTO
+
+Como se describió anteriormente, utilizamos su Información personal para proporcionarle anuncios publicitarios dirigidos o comunicaciones de marketing que creemos que pueden ser de su interés. Para más información sobre cómo funciona la publicidad dirigida, puede visitar la página educativa de la Iniciativa Publicitaria en la Red ("NAI" por sus siglas en inglés) en[https://www.networkadvertising.org/understanding-online-advertising/how-does-it-work](https://www.networkadvertising.org/understanding-online-advertising/how-does-it-work). Puede darse de baja de la publicidad dirigida mediante los siguientes enlaces:
+
+*   GOOGLE:[https://adssettings.google.com/authenticated?hl=es](https://adssettings.google.com/authenticated?hl=es)
+
+Además, puede darse de baja de algunos de estos servicios visitando el portal de exclusión voluntaria de Digital Advertising Alliance en:[https://optout.aboutads.info/](https://optout.aboutads.info/).
+
+##### NO RASTREAR
+
+Tenga en cuenta que no alteramos las prácticas de recopilación y uso de datos de nuestro Sitio cuando vemos una señal de No rastrear desde su navegador.
+
+##### SUS DERECHOS
+
+Si usted es un residente europeo, tiene derecho a acceder a la información personal que tenemos sobre usted y a solicitar que su información personal sea corregida, actualizada o eliminada. Si desea ejercer este derecho, comuníquese con nosotros a través de la información de contacto que se encuentra a continuación.
+
+Además, si usted es un residente europeo, tenemos en cuenta que estamos procesando su información para cumplir con los contratos que podamos tener con usted (por ejemplo, si realiza un pedido a través del Sitio) o para perseguir nuestros intereses comerciales legítimos enumerados anteriormente. Además, tenga en cuenta que su información se transferirá fuera de Europa, incluidos Canadá y los Estados Unidos.
+
+##### RETENCIÓN DE DATOS
+
+Cuando realiza un pedido a través del Sitio, mantendremos su Información del pedido para nuestros registros a menos que y hasta que nos pida que eliminemos esta información.
+
+##### CAMBIOS
+
+Podemos actualizar esta política de privacidad periódicamente para reflejar, por ejemplo, cambios en nuestras prácticas o por otros motivos operativos, legales o reglamentarios.
+
+##### CONTÁCTENOS
+
+Para obtener más información sobre nuestras prácticas de privacidad, si tiene alguna pregunta o si desea presentar una queja, contáctenos por correo electrónico a[legales@turnos-fun.com](mailto:legales@turnos-fun.com)o por correo mediante el uso de la información que se proporciona a continuación:
+
+Bartolomé mitre 4420
+
+C1201AAS
+
+CABA, Argentina
+
+Cerrar
+
+ Aviso legal 
+
+Aviso legal
+-----------
+
+#### Aviso legal
+
+En este espacio, el usuario, podrá encontrar toda la información relativa a los términos y condiciones legales que definen las relaciones entre los usuarios y nosotros como responsables de esta web. Como usuario, es importante que conozcas estos términos antes de continuar tu navegación. Asumimos el compromiso de procesar la información de nuestros usuarios y clientes con plenas garantías y cumplir con los requisitos nacionales y europeos que regulan la recopilación y uso de los datos personales de nuestros usuarios. Esta web, por tanto, cumple rigurosamente con el RGPD (Reglamento UE 2016/679 de protección de datos) y la LSSI-CE (Ley 34/2002 de servicios de la sociedad de la información y de comercio electrónico).
+
+##### Condiciones generales de uso
+
+Las presentes Condiciones Generales regulan el uso (incluyendo el mero acceso) de las páginas de la web, integrantes del sitio web de turrnos-fun incluidos los contenidos y servicios puestos a disposición en ellas. Toda persona que acceda a la web turnito.app acepta someterse a las Condiciones Generales vigentes en cada momento.
+
+##### Compromisos y obligaciones de los usuarios
+
+El usuario queda informado, y acepta, que el acceso a la presente web no supone, en modo alguno, el inicio de una relación comercial con turnito.app. De esta forma, el usuario se compromete a utilizar el sitio Web, sus servicios y contenidos sin contravenir la legislación vigente, la buena fe y el orden público. Queda prohibido el uso de la web, con fines ilícitos o lesivos, o que, de cualquier forma, puedan causar perjuicio o impedir el normal funcionamiento del sitio web. Respecto de los contenidos de esta web, se prohíbe: Su reproducción, distribución o modificación, total o parcial, a menos que se cuente con la autorización de sus legítimos titulares. Cualquier vulneración de los derechos del prestador o de los legítimos titulares. Su utilización para fines comerciales o publicitarios. En la utilización de la web, turnito.app, el usuario se compromete a no llevar a cabo ninguna conducta que pudiera dañar la imagen, los intereses y los derechos de turnito.app o de terceros. No obstante, el usuario debe ser consciente de que las medidas de seguridad de los sistemas informáticos en Internet no son enteramente fiables y que, por tanto turnito.app no puede garantizar la inexistencia de virus u otros elementos que puedan producir alteraciones en los sistemas informáticos (software y hardware) del usuario o en sus documentos electrónicos y ficheros contenidos en los mismos.
+
+Utilizamos la Información del dispositivo que recopilamos para ayudarnos a detectar posibles riesgos y fraudes (en particular, su dirección IP) y, en general, para mejorar y optimizar nuestro Sitio (por ejemplo, al generar informes y estadísticas sobre cómo nuestros clientes navegan e interactúan con el Sitio y para evaluar el éxito de nuestras campañas publicitarias y de marketing).
+
+##### Medidas de seguridad
+
+Los datos personales comunicados por el usuario a turnito.app pueden ser almacenados en bases de datos automatizadas o no, cuya titularidad corresponde en exclusiva a turnito.app, asumiendo ésta todas las medidas de índole técnica, organizativa y de seguridad que garantizan la confidencialidad, integridad y calidad de la información contenida en las mismas de acuerdo con lo establecido en la normativa vigente en protección de datos. La comunicación entre los usuarios y turnito.app utiliza un canal seguro, y los datos transmitidos son cifrados gracias a protocolos a https, por tanto, garantizamos las mejores condiciones de seguridad para que la confidencialidad de los usuarios esté garantizada.
+
+Finalmente, también podemos compartir su Información personal para cumplir con las leyes y regulaciones aplicables, para responder a una citación, orden de registro u otra solicitud legal de información que recibamos, o para proteger nuestros derechos.
+
+##### Reclamaciones
+
+El usuario podrá realizar reclamaciones remitiendo un correo electrónico a tos@turnito.app indicando su nombre y apellidos, el servicio y/o producto adquirido y exponiendo los motivos de su reclamación.
+
+##### Derechos de propiedad intelectual e industrial
+
+En virtud de lo dispuesto en los artículos 8 y 32.1, párrafo segundo, de la Ley de Propiedad Intelectual, quedan expresamente prohibidas la reproducción, la distribución y la comunicación pública, incluida su modalidad de puesta a disposición, de la totalidad o parte de los contenidos de esta página web, con fines comerciales, en cualquier soporte y por cualquier medio técnico, sin la autorización de turnito.app. El usuario se compromete a respetar los derechos de Propiedad Intelectual e Industrial titularidad de turnito.app. El usuario conoce y acepta que la totalidad del sitio web, conteniendo sin carácter exhaustivo el texto, software, contenidos (incluyendo estructura, selección, ordenación y presentación de los mismos) podcast, fotografías, material audiovisual y gráficos, está protegida por marcas, derechos de autor y otros derechos legítimos, de acuerdo con los tratados internacionales en los que España es parte y otros derechos de propiedad y leyes de España. En el caso de que un usuario o un tercero consideren que se ha producido una violación de sus legítimos derechos de propiedad intelectual por la introducción de un determinado contenido en la web, deberá notificar dicha circunstancia a turnito.app indicando: Datos personales del interesado titular de los derechos presuntamente infringidos, o indicar la representación con la que actúa en caso de que la reclamación la presente un tercero distinto del interesado. Señalar los contenidos protegidos por los derechos de propiedad intelectual y su ubicación en la web, la acreditación de los derechos de propiedad intelectual señalados y declaración expresa en la que el interesado se responsabiliza de la veracidad de las informaciones facilitadas en la notificación
+
+##### Enlaces externos
+
+Las páginas de la web turnito.app, podrían proporcionar enlaces a otros sitios web propios y contenidos que son propiedad de terceros. El único objeto de los enlaces es proporcionar al usuario la posibilidad de acceder a dichos enlaces. turnito.app no se responsabiliza en ningún caso de los resultados que puedan derivarse al usuario por acceso a dichos enlaces. El usuario que se proponga establecer cualquier dispositivo técnico de enlace desde su sitio web al portal turnito.app deberá obtener la autorización previa y escrita de turnito.app El establecimiento del enlace no implica en ningún caso la existencia de relaciones entre turnito.app y el propietario del sitio en el que se establezca el enlace, ni la aceptación o aprobación por parte de turnito.app de sus contenidos o servicios.
+
+##### Política de comentarios
+
+En nuestra web y se permiten realizar comentarios para enriquecer los contenidos y realizar consultas. No se admitirán comentarios que no estén relacionados con la temática de esta web, que incluyan difamaciones, agravios, insultos, ataques personales o faltas de respeto en general hacia el autor o hacia otros miembros. También serán suprimidos los comentarios que contengan información que sea obviamente engañosa o falsa, así como los comentarios que contengan información personal, como, por ejemplo, domicilios privado o teléfonos y que vulneren nuestra política de protección de datos. Se desestimará, igualmente, aquellos comentarios creados sólo con fines promocionales de una web, persona o colectivo y todo lo que pueda ser considerado spam en general. No se permiten comentarios anónimos, así como aquellos realizados por una misma persona con distintos apodos. No se considerarán tampoco aquellos comentarios que intenten forzar un debate o una toma de postura por otro usuario.
+
+##### Exclusión de garantías y responsabilidad
+
+El prestador no otorga ninguna garantía ni se hace responsable, en ningún caso, de los daños y perjuicios de cualquier naturaleza que pudieran traer causa de: La falta de disponibilidad, mantenimiento y efectivo funcionamiento de la web, o de sus servicios y contenidos. La existencia de virus, programas maliciosos o lesivos en los contenidos. El uso ilícito, negligente, fraudulento o contrario a este Aviso Legal. La falta de licitud, calidad, fiabilidad, utilidad y disponibilidad de los servicios prestados por terceros y puestos a disposición de los usuarios en el sitio web. El prestador no se hace responsable bajo ningún concepto de los daños que pudieran dimanar del uso ilegal o indebido de la presente página web.
+
+Cerrar
+
+[](https://turnos-fun.com/politicas_de_privacidad.pdf)
+
+[](https://turnos-fun.com/#)
+
+*   [](https://www.facebook.com/reparacion.pc.notebook?locale=es_LA)
+*   [](https://www.instagram.com/tecnico.agl/)
+*   [](https://wa.me/message/YREPPMMHV3GCM1)
+*   [](https://www.youtube.com/channel/UCOo8zaYItk7ac9gjKN829kQ)
+
+[**Privacidad**](https://turnos-fun.com/politicas_de_privacidad.pdf)[**Aviso Legal**](https://turnos-fun.com/aviso_legal.html)[**Terminos y condiciones**](https://turnos-fun.com/aviso_legal.html)
+
+©2025 All rights reserved [Turnos Fun](https://turnos-fun.com/)
+
+[](https://turnos-fun.com/#)[](https://turnos-fun.com/#)
+
+Title: App web de gestión de turnos online
+
+URL Source: https://turnos.app/
+
+Markdown Content:
+Turnos.app | App web de gestión de turnos online
+
+===============
+
+[![Image 11: Aplicación de turnos](https://turnos.app/assets/img/logo_web1_new.png)![Image 12: app de turnos](https://turnos.app/assets/img/logo_web2_new.png)](https://turnos.app/#)
+
+*   [Producto](https://turnos.app/#)
+    *   [Acerca de](https://turnos.app/#acerca)
+    *   [Beneficios](https://turnos.app/#beneficios)
+    *   [Formulario web](https://turnos.app/#formularioWeb)
+    *   [Gestión contable](https://turnos.app/#gestionContable)
+    *   [Módulos](https://turnos.app/#integracion)
+    *   [Aplicaciones](https://turnos.app/#aplicaciones)
+
+*   [Precios](https://turnos.app/#planes)
+*   [Clientes](https://turnos.app/#clientes)
+*   [Preguntas frecuentes](https://turnos.app/#preguntasFrecuentes)
+*   [Contacto](https://turnos.app/#contacto)
+
+[Solicitá tu demo](javascript:;)
+
+*                         ![Image 13](https://turnos.app/assets/img/img1_small.png)    El sistema de gestión
+
+que necesitás para tu negocio
+====================================================        Leer más     
+
+Acerca de
+---------
+
+Turnos.app es la aplicación web que te permite ordenar y agilizar el procesamiento de turnos, dejando atrás las grandes planillas de Excel, calendarios compartidos o múltiples cuadernos que usás actualmente por cada servicio o profesional. Te permite utilizarla en cualquier dispositivo, desde cualquier lugar, entre múltiples usuarios al mismo tiempo. Cada uno de ellos con diferentes permisos.
+
+![Image 14](https://turnos.app/assets/img/iconos/responsive.png)
+
+### Responsive
+
+Accedé desde cualquier dispositivo.
+
+![Image 15](https://turnos.app/assets/img/iconos/interfaz_sencilla.png)
+
+### Simple
+
+Interfaz simple e intuitiva para un fácil manejo.
+
+![Image 16](https://turnos.app/assets/img/iconos/personalizado2.png)
+
+### Personalizado
+
+El sistema tendrá tu logo, colores y un acceso con subdominio propio ej. tuempresa.turnos.app
+
+Beneficios
+----------
+
+Estos son los beneficios de Turnos.app
+--------------------------------------
+
+### Disponibilidad 24/7
+
+Sabías que más del 50% de los turnos se reservan fuera del horario laboral? Abrí tu agenda y hasta cobra online por cada turno tomado.
+
+### Optimizá tu agenda
+
+Agilizá tu agenda cubriendo huecos causados por las cancelaciones a último momento. Visualizá y administrá múltiples agendas en un mismo calendario.
+
+### Reduce el ausentismo
+
+Gracias a los recordatorios automáticos reducí el ausentismo en hasta un 80%.
+
+### Fidelidad y Seguridad
+
+Crea fidelidad y seguridad en los pacientes, desde el proceso de la reserva hasta los recordatorios.
+
+![Image 17: Aplicación de turnos](https://turnos.app/assets/img/turnos4.png)
+
+[![Image 18: App de Turnos](https://turnos.app/assets/img/galeria/indiana.jpg)](javascript:;)
+
+[![Image 19: App de Turnos](https://turnos.app/assets/img/galeria/doriana.jpg)](javascript:;)
+
+[![Image 20: App de Turnos](https://turnos.app/assets/img/galeria/bienkinesio.jpg)](javascript:;)
+
+[![Image 21: App de Turnos](https://turnos.app/assets/img/galeria/luisina.jpg)](javascript:;)
+
+[![Image 22: App de Turnos](https://turnos.app/assets/img/galeria/scholl.jpg)](javascript:;)
+
+[![Image 23: App de Turnos](https://turnos.app/assets/img/galeria/leiva.jpg)](javascript:;)
+
+[![Image 24: App de Turnos](https://turnos.app/assets/img/galeria/lanemed.jpg)](javascript:;)
+
+[![Image 25: App de Turnos](https://turnos.app/assets/img/galeria/matrioshka.jpg)](javascript:;)
+
+[![Image 26: App de Turnos](https://turnos.app/assets/img/galeria/jules.jpg)](javascript:;)
+
+[![Image 27: App de Turnos](https://turnos.app/assets/img/galeria/black.jpg)](javascript:;)
+
+[![Image 28: App de Turnos](https://turnos.app/assets/img/galeria/tecnocampo.jpg)](javascript:;)
+
+[![Image 29: App de Turnos](https://turnos.app/assets/img/galeria/kattegat.jpg)](javascript:;)
+
+[![Image 30: App de Turnos](https://turnos.app/assets/img/galeria/santos.jpg)](javascript:;)
+
+[![Image 31: App de Turnos](https://turnos.app/assets/img/galeria/clubuni.jpg)](javascript:;)
+
+[![Image 32: App de Turnos](https://turnos.app/assets/img/galeria/argroup.jpg)](javascript:;)
+
+[![Image 33: App de Turnos](https://turnos.app/assets/img/galeria/indiana.jpg)](javascript:;)
+
+[![Image 34: App de Turnos](https://turnos.app/assets/img/galeria/doriana.jpg)](javascript:;)
+
+[![Image 35: App de Turnos](https://turnos.app/assets/img/galeria/bienkinesio.jpg)](javascript:;)
+
+[![Image 36: App de Turnos](https://turnos.app/assets/img/galeria/luisina.jpg)](javascript:;)
+
+[![Image 37: App de Turnos](https://turnos.app/assets/img/galeria/scholl.jpg)](javascript:;)
+
+[![Image 38: App de Turnos](https://turnos.app/assets/img/galeria/leiva.jpg)](javascript:;)
+
+[![Image 39: App de Turnos](https://turnos.app/assets/img/galeria/lanemed.jpg)](javascript:;)
+
+[![Image 40: App de Turnos](https://turnos.app/assets/img/galeria/matrioshka.jpg)](javascript:;)
+
+[![Image 41: App de Turnos](https://turnos.app/assets/img/galeria/jules.jpg)](javascript:;)
+
+[![Image 42: App de Turnos](https://turnos.app/assets/img/galeria/black.jpg)](javascript:;)
+
+[![Image 43: App de Turnos](https://turnos.app/assets/img/galeria/tecnocampo.jpg)](javascript:;)
+
+[![Image 44: App de Turnos](https://turnos.app/assets/img/galeria/kattegat.jpg)](javascript:;)
+
+[![Image 45: App de Turnos](https://turnos.app/assets/img/galeria/santos.jpg)](javascript:;)
+
+[![Image 46: App de Turnos](https://turnos.app/assets/img/galeria/clubuni.jpg)](javascript:;)
+
+[![Image 47: App de Turnos](https://turnos.app/assets/img/galeria/argroup.jpg)](javascript:;)
+
+[![Image 48: App de Turnos](https://turnos.app/assets/img/galeria/indiana.jpg)](javascript:;)
+
+![Image 49: App de Turnos](https://turnos.app/assets/img/galeria/kattegat.jpg)
+
+![Image 50: App de Turnos](https://turnos.app/assets/img/galeria/santos.jpg)
+
+![Image 51: App de Turnos](https://turnos.app/assets/img/galeria/clubuni.jpg)
+
+![Image 52: App de Turnos](https://turnos.app/assets/img/galeria/argroup.jpg)
+
+![Image 53: App de Turnos](https://turnos.app/assets/img/galeria/indiana.jpg)
+
+![Image 54: App de Turnos](https://turnos.app/assets/img/galeria/doriana.jpg)
+
+![Image 55: App de Turnos](https://turnos.app/assets/img/galeria/bienkinesio.jpg)
+
+![Image 56: App de Turnos](https://turnos.app/assets/img/galeria/luisina.jpg)
+
+![Image 57: App de Turnos](https://turnos.app/assets/img/galeria/scholl.jpg)
+
+![Image 58: App de Turnos](https://turnos.app/assets/img/galeria/leiva.jpg)
+
+![Image 59: App de Turnos](https://turnos.app/assets/img/galeria/lanemed.jpg)
+
+![Image 60: App de Turnos](https://turnos.app/assets/img/galeria/matrioshka.jpg)
+
+![Image 61: App de Turnos](https://turnos.app/assets/img/galeria/jules.jpg)
+
+![Image 62: App de Turnos](https://turnos.app/assets/img/galeria/black.jpg)
+
+![Image 63: App de Turnos](https://turnos.app/assets/img/galeria/tecnocampo.jpg)
+
+![Image 64: App de Turnos](https://turnos.app/assets/img/galeria/kattegat.jpg)
+
+![Image 65: App de Turnos](https://turnos.app/assets/img/galeria/santos.jpg)
+
+![Image 66: App de Turnos](https://turnos.app/assets/img/galeria/clubuni.jpg)
+
+![Image 67: App de Turnos](https://turnos.app/assets/img/galeria/argroup.jpg)
+
+![Image 68: App de Turnos](https://turnos.app/assets/img/galeria/indiana.jpg)
+
+![Image 69: App de Turnos](https://turnos.app/assets/img/galeria/doriana.jpg)
+
+![Image 70: App de Turnos](https://turnos.app/assets/img/galeria/bienkinesio.jpg)
+
+![Image 71: App de Turnos](https://turnos.app/assets/img/galeria/luisina.jpg)
+
+![Image 72: App de Turnos](https://turnos.app/assets/img/galeria/scholl.jpg)
+
+![Image 73: App de Turnos](https://turnos.app/assets/img/galeria/leiva.jpg)
+
+![Image 74: App de Turnos](https://turnos.app/assets/img/galeria/lanemed.jpg)
+
+![Image 75: App de Turnos](https://turnos.app/assets/img/galeria/matrioshka.jpg)
+
+![Image 76: App de Turnos](https://turnos.app/assets/img/galeria/jules.jpg)
+
+![Image 77: App de Turnos](https://turnos.app/assets/img/galeria/black.jpg)
+
+![Image 78: App de Turnos](https://turnos.app/assets/img/galeria/tecnocampo.jpg)
+
+![Image 79: App de Turnos](https://turnos.app/assets/img/galeria/kattegat.jpg)
+
+![Image 80: App de Turnos](https://turnos.app/assets/img/galeria/santos.jpg)
+
+![Image 81: App de Turnos](https://turnos.app/assets/img/galeria/clubuni.jpg)
+
+![Image 82: App de Turnos](https://turnos.app/assets/img/galeria/argroup.jpg)
+
+![Image 83: App de Turnos](https://turnos.app/assets/img/galeria/indiana.jpg)
+
+Formulario web
+--------------
+
+Nuestra app también te ofrece un formulario web muy sencillo e intuitivo que no requiere de registro para que tus clientes puedan tomar sus turnos de forma independiente en un link único que te brindamos para tu negocio.
+
+Este formulario web tendrá una dirección única para tu negocio compuesta por el nombre del mismo seguido de **turnos.app**, por ejemplo **tunegocio.turnos.app**. El mismo estará personalizado con tu logo y colores para lograr una imagen transparente para tus clientes.
+
+Campos adicionales
+De ser necesario podrás solicitar campos adicionales para que tus clientes puedan completar con información extra que necesites para el turno, como por ejemplo el motivo de la consulta. También podés solicitar una imagen de fondo personalizada para esta pantalla.
+
+Sitio web
+En caso de que cuentes con un sitio web actualmente podrás integrar nuestro formulario web en tu sitio web, de esta forma tus clientes podrán tomar turnos dentro del mismo y sin necesidad de que vos tengas que estar presente ni debas compartir un link diferente para la toma de turnos.
+
+Sistema gestión contable
+------------------------
+
+En este módulo podrás administrar los precios, porcentajes de comisiones de tus colaboradores, programar aumentos para luego calcular ventas, liquidaciones, comisiones por venta, los servicios mas vendidos, cantidad de turnos diarios, los horarios de mayor movimiento; centralizando toda la información para que tomes las mejores decisiones para tu negocio.
+
+Reportes de Ventas
+Por periodo, por profesional, por turnos
+
+Comisiones
+Cálculo automático con porcentaje
+
+Estadísticas
+Turnos y ventas por horarios, servicios y profesional
+
+![Image 84: Gestión contable](https://turnos.app/assets/img/contable2.jpg)
+
+Módulos
+-------
+
+Expandí la funcionalidad de **Turnos.app**
+
+con los siguientes módulos
+----------------------------------------------------------------------
+
+### Archivo adjunto
+
+Permite agregar un archivo asociado al turno tomado. Puede ser tanto un comprobante de pago como por ejemplo un estudio u orden médica.
+
+### Cobros online
+
+Cobrá al momento de la toma del turno de forma opcional u obligatoria una seña o la totalidad del valor del servicio. Podés asociar Mercadopago, Payway o Paypal. Otros gateways de pago, consultar.
+
+### Créditos
+
+Asigná créditos para tomar turnos a los usuarios de forma manual o automática. Cada turno descuenta un crédito. Planes de créditos autoadministrables. Se puede asociar al módulo de cobro para recarga independiente de los usuarios.
+
+### Facturación
+
+Asociá la app con AFIP y facturá los turnos de forma automática. El sistema genera la factura en base al servicio asociado al turno y envía la mismo en PDF por mail al cliente.
+
+### Google Calendar
+
+Agendá los turnos tomados en Turnos.app directamente en el calendario de cada profesional o el administrador.
+
+### Historia clínica / historial
+
+Ingresá información asociada a cada turno del paciente/cliente. Accedé al historial completo por usuario. Se puede ajustar a cualquier rubro. Se le puede asociar un archivo a cada ingreso.
+
+### Husos horarios
+
+Si manejás público internacional, la app se adapta al huso horario del visitante, mientras que vos manejás todos los horarios en hora local.
+
+### Productos
+
+Permite administrar y vender productos asociados al turno. Puede vincularse con el módulo de stock, módulo de facturación y medios de pago.
+
+### Recetas / órdenes digitales
+
+Generá desde el turno órdenes o recetas. La app completa la misma con el logo y datos del paciente. El profesional solo debe completar la orden, imprimirla, firmarla y sellarla.
+
+### Reunión virtual
+
+Asociá Google Meet o Zoom para trabajar con reuniones virtuales. Cada vez que alguien tome turno con un servicio virtual se creará el evento en la plataforma y enviará el link de acceso a la reunión en la confirmación del turno.
+
+### Turnos en pantalla
+
+Agrega un nuevo estado de turno "En espera" desde recepción. El profesional, desde su computadora, tablet o teléfono cambia el estado del turno a asistido, lo que hará que el nombre del paciente y el box asociado aparezca en pantalla acompañado de una alerta sonora. Se puede adaptar a cualquier rubro.
+
+### Whatsapp automatizado
+
+Permite al administrador escanear el QR para asociar su Whatsapp a nuestra app. La aplicación utilizará la línea para enviar mensajes de forma automática. Las respuestas a este número podrán ser respondidas por el administrador.
+
+Este módulo tiene un valor mensual de USD15+IVA
+
+Si no encontrás el módulo que estás buscando no dudes en [consultarnos](https://turnos.app/#contacto).
+
+Aplicaciones
+------------
+
+Optimizá tu negocio con Turnos.app
+----------------------------------
+
+Nuestra app se adapta perfectamente a cualquier tipo de negocio.
+
+A continuación te mostramos algunos ejemplos.
+
+![Image 85: App de turnos para consultorios medicos y centros de salud](https://turnos.app/assets/img/doc1.jpg)
+
+#### [SALUD](javascript:;)
+
+[Solicita una demo de nuestro sistema haciendo clic acá.](javascript:;)
+
+![Image 86: App de turnos para esteticas](https://turnos.app/assets/img/este2.jpg)
+
+#### [ESTÉTICAS](javascript:;)
+
+[Solicita una demo de nuestro sistema haciendo clic acá.](javascript:;)
+
+![Image 87: Sistema de turnos para peluquerias / barberias](https://turnos.app/assets/img/bar1.png)
+
+#### [BARBERÍAS / PELUQUERÍAS](javascript:;)
+
+[Solicita una demo de nuestro sistema haciendo clic acá.](javascript:;)
+
+![Image 88: App de turnos para clubes](https://turnos.app/assets/img/clubes.png)
+
+#### [CLUBES](javascript:;)
+
+[Solicita una demo de nuestro sistema haciendo clic acá.](javascript:;)
+
+![Image 89: app de turnos para organismos publicos, vtv, colegios](https://turnos.app/assets/img/publicos.png)
+
+#### [ORGANISMOS PÚBLICOS](javascript:;)
+
+[Solicita una demo de nuestro sistema haciendo clic acá.](javascript:;)
+
+![Image 90: App de turnos para talleres](https://turnos.app/assets/img/talleres.png)
+
+#### [TALLERES](javascript:;)
+
+[Solicita una demo de nuestro sistema haciendo clic acá.](javascript:;)
+
+![Image 91: App de turnos para gestion de alquiler de canchas de futbol, tenis, paddel, basquet, golf](https://turnos.app/assets/img/can1.jpg)
+
+#### [ALQUILER DE CANCHAS](javascript:;)
+
+[Solicita una demo de nuestro sistema haciendo clic acá.](javascript:;)
+
+![Image 92: App de Turnos para gimnasio](https://turnos.app/assets/img/gym1.jpg)
+
+#### [GIMNASIOS / PILATES](javascript:;)
+
+[Solicita una demo de nuestro sistema haciendo clic acá.](javascript:;)
+
+Planes
+------
+
+Elegí el plan que mejor es adapte a tu negocio
+----------------------------------------------
+
+Si no encontrás un plan que se adapte a tus necesidades, [contactános](https://turnos.app/#contacto).
+
+#### Ver valores expresados en
+
+USD ARS 
+
+### Standard
+
+*    2 agendas 
+*    1000 turnos por mes 
+*    Turnos simultáneos 
+*    1 usuario con restricciones 
+*    Recordatorios por mail 
+*    Reportes 
+*    Soporte 24/7 
+
+ $24.490 14.90 _+IVA / mes_
+
+##### Pack Primeros
+
+3 MESES *
+
+ $49.950 35 _$16.650 11.66 x mes_ _+IVA_
+
+[Accede a tu demo](https://turnos.app/#)
+
+### Premium
+
+*    Hasta 6 agendas 
+*    Turnos ilimitados 
+*    Turnos simultáneos 
+*    3 usuarios con restricciones 
+*    Acceso para profesionales 
+*    Recordatorios por mail 
+*    Recordatorios Whatsapp 
+*    Cobros online a través de Mercadopago o Payway 
+*    Exportación / Impresión 
+*    Reportes 
+*   Categorías de servicios
+*   [Gestión contable](https://turnos.app/#gestionContable)
+*   Husos horarios
+*   [1 módulo a elección](https://turnos.app/#integracion)
+*    Soporte 24/7 
+
+ $34.750 19.90 _+IVA / mes_
+
+##### Pack Primeros
+
+3 MESES *
+
+ $70.890 47 _$23.630 15.66 x mes_ _+IVA_
+
+[Accede a tu demo](https://turnos.app/#)
+
+### Corp
+
+*    Hasta 20 agendas 
+*    Turnos ilimitados 
+*    Turnos simultáneos 
+*    6 usuarios con restricciones 
+*    Acceso para profesionales 
+*    Recordatorios por mail 
+*    Recordatorios Whatsapp 
+*    Cobros online a través de Mercadopago o Payway 
+*    Exportación / Impresión 
+*    Reportes 
+*   Categorías de servicios
+*   [Gestión contable](https://turnos.app/#gestionContable)
+*   Husos horarios
+*   [3 módulos a elección](https://turnos.app/#integracion)
+*    Soporte 24/7 
+
+ $57.490 33.90 _+IVA / mes_
+
+##### Pack Primeros
+
+3 MESES *
+
+ $117.250 80 _$39.083 26.66 x mes_ _+IVA_
+
+[Accede a tu demo](https://turnos.app/#)
+
+### A medida
+
+*    Sin límite de agendas 
+*    Turnos ilimitados 
+*    Turnos simultáneos 
+*    Usuarios con restricciones ilimitados 
+*    Acceso para profesionales 
+*    Recordatorios por mail 
+*    Recordatorios Whatsapp 
+*    Cobros online a través de Mercadopago o Payway 
+*    Exportación / Impresión 
+*    Reportes 
+*   Categorías de servicios
+*   [Gestión contable](https://turnos.app/#gestionContable)
+*   Husos horarios
+*   [Módulos a elección](https://turnos.app/#integracion)
+*    Soporte 24/7 
+
+¿No encontrás un plan que se ajuste a tus necesidades?
+
+Podemos ajustar Turnos.app según lo desees.
+
+[Más información](https://turnos.app/#contacto)
+
+*Abonando de forma anticipada.
+
+Precio de módulo adicional $8.750 + IVA / mes
+
+Precio de módulo adicional USD7 + IVA / mes
+
+![Image 93](https://turnos.app/assets/img/debito2.png)
+
+Clientes
+--------
+
+Quienes confian en nuestra app
+------------------------------
+
+![Image 94: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/sitecicsa.png)
+
+![Image 95: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/doriana.png)
+
+![Image 96: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/clubuni.png)
+
+![Image 97: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/imod.png)
+
+![Image 98: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/comayadelgace.jpg)
+
+![Image 99: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/arrecifes.png)
+
+![Image 100: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/bienestar.png)
+
+![Image 101: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/casafusa.png)
+
+![Image 102: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/clubunivt.png)
+
+![Image 103: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/masalladelcuerpo.png)
+
+![Image 104: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/vikingos.png)
+
+![Image 105: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/uniendopuntos.jpg)
+
+![Image 106: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/dipiedi.png)
+
+![Image 107: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/eli.png)
+
+![Image 108: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/ofx.png)
+
+![Image 109: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/tutelar.png)
+
+![Image 110: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/toyota.png)
+
+![Image 111: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/palermopetstore.png)
+
+![Image 112: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/estudiocenter.png)
+
+![Image 113: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/centenario.png)
+
+![Image 114: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/luisina.png)
+
+![Image 115: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/rentalgnc.png)
+
+![Image 116: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/lapeluqueria.png)
+
+![Image 117: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/banchio.png)
+
+![Image 118: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/reinnova.png)
+
+![Image 119: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/bienkinesio.png)
+
+![Image 120: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/kaizen.png)
+
+![Image 121: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/pangea.png)
+
+![Image 122: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/urgencias.png)
+
+![Image 123: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/estudiodegoumois.png)
+
+![Image 124: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/dipaolo.png)
+
+![Image 125: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/lucianaoliva.png)
+
+![Image 126: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/gentina.png)
+
+![Image 127: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/racais.png)
+
+![Image 128: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/sitecicsa.png)
+
+![Image 129: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/doriana.png)
+
+![Image 130: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/clubuni.png)
+
+![Image 131: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/imod.png)
+
+![Image 132: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/comayadelgace.jpg)
+
+![Image 133: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/arrecifes.png)
+
+![Image 134: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/bienestar.png)
+
+![Image 135: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/casafusa.png)
+
+![Image 136: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/clubunivt.png)
+
+![Image 137: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/masalladelcuerpo.png)
+
+![Image 138: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/vikingos.png)
+
+![Image 139: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/uniendopuntos.jpg)
+
+![Image 140: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/dipiedi.png)
+
+![Image 141: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/eli.png)
+
+![Image 142: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/ofx.png)
+
+![Image 143: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/tutelar.png)
+
+![Image 144: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/toyota.png)
+
+![Image 145: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/palermopetstore.png)
+
+![Image 146: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/estudiocenter.png)
+
+![Image 147: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/centenario.png)
+
+![Image 148: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/luisina.png)
+
+![Image 149: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/rentalgnc.png)
+
+![Image 150: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/lapeluqueria.png)
+
+![Image 151: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/banchio.png)
+
+![Image 152: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/reinnova.png)
+
+![Image 153: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/bienkinesio.png)
+
+![Image 154: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/kaizen.png)
+
+![Image 155: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/pangea.png)
+
+![Image 156: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/urgencias.png)
+
+![Image 157: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/estudiodegoumois.png)
+
+![Image 158: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/dipaolo.png)
+
+![Image 159: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/lucianaoliva.png)
+
+![Image 160: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/gentina.png)
+
+![Image 161: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/racais.png)
+
+![Image 162: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/sitecicsa.png)
+
+![Image 163: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/doriana.png)
+
+![Image 164: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/clubuni.png)
+
+![Image 165: Clientes de la App de Turnos](https://turnos.app/assets/img/clientesturnos/imod.png)
+
+Preguntas frecuentes
+--------------------
+
+##### [¿Qué es una agenda?](https://turnos.app/#accordion-07-body-01)
+
+ Una agenda es un calendario individual donde tus profesionales presentarán su disponibilidad. Se requiere una agenda por profesional/actividad. 
+
+##### [¿Se pueden hacer funciones a medida?](https://turnos.app/#accordion-07-body-02)
+
+ Nuestra aplicación cuenta con la versatilidad de ser totalmente escalable, ajustable y personalizable. Si tu negocio requiere alguna función específica nuestro equipo de programación esta listo para analizar la misma y llevar nuestra aplicación a cubrir todas tus necesidades. 
+
+##### [¿Se le puede asignar un precio a los servicios?](https://turnos.app/#accordion-07-body-03)
+
+ Si, nuestro sistema permite ponerle un valor monetario a cada servicio, e incluso, con la integración del módulo de MercadoPago, Payway o cualquier otro gateway de pago, podés cobrar de manera sencilla y automática al momento de que cada cliente tome un turno en tu app. En caso de que lo necesites, también podés cobrar una seña única por cada turno sin importar el servicio. 
+
+##### [¿Es necesario que mis clientes se registren para tomar un turno?](https://turnos.app/#accordion-07-body-04)
+
+ No, nuestra app no tiene un registro para simplificar la toma de turnos y lograr que tus clientes la usen sin tener que recordar ninguna contraseña. Simplemente debe completar sus datos básicos para tomar un turno. La siguiente vez que desee tomar un turno, con completar el DNI, su teléfono o su mail ya podrá tomar otro turno sin completar los demás datos. 
+
+##### [¿Una vez finalizado el pack de 3 meses a precio promocional, puedo renovar el mismo?](https://turnos.app/#accordion-07-body-05)
+
+ No, lamentablemente por el momento este pack es únicamente para contrataciones nuevas. 
+
+##### [¿Cuanto demora el alta del servicio?](https://turnos.app/#accordion-07-body-06)
+
+ El alta de tu app sin funciones personalizadas es de 72hs. hábiles máximo. En caso de que haya personalizaciones o funciones a medida se evaluará la complejidad de las mismas y se determinará tiempo de desarrollo en cada caso. 
+
+##### [¿Puedo pedir una demo gratuita?](https://turnos.app/#accordion-07-body-07)
+
+ Si, claro! Podés [pedir tu app demo haciendo clic acá](javascript:;) y si lo deseas también podemos coordinar una llamada o meet donde te mostraremos en vivo las funciones de nuestra app. 
+
+##### [¿Puedo cobrar una seña al momento de que mis clientes tomen un turno?](https://turnos.app/#accordion-07-body-08)
+
+ Si, podés establecer el monto de seña y cobrarla a través de la integración del módulo de MercadoPago, Payway u otro gateway de pagos online. 
+
+##### [¿Emiten factura?](https://turnos.app/#accordion-07-body-09)
+
+ Si, emitimos factura A o B según corresponda. 
+
+##### [¿Cómo funciona el soporte técnico?](https://turnos.app/#accordion-07-body-10)
+
+ Brindamos soporte técnico mediante tickets y correo electrónico las 24hs los 365 días del año. 
+
+##### [¿Puedo contratar el servicio desde cualquier país?](https://turnos.app/#accordion-07-body-11)
+
+ Si, podés contratar el servicio desde cualquier lugar del mundo. 
+
+### Información de contacto
+
+[+54 9 (11) 2387-5760](tel:5491123875760)
+
+[info@turnos.app](mailto:info@turnos.app)
+
+[Arenales 605, Of. 502, esq. Av. del Libertador Vicente López, Buenos Aires, Argentina](https://g.page/desarrollo-programacion?share)
+
+### Redes sociales
+
+*   [](https://www.facebook.com/cuatrolados.solutions)
+*   [](https://instagram.com/cuatrolados.solutions)
+*   [](https://wa.me/5491123875760)
+
+### Un producto de:
+
+[![Image 166: Cuatro Lados - Diseño, Marketing y Programación](https://cdn.cuatrolados.com/assets/img/logo/logo-4l-blanco.png)](https://cuatrolados.com/ "Cuatro Lados - Diseño, Marketing y Programación")
+
+[![Image 167: data fiscal](https://turnos.app/assets/img/datafiscal.webp)](http://qr.afip.gob.ar/?qr=siN_VpHu4yraCtCq92ycJQ,,)
+
+Escribinos!
+-----------
+
+Dejá tus datos y nos pondremos en contacto con vos.
+
+Enviar mensaje
+
+[](https://turnos.app/#)
+
+© 2019 - 2025 Cuatro Lados. Todos los derechos reservados.
+
+##### Solicitá tu demo!
+
+×
+
+Accedé a tu demo completando la siguiente información:
+
+ Nombre *  
+
+ Teléfono *  
+
+Argentina +54
+
+244 resultados encontrados
+*     Afghanistan+93
+*     Albania+355
+*     Algeria+213
+*     American Samoa+1
+*     Andorra+376
+*     Angola+244
+*     Anguilla+1
+*     Antigua & Barbuda+1
+*     Argentina+54
+*     Armenia+374
+*     Aruba+297
+*     Ascension Island+247
+*     Australia+61
+*     Austria+43
+*     Azerbaijan+994
+*     Bahamas+1
+*     Bahrain+973
+*     Bangladesh+880
+*     Barbados+1
+*     Belarus+375
+*     Belgium+32
+*     Belize+501
+*     Benin+229
+*     Bermuda+1
+*     Bhutan+975
+*     Bolivia+591
+*     Bosnia & Herzegovina+387
+*     Botswana+267
+*     Brazil+55
+*     British Indian Ocean Territory+246
+*     British Virgin Islands+1
+*     Brunei+673
+*     Bulgaria+359
+*     Burkina Faso+226
+*     Burundi+257
+*     Cambodia+855
+*     Cameroon+237
+*     Canada+1
+*     Cape Verde+238
+*     Caribbean Netherlands+599
+*     Cayman Islands+1
+*     Central African Republic+236
+*     Chad+235
+*     Chile+56
+*     China+86
+*     Christmas Island+61
+*     Cocos (Keeling) Islands+61
+*     Colombia+57
+*     Comoros+269
+*     Congo - Brazzaville+242
+*     Congo - Kinshasa+243
+*     Cook Islands+682
+*     Costa Rica+506
+*     Croatia+385
+*     Cuba+53
+*     Curaçao+599
+*     Cyprus+357
+*     Czech Republic+420
+*     Côte d’Ivoire+225
+*     Denmark+45
+*     Djibouti+253
+*     Dominica+1
+*     Dominican Republic+1
+*     Ecuador+593
+*     Egypt+20
+*     El Salvador+503
+*     Equatorial Guinea+240
+*     Eritrea+291
+*     Estonia+372
+*     Eswatini+268
+*     Ethiopia+251
+*     Falkland Islands+500
+*     Faroe Islands+298
+*     Fiji+679
+*     Finland+358
+*     France+33
+*     French Guiana+594
+*     French Polynesia+689
+*     Gabon+241
+*     Gambia+220
+*     Georgia+995
+*     Germany+49
+*     Ghana+233
+*     Gibraltar+350
+*     Greece+30
+*     Greenland+299
+*     Grenada+1
+*     Guadeloupe+590
+*     Guam+1
+*     Guatemala+502
+*     Guernsey+44
+*     Guinea+224
+*     Guinea-Bissau+245
+*     Guyana+592
+*     Haiti+509
+*     Honduras+504
+*     Hong Kong+852
+*     Hungary+36
+*     Iceland+354
+*     India+91
+*     Indonesia+62
+*     Iran+98
+*     Iraq+964
+*     Ireland+353
+*     Isle of Man+44
+*     Israel+972
+*     Italy+39
+*     Jamaica+1
+*     Japan+81
+*     Jersey+44
+*     Jordan+962
+*     Kazakhstan+7
+*     Kenya+254
+*     Kiribati+686
+*     Kosovo+383
+*     Kuwait+965
+*     Kyrgyzstan+996
+*     Laos+856
+*     Latvia+371
+*     Lebanon+961
+*     Lesotho+266
+*     Liberia+231
+*     Libya+218
+*     Liechtenstein+423
+*     Lithuania+370
+*     Luxembourg+352
+*     Macau+853
+*     Madagascar+261
+*     Malawi+265
+*     Malaysia+60
+*     Maldives+960
+*     Mali+223
+*     Malta+356
+*     Marshall Islands+692
+*     Martinique+596
+*     Mauritania+222
+*     Mauritius+230
+*     Mayotte+262
+*     Mexico+52
+*     Micronesia+691
+*     Moldova+373
+*     Monaco+377
+*     Mongolia+976
+*     Montenegro+382
+*     Montserrat+1
+*     Morocco+212
+*     Mozambique+258
+*     Myanmar (Burma)+95
+*     Namibia+264
+*     Nauru+674
+*     Nepal+977
+*     Netherlands+31
+*     New Caledonia+687
+*     New Zealand+64
+*     Nicaragua+505
+*     Niger+227
+*     Nigeria+234
+*     Niue+683
+*     Norfolk Island+672
+*     North Korea+850
+*     North Macedonia+389
+*     Northern Mariana Islands+1
+*     Norway+47
+*     Oman+968
+*     Pakistan+92
+*     Palau+680
+*     Palestine+970
+*     Panama+507
+*     Papua New Guinea+675
+*     Paraguay+595
+*     Peru+51
+*     Philippines+63
+*     Poland+48
+*     Portugal+351
+*     Puerto Rico+1
+*     Qatar+974
+*     Romania+40
+*     Russia+7
+*     Rwanda+250
+*     Réunion+262
+*     Samoa+685
+*     San Marino+378
+*     Saudi Arabia+966
+*     Senegal+221
+*     Serbia+381
+*     Seychelles+248
+*     Sierra Leone+232
+*     Singapore+65
+*     Sint Maarten+1
+*     Slovakia+421
+*     Slovenia+386
+*     Solomon Islands+677
+*     Somalia+252
+*     South Africa+27
+*     South Korea+82
+*     South Sudan+211
+*     Spain+34
+*     Sri Lanka+94
+*     St Barthélemy+590
+*     St Helena+290
+*     St Kitts & Nevis+1
+*     St Lucia+1
+*     St Martin+590
+*     St Pierre & Miquelon+508
+*     St Vincent & Grenadines+1
+*     Sudan+249
+*     Suriname+597
+*     Svalbard & Jan Mayen+47
+*     Sweden+46
+*     Switzerland+41
+*     Syria+963
+*     São Tomé & Príncipe+239
+*     Taiwan+886
+*     Tajikistan+992
+*     Tanzania+255
+*     Thailand+66
+*     Timor-Leste+670
+*     Togo+228
+*     Tokelau+690
+*     Tonga+676
+*     Trinidad & Tobago+1
+*     Tunisia+216
+*     Turkey+90
+*     Turkmenistan+993
+*     Turks & Caicos Islands+1
+*     Tuvalu+688
+*     US Virgin Islands+1
+*     Uganda+256
+*     Ukraine+380
+*     United Arab Emirates+971
+*     United Kingdom+44
+*     United States+1
+*     Uruguay+598
+*     Uzbekistan+998
+*     Vanuatu+678
+*     Vatican City+39
+*     Venezuela+58
+*     Vietnam+84
+*     Wallis & Futuna+681
+*     Western Sahara+212
+*     Yemen+967
+*     Zambia+260
+*     Zimbabwe+263
+*     Åland Islands+358
+
+Sin 0 ni 15.
+
+ E-mail *  
+
+- [x]  Me gustaría que me llamen  
+
+ Rubro/Tipo de negocio *  
+
+Alquiler de canchas
+
+ Describinos tu negocio para poder asesorarte mejor:  
+
+Cancelar Enviar
+
+[](https://turnos.app/#)
+
+Title: ES CONDICIONES GENERALES DE CONTRATACIÓN_Nov 2024.docx
+
+URL Source: https://clinic-cloud.com/
+
+Markdown Content:
+Última actualización 14 de noviembre de 202 4
+
+# CONDICIONES GENERALES DE CONTRATACIÓN 
+
+LEA ATENTAMENTE ESTAS CONDICIONES ANTES DE UTILIZAR ESTE SITIO 
+
+## ¿Qué hay en estas condiciones generales de contratación? 
+
+Estas condiciones generales de contratación establecen las normas de uso de nuestro Sitio Web y 
+
+Nuestros Servicios y los derechos y obligaciones de Doctoralia Internet S.L. (" Doctoralia " o
+
+"Nosotros ") y el Usuario. 
+
+En estas condiciones generales de contratación, cuando decimos: 
+
+- "Servicios de la Salud" , Nos referimos a todos y cada uno de la atención médica relacionada 
+
+con la salud, incluyendo diagnósticos, tratamientos, videoconsultas y cualesquiera otros 
+
+servicios prestados por Profesionales y/o Centros Médicos. Para evitar dudas, esto nunca 
+
+incluye Nuestros Servicios; 
+
+- "Centro médico" , Nos referimos a clínicas, hospitales u otros locales de servicios de la salud 
+
+donde los Profesionales prestan sus servicios; 
+
+- "Nuestros Servicios" , Nos referimos a los servicios que proporcionamos a través de nuestro 
+
+Sitio Web a los consumidores (es decir, Usuarios que NO utilizan el Sitio en su capacidad 
+
+profesional como Profesionales) , tal y como se establece con más detalle en la Segunda 
+
+Parte, más adelante; 
+
+- "Profesional" , Nos referimos a profesionales de la salud como médicos, dentistas, 
+
+fisioterapeutas, psicólogos y otros profesionales de la salud que aparecen (es decir, tienen un 
+
+perfil, ya sea creado o verificado por ellos o no) en nuestro Sitio. Dichos profesionales pueden 
+
+trabajar de forma independiente o para un Centro Médico, pero en ningún caso están 
+
+contratados por Nosotros ni trabajan para Nosotros; 
+
+- "Sitio ", Nos referimos a nuestra plataforma alojada en www.doctoralia.es, cualquier 
+
+subdominio y cualquier otra plataforma o sitio web o aplicación móvil operada por Nosotros y 
+
+que te proporcionamos; 
+
+y
+
+- "Usuario " o " Tu" , Nos referimos a cualquier persona que utilice nuestro Sitio o navegue por 
+
+él. Esto varía en función del contexto e incluye a las personas que pueden leer o escribir 
+
+opiniones, enviar preguntas públicas a los Profesionales, concertar citas o buscar 
+
+Profesionales o Servicios de la Salud. Donde sea aplicable en base al contexto, también se 
+
+refiere a los Profesionales. 
+
+El uso de nuestro Sitio en cualquier forma (incluida la navegación), se regirá por estas condiciones 
+
+generales de contratación. Al acceder y utilizar nuestro Sitio, el Usuario reconoce y acepta estas 
+
+condiciones generales de contratación. Si no estás de acuerdo con ellas, deberás abstenerte de 
+
+utilizar nuestro Sitio. 
+
+Haga clic en los enlaces siguientes para ir directamente a las secciones correspondientes: 
+
+PARTE 1 - CONDICIONES APLICABLES A TODOS LOS USUARIOS 2
+
+1. Quiénes somos 2
+
+2. Capacidad para utilizar nuestro Sitio 2
+
+3. Otras condiciones aplicables 34. Acceso al Sitio y a Nuestros Servicios 4
+
+5. Lo que no puedes hacer en nuestro Sitio 4
+
+6. Normas sobre contenidos y contenidos ilegales 5
+
+7. Cómo ponerte en contacto con nosotros 5
+
+8. Opiniones 5
+
+9. Nuestros derechos de propiedad intelectual 6
+
+10. Publicidad 6
+
+11. Confidencialidad 7
+
+12. Seguridad de nuestros Usuarios 7
+
+13. Incumplimiento de estas condiciones y medidas contra el uso indebido 7
+
+14. Tu derecho a reclamar: nuestro procedimiento interno de reclamación 8
+
+15. Cargar contenidos 9
+
+16. Renuncias y limitaciones a nuestra responsabilidad 9
+
+17. Modificación de las presentes condiciones 11 
+
+18. Podemos suspender o retirar nuestro Sitio 11 
+
+19. Plataforma en línea: información promedio mensual de destinatarios 11 
+
+20. Derecho, jurisdicción y resolución de litigios 11 
+
+21. Acontecimientos fuera de nuestro control 12 
+
+SEGUNDA PARTE - CONDICIONES ESPECÍFICAS QUE PUEDEN APLICARSE EN FUNCIÓN DE 
+
+CÓMO UTILICES NUESTRO SITIO 12 
+
+1. Términos específicos aplicables a los consumidores (es decir, Usuarios que NO utilizan el Sitio 
+
+en su capacidad profesional como Profesionales): 12 
+
+2. Condiciones específicas aplicables a los Profesionales 14 
+
+2.1 Condiciones aplicables a todos los Profesionales que tengan un perfil en nuestro Sitio 14 
+
+2.2 Condiciones específicas aplicables a los Profesionales registrados que no hayan suscrito 
+
+un contrato de servicios con Nosotros como clientes de pago. 15 
+
+2.3 Condiciones específicas aplicables a los Profesionales no registrados cuya información 
+
+aparezca en el Sitio 16 
+
+# PARTE 1 - CONDICIONES APLICABLES A TODOS LOS USUARIOS 
+
+# 1. Quiénes somos 
+
+Este Sitio está gestionado por Doctoralia Internet S.L. (" DOCTORALIA " o "Nosotros "). Estamos 
+
+registrados en España con  CIF B62834981, en el Registro Mercantil de Barcelona, en el Tomo 
+
+34434, Folio 117, Hoja B246542, y nuestro domicilio social se encuentra en Calle Josep Pla 2, 
+
+Edificio B2, Planta 13, 08019, Barcelona (España). 
+
+# 2. Capacidad para utilizar nuestro Sitio 
+
+Debes tener al menos dieciséis (16) años para poder utilizar Nuestros Servicios y tener capacidad 
+
+legal para celebrar un contrato vinculante. Por favor, no utilices Nuestros Servicios si eres menor de 
+
+dieciséis (16) años. Si una persona menor de dieciséis (16) años necesita asistencia de un 
+
+Profesional, un adulto legalmente capacitado para ello deberá contratar Nuestros Servicios en 
+
+nombre del menor. Si eres un Profesional, debes contar en todo momento con las licencias profesionales exigibles 
+
+vigentes. 
+
+# 3. Otras condiciones aplicables 
+
+Estas condiciones hacen referencia a las siguientes condiciones adicionales. Se trata de condiciones 
+
+importantes que también te aplican cuando utilizas nuestro Sitio. Te rogamos que las leas 
+
+detenidamente. 
+
+3.1 Nuestra Política de Privacidad : Brindamos amplia información sobre cómo y por qué tratamos tus 
+
+datos personales, con quién los compartimos y tus derechos, entre otras cosas. También explicamos 
+
+que los Profesionales hacen un uso separado e independiente de tus datos personales con el fin de 
+
+prestarte cualquier Servicio de la Salud (y que dicho uso se basa en su propia política de privacidad). 
+
+3.2 Criterios de clasificación “ranking": La clasificación de los resultados de búsqueda determina el 
+
+orden en el que se te muestran los Servicios de la Salud, los Profesionales y los Centros Médicos 
+
+cuando realizas una búsqueda en nuestro Sitio. El uso de un algoritmo para determinar el orden en el 
+
+que te mostramos los resultados de la búsqueda nos permite mostrarte los Profesionales y Centros 
+
+Médicos que se adaptan a tus necesidades específicas. Hay una serie de factores que influyen en la 
+
+clasificación de los resultados de búsqueda y algunos factores pueden tener un mayor impacto que 
+
+otros. Los factores que tienen más peso son: la disponibilidad del Profesional o Centro Médico; el 
+
+número, tipo y contenido de las opiniones; el número de pacientes recurrentes; el tipo de suscripción 
+
+que el Profesional o Centro Médico tiene con Nosotros (por ejemplo, si el Profesional o Centro 
+
+Médico es nuestro cliente); y la exhaustividad del perfil. En el enlace figura una lista completa de los 
+
+factores que influyen en la clasificación. 
+
+3.3 Nuestras directrices sobre opiniones : Las opiniones sobre los Profesionales y los Centros 
+
+Médicos son muy valiosas para los pacientes. Por el contrario, las opiniones falsas pueden causar 
+
+graves perjuicios tanto a los pacientes como a los Profesionales y Centros Médicos. Teniendo esto 
+
+en cuenta, cuando escribes una opinión debes seguir ciertas normas (por ejemplo, el contenido de la 
+
+opinión no puede incluir ningún contenido no permitido por estas condiciones generales de 
+
+contratación o información no relacionada con tu experiencia personal). Esta política establece los 
+
+parámetros a seguir cuando se escribe una opinión sobre un Profesional o Centro Médico. También 
+
+te explica cómo procedemos cuando una opinión va en contra de nuestras directrices. 
+
+3.4 Condiciones de la videoconsulta : Dado que existen algunas diferencias entre recibir asistencia 
+
+sanitaria a través de una cita presencial y a través de una videoconsulta, tenemos algunos términos 
+
+específicos que se aplican a dichas consultas, en particular queremos asegurarnos de que eres 
+
+consciente de las particularidades asociadas a la falta de interacción presencial. Estas condiciones 
+
+también te informan de que puede haber requisitos de información adicionales si decides consultar a 
+
+un Profesional de esta forma, y establece ejemplos de casos en los que no es aconsejable consultar 
+
+a un Profesional por vídeo (por ejemplo, en caso de urgencia médica). 
+
+Ten en cuenta que, además de lo anterior, puede haber otros términos o requisitos que pueden 
+
+aplicarse a Nuestros Servicios. Éstos se te presentarán como parte del proceso o flujo de servicio 
+
+pertinente y la aceptación de estos términos adicionales puede ser necesaria para acceder o utilizar 
+
+nuestros Servicios. Te recomendamos que revises y comprendas estas condiciones a medida que se 
+
+pongan a tu disposición. 4. Acceso al Sitio y a Nuestros Servicios 
+
+4.1 Si al utilizar Nuestros Servicios proporcionas información, dicha información deberá ser verdadera y 
+
+completa. En algunos casos, se te pedirá que crees una cuenta. Te comprometes a no crear perfiles 
+
+falsos y a no facilitar información falsa o información para la que no estés autorizado al crear una 
+
+cuenta o al utilizar Nuestros Servicios. Debes proporcionar datos completos y omitir cualquier 
+
+información falsa, engañosa o no autorizada cuando utilices Nuestros Servicios. 
+
+4.2 Nos reservamos el derecho a verificar tu identidad o cualquier información que nos proporciones y a 
+
+suspender temporal o permanentemente tu acceso a Nuestros Servicios o a tu cuenta si 
+
+identificamos información falsa, engañosa o no autorizada en el uso de Nuestros Servicios. 
+
+4.3 Cualquier Usuario que cree una cuenta o utilice Nuestros Servicios, al hacerlo, reconoce y acepta 
+
+estas condiciones generales de contratación. Si no estás de acuerdo con estas condiciones 
+
+generales de contratación, te rogamos que no utilices Nuestros Servicios ni el Sitio. 
+
+4.4 Para mantener la seguridad de tu cuenta, debes utilizar una contraseña única al crearla. Ésta debe 
+
+ser diferente de todas las demás contraseñas que utilices en otros sitios. Te comprometes a 
+
+mantener la confidencialidad de los datos de tu cuenta y de tu contraseña (y de cualquier otra 
+
+credencial de acceso), y serás el único responsable de garantizar tu seguridad y confidencialidad. Si 
+
+en algún momento sospechas que tu contraseña puede haber sido comprometida, cámbiala y/o 
+
+ponte en contacto con nosotros inmediatamente (véase la sección 7, más abajo). 
+
+# 5. Lo que no puedes hacer en nuestro Sitio 
+
+Te comprometes a no: 
+
+5.1 infringir estas condiciones, cualquiera de nuestras políticas aplicables o cualquier ley o normativa 
+
+aplicable; 
+
+5.2 utilizar nuestro Sitio de cualquier forma que sea fraudulenta o tenga cualquier propósito o efecto 
+
+fraudulento o engañoso (incluyendo, sin limitación, participar o fomentar directa o indirectamente 
+
+opiniones falsas o realizar citas fraudulentas); 
+
+5.3 publicar contenido que vaya en contra de nuestras normas de contenido (incluido el contenido 
+
+ilegal), véase la sección 6 a continuación; 
+
+5.4 incurrir en conductas indebidas que puedan dañar significativamente la reputación de Doctoralia o 
+
+de otros (la conducta indebida incluye cualquier comportamiento difamatorio, inapropiado, 
+
+amenazador, odioso, abusivo o similar); 
+
+5.5 participar en conductas indebidas que puedan atentar contra la integridad física o moral, la vida, la 
+
+seguridad o la reputación de otra persona o que puedan dañar o crear angustia psicológica a otra 
+
+persona; 
+
+5.6 utilizar nuestro Sitio de cualquier forma que pueda dañar, inutilizar o perjudicar el funcionamiento o 
+
+la seguridad de Nuestros Servicios, como instalar virus, malware o material dañino, o hacer un uso 
+
+de nuestros Servicios distinto del previsto; 
+
+5.7 copiar, acceder, adaptar, modificar, reproducir, desensamblar, descompilar, realizar ingeniería 
+
+inversa o extraer el código fuente o cualquier código de software de cualquier parte de nuestro 
+
+Sitio; 
+
+5.8 obstaculizar el acceso de otros Usuarios a nuestro Sitio mediante un uso excesivo de (por 
+
+ejemplo, participando en ataques de denegación de servicios o concertando citas múltiples falsas 
+
+con los Profesionales); 
+
+5.9 enviar reiteradamente reclamaciones manifiestamente infundadas; o 
+
+5.10 intentar obtener acceso no autorizado a cualquier cuenta de Usuario, datos o sistemas 
+
+informáticos o redes, a través de cualquier método. 6. Normas sobre contenidos y contenidos ilegales 
+
+Tenemos normas estrictas sobre los contenidos permitidos en nuestro Sitio, especialmente en 
+
+relación con la publicación de contenidos ilegales o contrarios a cualquiera de nuestras condiciones. 
+
+Por ejemplo, no permitimos: 
+
+6.1 contenidos delictivos, violentos, pornográficos, amenazadores, difamatorios, racistas, xenófobos, 
+
+homófobos, agresivos, acosadores, que promuevan o fomenten la autolesión o el daño a terceros 
+
+o que resulten ofensivos de cualquier otro modo; 
+
+6.2 contenido sexual o indecente; 
+
+6.3 contenido de apoyo al terrorismo; 
+
+6.4 contenidos contrarios a la ley o al orden público; 
+
+6.5 contenidos que sean falsos, engañosos y/o que induzcan a error, incluidos los contenidos que 
+
+suplanten la identidad de cualquier persona o que falseen su identidad o afiliación con cualquier 
+
+persona; 
+
+6.6 contenidos que violen los derechos de un tercero o entidad, incluidos los derechos de propiedad 
+
+intelectual y el derecho a la intimidad; 
+
+6.7 contenidos que apoyen o fomenten actividades ilegales o perjudiciales; y 
+
+6.8 cualquier otro contenido que, en opinión razonable de Doctoralia, pueda considerarse obsceno, 
+
+indecente o potencialmente perjudicial para la reputación de Doctoralia o de cualquier tercero. 
+
+Si crees que algún contenido de nuestro Sitio es ilegal, puedes comunicárnoslo aqui: 
+
+https://opiniones.doctoralia.es/contenido-ilegal. Por contenido ilegal se entiende cualquier cosa que 
+
+no cumpla la legislación de la Unión Europea o de sus Estados miembros. Ten en cuenta que está 
+
+prohibido realizar repetidamente denuncias infundadas a través de este formulario y que se tomarán 
+
+las medidas indicadas en la sección 13. 
+
+# 7. Cómo ponerte en contacto con nosotros 
+
+7.1 Puedes ponerte en contacto con nosotros fácilmente si tienes alguna duda, queja o reclamacion. Por 
+
+eso hemos designado un único punto de contacto tal y como exige el Reglamento de Servicios 
+
+Digitales. 
+
+7.2 Para los Usuarios: Puedes ponerse en contacto con Nosotros de forma rápida y directa por correo 
+
+electrónico soporte@doctoralia.es . teléfono 930035157 , o en la sección "Contacte con Nosotros" de 
+
+nuestro Sitio, el método que prefieras. 
+
+7.3 Para las autoridades: se proporciona el siguiente punto único de contacto soporte@doctoralia.es .
+
+Puede ponerse en contacto con nosotros en los siguientes idiomas inglés y español. 
+
+7.4 Si deseas ejercer tus derechos relativos a tus datos personales, te rogamos que utilices esta 
+
+dirección de correo electrónico: contacto-es@doctoralia.es (para más información, consulta nuestra 
+
+política de privacidad referenciada en la sección 3.1. más arriba ). 
+
+# 8. Opiniones 
+
+8.1 Tomamos varias medidas para comprobar que las opiniones que aparecen en nuestro Sitio son 
+
+auténticas y proceden de Usuarios que realmente han utilizado los Servicios del Profesional. En 
+
+algunos casos, las opiniones reflejan una consulta con un Profesional que ha sido concertada a través de nuestro Sitio. En otros casos, sin embargo, las opiniones son escritas por Usuarios que 
+
+hicieron una reserva con un Profesional fuera de la plataforma de Doctoralia (es decir, no hicieron la 
+
+reserva, ni llevaron a cabo una consulta por vídeo o texto, a través de nuestro Sitio). Consulta 
+
+nuestras directrices en la sección 3.3, más arriba, para comprender cómo tratamos las opiniones y 
+
+cómo combatimos las opiniones falsas. 
+
+8.2 Si nos envías una opinión y no la publicamos porque contiene contenido ilegal o porque va en contra 
+
+de nuestras directrices o condiciones, queremos que entiendas por qué. Por lo tanto, te enviaremos 
+
+una declaración clara de los motivos por los que hemos tomado tal decisión con pasos claros sobre 
+
+cómo reclamar si no estás de acuerdo con dicha decisión. 
+
+# 9. Nuestros derechos de propiedad intelectual 
+
+A menos que se indique lo contrario, Nosotros somos los propietarios o los licenciatarios de todos los 
+
+derechos de propiedad intelectual (incluyendo, sin limitación: derechos de autor y derechos afines, 
+
+marcas, nombres comerciales, derechos de uso de nombres de dominio, derechos de imagen, fondo 
+
+de comercio y derecho a demandar por usurpación de marca y competencia desleal, derechos de 
+
+diseño y apariencia, derechos de software informático y código de software, derechos de bases de 
+
+datos, derechos de topografía, derechos de uso y preservación de la confidencialidad de la 
+
+información (incluidos conocimientos técnicos y secretos comerciales) y cualesquiera otros derechos 
+
+de propiedad intelectual, en cada caso, registrados o no, e incluidas todas las solicitudes (o derechos 
+
+a solicitar), renovaciones o prórrogas de los mismos, así como los derechos a reivindicar la prioridad 
+
+de dichos derechos y todos los derechos o formas de protección similares o equivalentes que 
+
+subsistan o vayan a subsistir en el futuro en cualquier parte del mundo) sobre nuestro Sitio, sus 
+
+contenidos y funcionalidades, y los materiales publicados en el mismo (los " DPI" ). Dichos DPI están 
+
+protegidos por las leyes y tratados de propiedad intelectual aplicables en todo el mundo. Todos estos 
+
+derechos están reservados. 
+
+El Usuario reconoce que todos los DPI y todos los documentos y materiales que los incorporen, 
+
+registren y/o se relacionen con ellos nos pertenecerán automáticamente (o a los terceros que nos los 
+
+concedan bajo licencia) en la máxima medida permitida por la ley. Salvo que Nosotros lo autoricemos 
+
+expresamente por escrito, el Usuario no podrá, ni intentará, (i) reproducir, copiar, modificar, publicar, 
+
+descargar, extraer, reorganizar, readaptar, cargar, enviar, transmitir, revender, ceder, licenciar o 
+
+sublicenciar, distribuir de ningún modo, ni crear trabajos derivados de los DPI, (ii) intentar acceder o 
+
+copiar o descompilar los códigos fuente del Sitio, o intentar incorporar dichos códigos fuente en un 
+
+sitio web, plataforma, base de código o software diferentes (iii) utilizar nuestro Sitio para fines 
+
+distintos de la recepción de Nuestros Servicios, o (iv) realizar pruebas de penetración, ataques de 
+
+denegación de servicio, hackeos o intrusiones o interrupciones similares en nuestro Sitio. 
+
+El Usuario indemnizará y eximirá a Doctoralia de toda responsabilidad por pérdidas, daños, costes, 
+
+gastos (incluidos honorarios, costes y gastos legales), intereses, reclamaciones y responsabilidades, 
+
+de cualquier tipo, derivados o relacionados con el incumplimiento por su parte de esta sección. 
+
+Doctoralia no reclama ningún derecho de propiedad sobre los derechos de autor, nombres, marcas 
+
+comerciales o marcas de terceros que aparecen en nuestro Sitio, y éstos siguen siendo propiedad de 
+
+sus respectivos titulares. Podremos, cuando proceda y a nuestra entera discreción, eliminar o 
+
+inhabilitar el acceso a contenidos o materiales que consideremos que puedan infringir los derechos 
+
+de propiedad intelectual de terceros, y podremos restringir o cancelar el acceso al Sitio a quienes 
+
+consideremos razonablemente que son infractores reincidentes. Si crees que se han vulnerado tus 
+
+derechos de propiedad intelectual, ponte en contacto con nosotros utilizando los datos indicados en 
+
+la sección 7 anterior. 
+
+# 10. Publicidad 
+
+Podemos mostrar anuncios digitales en nuestro Sitio. Cuando lo hagamos, siempre señalaremos que 
+
+el contenido es un anuncio e indicaremos quién es el anunciante. En algunos casos, te mostraremos 
+
+anuncios personalizados basados en tus preferencias mostradas en sitios web de terceros (por 
+
+ejemplo, podemos mostrarte un anuncio de un libro que has buscado en otro sitio web). Ten en cuenta que nunca compartimos tus datos de salud con terceros con fines publicitarios ni permitimos 
+
+anuncios basados en perfiles de tu salud u otras categorías especiales de datos. Para más 
+
+información, consulta nuestra política de privacidad (encontrarás el enlace en la sección 3, más 
+
+arriba). 
+
+Si encuentras alguna información en nuestro Sitio que crees que es un anuncio, y que no está 
+
+señalada como tal, te rogamos que nos lo comuniques a través de los datos de contacto que 
+
+encontrarás en la sección 3, más arriba. 
+
+# 11. Confidencialidad 
+
+Es posible que compartas información confidencial con Nosotros al utilizar nuestro Sitio. También 
+
+puedes tener conocimiento de información confidencial sobre Nosotros al utilizar nuestro Sitio. Tanto 
+
+Tú como Nosotros nos comprometemos a tomar medidas razonables para proteger la información 
+
+confidencial de la otra parte y evitar que personas, entidades o terceros no autorizados accedan a 
+
+ella (excepto en la medida en que la compartamos con empresas del Grupo Docplanner). La 
+
+información que se pone a disposición del público no se considera información confidencial (por 
+
+ejemplo, cualquier información que publiques o propongas publicar en nuestro Sitio no constituirá 
+
+información confidencial). También podemos compartir información confidencial con las autoridades 
+
+competentes si estamos obligados a hacerlo. 
+
+# 12. Seguridad de nuestros Usuarios 
+
+Nos tomamos muy en serio la seguridad de nuestros Usuarios. Si, al utilizar nuestro Sitio o nuestros 
+
+Servicios, consideras que tu vida, integridad o seguridad o las de otra persona están en peligro, 
+
+pónte en contacto con Nosotros a través de los datos de contacto indicados en la sección 3 anterior. 
+
+Analizaremos tu preocupación con carácter prioritario y tomaremos medidas cuando sea necesario. 
+
+Si sospechamos que se ha producido o se está produciendo un delito que puede suponer una 
+
+amenaza para la vida o la seguridad de un Usuario, suspenderemos o cancelaremos cualquier 
+
+cuenta sospechosa y nos reservamos el derecho a informar a las autoridades competentes. 
+
+# 13. Incumplimiento de estas condiciones y medidas 
+
+# contra el uso indebido 
+
+13.1 Si un Usuario incumple estas condiciones o la ley, incurre en un un comportamiento grave, o si nos 
+
+lo exige una autoridad competente, podremos tomar ciertas medidas como: 
+
+13.1.1 suspender o, en casos graves, cancelar la cuenta de un Usuario o su acceso a nuestro Sitio. En 
+
+caso de suspensión temporal, la duración de la misma dependerá de cada caso y de sus 
+
+circunstancias. La cancelación de una cuenta es una acción grave que no tomamos a la ligera; 
+
+13.1.2 limitar o restringir el uso de Nuestros Servicios; 
+
+13.1.3 rescindir cualquier relación contractual que podamos tener contigo; 
+
+13.1.4 negarnos a publicar, desactivar, eliminar o degradar el contenido publicado o escrito por un 
+
+Usuario; 
+
+13.1.5 compartir información con las autoridades, si es necesario; y/o 
+
+13.1.6 suspender o restringir la capacidad de un Usuario para realizar pagos monetarios a los 
+
+Profesionales a través de nuestro Sitio; 
+
+13.2. A continuación indicamos ejemplos de incumplimiento de estas condiciones o de uso indebido de 
+
+nuestro Sitio: 13.2.1 utilizar nuestro Sitio con fines fraudulentos o engañosos (por ejemplo, crear una cuenta 
+
+haciéndose pasar por otra persona); 
+
+13.2.3 escribir contenidos que vayan en contra de nuestras normas de contenido (por ejemplo, 
+
+contenidos ofensivos o participar directa o indirectamente en opiniones falsas); 
+
+13.2.3 adoptar comportamientos inadecuados (incluidos los de naturaleza sexual) con otros Usuarios, 
+
+Profesionales o terceros; 
+
+13.2.4 proporcionar información falsa o engañosa al crear una cuenta o al utilizar el Sitio. En el caso 
+
+de los Profesionales, por ejemplo, cancelaremos inmediatamente la cuenta si sospechamos 
+
+razonablemente que han proporcionado información falsa o inexacta en cuanto a sus licencias 
+
+o títulos profesionales; y/o 
+
+13.2.5 no facilitar información exacta o completa cuando se nos solicite verificar la identidad del 
+
+Usuario. 
+
+13.3. Es contrario a estas condiciones proporcionar contenido ilegal o presentar avisos o quejas que 
+
+sean manifiestamente infundados. Si sospechamos que un Usuario está incurriendo en este tipo de 
+
+comportamiento, emitiremos una advertencia previa y suspenderemos la cuenta durante un periodo 
+
+de tiempo razonable (en casos muy graves, podremos cancelar la cuenta inmediatamente). Si, tras 
+
+dicha advertencia previa, el Usuario sigue haciendo un uso indebido del Sitio, podremos cancelar 
+
+permanentemente su cuenta o bloquear su acceso anuestro Sitio o a todos o algunos de Nuestros 
+
+Servicios. Recopilaremos toda la información pertinente y evaluaremos cada situación caso por 
+
+caso. Tendremos en cuenta los siguientes factores a la hora de decidir si tomamos medidas: 
+
+13.3.1 el número de contenidos ilegales o notificaciones o reclamaciones infundadas que se hayan 
+
+presentado en un periodo de tiempo determinado; 
+
+13.3.2 la proporción de estos elementos o notificaciones con respecto al número total de elementos de 
+
+información o notificaciones presentados en el mismo periodo; 
+
+13.3.3 la gravedad del uso indebido, incluida la naturaleza del contenido ilegal y sus consecuencias; 
+
+13.3.4 si podemos determinarlo, la intención de la persona implicada en dicho uso indebido; y 
+
+13.3.5 la reacción y el comportamiento del Usuario tras la advertencia inicial. 
+
+13.4 El Usuario indemniza y exime a Doctoralia y a sus directores, funcionarios, empleados y
+
+representantes de toda pérdida, daño, coste, gasto (incluidos honorarios, costes y gastos legales), 
+
+intereses, reclamaciones y responsabilidades, de cualquier tipo, derivados de reclamaciones 
+
+presentadas por un tercero o por una autoridad pública u organismo de aplicación, en relación con 
+
+o en conexión con (i) un incumplimiento por parte del Usuario de estos términos, (ii) el uso ilegal, 
+
+poco ético, fraudulento o no conforme del Sitio y de Nuestros Servicios por parte de un Usuario; (ii) 
+
+los datos proporcionados por un Usuario sean incorrectos, engañosos, falsos o no estén 
+
+actualizados; y (iii) la infracción de los derechos de propiedad intelectual de terceros como 
+
+resultado de las acciones de un Usuario. 
+
+# 14. Tu derecho a reclamar: nuestro procedimiento 
+
+# interno de reclamación 
+
+14.1 Si consideras que alguna de las siguientes acciones llevadas a cabo por Nosotros es injusta y: 
+
+(i) presentaste una notificación de contenido ilegal y no estás de acuerdo con la respuesta que te 
+
+dimos; o 
+
+(ii) hemos restringido, eliminado, inhabilitado el acceso o suspendido o cancelado los servicios o tu 
+
+cuenta basándonos en que la información que nos has proporcionado es ilegal o incompatible 
+
+con estas condiciones generales de contratación, 
+
+puedes impugnar nuestra decisión. Te informaremos sobre tu derecho de recurso cuando te 
+
+comuniquemos nuestra decisión. En tales casos, analizaremos la reclamación y decidiremos si 
+
+mantenemos o revocamos nuestra decisión y te informaremos en consecuencia. 14.2 Debes enviarnos tu reclamación, que será gratuita, en un plazo de 6 meses a partir de la fecha en 
+
+que te informamos de la decisión. 
+
+14.3 Si sigues sin estar de acuerdo con nuestra decisión, siempre puedes presentar una reclamación a 
+
+través de los mecanismos establecidos en la sección 20 que encontrarás más adelante.. 
+
+14.4.Ten en cuenta que podemos suspender tu derecho a presentar avisos de contenido ilegal o tu 
+
+derecho a presentar una reclamación, durante un periodo de tiempo razonable y tras haber emitido 
+
+una advertencia previa, si presentas más de un aviso de contenido ilegal o reclamación (según 
+
+corresponda) que sea manifiestamente infundado. 
+
+# 15. Cargar contenidos 
+
+Al publicar contenido en nuestro Sitio, por ejemplo opiniones sobre un Profesional o Centro Médico, 
+
+respuestas a dichas opiniones, preguntas para que respondan los Profesionales y la respuesta 
+
+correspondiente, los Usuarios nos conceden una licencia mundial, no exclusiva, irrevocable, libre de 
+
+regalías y transferible para utilizar, reproducir, distribuir, preparar trabajos derivados y mostrar dicho 
+
+contenido en relación con Nuestros Servicios en diferentes medios. 
+
+# 16. Renuncias y limitaciones a nuestra 
+
+# responsabilidad 
+
+16.1 Interacciones con los Profesionales y los Centros Médicos: 
+
+16.1.1 Puedes utilizar Nuestros Servicios para concertar una cita o interactuar con un Profesional o 
+
+Centro Médico. Sin embargo, Doctoralia no opera como Profesional o Centro Médico y no 
+
+presta Servicios de la Salud: somos un mero intermediario y proveedor de servicios técnicos, 
+
+que apoya las interacciones entre los Usuarios y los Profesionales o Centros Médicos. Esto 
+
+significa que como Usuario eres el responsable último de elegir a tu propio Profesional o 
+
+Centro Médico, y que dicho Profesional o Centro Médico, y no Doctoralia, es responsable de 
+
+prestar Servicios de Salud de cualquier tipo. Ten en cuenta que, aunque los Profesionales 
+
+puedan enviarte comunicaciones directamente a través de plataformas o sistemas de 
+
+comunicación de nuestra propiedad u operados por nosotros, no aceptamos ninguna 
+
+responsabilidad por dichas comunicaciones. 
+
+16.1.2 Cualquier acuerdo, conversación, reserva o contrato para la prestación de asesoramiento, 
+
+asistencia, diagnóstico, tratamiento o procedimiento médico con cualquier Profesional o 
+
+Centro Médico que aparezca en nuestro Sitio, todos los cuales se consideran Servicios de la 
+
+Salud, se realiza directamente entre el Usuario y el Profesional o Centro Médico, y Doctoralia 
+
+no es parte de dicho acuerdo, conversación, reserva o contrato. Teniendo esto en cuenta, 
+
+reconoces y aceptas que cualquier queja, reclamación o queja que puedas tener relacionada 
+
+de alguna manera con un Profesional o Centro Médico, su asesoramiento médico o los 
+
+Servicios de la Salud que te hayan prestado, su consulta y/o sus comunicaciones, debe 
+
+dirigirse a, y/o presentarse directamente contra, dicho Profesional o Centro Médico y no 
+
+contra Doctoralia, y que Doctoralia no será responsable de ningún acto u omisión por parte de 
+
+dichos Profesionales, Centro Médico o su personal. Además, es responsabilidad del 
+
+Profesional o Centro Médico verificar la identidad de sus pacientes, y Doctoralia no acepta 
+
+ninguna responsabilidad a este respecto. 
+
+16.1.3 Doctoralia tendrá la consideración de mero intermediario y prestador de servicios técnicos en 
+
+el marco de la prestación de Servicios de la Salud a los Usuarios a través de la Web, por lo 
+
+que le serán de aplicación las exenciones y exclusiones de responsabilidad pertinentes 
+
+previstas respecto de los prestadores de servicios de intermediación en la legislación 
+
+aplicable. En consecuencia, Doctoralia no es ni será responsable de las pérdidas, daños, 
+
+costes, gastos (incluidos honorarios, costes y gastos legales), intereses, reclamaciones o 
+
+responsabilidades, de cualquier tipo, derivados de reclamaciones interpuestas por un tercero 
+
+o por una autoridad pública u organismo de ejecución, en relación con o en conexión con (i) cualquier recomendación, consejo, diagnóstico y/o información dada por un Profesional o 
+
+Centro Médico, (ii) la negligencia, imprudencia o falta de experiencia de los Profesionales o 
+
+Centros Médicos o cualquier comunicación o información errónea o engañosa proporcionada 
+
+por ellos o por su personal, (iii) cualquier acto u omisión del personal de los Profesionales o 
+
+Centros Médicos, y/o (iv) cualquier pago que hayas realizado a los Profesionales o Centros 
+
+Médicos como remuneración por sus Servicios de la Salud. 
+
+16.2 Contenido al que accedes: No somos responsables del contenido de los sitios web enlazados 
+
+en nuestro Sitio, y no seremos responsables de ninguna pérdida o daño resultante de su uso de los 
+
+mismos. El Usuario no debe interpretar tales enlaces como un respaldo o aprobación por nuestra 
+
+parte de esos sitios web enlazados o de la información que pueda obtener de ellos. No tenemos 
+
+ningún control sobre el contenido de esos sitios o recursos. Si utilizas dichos enlaces, abandonarás 
+
+nuestro Sitio y estarás sujeto a las condiciones de uso y a la política de privacidad aplicables a esos 
+
+otros sitios web. 
+
+Del mismo modo, no asumimos responsabilidad alguna por el contenido o la información facilitada 
+
+por el Usuario, los Profesionales o los Centros Médicos a través de nuestro Sitio. Cualquier contenido 
+
+publicado por el Usuario o cualquier respuesta, opinión médica o comentario expresado por los 
+
+Profesionales o Centros Médicos no es responsabilidad nuestra. El Usuario nos exime de toda 
+
+responsabilidad relacionada con dicho contenido. 
+
+Aunque hacemos esfuerzos razonables para actualizar la información en nuestro Sitio, no podemos 
+
+garantizar, ya sea expresa o implícita, que el contenido de nuestro Sitio es exacto, completo y 
+
+actualizado. 
+
+16.3 Ausencia de garantías: El Sitio y Nuestros Servicios se proporcionan "tal cual" y "según 
+
+disponibilidad". Salvo lo dispuesto expresamente en estas condiciones o aquello que sea obligatorio 
+
+en base a la ley aplicable, no ofrecemos garantías de ningún tipo, ya sean expresas, implícitas, 
+
+estatutarias o de otro tipo. Quedan excluidas cualesquiera otras condiciones, garantías u otros 
+
+términos que pudieran tener efecto entre las partes o estar implícitos o incorporados a las presentes 
+
+condiciones o a cualquier contrato colateral, ya sea por ley, derecho consuetudinario o de otro modo, 
+
+incluidas las condiciones, garantías u otros términos implícitos relativos a la calidad satisfactoria, la 
+
+idoneidad para un fin determinado y el uso de la habilidad y el cuidado razonables. 
+
+No garantizamos que nuestro Sitio sea seguro o esté libre de errores o virus. El Usuario es 
+
+responsable de configurar su tecnología, equipo, programas informáticos y plataforma para acceder a 
+
+nuestro Sitio. El Usuario debe utilizar su propio software de protección antivirus. No seremos 
+
+responsables de ninguna pérdida o daño causado por un virus, ataque distribuido de denegación de 
+
+servicio u otro material tecnológicamente dañino que pueda infectar tu equipo informático, programas 
+
+informáticos, datos u otro material de tu propiedad debido al uso que hagas de nuestro Sitio. No 
+
+seremos responsables de las interrupciones o suspensiones que afecten al Sitio o de cualquier otro 
+
+mal funcionamiento del Sitio que pueda deberse a tu equipo, o a la infraestructura de Internet 
+
+utilizada por el Usuario, o atribuible de cualquier otro modo a terceros sobre los que no tengamos 
+
+control. 
+
+16.4 Responsabilidad máxima : En la máxima medida permitida por la ley: 
+
+16.4.1 Sólo seremos responsables de las pérdidas probadas en las que el Usuario incurra como 
+
+resultado directo de un incumplimiento por nuestra parte de estas condiciones o de la 
+
+legislación o normativa aplicable; 
+
+16.4.2 Si resultamos responsables ante el Usuario, el importe máximo (en total) que le deberemos 
+
+en virtud de estas condiciones o en relación con ellas por cualquier motivo y en cualquier 
+
+circunstancia será de cien euros (100€) en total; y 
+
+16.4.3 Ni Doctoralia, ni nuestros afiliados, empleados o directores serán responsables ante el 
+
+Usuario por lucro cesante o pérdida de ingresos, ni por daños consecuentes, incidentales, 
+
+indirectos, especiales o punitivos que surjan de o en relación con Nuestros Servicios, el uso 
+
+del Sitio o estos términos .Sin perjuicio de lo anterior, no excluimos ni limitamos en modo alguno nuestra responsabilidad frente 
+
+al Usuario cuando sea ilegal hacerlo. 
+
+# 17. Modificación de las presentes condiciones 
+
+Cuando realicemos cambios importantes en estas condiciones, publicaremos las condiciones 
+
+actualizadas en nuestro Sitio y actualizaremos la fecha de "Última actualización" en la parte superior. 
+
+Cuando estemos obligados a hacerlo en virtud de la legislación o normativa aplicable, o si lo 
+
+consideramos oportuno, también te enviaremos un aviso informándote de que hemos introducido 
+
+cambios en estas condiciones. 
+
+Asegúrate de comprobar y comprender periódicamente la versión más reciente de estas condiciones. 
+
+Si no estás de acuerdo con ellas, absténte de utilizar nuestro Sitio. 
+
+# 18. Podemos suspender o retirar nuestro Sitio 
+
+No garantizamos que nuestro Sitio, o cualquier contenido del mismo, esté siempre disponible o no 
+
+sufra interrupciones. Nos reservamos el derecho a suspender, retirar o restringir la disponibilidad de 
+
+todo o parte de nuestro Sitio por motivos comerciales, de seguridad y/o de mantenimiento. 
+
+Intentaremos avisarte con una antelación razonable de cualquier suspensión o retirada. 
+
+# 19. Plataforma en línea: información promedio 
+
+# mensual de destinatarios 
+
+A efectos del Reglamento de Servicios Digitales, confirmamos que, dentro de la Unión Europea y con 
+
+respecto a los servicios de nuestra plataforma en línea (tal como se define este término en el 
+
+Reglamento de Servicios Digitales de la UE), el número aproximado de usuarios activos mensuales, 
+
+que se actualizará cada 6 meses, está publicado de manera permanente al pie de página del Sitio. 
+
+Para mayor claridad, dicho número (i) puede diferir de otras métricas de usuarios comunicadas en 
+
+diferentes contextos (ii) no debe utilizarse para ningún otro fin. 
+
+# 20. Derecho, jurisdicción y resolución de litigios 
+
+Podrás tramitar cualquier reclamación directamente con nosotros contactándonos directamente (en la 
+
+sección 7 tienes los datos de contacto). 
+
+En todo caso, estos términos y condiciones y cualquier disputa o reclamación que surja de o en 
+
+conexión con ellos se regirán e interpretarán de acuerdo con la ley española. 
+
+En los casos en los que consideres que tu reclamación no ha sido solucionada a través de nuestros 
+
+procedimientos internos, puedes iniciar una reclamación ante los tribunales. En la medida en que lo 
+
+permita la legislación vigente toda reclamación, litigio o cuestión derivada o relacionada con los 
+
+presentes términos y condiciones se someterá a la jurisdicción de los juzgados y tribunales de la 
+
+ciudad de Barcelona. Alternativamente, tal y como se establece en el Reglamento (UE) 524/2013 del 
+
+Parlamento Europeo y del Consejo de 21 de mayo de 2013, siempre puedes iniciar un procedimiento 
+
+de resolución de conflictos en línea en 
+
+(https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=ES). 21. Acontecimientos fuera de nuestro control 
+
+Aunque intentamos garantizar el funcionamiento constante de nuestro Sitio y la disponibilidad de 
+
+Nuestros Servicios, algunos acontecimientos escapan a nuestro control. No seremos responsables 
+
+ante el Usuario por cualquier fallo del Sitio o indisponibilidad de Nuestros Servicios o retraso en el 
+
+cumplimiento de cualquiera de nuestras obligaciones bajo estos términos que surjan de cualquier 
+
+circunstancia o evento que esté fuera de nuestro control razonable. 
+
+# SEGUNDA PARTE - CONDICIONES ESPECÍFICAS QUE PUEDEN APLICARSE EN 
+
+# FUNCIÓN DE CÓMO UTILICES NUESTRO SITIO 
+
+Dependiendo de cómo y en calidad de qué utilices nuestro Sitio, existen algunos términos específicos 
+
+que pueden aplicarte: 
+
+# 1. Términos específicos aplicables a los consumidores 
+
+# (es decir, Usuarios que NO utilizan el Sitio en su 
+
+# capacidad profesional como Profesionales): 
+
+1.1. Nuestros Servicios 
+
+A continuación encontrarás una descripción de Nuestros Servicios: 
+
+1.1.1 Directorio de Profesionales y Centros Médicos: Te proporcionamos acceso a un directorio de 
+
+búsqueda en el que figuran los perfiles de un gran número de Profesionales y Centros Médicos. 
+
+1.1.2 Citas: Te permitimos reservar una cita para una visita o un servicio específico con un Profesional 
+
+o Centro Médico, incluidas, en su caso, las videoconsultas, y gestionar (por ejemplo, cancelar o 
+
+reprogramar) dichas citas. Para más información, consulta los apartados 1.2 y 1.3 de esta 
+
+Segunda Parte; 
+
+1.1.3 Chats: Te permitimos comunicarte directamente con determinados Profesionales que tienen un 
+
+perfil en el Sitio, de modo que puedas compartir información y documentos con ellos, si así lo 
+
+deseas; 
+
+1.1.4 Aloja tu información: Te permitimos guardar en tu cuenta toda la información y documentos que 
+
+te resulte útil almacenar en formato digital, (por ejemplo: enfermedades o episodios médicos 
+
+pasados, condiciones médicas existentes, alergias, antecedentes familiares, consejos médicos 
+
+previos que hayas recibido, resultados de pruebas médicas, historial de episodios médicos y de 
+
+citas médicas previas y/o previstas, y/u otros registros de atención médica), y compartirlos con los 
+
+Profesionales que selecciones. Esta información está protegida a través de diferentes capas de 
+
+encriptación con el fin de evitar el acceso no autorizado, por favor, consulta nuestra política de 
+
+privacidad para más información; 
+
+1.1.5 Opiniones: Te permitimos escribir opiniones sobre tu experiencia con los Profesionales y Centros 
+
+Médicos con los que has consultado. También te permitimos acceder y leer opiniones sobre 
+
+Profesionales y Centros Médicos escritas por otras personas. Lo hacemos de acuerdo con 
+
+nuestras directrices sobre opiniones, que encontrarás en la sección 3; y 
+
+1.1.6 Preguntas y respuestas públicas : Te permitimos formular públicamente preguntas relacionadas 
+
+con la salud a los Profesionales para que las respondan públicamente en nuestro Sitio, y te permitimos acceder a las respuestas de los Profesionales a dichas preguntas públicas. No nos 
+
+hacemos responsables del contenido de dichas respuestas (para más información, consulta la 
+
+sección 16 anterior). Ten en cuenta que no permitiremos preguntas que contengan solicitudes de 
+
+diagnóstico o solicitudes de prescripción o tratamiento médico, así como preguntas que 
+
+contengan cualquier otro contenido que no esté permitido por estas condiciones. 
+
+Por favor, ten en cuenta que Nuestros Servicios no están pensados para ser utilizados en 
+
+emergencias relacionadas con la salud. Si tienes una urgencia sanitaria, llama al número del servicio 
+
+de urgencias 061 o a cualquier otro número del servicio de urgencias, o dirígete directamente al 
+
+servicio de urgencias más cercano. 
+
+1.2 Concertar una cita con un Médico o un Centro Médico 
+
+Puedes reservar una cita a través de nuestro Sitio con cualquier Profesional o Centro Médico que 
+
+tenga disponibilidad. Al finalizar tu reserva, si aún no has creado una cuenta de usuario, se te creará 
+
+una cuenta y se te pedirá que crees una contraseña. Recuerda que esta contraseña debe ser única y 
+
+sólo debe ser conocida por el Usuario. El Usuario es responsable de garantizar que no se pierda o 
+
+sea robada, y que se mantenga confidencial en todo momento. 
+
+La información proporcionada en nuestro Sitio sobre los Profesionales y Centros Médicos ha sido 
+
+obtenida por Doctoralia de registros y bases de datos públicos de acceso general, o nos ha sido 
+
+remitida o confirmada por los propios Profesionales. 
+
+Exigimos a los Profesionales que nos faciliten información exacta, completa y veraz; y que estén en 
+
+posesión de las licencias activas exigidas por la ley para ejercer las especialidades y prestar los 
+
+servicios que ofrecen. Aunque pedimos a los Profesionales que cumplan con dichos requisitos, sólo 
+
+somos un intermediario que facilita las interacciones entre los pacientes y los Profesionales. Por lo 
+
+tanto, no representamos ni garantizamos las cualificaciones, la experiencia, la elegibilidad, la calidad 
+
+del trabajo, las horas de trabajo, la información sobre precios o costes, la cobertura de seguro u otra 
+
+información de un Profesional. 
+
+En ningún caso seremos responsables ante el Usuario ni ante ninguna otra persona por cualquier 
+
+decisión tomada o acción emprendida por el Usuario basándose en dicha información. No 
+
+respaldamos ni recomendamos en modo alguno a ningún Profesional, procedimiento, opinión u otra 
+
+información que aparezca o a la que pueda accederse a través de nuestro Sitio. 
+
+Aunque es responsabilidad exclusiva del Profesional Médico reunir los requisitos y ser capaz de 
+
+proporcionar el asesoramiento, tratamiento, asistencia o procedimiento médico adecuado, el Usuario 
+
+es el responsable último de elegir a su propio Profesional Médico. 
+
+Ten en cuenta que la información contenida en nuestro Sitio se proporciona únicamente a título 
+
+informativo y el Usuario la utiliza por su cuenta y riesgo, y no debe utilizarse ni interpretarse como 
+
+consejo o recomendación de ningún tipo, ni debe utilizarse nunca como sustituto de un consejo, 
+
+diagnóstico, asistencia o tratamiento o procedimiento médico profesional. Nada de lo expuesto o 
+
+publicado en nuestro Sitio pretende ser y no debe considerarse como asesoramiento profesional 
+
+médico o sanitario o como prestación de asistencia médica. No ignores, evites ni retrases la 
+
+obtención de asesoramiento médico de un Profesional sanitario cualificado basándote en lo que 
+
+hayas leído en nuestro Sitio y no utilices nuestro Sitio o Nuestros Servicios para necesidades o 
+
+atención médica de emergencia. En caso de urgencia médica, ponte inmediatamente en contacto 
+
+con los servicios de emergencia. 
+
+El Usuario seguirá siendo responsable de los honorarios, costes u otras obligaciones en las que 
+
+incurra con un Profesional. Si, después de haber reservado una cita y, por cualquier motivo, no se 
+
+presenta a la cita y/o cancela la cita, puede ser responsable de cualquier cargo y/o penalización que 
+
+el Profesional pueda imponer. Te recomendamos que leas todas las condiciones generales de 
+
+contratación del Profesional en cuestión antes de reservar, incluida la política de reembolso y 
+
+cancelación correspondiente, que puede estar publicada en su perfil dentro de nuestro Sitio. Sin perjuicio de las condiciones específicas y expresas que puedan aplicarse a la cita 
+
+correspondiente, Doctoralia declina toda responsabilidad en caso de cancelación por parte del 
+
+Profesional o Centro Médico tras la concertación de una cita por parte de un paciente a través de 
+
+nuestro Sitio. 
+
+1.3 Reservar una cita o utilizar nuestros servicios en nombre de un familiar 
+
+1.3.1 Un Usuario puede concertar una cita, o crear una cuenta o un perfil específico, para y en nombre 
+
+de un familiar, con el fin de que éste pueda utilizar Nuestros Servicios. El Usuario se compromete 
+
+a proporcionar información veraz, precisa y completa sobre la identidad del miembro de la familia. 
+
+1.3.2 En caso de que un Usuario lo haga, el Usuario declara y garantiza que está autorizado por ley, o 
+
+que ha sido expresamente autorizado por el familiar para (i) utilizar los datos personales del 
+
+familiar y registrarlos en el Sitio, (ii) reservar, modificar o cancelar una cita en beneficio del 
+
+familiar, (iii) transmitir y/o recibir de los Profesionales información y datos en relación con el 
+
+familiar, (iv) enviar mensajes y/o realizar solicitudes, y (iv) enviar mensajes, solicitudes, 
+
+documentos relacionados con la salud y recibir las respuestas pertinentes de los Profesionales en 
+
+beneficio del familiar. 
+
+1.3.3 El Usuario es consciente y entiende que las confirmaciones mencionadas anteriormente son 
+
+absolutamente necesarias para que podamos crear una cuenta o permitir el uso de los servicios 
+
+en beneficio del miembro de la familia en cuestión, y el Usuario acepta indemnizar y eximir a 
+
+Doctoralia y a los Profesionales de cualquier daño directo o indirecto, pérdida, coste o
+
+responsabilidad derivada del incumplimiento de estas condiciones, o de la incapacidad del 
+
+Usuario para representar válidamente al miembro de la familia de la forma mencionada 
+
+anteriormente. 
+
+# 2. Condiciones específicas aplicables a los Profesionales 
+
+## 2.1 Condiciones aplicables a todos los Profesionales que tengan un perfil 
+
+## en nuestro Sitio 
+
+Cualquier Profesional que tenga un perfil en nuestro Sitio debe tener las cualificaciones de 
+
+Profesional requeridas. Los Profesionales nunca deben proporcionar información falsa, inexacta o 
+
+engañosa, y nos reservamos el derecho a verificar periódicamente la identidad y las cualificaciones 
+
+del Profesional y a suspender o cancelar los perfiles de los Profesionales si sospechamos 
+
+razonablemente que el Profesional no tiene las cualificaciones requeridas o ha proporcionado 
+
+información falsa, inexacta o engañosa. 
+
+Si el Usuario, como Profesional, no desea tener un perfil en nuestro Sitio, puede solicitarnos que lo 
+
+borremos en cualquier momento. En tales casos, borraremos el perfil en un plazo razonable, a 
+
+menos que existan razones imperiosas de interés público o legítimo que consideremos que 
+
+prevalecen sobre su solicitud, que en cualquier caso comunicaremos al Usuario antes de ejecutar 
+
+nuestra decisión. Ten en cuenta que los motores de búsqueda pueden tardar algún tiempo en 
+
+eliminar la url de tu perfil de sus resultados de búsqueda, por lo que es posible que sigas 
+
+apareciendo en la página de resultados de búsqueda durante un breve periodo de tiempo, 
+
+normalmente no superior a 14 días laborables, después de que hayamos borrado el perfil. 
+
+Además, consulta nuestra política de privacidad (véase la sección 3 anterior) para comprender cómo 
+
+tratamos los datos personales relativos a las opiniones. Como podrás comprobar en dicha política, 
+
+actuamos como responsables del tratamiento de los datos relativos a las opiniones que nuestros 
+
+Usuarios escriben sobre el Usuario y conservaremos dichas opiniones de acuerdo con nuestros periodos de conservación, incluso si el Usuario nos pide que borremos su perfil. Si nos pides que 
+
+borremos tu perfil y en el futuro decides crear uno nuevo, podremos publicar las opiniones asociadas 
+
+a tus perfiles anteriores en tu nuevo perfil si seguimos conservando dichas opiniones de acuerdo con 
+
+nuestros periodos de conservación. 
+
+Si el Usuario es un Profesional de la Salud de pago (incluido un Profesional sanitario que trabaja 
+
+para, o colabora con, un Centro médico), los servicios que le prestamos como cliente están 
+
+regulados en un acuerdo de servicios independiente entre Nosotros y el Usuario, o el Centro médico, 
+
+según sea el caso. En caso de discrepancia entre estas condiciones y el contrato de servicios 
+
+independiente, prevalecerá el contrato de servicios independiente. 
+
+Si el Usuario es un Profesional que trabaja para, o colabora con, un Centro Médico que paga por un 
+
+perfil público para el Usuario en nuestro Sitio, seguiremos las instrucciones del Centro Médico en 
+
+cuanto a cómo proceder con dicho perfil, y la información que se refiere a los servicios prestados en 
+
+el Centro Médico. Cualquier cuestión relativa a dicho perfil deberá resolverse entre el Usuario y el 
+
+Centro Médico directamente. Declinamos toda responsabilidad y reclamación por su parte a este 
+
+respecto. 
+
+Sin perjuicio de lo anterior, o de cualquier otra cosa establecida en estas condiciones, nos 
+
+reservamos el derecho a eliminar o suspender temporalmente el perfil de un Profesional o Centro 
+
+Médico de nuestro Sitio de forma inmediata, si creemos razonablemente que la salud y/o seguridad 
+
+de un Usuario puede estar en riesgo, que el Profesional o Centro Médico ha tenido un 
+
+comportamiento irrespetuoso o inapropiado, o que ha incumplido cualquiera de nuestras condiciones 
+
+o políticas. Si tomamos dicha medida y no estás de acuerdo, consulta la sección 14, que establece tu 
+
+derecho a reclamar dicha decisión y cómo hacerlo. 
+
+## 2.2 Condiciones específicas aplicables a los Profesionales registrados 
+
+## que no hayan suscrito un contrato de servicios con Nosotros como 
+
+## clientes de pago. 
+
+Si te has registrado (es decir, has abierto una cuenta) con Nosotros y has creado, reclamado o 
+
+confirmado un perfil de Profesional en nuestro Sitio, pero no has suscrito un contrato de servicios con 
+
+Nosotros como cliente de pago, te ofrecemos las siguientes funcionalidades: 
+
+2.2.1 la posibilidad de publicar información profesional básica sobre ti, junto con la posibilidad de 
+
+publicar una foto (un " Perfil básico "); 
+
+2.2.2 la capacidad de modificar o rectificar de forma independiente la información de un perfil básico; 
+
+2.2.3 la posibilidad de consultar estadísticas sobre tu Perfil Básico; 
+
+2.2.4 la capacidad de responder a las opiniones publicadas sobre ti; y 
+
+2.2.5 la capacidad de responder a preguntas relacionadas con la salud planteadas por nuestros 
+
+Usuarios. 
+
+Nuestros Usuarios no pueden concertar citas contigo a través de nuestro Sitio con un Perfil Básico. 
+
+Si estás interesado en esta funcionalidad, deberás firmar un contrato de servicios con nosotros. Por 
+
+favor, ponte en contacto con nosotros a través de nuestro formulario de contacto para obtener más 
+
+información. 
+
+A continuación se indican algunos aspectos que deben tenerse en cuenta al crear, reclamar o confirmar 
+
+un perfil de profesional: 
+
+● Para crear el perfil de un Profesional, necesitamos cierta información básica sobre ti. Estos datos 
+
+pueden incluir el título, el número de licencia profesional, el nombre, los apellidos, la dirección de la 
+
+consulta y la categoría de especialización del profesional; ● La información sobre tu formación y cualificaciones como profesional debe ser exacta y estar 
+
+actualizada; 
+
+● Verificamos tus cualificaciones antes de publicar un perfil básico. Si no los cumple, no publicaremos 
+
+su perfil; 
+
+● No garantizamos una posición específica en la clasificación de los motores de búsqueda; 
+
+● Cada Profesional sólo puede tener un perfil; los perfiles duplicados no están permitidos y serán 
+
+eliminados; 
+
+● Los campos del perfil tienen requisitos específicos; la información debe coincidir con la finalidad 
+
+prevista de cada campo. Nos reservamos el derecho a rechazar o modificar la información que no 
+
+sea pertinente para un campo determinado; 
+
+● Los perfiles verificados son (a) perfiles creados por los Profesionales, o (b) perfiles creados por 
+
+Nosotros y cuya información es confirmada o modificada por el Profesional, después de que éste 
+
+haya reclamado o confirmado su perfil; 
+
+● Un Profesional puede modificar su perfil en cualquier momento, pero sólo puede hacerlo tras 
+
+registrarse en el Sitio y crear una cuenta para reclamar su perfil; 
+
+● Al publicar una foto de perfil en su cuenta, el Usuario nos concede una licencia no exclusiva para 
+
+utilizar dicha foto con el fin de prestar Nuestros Servicios y publicarla en el Sitio. La eliminación de su 
+
+cuenta no revoca automáticamente este derecho; y 
+
+● Los Profesionales que publiquen respuestas a las preguntas de los Usuarios en nuestro Sitio nos 
+
+conceden una licencia no exclusiva para publicar dichas respuestas (y, dado que estas respuestas 
+
+están disponibles públicamente, otros Profesionales o terceros también podrán utilizar sus 
+
+respuestas); 
+
+● Al publicar respuestas a preguntas, consultas u opiniones de los Usuarios en nuestro Sitio y, por 
+
+tanto, al publicar contenido en el Sitio, el Profesional concede a Doctoralia una licencia mundial, no 
+
+exclusiva, libre de regalías y transferible (con derecho a sublicenciar) para utilizar, reproducir, 
+
+distribuir, crear trabajos derivados de, mostrar y ejecutar dicho contenido en relación con la 
+
+prestación de los servicios y la actividad de Doctoralia, incluyendo, sin limitación, con el fin de 
+
+promover y redistribuir la totalidad o parte del servicio (y sus obras derivadas) en cualquier formato y 
+
+a través de cualquier canal de comunicación. Con respecto a las respuestas a las preguntas, la 
+
+licencia no es revocable. Esto significa que no borraremos sus respuestas, las conservaremos 
+
+aunque decida cancelar su perfil. 
+
+## 2.3 Condiciones específicas aplicables a los Profesionales no registrados 
+
+## cuya información aparezca en el Sitio 
+
+Si eres un Profesional que aparece en nuestro Sitio con un perfil, pero no te has registrado con 
+
+Nosotros ni has verificado tu perfil (es decir, no tienes una cuenta con Nosotros), habremos obtenido 
+
+tus datos personales de fuentes de información públicas o de Usuarios de nuestro Sitio que hayan 
+
+escrito una reseña sobre la experiencia que tuvieron contigo. Consulta esta política de privacidad 
+
+para obtener más información. 
+
+Eliminaremos tu perfil en un plazo razonable si así nos lo solicitas (véanse los datos de contacto en 
+
+la sección " Cómo ponerse en contacto con nosotros" , más arriba), a menos que existan razones 
+
+imperiosas de interés público o legítimo que consideremos que prevalecen sobre tu solicitud, que en 
+
+cualquier caso te comunicaremos antes de ejecutar nuestra decisión.
+
+Title: Best Medical Scheduling Software And Appointment Booking App
+
+URL Source: https://www.appointo.me/appointment-booking-app-for-medical-scheduling
+
+Published Time: Fri, 19 Sep 2025 20:21:03 GMT
+
+Markdown Content:
+[![Image 1](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/655718294ce97aa92425d9fc_logo.svg)](https://www.appointo.me/)
+
+This Medical Scheduling Software May Cause Excessive Free Time, Improved Revenue, and Happy Patients
+----------------------------------------------------------------------------------------------------
+
+With Appointo's automated reminders, customized intake forms, and seamless calendar integration, you'll have more time to focus on what matters most: providing exceptional care to your patients. Setup in 2 minutes — No code required.
+
+Trusted by 10000+ Brands, 5 ⭐ App Store Rating, 24/7 Customer Support.
+
+![Image 2](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/65ec0b7be97111ba10d03f82_Group%201000000799%20(2)-min.png)
+
+![Image 3](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/65ec16a10b31634c6b2b5068_calendar-stats.png)
+
+The most intuitive healthcare scheduling software system
+
+Top Doctors are Ditching Their Old Scheduling Methods for Appointo
+------------------------------------------------------------------
+
+### Automated reminders
+
+Reduce no-shows with automated email, text, and WhatsApp reminders, & confirmation messages.
+
+Customize them to maintain your unique voice and style.
+
+### Two-way calendar sync
+
+Any changes made in Appointo (new appointments, rescheduling, or cancellations) will automatically reflect in your Google or Outlook calendar, and vice versa.
+
+Eliminate the risk of double booking & never miss an appointment.
+
+### Stripe integration for payments
+
+**Offer a modern and convenient payment experience via Stripe (a widely used and trusted payment processing platform), streamlining the billing process.
+
+Give patients the flexibility to pay online using their credit card or other supported payment methods**
+
+### Staff logins
+
+Staff logins empower team members to manage their own schedules and appointments, giving them a sense of ownership and control over their work.
+
+Higher job satisfaction will lead to higher staff retention and long-term growth.
+
+![Image 4](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/65ec171a4cebfb4b5d379002_Macbook%20Pro-min.png)
+
+![Image 5](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/65edad84c836e1218ada2848_Vector.png)
+
+_Versatile medical scheduling software for practices ranging from pediatrics to geriatrics_
+
+Appointo is an all-in-one, cloud-based platform that empowers medical professionals to streamline their operations from start to finish effortlessly.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Automate manual admin tasks, reduce costs & save hours weekly on overhead, and boost efficiency & productivity via smart scheduling**
+
+*   **Efficiently manage scheduling with group appointments, single/multi-day events, custom questions, and the ability to manage bookings through iOS/Android apps or the web.**
+*   **Simplify virtual consultations with Zoom integration, which automatically generates and sends meeting links to patients**
+*   **Optimize your calendar with features to prevent last-minute appointments, block unavailable dates, set custom time intervals, and open the calendar for specific dates to better manage your practice's schedule.**
+
+![Image 6](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/65edad83fb1009ccceb9d22e_brand-socket-io.png)
+
+Easy Appointment Booking Setup
+
+Step-by-Step: Scheduling with Appointo Explained
+------------------------------------------------
+
+Add appointment booking app to your website with no-code!
+
+![Image 7](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/6555e79256c1657a9a2e937c_step-01.svg)
+
+##### Register
+
+Create your account. No credit card required.
+
+![Image 8](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/6555e79256c1657a9a2e937e_step-02.svg)
+
+##### Set up Services
+
+Create services and configure it as per your business needs.
+
+![Image 9](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/6555e79256c1657a9a2e937d_step-03.svg)
+
+##### You are set!
+
+Booking link will be automatically generated. You're all set and ready to go!
+
+![Image 10](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/65edad83e14e07b154958d85_report-money.png)
+
+_Intuitive, easy-to-use healthcare scheduling software systems_
+
+Appointo's fully customizable calendar and booking system makes it easy for your patients to find, view, and book appointments through your website or link
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Your patients can book appointments effortlessly without downloading any extra apps. Simply share your booking link – it works flawlessly on any device, anywhere, making scheduling a breeze for your patients.
+
+*   **Offer patients real-time availability and the flexibility to book appointments 24/7, reducing phone calls and emails to your practice while accommodating their busy schedules.**
+*   **Enable patients to easily view, reschedule, or cancel their appointments, reducing empty slots for your clinic.**
+*   **Customizable intake forms streamline the check-in process by gathering essential patient information before their visit, enabling you to provide personalized, high-quality care.**
+
+![Image 11](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/65ec1a6b6f839f619b5a109f_Group%201000004615-min.png)
+
+![Image 12](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/65ec16a10b31634c6b2b5068_calendar-stats.png)
+
+**Empowering More Than 10,000 Businesses Worldwide**
+
+Customer Experiences: Booking through Appointo
+----------------------------------------------
+
+![Image 13](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/6555e79256c1657a9a2e9380_testimonial-01.svg)
+
+###### **Marcela Giocanti**
+
+**Great app for scheduling your website booking and has excellent, friendly and swift customer support responses. I would highly recommend this app**
+
+![Image 14](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/6555e79256c1657a9a2e9391_testimonial-02.svg)
+
+###### **Futstep Professional**
+
+**Amazing app to have in a store where you need to make bookings or appointments.**‍**The integration is seamless and smooth. The appinto team helps you with every step.**‍
+
+![Image 15](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/6555e79256c1657a9a2e9390_testimonial-03.svg)
+
+###### **Self Expansion Method (UK)**
+
+**This one is the best by far. If you need subscriptions and lots of customizations, this is the one for you. Developers go out of their way to help you.**
+
+![Image 16](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/6555e79256c1657a9a2e939a_dark-sub-icon.svg)
+
+Questions
+
+Frequently asked questions
+--------------------------
+
+##### What types of appointments can I book through your medical scheduling software?
+
+![Image 17](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/6555e79256c1657a9a2e93b5_arrow.svg)
+
+Our medical scheduling software supports a wide range of appointment types, including single appointments, group appointments, and multi-day events. You can customize the available appointment types based on your practice's specific needs.
+
+##### Can I collect additional information from patients before they book an appointment?
+
+![Image 18](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/6555e79256c1657a9a2e93b5_arrow.svg)
+
+Yes, our software allows you to create custom questions to gather relevant information from patients before they finalize their appointment booking. This feature enables you to better prepare for each appointment and provide personalized care.
+
+##### Is the scheduling software accessible on both web and mobile devices?
+
+![Image 19](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/6555e79256c1657a9a2e93b5_arrow.svg)
+
+Absolutely! You can manage your practice's settings and appointments through our web platform, as well as our iOS and Android mobile apps. The mobile apps also allow you to reschedule or cancel bookings, change services or team members, and adjust calendar colors, business hours, and weekly hours setup.
+
+##### Do you offer a patient portal for self-service booking management?
+
+![Image 20](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/6555e79256c1657a9a2e93b5_arrow.svg)
+
+Yes, we provide customer booking portals that allow your patients to manage their own bookings. They can view, reschedule, or cancel their appointments through the portal, giving them more control over their healthcare experience.
+
+##### How do you handle appointment reminders for patients?
+
+![Image 21](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/6555e79256c1657a9a2e93b5_arrow.svg)
+
+Our software sends automated email, text, and WhatsApp reminders to patients for appointment confirmations, rescheduling, and cancellations. This helps reduce no-shows and keeps your patients informed about their upcoming appointments.
+
+##### Can the scheduling software adapt to my practice's primary language?
+
+![Image 22](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/6555e79256c1657a9a2e93b5_arrow.svg)
+
+Yes, our system automatically translates the interface to your practice's primary language. We currently support over 20 languages, ensuring that your staff and patients can navigate the software with ease.
+
+##### Does the software integrate with telemedicine platforms for virtual appointments?
+
+![Image 23](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/6555e79256c1657a9a2e93b5_arrow.svg)
+
+Yes, our software integrates with both Google Meet and Zoom. When a virtual appointment is booked, the system automatically generates a meeting link and sends it to the patient, streamlining the telemedicine process.
+
+##### Can I set up rules to prevent last-minute appointments or block specific dates?
+
+![Image 24](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/6555e79256c1657a9a2e93b5_arrow.svg)
+
+Absolutely! Our software offers advanced features that allow you to prevent patients from scheduling last-minute appointments, block unavailable dates, set time intervals based on your practice's preferences, and open the calendar for specific dates only.
+
+##### Does the software support automated patient communication workflows?
+
+![Image 25](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/6555e79256c1657a9a2e93b5_arrow.svg)
+
+Yes, you can create custom workflows to send tailored texts and emails to your patients based on specific conditions. These workflows can be curated separately for each service, allowing you to provide targeted content to your patients.
+
+##### How can patients book appointments through my practice's website?
+
+![Image 26](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/6555e79256c1657a9a2e93b5_arrow.svg)
+
+Our software automatically creates a public booking link that you can share with your patients. Additionally, you can embed our appointment booking widget directly into your practice's website, making it easy for patients to schedule appointments online
+
+##### Can I collect payments for services through the scheduling software?
+
+![Image 27](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/6555e79256c1657a9a2e93b5_arrow.svg)
+
+Yes, you can connect your Stripe account to our software to collect payments for services directly through the appointment booking process.
+
+![Image 28](https://cdn.prod.website-files.com/6555e79256c1657a9a2e92c3/65ec16a10b31634c6b2b5068_calendar-stats.png)
+
+Appointo Pricing plan
+
+Straightforward Pricing, Making Appointment Booking Easy
+--------------------------------------------------------
+
+#### Pro Plan
+
+###### $12
+
+/
+
+month
+
+#### $39
+
+/
+
+month
+
+Better insights for growing businesses that want more customers.
+
+*   **Supports group appointments, Google, Outlook calendar and Zoom Integrations**
+*   **Sends automated emails and text for reminders, confirmations, rescheduling, etc**
+*   **Customer Booking Portal through which customers can manage their bookings**
+*   **Additional Team Members @ $6/m**
+
+*   **Unlimited Services and Unlimited Bookings**
+
+[Get Started](https://dashboard.appointo.me/)
+
+Title: Online Medical Appointment Scheduling Software | Setmore
+
+URL Source: https://www.setmore.com/industries/medical-appointment-scheduling-software
+
+Markdown Content:
+[![Image 1: Setmore Logo](https://assets.setmore.com/website/v2/images/logo/setmore-tree-logo.svg)](https://www.setmore.com/)
+
+Empower your patients to book appointments 24/7 while ensuring your practice remains HIPAA-compliant.
+
+![Image 2: Book appointment online with doctors](https://assets.setmore.com/website/v2/images/industry-pages/medical/book-doctors-appointment-online.png)
+
+![Image 3: Setmore calendar open on mobile and laptop devices](https://assets.setmore.com/website/v2/images/common-images/new/setmore-laptop-phone-devices.png)
+Stay updated with patient scheduling software
+---------------------------------------------
+
+Get instant notifications when an appointment is booked, rescheduled or canceled. Your calendar syncs across desktop, tablet and mobile.
+
+[Create your account](https://signup.setmore.com/start-now)
+
+*   ### Confirm bookings at all hours
+
+Patients can [self-book](https://www.setmore.com/features/booking-page) any time, Anywhere. Display your availability online and receive real-time appointment confirmations. 
+*   ### Offer secure telemedicine appointments
+
+Book and host video consultations with the [Google Meet](https://www.setmore.com/integrations/google-meet) and [Zoom](https://www.setmore.com/integrations/zoom) integrations. Lock your virtual meetings for additional privacy. 
+*   ### Offer contactless payment options
+
+Allow patients to pay online for select services. Take card payments via [Square](https://www.setmore.com/integrations/square/us) or [Stripe](https://www.setmore.com/integrations/stripe), directly from your practice’s Booking Page. 
+*   ### Schedule follow-ups easily
+
+Establish a full treatment plan for your patients. Book [recurring appointments](https://www.setmore.com/features/recurring-appointments) in advance to monitor progress as often as required. 
+*   ### Create multiple staff calendars
+
+Set up [individual staff logins](https://www.setmore.com/features/staff-scheduling) with your medical scheduling software. Direct patients to the right specialist and track work hours, time-off and more. 
+*   ### Minimize no-shows
+
+Automate [email](https://www.setmore.com/features/email-reminders) and [text reminders](https://www.setmore.com/features/text-reminders) to ensure patients attend their appointments. Set the lead time and Setmore will handle the rest. 
+
+Medical❤️Setmore
+----------------
+
+*   **4.75/5 rating**based on 749 reviews on Capterra.
+
+*   **4.6/5 rating**based on 233 reviews on Facebook.
+
+*   Bradley Fryer Biokineticist
+
+Patients no longer need to call to confirm their appointments, and I’ve had amazing feedback from them. I cannot imagine running my business without Setmore!
+
+―Bradley Fryer
+*   **77%**
+of patients place importance on being able to book and manage appointments online.*
+
+Create a custom Booking Page with your patient appointment scheduling software. Offer easy rescheduling options [directly from appointment confirmation emails](https://support.setmore.com/en/articles/491038-customer-email-alerts).
+
+*Accenture
+
+*   
+“
+This software has changed the way **we do business**.
+
+![Image 4: Setmore medical appointment for business](https://assets.setmore.com/website/v2/images/industry-pages/medical/setmore-medical-appointment.png)
+
+Never miss a patient’s call
+---------------------------
+
+With Live Receptionist, patients and clients always connect with a real person when they call.
+
+Stay available 24/7, whether it’s after hours, weekends, or holidays. Every call is answered by a receptionist who can book or reschedule appointments as needed.
+
+[Book with an expert](https://livereception.setmore.com/services/0c3515df-fcde-4192-8f80-8377319c3b89)![Image 5: Live Receptionist](https://assets.setmore.com/website/v2/images/industry-pages/medical/live-booking-fold.png)
+
+Your top integrations
+---------------------
+
+![Image 6: Self booking appointments with setmore](https://assets.setmore.com/website/v2/images/industry-pages/medical/automate-self-booking-appointments.png)
+Automate admin to free your reception team
+------------------------------------------
+
+On average, it takes over 8 minutes to book an appointment by telephone. (Accenture) Choose an online patient scheduling system that reduces manual processes and offers [24/7 self-booking](https://www.setmore.com/features/booking-page). Confirm appointments around-the-clock and receive new booking notifications in real-time.
+
+Set up custom patient reminders
+-------------------------------
+
+Missed appointments cost the healthcare industry $150bn per year. (SCI Solutions) Minimize patient no-shows and maximize revenue with **automatic medical appointment reminders**. Let your healthcare appointment scheduling software send text and email alerts on your behalf. Save time on admin and stay productive.
+
+![Image 7: Patient checking setmore automatic remainders](https://assets.setmore.com/website/v2/images/industry-pages/medical/setmore-automatic-remainders.png)
+
+![Image 8: Setmore offers patient data backup](https://assets.setmore.com/website/v2/images/industry-pages/medical/patient-data-backup.png)
+Get quick access to patient data
+--------------------------------
+
+Online medical scheduling software enables specialists to attach notes to a [patient’s profile](https://support.setmore.com/en/articles/491020-customer-notes-stats-and-appointment-history). **Store a digital back-up of health records** and grant varied access levels to different team members. Centralize contact details and treatment plans to streamline prep for upcoming appointments.
+
+![Image 9: Secured online health software](https://assets.setmore.com/website/v2/images/industry-pages/medical/secured-health-software.png)
+HIPAA-compliant healthcare scheduling software
+----------------------------------------------
+
+Have peace-of-mind that your patients’ data is safeguarded. Your Setmore account includes privacy and security tools that assist in adhering to local requirements.
+
+[Get started today](https://signup.setmore.com/signup?isMedical=true)
+To access these features, you must sign a BAA between your company and Setmore. [Tell me more](https://support.setmore.com/en/articles/6985040-setmore-health)
+
+Seamless scheduling for doctors, nurses and medical offices
+-----------------------------------------------------------
+
+*   ### Brand your practice’s Booking Page
+
+Increase trust in your online appointment system with a personalized [Booking Page](https://www.setmore.com/features/booking-page). Add your logo, custom T&Cs and staff profiles.
+
+*   ### Accept appointments from your website
+
+Add a ‘[Book Now](https://support.setmore.com/en/articles/490959-use-a-custom-book-appointment-button-image)’ button to your site and let visitors schedule appointments without needing to call. Connect Setmore with [Wordpress](https://www.setmore.com/integrations/wordpress) and more.
+
+*   ### Set up secure contactless payments
+
+Allow patients [to pre-pay for appointments](https://www.setmore.com/features/payments/uk) directly from your Booking Page. Integrate Setmore with [Stripe](https://www.setmore.com/integrations/stripe) or [Square](https://www.setmore.com/integrations/square/us) in minutes.
+
+FAQs
+----
+
+*   Is your medical appointment scheduling software free to download? Yes, the free version of Setmore has no download or usage fees. However, depending on the type and size of your business, you may want to opt for a Team plan.
+
+Learn more about our [plans](https://www.setmore.com/pricing) to find the right one for you.
+
+If you operate in the US, we also offer [Setmore Health](https://support.setmore.com/en/articles/6985040-setmore-health). This account type comes with additional data security features to help you remain HIPAA-compliant. 
+*   How many staff can I add to my account? 
+If you sign up for the free version of Setmore’s medical booking software, you can create **4 staff logins**. Each login comes with its own calendar and unique booking link. If you opt for a Team plan, you can continue creating staff logins, each with exclusive access to features like patient text reminders.
+
+*   Can I use my Booking Page as my practice’s website? Yes, your Booking Page has a [customizable URL](https://support.setmore.com/en/articles/490970-your-booking-page-url) and can be discovered via search engines. To further personalize its appearance, display your logo, branding, staff photos and an Instagram stream. These options are all available with free medical appointment scheduling software**from Setmore.**
+
+If you opt for a Pro, Team or Setmore Health plan, you can also **remove Setmore’s branding.** 
+*   What are the differences between my calendar and Booking Page? Your practice’s [Setmore calendar](https://www.setmore.com/features/appointments) is visible to you and the staff you grant access. It features all of your events, including appointments, providing a real-time overview of your team’s schedules. Your calendar allows you to add appointments, accept payments, edit patient details and more.
+
+Your patient-facing [Booking Page](https://www.setmore.com/features/booking-page) is visible to everyone. Patients can access it at any time and schedule appointments online. When an appointment is confirmed through your Booking Page, the details instantly appear in your Setmore calendar. You also receive an email confirmation with the booking details.
+
+Your medical appointment calendar and Booking Page **are synced**. If you block out time in your calendar, it’s also blocked out on your Booking Page. 
+*   How do I set up virtual appointments for patients? 
+Your healthcare scheduling software from Setmore integrates with leading video conferencing platforms like [Google Meet](https://www.setmore.com/integrations/google-meet) and [Zoom](https://www.setmore.com/integrations/zoom). Enable an integration and select the services to provide over video. [Learn more](https://www.setmore.com/features/schedule-virtual-meetings)
+
+*   How do I accept prepayments from patients? Activate one of Setmore’s payment integrations: [Square](https://www.setmore.com/integrations/square/us), [Stripe](https://www.setmore.com/integrations/stripe) or [PayPal](https://www.setmore.com/integrations/paypal). These enable you to enhance your Booking Page with a payment gateway.
+
+To accept prepayments, open your Setmore web app and go to **Settings > Payments > Booking Page**. Here you can switch on Booking Page payments and specify whether payments are optional or mandatory before appointments are confirmed.
+
+View illustrated steps to [take prepayments](https://support.setmore.com/en/articles/491039-take-payments-from-the-booking-page) with your medical office scheduling software. 
+*   Do staff need their own Setmore accounts to accept appointments online? No, you can create multiple staff logins associated with one Setmore account. If your practice is growing, we recommend a [Setmore Pro](https://www.setmore.com/pro) account. You can continue adding staff for a nominal monthly or annual fee.
+
+Each staff login has **a unique calendar and booking link**. Patients can schedule appointments with particular staff through your practice’s Booking Page, or through their unique booking link.
+
+Read more about [managing staff](https://www.setmore.com/features/staff-scheduling) with medical office appointment scheduling software. 
+*   Can I decide what to include in patient text reminders? Yes, [text reminders](https://support.setmore.com/en/articles/490963-text-reminders-premium-pro-feature) are customizable on Pro and Team. To comply with HIPAA regulations, Setmore Health text reminders are not customizable.
+
+To edit your text reminders’ content, go to **Settings > Notifications > Customization**. You can specify the fields to populate your text reminders in ‘SMS Notification’.
+
+To select how far in advance your texts are sent, open **Settings > Notifications > Customer**. You can specify the lead time in ‘Reminder Lead Time’.
+
+Read more about automating [text reminders](https://support.setmore.com/en/articles/490963-text-reminders-premium-pro-feature) with medical appointment software. 
+*   Is Setmore HIPAA compliant? 
+Yes, Setmore Health accounts have additional data security tools to help you meet HIPAA regulations. Learn more about how [Setmore Health](https://support.setmore.com/en/articles/6985040-setmore-health) differs from a Free, Pro and Team account.
+
+*   How do I schedule a series of appointments for one patient? If you have a Pro, Team or Setmore Health account, your staff can schedule [recurring appointments](https://www.setmore.com/features/recurring-appointments) in their calendars. Start by adding an appointment as usual. Select an available space in your Setmore calendar and the Appointment Details window will appear.
+
+Before moving on, click the ‘Repeat’ dropdown menu. Here you can specify how often this appointment should recur. Choose daily, weekly, monthly or a custom option.
+
+Your online medical scheduling software automatically adds the sessions in this series to your calendar. Your Booking Page blocks time out accordingly, for however long the series continues. Additionally, patients receive reminders before each session.
+
+Learn how to create a series of [recurring appointments](https://support.setmore.com/en/articles/490894-recurring-appointments-premium-pro-feature) with Setmore. 
+*   Does Setmore account for events in my Google Calendar? Yes. Setmore has [1-way](https://support.setmore.com/en/articles/490960-google-calendar-sync-1-way) and [2-way](https://support.setmore.com/en/articles/491007-2-way-google-calendar-sync-premium-pro-feature) Google Calendar sync options to align your events. Eliminate double-booking and streamline medical office appointment scheduling by bringing together your calendars.
+
+1-way sync blocks out time in Google Calendar for the appointments booked using Setmore. 2-way sync - available to Pro, Team and Setmore Health customers - ensures your **Setmore events reflect in Google Calendar and vice versa**.
+
+Learn more about [Google Calendar sync](https://www.setmore.com/integrations/google-cal) and [Outlook Calendar sync](https://www.setmore.com/integrations/office-cal) 
+*   How do I get the Setmore mobile app? 
+Our mobile patient scheduling app is available for [iOS](https://www.setmore.com/features/ios-app) and [Android](https://www.setmore.com/features/android-app) devices. After creating your account, download the iOS version from the [App Store](https://apps.apple.com/us/app/setmore-appointments-appointment-scheduling-app/id665859578) or the Android version from [Google Play](https://play.google.com/store/apps/details?id=com.adaptavant.setmore&hl=en)
+
+*   What types of medical specialists use Setmore? Our customer base includes physical therapists and counselors, to doctors, plastic surgeons and dentists. Read our interview with Sean O’Connor from [Happy Dental](https://www.setmore.com/blog/scheduling-smiles-with-happy-dental/) and discover how online scheduling became vital to his team of dentists.
+
+When you’re ready, [sign up](https://signup.setmore.com/start-now) for your patient scheduling software free. 
+
+For more information, check out our [Support Center](https://support.setmore.com/en/).
+
+![Image 10: Community group of Setmore customers](https://assets.setmore.com/website/v2/images/common-images/setmore-people-community.png)
+Make time for what truly matters
+--------------------------------
+
+[Sign me up](https://signup.setmore.com/start-now)
+
+Title: Appointment booking system for doctors and clinics - Online Calendar and online scheduling & bookings system
+
+URL Source: https://www.bookitit.com/online-appointment-scheduling-management-to-medical-clinics-and-doctors/
+
+Markdown Content:
+Appointment booking system for doctors and clinics - Online Calendar and online scheduling & bookings system
+
+===============
+
+[![Image 5: Online Calendar and online scheduling & bookings system](https://bookitit.cdn.protebyte.cloud/wp-content/uploads/2022/09/logo_bookitit_white.svg)](https://www.bookitit.com/)
+
+*   [Features](https://www.bookitit.com/features-2/)
+*   [Pricing](https://www.bookitit.com/pricing/)
+*   [Who uses Bookitit?](https://www.bookitit.com/who-uses-bookitit/)
+*   [Success cases](https://www.bookitit.com/success-cases/)
+*   [Try for free](https://www.bookitit.com/try-15-days-free/)
+*   [Contact](https://www.bookitit.com/contact/)
+*   [Sign in](https://app.bookitit.com/logins/professional/3)
+*   [English](https://www.bookitit.com/online-appointment-scheduling-management-to-medical-clinics-and-doctors/ "English")
+    *   [Español](https://www.bookitit.com/es/sistema-de-reserva-de-citas-para-medicos-y-clinicas/ "Español")
+    *   [Português](https://www.bookitit.com/pt-br/sistema-de-reservas-online-e-agendamento-online-para-clinicas-e-medicos/ "Português")
+
+Select Page
+*   [Features](https://www.bookitit.com/features-2/)
+*   [Pricing](https://www.bookitit.com/pricing/)
+*   [Who uses Bookitit?](https://www.bookitit.com/who-uses-bookitit/)
+*   [Success cases](https://www.bookitit.com/success-cases/)
+*   [Try for free](https://www.bookitit.com/try-15-days-free/)
+*   [Contact](https://www.bookitit.com/contact/)
+*   [Sign in](https://app.bookitit.com/logins/professional/3)
+*   [English](https://www.bookitit.com/online-appointment-scheduling-management-to-medical-clinics-and-doctors/ "English")
+    *   [Español](https://www.bookitit.com/es/sistema-de-reserva-de-citas-para-medicos-y-clinicas/ "Español")
+    *   [Português](https://www.bookitit.com/pt-br/sistema-de-reservas-online-e-agendamento-online-para-clinicas-e-medicos/ "Português")
+
+Online appointment booking system
+
+ for clinics and doctors
+===========================================================
+
+![Image 6](https://bookitit.cdn.protebyte.cloud/wp-content/uploads/2019/05/aplicacion_reservas_online_hospitales-1.svg)
+
+Bookitit facilitates the patient the process of requesting a Prior Appointment from any computer or mobile device, 24 hours a day. The Health Center or Clinic has full control over the management of the Medical Appointment Agenda, making possible a better organization of time and resources. Knowing in advance the planning of the Medical Agenda facilitates and improves the prior preparation of the necessary resources to attend the patient in the consultation.
+
+An Online Pre-Appointment System for medical centers and clinics should make easier communication between doctors and patients, and control over the Online Medical Appointment Agenda.
+
+Appointment reminders and notifications by EMAIL AND SMS
+========================================================
+
+Configure what type of reminders and notifications of appointments you want both your clients and you to receive both by e-mail and by SMS
+
+![Image 7: ontime customer notification](https://bookitit.cdn.protebyte.cloud/wp-content/uploads/2024/10/booking_system_alerts.webp)
+
+Management of medical appointments and patient list
+===================================================
+
+Manage all your medical appointments with the combination of Online Agenda and Calendar. Create a database of your patients in the form of a list.
+
+![Image 8: Customer management module](https://bookitit.cdn.protebyte.cloud/wp-content/uploads/2024/10/Booking_app_customer.webp)
+
+How do my patients book?
+========================
+
+Your patients can request an Appointment from your website, Facebook or any other medical portal where you publish your Online Agenda
+
+![Image 9: Patients online booking system](https://bookitit.cdn.protebyte.cloud/wp-content/uploads/2021/02/Sistema_de_reservas_online_clinicas-1.svg)
+
+[Try us free for 15 days](https://www.bookitit.com/try-15-days-free/)
+
+[![Image 10](https://bookitit.cdn.protebyte.cloud/wp-content/uploads/2019/07/facebook_sistema_reservas_online.svg)](https://www.facebook.com/Bookitit.Reservas.y.CitaPrevia.Online?ref=hl)
+
+[![Image 11](https://bookitit.cdn.protebyte.cloud/wp-content/uploads/2019/07/instagram_sistema_reservas_online.svg)](https://www.instagram.com/bookitit/)
+
+[![Image 12](https://bookitit.cdn.protebyte.cloud/wp-content/uploads/2019/07/twitter_sistema_reservas_online.svg)](https://twitter.com/bookitit)
+
+[![Image 13](https://bookitit.cdn.protebyte.cloud/wp-content/uploads/2019/07/linkedin_sistema_reservas_online.svg)](https://www.linkedin.com/company/nubesis---life-solutions/)
+
+[News](https://www.bookitit.com/blog/) · [Developers](https://www.bookitit.com/es/api/) · [Manage multiple centers](https://www.bookitit.com/online-multicenter-scheduling-and-appointment-system/) · [Tutorials](https://www.bookitit.com/tutorials/wizard/) · [Collaborators](https://www.bookitit.com/collaborator/) · [Contact](https://www.bookitit.com/contact/)
+
+[Mobile APP online scheduling](https://www.bookitit.com/scheduling-software-mobile-and-tablets-manage/ "Mobile APP online scheduling")
+[Barbershop software](https://www.bookitit.com/online-booking-system-for-beauty-centers-and-hairdressers/)
+
+[Program to schedule online appointments](https://www.bookitit.com/)
+
+[Online calendar](https://www.bookitit.com/)
+
+[Online agenda](https://www.bookitit.com/)
+
+[Online booking app](https://www.bookitit.com/scheduling-software-mobile-and-tablets-manage/)
+
+[Custom online booking system](https://www.bookitit.com/bookitit-custom/ "Custom online booking system")
+[Online reservation system](https://www.bookitit.com/)
+
+[Room booking app](https://www.bookitit.com/scheduling-software-mobile-and-tablets-manage/)
+
+[Online scheduling agenda](https://www.bookitit.com/)
+
+[Dating management software](https://www.bookitit.com/)
+
+[Clinics software](https://www.bookitit.com/appointment-booking-system-for-doctors-and-clinics/)
+
+[Products](https://www.bookitit.com/products/ "Products")
+[WordPress booking system](https://www.bookitit.com/)
+
+[Appointments Application](https://www.bookitit.com/scheduling-software-mobile-and-tablets-manage/)
+
+[Reminders Calendar](https://www.bookitit.com/)
+
+[Hairdressing management program](https://www.bookitit.com/online-booking-system-for-beauty-centers-and-hairdressers/)
+
+[Mobile Calendar](https://www.bookitit.com/scheduling-software-mobile-and-tablets-manage/)
+
+© 2021 Nubesis S.L. · [Terms & Privacy Policy](https://www.bookitit.com/terms-privacy-policy/)
+
+Copyright © 2025 [Bookitit 2.0](https://www.bookitit.com/)|Developed by [iteate.bookitit](https://www.bookitit.com/)|Proudly powered by [WordPress](https://www.wordpress.org/)
+
+![Image 14: Online Calendar and online scheduling & bookings system](https://bookitit.cdn.protebyte.cloud/wp-content/uploads/2019/10/cookie.svg)
+
+Manage consent
+
+We use technologies like cookies to store and/or access device information. We do this to improve browsing experience and to show (non-) personalized ads. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions.
+
+Functional- [x] Functional  Always active 
+
+The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.
+
+Preferences- [x] Preferences 
+
+The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.
+
+Statistics- [x] Statistics 
+
+The technical storage or access that is used exclusively for statistical purposes.The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.
+
+Marketing- [x] Marketing 
+
+The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.
+
+[Manage options](https://www.bookitit.com/online-appointment-scheduling-management-to-medical-clinics-and-doctors/#)[Manage services](https://www.bookitit.com/online-appointment-scheduling-management-to-medical-clinics-and-doctors/#)[Manage {vendor_count} vendors](https://www.bookitit.com/online-appointment-scheduling-management-to-medical-clinics-and-doctors/#)[Read more about these purposes](https://cookiedatabase.org/tcf/purposes/)
+
+Accept Deny View preferences Save preferences[View preferences](https://www.bookitit.com/online-appointment-scheduling-management-to-medical-clinics-and-doctors/#)
+
+[{title}](https://www.bookitit.com/online-appointment-scheduling-management-to-medical-clinics-and-doctors/#)[{title}](https://www.bookitit.com/online-appointment-scheduling-management-to-medical-clinics-and-doctors/#)[{title}](https://www.bookitit.com/online-appointment-scheduling-management-to-medical-clinics-and-doctors/#)
+
+Manage consent
+
+Title: Online Medical Scheduling Software For Patients | YouCanBookMe
+
+URL Source: https://youcanbook.me/medical-scheduling-software
+
+Markdown Content:
+Streamline Patient Care with Medical Scheduling Software
+--------------------------------------------------------
+
+Avoid the need for calling in. Make it easy for clients to book appointments with you online instead. We’ll get rid of the scheduling burden so you can focus on quality care, not admin tasks.
+
+14 day free trial No credit card required Upgrade anytime
+
+![Image 1: patient scheduling software (1)](https://youcanbook.me/hs-fs/hubfs/patient%20scheduling%20software%20(1).png?width=977&height=916&name=patient%20scheduling%20software%20(1).png)
+
+Customized for medical professionals
+------------------------------------
+
+Skip the endless back-and-forth between staff and patients. Our healthcare scheduling software handles bookings, rescheduling, cancellations, payments, and reminders for you. Ideal for:
+
+![Image 2: Alternative Medicine](https://youcanbook.me/hubfs/2024%20-%20Use%20Case%20Icons/Category%20icons/Medical%20+%20Healthcare/Alternative%20Medicine.svg)
+
+### Alternative Medicine
+
+![Image 3: Doctors](https://youcanbook.me/hubfs/2024%20-%20Use%20Case%20Icons/Category%20icons/Medical%20+%20Healthcare/Doctors.svg)
+
+### Doctors
+
+![Image 4: Dental Hygienists](https://youcanbook.me/hubfs/2024%20-%20Use%20Case%20Icons/Category%20icons/Medical%20+%20Healthcare/Dental%20Hygienists.svg)
+
+### Dental Hygienists
+
+Practical for you. Painless for patients.
+-----------------------------------------
+
+Patients can schedule appointments 24/7, without having to wait for your office to open. Our clinic scheduling software eliminates the back-and-forth hassle by automating booking, cancelations, rescheduling, in-take forms, and appointment reminders—all in one place.
+
+[Try it for free Try it for free](https://youcanbook.me/cs/c/?cta_guid=152b266e-d530-4a8d-b2bf-65cef9dd4c7b&signature=AHFS_auoZSRL_M52IBIarppHFnDpIvHT-Q&portal_id=25078520&pageId=105505091055&placement_guid=a9f5a37d-9526-4924-aee1-9092b8d79410&click=683d8b18-2f7f-484c-a6f9-27d457e04139&redirect_url=AD7p6W81f1x_O962U7GN3pnR1UY7K9othe3ObWpT2f2C-hwW26vLtqcXc8rh6je1FlfwpC2UBTSvgLs-ruCbu0i0w924LM5yjmc3lIbooWO6Ejs_CnvdXmU&hsutk=7d52d04ec3cbde84e99270cebf99ecd4&canon=https%3A%2F%2Fyoucanbook.me%2Fmedical-scheduling-software&ts=1758548321421&__hstc=209594573.7d52d04ec3cbde84e99270cebf99ecd4.1758548321351.1758548321351.1758548321351.1&__hssc=209594573.1.1758548321352&__hsfp=2438639841&contentType=standard-page "Try it for free")
+
+![Image 5: medical appointment scheduling software (2)](https://youcanbook.me/hs-fs/hubfs/medical%20appointment%20scheduling%20software%20(2).png?width=998&height=787&name=medical%20appointment%20scheduling%20software%20(2).png)
+
+Collect important patient info before every visit
+-------------------------------------------------
+
+Tailor your booking form to function as an intake form. Use it to collect vital contact info, ask preliminary questions, and learn the reason behind every appointment, allowing you to prepare effectively for patient care. Ensure patients accept terms before their visit, shortening office prep and admin time.
+
+[Offload the admin on us!Offload the admin on us!](https://youcanbook.me/cs/c/?cta_guid=306b1572-34cd-4ca9-b155-a47dfddd153e&signature=AHFS_avvZJGDIJQWJJzsd7KvBju_hbl3Kg&portal_id=25078520&pageId=105505091055&placement_guid=1cb9ec3a-d7cc-4e8e-b07e-c82a3a16d57b&click=4eeb208a-8cee-4a6c-9b24-614211dae0bd&redirect_url=AD7p6W9Lt3l7kOGsTqGLrDjqwTUA7A2ckrXiB7OHL_Q4MSEulOmGqWKzviijzDb59bcWoIXEQ3yYzq9FAbzgzoRcJPoFFbEIguqnvAb5Xs_bxdDwdZmfOpM&hsutk=7d52d04ec3cbde84e99270cebf99ecd4&canon=https%3A%2F%2Fyoucanbook.me%2Fmedical-scheduling-software&ts=1758548321407&__hstc=209594573.7d52d04ec3cbde84e99270cebf99ecd4.1758548321351.1758548321351.1758548321351.1&__hssc=209594573.1.1758548321352&__hsfp=2438639841&contentType=standard-page "Offload the admin on us!")
+
+![Image 6: patient appointment software (3)](https://youcanbook.me/hs-fs/hubfs/patient%20appointment%20software%20(3).png?width=935&height=792&name=patient%20appointment%20software%20(3).png)
+
+Reduce no-shows to protect your bottom line
+-------------------------------------------
+
+Say goodbye to missed appointments. All patients receive confirmations and automatic SMS or email reminders, keeping them informed and engaged. Plus, automated follow-ups ensure your patients remember to book a second visit and maintain their continuity of care.
+
+[Fill my calendar up!Fill my calendar up!](https://youcanbook.me/cs/c/?cta_guid=b18550f2-8686-463b-a73e-5da7d6275ff0&signature=AHFS_auKNFo1YIvovTbv7zfo-S2i6YRofg&portal_id=25078520&pageId=105505091055&placement_guid=d0d11141-9ca5-4fba-b8a2-cc613fa6256f&click=7a92d071-1a0a-48eb-944d-f8f72daa63d7&redirect_url=AD7p6W_N4Jwtiwz1xqdKnLXw543jwBZmGOlrJ-I7r80DqeD60Zu92yab3oSuxjy7rfh2kDjoYMPwjEplOCun6twLC-Ks_yeMwvBTosabM3eMSBB2gdGRyDs&hsutk=7d52d04ec3cbde84e99270cebf99ecd4&canon=https%3A%2F%2Fyoucanbook.me%2Fmedical-scheduling-software&ts=1758548321391&__hstc=209594573.7d52d04ec3cbde84e99270cebf99ecd4.1758548321351.1758548321351.1758548321351.1&__hssc=209594573.1.1758548321352&__hsfp=2438639841&contentType=standard-page "Fill my calendar up!")
+
+![Image 7: physician scheduling software (4)](https://youcanbook.me/hs-fs/hubfs/physician%20scheduling%20software%20(4).png?width=1033&height=898&name=physician%20scheduling%20software%20(4).png)
+
+Hear from happy healthcare providers using YouCanBookMe
+-------------------------------------------------------
+
+Less stress? Zero phone tag? Well-planned visits? Discover how our medical scheduling software helps deliver all this and more.
+
+> ![Image 8: g2-logo-2](https://youcanbook.me/hs-fs/hubfs/g2-logo-2.png?width=512&height=512&name=g2-logo-2.png)
+> 
+> 
+> “I have less stress. YouCanBookMe provides manageable scheduling for family members of our patients to utilize. I'm able to focus on other work besides answering the phone every few minutes of the day trying to find a day and time that's available. It has helped my department tremendously.”
+
+> ![Image 9: g2-logo-2](https://youcanbook.me/hs-fs/hubfs/g2-logo-2.png?width=512&height=512&name=g2-logo-2.png)
+> 
+> 
+> “This program has nearly eliminated the chaos and put control into our high-volume clinic. It spaces out our health office visits during the day. It allows us to maintain physical distancing as well. It has been such a great organization tool for our office."
+
+> ![Image 10: g2-logo-2](https://youcanbook.me/hs-fs/hubfs/g2-logo-2.png?width=512&height=512&name=g2-logo-2.png)
+> 
+> 
+> “I use it for various types of bookings for a health treatment clinic. It handles the different types of appointments very well. It integrates very well with an internal database system, and by using a ‘web viewer’ allows users to make appointments within the database app.”
+
+Everything your medical practice needs in one tool
+--------------------------------------------------
+
+![Image 11: Custom Booking Page](https://youcanbook.me/hubfs/2024%20-%20Case%20Study%20Icons/Custom%20Booking%20Page.svg)
+
+### Customize and automate intake forms
+
+Ensure your patients submit all relevant info with [customizable booking forms](https://youcanbook.me/feature/booking-forms). Patients can accept terms and describe symptoms before every visit.
+
+![Image 12: Appointment Types](https://youcanbook.me/hubfs/2024%20-%20Case%20Study%20Icons/Appointment%20Types.svg)
+
+### Offer different appointment types
+
+Whether it's an annual check-up, procedure, follow-up, or an open walk-in slot, offer as many different [appointment types](https://youcanbook.me/feature/availability) as you need to.
+
+![Image 13: Multiple Booking Pages](https://youcanbook.me/hubfs/2024%20-%20Case%20Study%20Icons/Multiple%20Booking%20Pages.svg)
+
+### Dedicated pages for your staff
+
+Patients can choose from multiple staff members for every visit. Create individual booking pages for doctors and a unified page with [pooled availability](https://youcanbook.me/scheduling-for-teams) for walk-ins.
+
+![Image 14: padding-white](https://youcanbook.me/hubfs/2024%20-%20Archive/2022/icons/feature-icons/padding-white.svg)
+
+### Add padding between appointments
+
+Whether for room prep, cleaning, or just a quick break, ensure you have the time between visits to guarantee effective and efficient patient care.
+
+![Image 15: Notifications](https://youcanbook.me/hubfs/2024%20-%20Case%20Study%20Icons/Notifications.svg)
+
+### Keep your patients in the loop
+
+![Image 16: Password Protected Pages](https://youcanbook.me/hubfs/2024%20-%20Case%20Study%20Icons/Password%20Protected%20Pages.svg)
+
+### Safeguard your time and calendar
+
+[Password-protected booking pages](https://youcanbook.me/feature/booking-flow) let you ensure only specific patients can book certain visits, such as post-op appointments or follow-ups.
+
+Integrate your practice's favorite tools
+----------------------------------------
+
+YouCanBookMe’s patient scheduling software seamlessly connects with popular calendar apps, video tools, CRMs, and 7,000+ other tools via Zapier to simplify your workday.
+
+Focus on patient care, not on patient scheduling
+------------------------------------------------
+
+When an apple a day just isn’t enough, ensure your patients can easily book visits with you. Don’t worry: we’ll handle the tedious busy work, freeing you up to focus on what matters most.
+
+No credit card required.
+
+Deliver exceptional patient care experiences
+--------------------------------------------
+
+Need expert advice you can count on? Dive into the resources below to get the most out of YouCanBookMe!
+
+[![Image 17: patient scheduling](https://youcanbook.me/hs-fs/hubfs/patient%20scheduling.jpg?width=1280&height=853&name=patient%20scheduling.jpg)](https://youcanbook.me/blog/patient-scheduling)
+
+[![Image 18: no shows](https://youcanbook.me/hs-fs/hubfs/no%20shows.webp?width=1100&height=733&name=no%20shows.webp)](https://youcanbook.me/blog/how-to-reduce-no-show-appointments)
+
+[![Image 19: 10 Powerful Ways to Customize Your Booking Page - Preview Image](https://youcanbook.me/hs-fs/hubfs/10%20Powerful%20Ways%20to%20Customize%20Your%20Booking%20Page%20-%20Preview%20Image.png?width=920&height=460&name=10%20Powerful%20Ways%20to%20Customize%20Your%20Booking%20Page%20-%20Preview%20Image.png)](https://youcanbook.me/blog/customize-your-booking-page)
+
+Frequently Asked Questions
+--------------------------
+
+### What type of software may be used to schedule patients?
+
+![Image 20: Black Arrow Icon](https://youcanbook.me/hubfs/raw_assets/public/ycbm-22/img/down-arrow.svg)
+
+YouCanBookMe is an ideal software for scheduling patients in medical practices. Patients love the easy-to-use interface and flexible booking options that let them schedule appointments at their convenience. Plus, integration with your existing calendar means you'll never miss a beat and can focus on what you do best—caring for patients. You can fully tailor the booking pages, forms, and all patient notifications to suit your needs, ensuring you can fully prepare for every visit. Ultimately, our patient scheduling software empowers medical professionals to streamline appointments and deliver exceptional patient care.
+
+### Can I keep my booking pages private to existing patients only?
+
+![Image 21: Black Arrow Icon](https://youcanbook.me/hubfs/raw_assets/public/ycbm-22/img/down-arrow.svg)
+
+Absolutely! Our online medical appointment booking system offers password protection for your booking pages, ensuring that only your current patients can access them. Additionally, you can enable tentative bookings for extra security, letting you approve or decline appointments before they’re confirmed on your calendar. This feature will allow you to verify if the patient is an existing one before finalizing the appointment.
+
+### Can patients choose to book with a specific healthcare provider from my practice?
+
+![Image 22: Black Arrow Icon](https://youcanbook.me/hubfs/raw_assets/public/ycbm-22/img/down-arrow.svg)
+
+Of course! With YouCanBookMe’s healthcare scheduling software, patients can select their preferred healthcare provider from your practice when booking appointments. You can choose to create a separate booking page for each doctor or one for the entire clinic with pooled availability. Patients can choose appointments based on which provider, appointment type, or time slot is right for them.
+
+Title: Doctor Appointment Software
+
+URL Source: https://ayelite.com/doctor-appointment-software
+
+Markdown Content:
+[![Image 1: Ayelite Logo](https://ayelite.com/wp-content/uploads/2025/02/Ayelite-Logo.svg)](https://ayelite.com/)
+
+![Image 2: Doctor-Appointment-Software-introduction1740999711355](https://ayelite.com/wp-content/uploads/2024/08/Doctor-Appointment-Software-introduction1740999711355.webp)
+
+Introduction
+------------
+
+### **Adept doctor appointment** app development agency
+
+The healthcare environment nowadays is fast-paced. Proper appointment scheduling is crucial. Our software is developed in a way that helps you in streamlining your practice. Other than that, we’ve got developers that help you out with solutions that you actually need. They make sure that only the finest solutions is what you get in the end. A well-managed schedule is the cornerstone of a successful practice, and that’s what you’ll get with us!
+
+*   Quality is our topmost priority, and you’ll see that being reflected in the solutions that we provide.
+*   We aim at giving you that polished, refined experience that you need.
+
+Solutions
+---------
+
+### Features that **empower your business**
+
+Here are the features that will make you stand out from the rest.
+
+![Image 3: online appointment ooking](https://ayelite.com/wp-content/uploads/2024/08/online-appointment-ooking.png)
+
+#### Online Appointment Booking
+
+Book appointments 24/7, anytime and anywhere!
+
+![Image 4: doctor and staff schedualing](https://ayelite.com/wp-content/uploads/2024/08/doctor-and-staff-schedualing.png)
+
+#### Doctor and Staff Scheduling
+
+Manage schedules for doctors, nurses and other staff members.
+
+![Image 5: customizable schedualing](https://ayelite.com/wp-content/uploads/2024/08/customizable-schedualing.png)
+
+#### Customizable Scheduling
+
+Create flexible appointment types, durations and availability to meet your practice’s needs.
+
+![Image 6: interagration other health software](https://ayelite.com/wp-content/uploads/2024/08/interagration-other-health-software.png)
+
+#### Integration other Health Software
+
+Connect with your existing EMR/EHR system for a unified workflow.
+
+![Image 7: multi location support](https://ayelite.com/wp-content/uploads/2024/08/multi-location-support.png)
+
+#### Multi Location Support
+
+Manage appointments across multiple clinics and branches efficiently.
+
+![Image 8: multi language support](https://ayelite.com/wp-content/uploads/2024/08/multi-language-support.png)
+
+#### Multi Language Support
+
+Cater to a diverse population with language options.
+
+![Image 9: appointment reminder](https://ayelite.com/wp-content/uploads/2024/08/appointment-reminder.png)
+
+#### Appointment Reminders
+
+Reduce no-shows and improve patient punctuality with automated reminders.
+
+![Image 10: waiting room management](https://ayelite.com/wp-content/uploads/2024/08/waiting-room-management.png)
+
+#### Waiting Room Management
+
+Patient flow optimization that aims to reduce wait times.
+
+Features
+--------
+
+### Comprehensive solutions for **consistent performance**
+
+With Ayelite Technologies, you get a suite of features that help supercharge your business.
+
+![Image 11](https://ayelite.com/wp-content/uploads/2024/08/Centralized-Appointment-Dashboard.png)
+
+#### Centralized Appointment Dashboard
+
+Gain a comprehensive overview of your schedule with doctor appointment scheduling software.
+
+![Image 12](https://ayelite.com/wp-content/uploads/2024/08/Online-Self-Scheduling.png)
+
+#### Online Self-Scheduling
+
+Let patients to book, reschedule or cancel appointments. Also get online appointment scheduling for doctors.
+
+![Image 13](https://ayelite.com/wp-content/uploads/2024/08/Billing-Management.png)
+
+#### Billing Management
+
+Integrate billing and payment processing for smooth financial management.
+
+![Image 14](https://ayelite.com/wp-content/uploads/2024/08/Multi-Location-Support.png)
+
+#### Multi-Location Support
+
+Manage appointments across multiple clinics or branches.
+
+![Image 15](https://ayelite.com/wp-content/uploads/2024/08/Automated-Reminders-and-Notifications.png)
+
+#### Automated Reminders and Notifications
+
+Send appointment reminders and confirmations to reduce no-shows.
+
+![Image 16](https://ayelite.com/wp-content/uploads/2024/08/Payment-Gateway.png)
+
+#### Payment Gateway
+
+Accept various payment methods for convenient transactions.
+
+![Image 17](https://ayelite.com/wp-content/uploads/2024/08/In-App-Messaging-1.png)
+
+#### In-App Messaging
+
+Smoothen out secure communication between patients and staff.
+
+![Image 18](https://ayelite.com/wp-content/uploads/2024/08/Mobile-App-Support-2.png)
+
+#### Mobile App Support
+
+Provide on-the-go access to schedules and patient information.
+
+![Image 19: doctor appointment software-about us](https://ayelite.com/wp-content/uploads/2024/08/doctor-appointment-software-about-us.png)
+
+Introduction
+------------
+
+### About **us**
+
+We’re a team of developers that have set out on a course for the betterment of humankind. We know the impact of our solutions on their consumers, and that’s why we work towards fine-tuning them in every way possible. We combine technology with a deep, in-depth understanding of your practice. Once we’ve done that, we go on to provide solutions that exceed all your expectations.
+
+Get solutions that help with your technological needs
+-----------------------------------------------------
+
+[Inquire Now](https://ayelite.com/contact-us)
+
+![Image 20: Inquire now to get a solution](https://ayelite.com/wp-content/uploads/2025/02/innercta-riimg1740748340506.webp)
+
+Benefits
+--------
+
+### Here’s what our **solution will get you**
+
+Our solutions are aimed towards comprehensive betterment. Here’s how our solutions will benefit you.
+
+#### Enhanced Organization
+
+Smoothen out practice operations and improve efficiency.
+
+#### Reduced No-Shows
+
+Minimize appointment cancellations and optimize overall resource allocation.
+
+#### Reduced Wait Times
+
+Improve patient satisfaction by minimizing and optimizing wait times.
+
+#### Better Practice Management
+
+Gain insights into patient flow and resource utilization.
+
+#### Better Time Management
+
+Optimizing staff schedules and maximizing overall productivity.
+
+#### Enhanced Communication
+
+Improve communication between patients, staff and other healthcare providers.
+
+#### Cost Savings
+
+Reduce overhead costs through optimized scheduling and resource management.
+
+#### Secure Data Management
+
+Protect sensitive patient information with robust security measures.
+
+Technologies that we use
+------------------------
+
+### Technologies that **power us**
+
+We utilize a wide variety of technologies to satisfy your development needs.
+
+![Image 21: Contact US Form](https://ayelite.com/wp-content/uploads/2025/02/hcta-left-back-11740740330965.webp)
+
+![Image 22: Easy Punch List Logo](https://ayelite.com/wp-content/uploads/2025/02/Easy-Punch-List1740745268542.webp)
+
+![Image 23: Apporova Logo](https://ayelite.com/wp-content/uploads/2025/02/Apporva174074526051.webp)
+
+![Image 24: ProviderPal Logo](https://ayelite.com/wp-content/uploads/2025/02/ProviderPal-11740745286767.webp)
+
+![Image 25: F&F Health Logo](https://ayelite.com/wp-content/uploads/2025/02/F-F-Health174074527610.webp)
+
+TESTIMONIALS
+------------
+
+### What Our **Client Says**
+
+![Image 26: Client Character Image](https://ayelite.com/wp-content/uploads/2025/03/Client-Character-Image.webp)
+
+#### Christos Connie
+
+**Co-founder & CTO**
+
+![Image 27](https://ayelite.com/wp-content/themes/ayelite/assets/images/testi-star.png)
+
+Great job by the Ayelite Technologies developer team! Job done very well!! The code was clean, and everything was executed on time. Their developers stayed in touch throughout and provided what I needed, what I needed. I would absolutely use his team again. Very reasonable cost.
+
+![Image 28: Client Character Image](https://ayelite.com/wp-content/uploads/2025/03/Client-Character-Image.webp)
+
+#### Stephen James
+
+**VP of Product**
+
+![Image 29](https://ayelite.com/wp-content/themes/ayelite/assets/images/testi-star.png)
+
+Developers at Ayelite Technologies don’t need many words to understand what needs to be done and they can help at a functional level as well. We appreciate them a lot. Also, Ayelite Technologies delivered the project well on time. Thank you so much Ayelite Technologies Team!
+
+![Image 30: Client Character Image](https://ayelite.com/wp-content/uploads/2025/03/Client-Character-Image.webp)
+
+#### Hamas Sami
+
+**CEO**
+
+![Image 31](https://ayelite.com/wp-content/themes/ayelite/assets/images/testi-star.png)
+
+Ayelite Technologies’ developer team has excellent knowledge and ability to figure out the problem and fix it quickly. He has extensive knowledge on the web/app development side. We would definitely recommend them for any web development or mobile development needs.
+

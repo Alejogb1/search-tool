@@ -1,0 +1,5 @@
+Here are the biggest failures from the recent test run:
+
+1.  **The agent cannot fix its own environment.** The process failed because a core tool (the GCC compiler) was missing from its Docker container. The agent was trying to install a Python library (`hdbscan`) that needed this compiler, but it didn't know how to install it.
+
+2.  **The autonomous refinement loop isn't smart enough for this type of error.** Instead of reading the error log, identifying the missing compiler, and adding a command to its Dockerfile to install it, the agent just saw a generic failure. It tried a few times and then gave up without ever understanding or solving the root problem. Its problem-solving is limited to the Python code itself, not the environment the code runs in.

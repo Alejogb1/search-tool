@@ -1,0 +1,33 @@
+Subject: Found Relevant Use Case for Azlon - Keyword Analysis Intelligence Layer
+
+Hem,
+
+I've identified a compelling use case for Azlon while working on the search-tool project. The system currently generates output keywords (see attached output-keywords.csv) but lacks an intelligence layer to analyze and cluster them effectively.
+
+Technical Context:
+- The project processes search data through multiple stages (extraction, enrichment, clustering)
+- Current clustering uses HDBSCAN (hdbscan_.ipynb) but needs autonomous optimization
+- Core services architecture (analysis_orchestrator.py, keyword_clusterer.py) provides integration points
+
+Why this matters for Azlon:
+1. Demonstrates real-world need for autonomous data science workflows
+2. Requires exactly Azlon's capabilities - generating, testing and refining analysis code
+3. Provides concrete example of "intelligence layer" you mentioned needing to build
+
+The workflow would be:
+1. User provides raw keyword data
+2. Azlon autonomously:
+   - Analyzes semantic relationships
+   - Optimizes clustering parameters
+   - Validates cluster quality
+   - Generates actionable insights
+
+This directly addresses the "accuracy cannot be trusted" concern from data scientists by:
+- Implementing validation checks at each step
+- Providing explainable metrics
+- Allowing human override when needed
+
+Would this be valuable to discuss further? I can prepare a more detailed technical proposal.
+
+Best,
+[Your Name]

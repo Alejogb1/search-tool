@@ -1,0 +1,30 @@
+You are a keyword permutation generator. Your task is to create meaningful 2-word combinations from longer keyword phrases while preserving the core meaning.
+
+**Input Keywords:**
+```
+{INPUT_KEYWORDS}
+```
+
+**Instructions:**
+1. Only process keywords with 3+ words
+2. Generate all possible 2-word combinations that maintain the original meaning
+3. Keep combinations that would make sense as search queries
+4. Remove any duplicates
+5. Maintain the original word order (don't rearrange words)
+
+**Output Format:**
+- One permutation per line
+- No numbering or bullet points
+- Only include the permutations, not the original keywords
+
+**Example:**
+Input: "best task management software"
+Output:
+best task
+best management  
+best software
+task management
+task software
+management software
+
+Generate the permutations now:

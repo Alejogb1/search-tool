@@ -1,0 +1,42 @@
+Final Exam Mathematics II
+
+ALL EXERCISES AND ANSWERS MUST BE JUSTIFIED
+
+Practical Block (You must answer correctly at least 50%)
+
+Solve ∫ cos 𝑥 1 + sen 𝑥 𝑑𝑥 from 0 to 𝜋/2 and ∫ 𝑥 . arctg𝑥 𝑑𝑥
+
+Choose two of the following integrals and solve a) ∫ 3 3 dx / (4x - x) b) ∫ 2 2 x dx / (9 + x) c) ∫ √(𝑥² - 4) 𝑥 𝑑𝑥 from 2 to 4
+
+Solve the following improper integrals, conclude about their convergence or divergence a) ∫ (2t - 1) 𝑑𝑡 from 0 to 1 b) ∫ 2e^(-𝑥) 𝑑𝑥 from 0 to ∞
+
+Given the sequences {3𝑛 (𝑛 + 1)!} and {2 + 𝑛²} a) Are they monotonic? b) Are they bounded? c) Are they convergent?
+
+a) Are the following series convergent? ∑ (1 / 2^𝑛) from 𝑛 = 1 to ∞ ∑ (5 / (6 - 𝑛)) from 𝑛 = 4 to ∞
+
+b) Conclude if the following series are convergent, justify ∑ (3𝑛 + 1) / (5𝑛 + 10) from 𝑛 = 1 to ∞ ∑ (-1)ⁿ / 𝑛! from 𝑛 = 1 to ∞.
+Theoretical Block
+
+(You must answer correctly at least 50%)
+
+State the Mean Value Theorem of Integral Calculus and provide its geometric interpretation.
+
+State the First Fundamental Theorem of Calculus. Provide its proof.
+
+Given the following shaded region. Express its area as a definite integral.
+
+a) What is the value of f' if you know that 𝑓(𝑥) = cos²𝑥 + ∫₀ˣ (1/√(𝑡⁴ + 𝑡)) d𝑡?b) Calculate the area of the region bounded above by x and 2 - y = 0, below by the x-axis, and laterally by the lines x = 1/4 and x = 1. Graph the region.
+
+Write the formula to calculate the length of the arc of a curve. What are the curves called that have finite arc length?
+
+Define the function ln x (natural logarithm of x) and find its derivative.
+
+Define some case of improper integral. What is the truth value of the following proposition “∫₀¹ (1/x) dx = ∞”? Justify clearly.
+
+Define monotonic sequence and bounded sequence. Are all convergent sequences monotonic? Provide examples.
+
+Define geometric series and state its convergence theorem.
+
+State the necessary condition criterion for the convergence of a series. Give an example of a series that is divergent but the limit of its general term converges to 0.
+
+g f h a₁ b₁ c₁ d₁ d₂ c₂ b₂ a₂.
