@@ -12,8 +12,19 @@ DATABASE_URL = os.environ.get("DATABASE_URL")
 if not DATABASE_URL:
     raise ValueError("DATABASE_URL environment variable not set. Please configure it in .env file")
 
-# Create the engine
-engine = create_engine(DATABASE_URL)
+# Create the engine with optimized settings for large batch operations
+engine = create_engine(
+    DATABASE_URL,
+    pool_size=20,  # Increase pool size for better concurrency
+    max_overflow=30,  # Allow more connections when pool is exhausted
+    pool_timeout=30,  # Timeout for getting connection from pool
+    pool_recycle=3600,  # Recycle connections after 1 hour
+    connect_args={
+        "connect_timeout": 60,  # Connection timeout
+        "application_name": "MarketIntelligenceAPI",
+        "options": "-c statement_timeout=300s"  # 5 minute statement timeout
+    } if DATABASE_URL.startswith("postgresql") else {}
+)
 
 # Create a SessionLocal class
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)

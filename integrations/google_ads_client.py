@@ -161,16 +161,24 @@ class GoogleAdsClient:
         return [build_resource_name(location_id) for location_id in location_ids]
 
     def _handle_google_ads_exception(self, ex):
-        print(
+        """
+        Handle Google Ads exceptions without exiting the program.
+        Instead, raise the exception to be handled by calling code.
+        """
+        error_messages = []
+        error_messages.append(
             f'Request with ID "{ex.request_id}" failed with status '
             f'"{ex.error.code().name}" and includes the following errors:'
         )
         for error in ex.failure.errors:
-            print(f'\tError with message "{error.message}".')
+            error_messages.append(f'\tError with message "{error.message}".')
             if error.location:
                 for field_path_element in error.location.field_path_elements:
-                    print(f"\t\tOn field: {field_path_element.field_name}")
-        sys.exit(1)
+                    error_messages.append(f"\t\tOn field: {field_path_element.field_name}")
+
+        # Join all error messages and raise as a single exception
+        full_error_message = '\n'.join(error_messages)
+        raise GoogleAdsException(full_error_message) from ex
 
     def create_keyword_plan(self, customer_id, plan_name, keywords, url):
         """Create a keyword plan campaign using the latest API version"""

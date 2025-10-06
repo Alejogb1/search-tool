@@ -7,3 +7,5 @@ pandas-gbq>=0.17.0
 python-dotenv
 google-generativeai
 pandas
+redis
+rq

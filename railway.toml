@@ -1,0 +1,16 @@
+[build]
+builder = "dockerfile"
+
+[deploy]
+startCommand = "python api/main.py"
+healthcheckPath = "/"
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 3
+
+[[services]]
+name = "search-tool-api"
+dockerfilePath = "./Dockerfile"
+
+[[services]]
+name = "search-tool-worker"
+dockerfilePath = "./Dockerfile.worker"
