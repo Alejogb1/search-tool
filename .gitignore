@@ -6,6 +6,9 @@ ENV/
 .env.development
 .env.test
 
+# Secrets and credentials
+google-ads.yaml
+
 # Python
 __pycache__/
 *.py[cod]
