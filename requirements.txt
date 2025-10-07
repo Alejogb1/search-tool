@@ -2,6 +2,7 @@ fastapi
 uvicorn[standard]
 sqlalchemy
 alembic
+python-multipart
 requests
 google-ads
 psycopg2-binary
