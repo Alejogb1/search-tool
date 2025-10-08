@@ -14,6 +14,12 @@ class EmailService:
         self.sendgrid_api_key = os.getenv("SENDGRID_API_KEY")
         self.from_email = os.getenv("FROM_EMAIL", "noreply@yourdomain.com")
 
+        # Debug logging for troubleshooting
+        logger.info(f"DEBUG: SENDGRID_API_KEY set: {'YES' if self.sendgrid_api_key else 'NO'}")
+        if self.sendgrid_api_key:
+            logger.info(f"DEBUG: SENDGRID_API_KEY prefix: {self.sendgrid_api_key[:10]}...")
+        logger.info(f"DEBUG: FROM_EMAIL: {self.from_email}")
+
     def send_csv_email(self, recipient_email: str, csv_path: str, domain: str) -> bool:
         """
         Send CSV file as email attachment using SendGrid
@@ -74,6 +80,8 @@ class EmailService:
                 return True
             else:
                 logger.error(f"SendGrid API error: {response.status_code} - {response.body}")
+                logger.error(f"DEBUG: SendGrid request headers: {response.headers}")
+                logger.error(f"DEBUG: SendGrid API key used: {self.sendgrid_api_key[:15]}..." if self.sendgrid_api_key else "DEBUG: No API key set")
                 return False
 
         except Exception as e:
