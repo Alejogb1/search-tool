@@ -1,24 +1,21 @@
-import smtplib
 import os
 import logging
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from email.mime.base import MIMEBase
-from email import encoders
 import pandas as pd
+from sendgrid import SendGridAPIClient
+from sendgrid.helpers.mail import (
+    Mail, Attachment, FileContent, FileName, FileType, Disposition
+)
 
 logger = logging.getLogger(__name__)
 
 class EmailService:
     def __init__(self):
-        self.smtp_server = "smtp.gmail.com"
-        self.smtp_port = 587
-        self.sender_email = os.getenv("GMAIL_EMAIL")
-        self.sender_password = os.getenv("GMAIL_APP_PASSWORD")
+        self.sendgrid_api_key = os.getenv("SENDGRID_API_KEY")
+        self.from_email = os.getenv("FROM_EMAIL", "noreply@yourdomain.com")
 
     def send_csv_email(self, recipient_email: str, csv_path: str, domain: str) -> bool:
         """
-        Send CSV file as email attachment
+        Send CSV file as email attachment using SendGrid
 
         Args:
             recipient_email: Email address to send to
@@ -28,8 +25,8 @@ class EmailService:
         Returns:
             bool: True if email sent successfully, False otherwise
         """
-        if not self.sender_email or not self.sender_password:
-            logger.error("Gmail credentials not configured in environment variables")
+        if not self.sendgrid_api_key:
+            logger.error("SendGrid API key not configured in environment variables")
             return False
 
         try:
@@ -37,35 +34,45 @@ class EmailService:
             df = pd.read_csv(csv_path)
             keywords_count = len(df)
 
-            # Create message
-            msg = MIMEMultipart()
-            msg['From'] = self.sender_email
-            msg['To'] = recipient_email
-            msg['Subject'] = f"{domain} {keywords_count} keywords"
-
-            # Email body
-            body = f"yo, here you go with the CSV of keywords data for {domain}"
-            msg.attach(MIMEText(body, 'plain'))
+            # Create email
+            message = Mail(
+                from_email=self.from_email,
+                to_emails=recipient_email,
+                subject=f"{domain} {keywords_count} keywords",
+                html_content=f"""
+                <h2>Keyword Research Results</h2>
+                <p>Here are your keyword research results for <strong>{domain}</strong></p>
+                <p><strong>Total Keywords:</strong> {keywords_count:,}</p>
+                <p><strong>Generated:</strong> {pd.Timestamp.now().strftime('%Y-%m-%d %H:%M:%S')}</p>
+                <br>
+                <p>Best regards,<br>Search Tool Team</p>
+                """
+            )
 
             # Attach CSV file
-            with open(csv_path, 'rb') as attachment:
-                part = MIMEBase('application', 'octet-stream')
-                part.set_payload(attachment.read())
-                encoders.encode_base64(part)
-                part.add_header('Content-Disposition', f"attachment; filename={domain}-keywords-expanded.csv")
-                msg.attach(part)
+            with open(csv_path, 'rb') as f:
+                file_data = f.read()
+
+            encoded_file = FileContent(file_data)
+            attachment = Attachment(
+                file_content=encoded_file,
+                file_name=f"{domain}-keywords-expanded.csv",
+                file_type="text/csv",
+                disposition=Disposition("attachment")
+            )
+
+            message.attachment = attachment
 
             # Send email
-            server = smtplib.SMTP(self.smtp_server, self.smtp_port)
-            server.starttls()
-            server.login(self.sender_email, self.sender_password)
+            sg = SendGridAPIClient(self.sendgrid_api_key)
+            response = sg.send(message)
 
-            text = msg.as_string()
-            server.sendmail(self.sender_email, recipient_email, text)
-            server.quit()
-
-            logger.info(f"Email sent successfully to {recipient_email}")
-            return True
+            if response.status_code in [200, 201, 202]:
+                logger.info(f"Email sent successfully to {recipient_email}")
+                return True
+            else:
+                logger.error(f"SendGrid API error: {response.status_code} - {response.body}")
+                return False
 
         except Exception as e:
             logger.error(f"Failed to send email to {recipient_email}: {str(e)}")
