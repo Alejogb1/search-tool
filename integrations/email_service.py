@@ -1,5 +1,6 @@
 import os
 import logging
+import base64
 import pandas as pd
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import (
@@ -53,7 +54,8 @@ class EmailService:
             with open(csv_path, 'rb') as f:
                 file_data = f.read()
 
-            encoded_file = FileContent(file_data)
+            # Base64 encode for SendGrid
+            encoded_file = FileContent(base64.b64encode(file_data).decode('ascii'))
             attachment = Attachment(
                 file_content=encoded_file,
                 file_name=f"{domain}-keywords-expanded.csv",
