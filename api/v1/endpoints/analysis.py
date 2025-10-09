@@ -107,52 +107,43 @@ async def generate_seeds(domain: str):
         logger.error(f"Error in generate_seeds endpoint: {e}", exc_info=True)
         raise HTTPException(500, f"Internal server error: {str(e)}")
 
-@router.post("/keywords/expanded", response_class=FileResponse)
+@router.post("/keywords/expanded", response_class=JSONResponse)
 async def generate_expanded(domain: str = Form(...), email: str = Form(None)):
-    """Generate and return expanded keywords CSV with database integration and optional email delivery"""
+    """
+    Generate expanded keywords CSV with database integration and optional email delivery.
+
+    ⚠️  BREAKING CHANGE: Due to deployment timeout limits, this endpoint now uses
+    background job processing instead of synchronous execution.
+
+    Returns job ID immediately. Use GET /jobs/{job_id} to check status and
+    GET /jobs/{job_id}/download to get the final CSV when complete.
+    """
     logger.info(f"Endpoint /keywords/expanded called with domain: {domain}, email: {email}")
-    csv_path = None  # Initialize csv_path
+
     try:
-        logger.info("Starting keyword workflow execution...")
-        csv_path = await run_keyword_workflow(domain)
-        logger.info(f"Keyword workflow completed successfully. Consolidated CSV path: {csv_path}")
+        logger.info("Queueing keyword expansion job for background processing...")
 
-        # Check if file exists and get size
-        if os.path.exists(csv_path):
-            file_size = os.path.getsize(csv_path)
-            logger.info(f"Generated consolidated CSV file size: {file_size} bytes")
-        else:
-            logger.error(f"Consolidated CSV file was not created at expected path: {csv_path}")
-            raise HTTPException(500, "Consolidated CSV file was not generated")
+        # Queue the job using RQ (same as the async endpoint)
+        job_id = queue_keyword_expansion(domain, email)
 
-        # Send email if email parameter is provided
-        if email:
-            logger.info(f"Sending CSV via email to: {email}")
-            email_sent = email_service.send_csv_email(email, csv_path, domain)
-            if email_sent:
-                logger.info(f"CSV email sent successfully to {email}")
-            else:
-                logger.warning(f"Failed to send CSV email to {email}, but continuing with file response")
+        logger.info(f"Job queued successfully with ID: {job_id}")
 
-        # Extract domain name for filename
-        domain_name = domain.replace('https://', '').replace('http://', '').replace('www.', '').split('.')[0].upper()
-        filename = f"{domain_name}-keywords-expanded.csv"
+        return {
+            "job_id": job_id,
+            "status": "queued",
+            "message": "Keyword expansion job started in background. This process takes 5-15 minutes.",
+            "instructions": {
+                "check_status": f"GET /jobs/{job_id}",
+                "download_csv": f"GET /jobs/{job_id}/download (when status is 'finished')",
+                "email_notification": f"CSV will be emailed to {email}" if email else "No email specified"
+            },
+            "estimated_completion": "5-15 minutes",
+            "note": "This endpoint now uses background processing due to deployment timeout limits."
+        }
 
-        logger.info(f"Returning FileResponse with filename: {filename}")
-        return FileResponse(
-            path=csv_path,
-            media_type="text/csv",
-            filename=filename
-        )
-    except HTTPException:
-        # Re-raise HTTP exceptions as-is
-        raise
     except Exception as e:
-        logger.error(f"Endpoint /keywords/expanded failed with error: {e}", exc_info=True)
-        raise HTTPException(500, f"Internal server error: {str(e)}")
-    finally:
-        # Note: Consolidated CSV files are kept for reference, not cleaned up like temp files
-        logger.info("Consolidated CSV file retained for reference")
+        logger.error(f"Failed to queue keyword expansion job: {e}", exc_info=True)
+        raise HTTPException(500, f"Failed to start keyword expansion job: {str(e)}")
 
 @router.post("/keywords/expand-input", response_class=PlainTextResponse)
 async def expand_input_keywords_endpoint(input_file: str = "input-keywords.txt"):

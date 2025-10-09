@@ -706,8 +706,15 @@ class EnhancedGeminiKeywordGenerator:
             print(f"    🔄 All Gemini attempts failed, trying OpenRouter...")
             self.logger.info("Switching to OpenRouter as fallback provider")
 
+            max_total_attempts = 6  # Limit total attempts to prevent infinite loops
+            attempts = 0
+
             # Try each OpenRouter model in order of preference
             for model_config in OPENROUTER_MODELS:
+                if attempts >= max_total_attempts:
+                    print(f"    ⏸️ Reached maximum attempts ({max_total_attempts}), stopping OpenRouter fallback")
+                    break
+
                 model_name = model_config['name']
 
                 # Check if we can make a request with this model
@@ -715,20 +722,31 @@ class EnhancedGeminiKeywordGenerator:
                     print(f"    ⏳ OpenRouter model {model_name} rate limited, trying next model...")
                     continue
 
-                # Try each available OpenRouter key with this model
+                # Try each available OpenRouter key with this model (max 2 keys per model)
+                keys_tried = 0
                 for openrouter_key in self.openrouter_keys:
+                    if keys_tried >= 2 or attempts >= max_total_attempts:
+                        break
+
+                    keys_tried += 1
+                    attempts += 1
+
                     try:
                         client = self.openrouter_clients[openrouter_key]
 
-                        # Make OpenRouter API call with the current preferred model
-                        response = await asyncio.to_thread(
-                            client.chat.completions.create,
-                            model=model_name,
-                            messages=[
-                                {"role": "user", "content": prompt}
-                            ],
-                            max_tokens=4000,
-                            temperature=0.7
+                        # Make OpenRouter API call with timeout
+                        print(f"    🔄 Trying OpenRouter model {model_name} with key {openrouter_key[:10]}...")
+                        response = await asyncio.wait_for(
+                            asyncio.to_thread(
+                                client.chat.completions.create,
+                                model=model_name,
+                                messages=[
+                                    {"role": "user", "content": prompt}
+                                ],
+                                max_tokens=4000,
+                                temperature=0.7
+                            ),
+                            timeout=30.0  # 30 second timeout
                         )
 
                         # Record the successful request
@@ -742,6 +760,9 @@ class EnhancedGeminiKeywordGenerator:
                                 print(f"    ✅ Successfully generated {len(keywords)} keywords using OpenRouter model {model_name}")
                                 return keywords
 
+                    except asyncio.TimeoutError:
+                        print(f"    ⏱️ OpenRouter request timed out for {model_name}, trying next...")
+                        continue
                     except Exception as e:
                         error_msg = str(e).lower()
                         # Check for rate limit errors
@@ -749,7 +770,7 @@ class EnhancedGeminiKeywordGenerator:
                             print(f"    ⏳ OpenRouter model {model_name} rate limited, trying next model...")
                             break  # Try next model instead of next key
                         else:
-                            self.logger.error(f"OpenRouter attempt failed with model {model_name} and key {openrouter_key[:10]}...: {str(e)}")
+                            print(f"    ❌ OpenRouter attempt failed for {model_name}: {str(e)[:100]}...")
                             continue
 
             print(f"    ❌ All OpenRouter attempts also failed")
@@ -762,14 +783,14 @@ class EnhancedGeminiKeywordGenerator:
     
     async def _analyze_domain_content(self, content: str) -> Dict:
         """
-        Analyze domain content to extract structured data using Gemini with retry logic
+        Analyze domain content to extract structured data using Gemini with OpenRouter fallback
         """
         analysis_prompt = f"""
         Analyze this domain content and extract structured data for keyword generation.
-        
+
         CONTENT:
         {content:500000}  # Truncate for token limits
-        
+
         Extract and return ONLY a JSON object with these exact keys:
         {{
             "core_services": ["service1", "service2"],
@@ -783,45 +804,139 @@ class EnhancedGeminiKeywordGenerator:
             "value_propositions": ["value1", "value2"],
             "use_cases": ["case1", "case2"]
         }}
-        
+
         Only include terms actually found or strongly implied in the content.
         Return ONLY the JSON, no explanations.
         """
-        
-        max_retries = 3
-        for attempt in range(max_retries):
+
+        # First try Gemini
+        max_gemini_retries = 3
+        for attempt in range(max_gemini_retries):
             try:
                 api_key = self.api_key_manager.get_next_key()
                 client = self._get_client(api_key)
-                
+
                 response = await asyncio.to_thread(
                     client.generate_content,
                     contents=analysis_prompt
                 )
-                
+
                 # Clean the response text
                 response_text = response.text.strip()
-                
+
                 # Extract JSON from response
                 json_match = re.search(r'\{.*\}', response_text, re.DOTALL)
                 if json_match:
                     json_str = json_match.group(0)
                     return json.loads(json_str)
                 else:
-                    if attempt < max_retries - 1:
+                    if attempt < max_gemini_retries - 1:
                         print(f"JSON parsing failed, retrying... (attempt {attempt + 1})")
                         await asyncio.sleep(2)
                         continue
                     else:
-                        return self._create_fallback_analysis(content)
-                        
+                        break  # Try OpenRouter fallback
+
             except Exception as e:
-                self.logger.error(f"Error analyzing domain content (attempt {attempt + 1}): {e}")
-                if attempt < max_retries - 1:
+                error_msg = str(e).lower()
+                self.logger.error(f"Gemini analysis failed (attempt {attempt + 1}): {e}")
+
+                # Check if it's a quota/rate limit error
+                if 'quota' in error_msg or 'rate limit' in error_msg or '429' in error_msg:
+                    self.logger.warning("Gemini quota exceeded, will try OpenRouter fallback")
+                    break  # Try OpenRouter fallback
+
+                if attempt < max_gemini_retries - 1:
                     await asyncio.sleep(3)
                     continue
                 else:
-                    return self._create_fallback_analysis(content)
+                    break  # Try OpenRouter fallback
+
+        # If Gemini fails, try OpenRouter as fallback
+        if self.openrouter_keys:
+            print("🔄 Gemini analysis failed, trying OpenRouter fallback...")
+            self.logger.info("Switching to OpenRouter for domain analysis")
+
+            max_total_attempts = 6  # Limit total attempts to prevent infinite loops
+            attempts = 0
+
+            # Try each OpenRouter model in order of preference
+            for model_config in OPENROUTER_MODELS:
+                if attempts >= max_total_attempts:
+                    print(f"    ⏸️ Reached maximum attempts ({max_total_attempts}), stopping OpenRouter fallback")
+                    break
+
+                model_name = model_config['name']
+
+                # Check if we can make a request with this model
+                if not self._can_make_openrouter_request(model_name):
+                    print(f"    ⏳ OpenRouter model {model_name} rate limited, trying next model...")
+                    continue
+
+                # Try each available OpenRouter key with this model (max 2 keys per model)
+                keys_tried = 0
+                for openrouter_key in self.openrouter_keys:
+                    if keys_tried >= 2 or attempts >= max_total_attempts:
+                        break
+
+                    keys_tried += 1
+                    attempts += 1
+
+                    try:
+                        client = self.openrouter_clients[openrouter_key]
+
+                        # Make OpenRouter API call with timeout
+                        print(f"    🔄 Trying OpenRouter model {model_name} with key {openrouter_key[:10]}...")
+                        response = await asyncio.wait_for(
+                            asyncio.to_thread(
+                                client.chat.completions.create,
+                                model=model_name,
+                                messages=[
+                                    {"role": "user", "content": analysis_prompt}
+                                ],
+                                max_tokens=2000,  # Smaller for analysis
+                                temperature=0.3
+                            ),
+                            timeout=30.0  # 30 second timeout
+                        )
+
+                        # Record the successful request
+                        self._record_openrouter_request(model_name)
+
+                        # Parse OpenRouter response
+                        if response and response.choices and len(response.choices) > 0:
+                            response_text = response.choices[0].message.content.strip()
+
+                            # Extract JSON from response
+                            json_match = re.search(r'\{.*\}', response_text, re.DOTALL)
+                            if json_match:
+                                json_str = json_match.group(0)
+                                try:
+                                    result = json.loads(json_str)
+                                    print(f"    ✅ Successfully analyzed domain using OpenRouter model {model_name}")
+                                    return result
+                                except json.JSONDecodeError:
+                                    print(f"    ⚠️ JSON parsing failed for {model_name}, trying next...")
+                                    continue  # Try next key/model
+
+                    except asyncio.TimeoutError:
+                        print(f"    ⏱️ OpenRouter request timed out for {model_name}, trying next...")
+                        continue
+                    except Exception as e:
+                        error_msg = str(e).lower()
+                        # Check for rate limit errors
+                        if 'rate limit' in error_msg or '429' in error_msg:
+                            print(f"    ⏳ OpenRouter model {model_name} rate limited, trying next model...")
+                            break  # Try next model instead of next key
+                        else:
+                            print(f"    ❌ OpenRouter attempt failed for {model_name}: {str(e)[:100]}...")
+                            continue
+
+            print("    ❌ All OpenRouter analysis attempts failed")
+
+        # Final fallback
+        print("🔄 Using basic content analysis fallback")
+        return self._create_fallback_analysis(content)
     
     def _create_keyword_batches(self, analysis: Dict, domain_url: str) -> List[KeywordBatch]:
         """
