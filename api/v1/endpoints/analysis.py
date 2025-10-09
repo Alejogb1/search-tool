@@ -80,19 +80,32 @@ async def generate_seeds(domain: str):
             {"name": "gemini-2.0-flash", "rpm": 15},
             {"name": "gemini-2.0-flash-lite", "rpm": 30},
         ]
-        
 
-        # Generate seed keywords
-        seeds = await generate_with_multiple_keys( context_source="domain",
-        domain_url=domain,
-        api_keys=API_KEYS, 
-        model_configs=MODEL_CONFIGS, 
-        output_file='input-keywords-DOMAIN-.txt', 
-        parallel=True, 
-        mode="commercial")
-        return "\n".join(seeds)
+        # Generate seed keywords with timeout handling
+        seeds = await generate_with_multiple_keys(
+            context_source="domain",
+            domain_url=domain,
+            api_keys=API_KEYS,
+            model_configs=MODEL_CONFIGS,
+            output_file='input-keywords-DOMAIN-.txt',
+            parallel=True,
+            mode="commercial"
+        )
+
+        # Handle different response types
+        if isinstance(seeds, str) and seeds.startswith("Error:"):
+            raise HTTPException(500, f"Keyword generation failed: {seeds}")
+        elif isinstance(seeds, str):
+            return seeds
+        else:
+            # If it's a set or other collection, convert to string
+            return "\n".join(seeds) if seeds else ""
+
+    except HTTPException:
+        raise
     except Exception as e:
-        raise HTTPException(500, str(e))
+        logger.error(f"Error in generate_seeds endpoint: {e}", exc_info=True)
+        raise HTTPException(500, f"Internal server error: {str(e)}")
 
 @router.post("/keywords/expanded", response_class=FileResponse)
 async def generate_expanded(domain: str = Form(...), email: str = Form(None)):

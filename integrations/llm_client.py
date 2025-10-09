@@ -13,6 +13,7 @@ from enum import Enum
 import hashlib
 import os
 from dotenv import load_dotenv
+from openai import OpenAI
 
 load_dotenv()
 
@@ -47,12 +48,30 @@ class APIKeyManager:
         self.rate_limit_delay = 60  # seconds to wait after rate limit
         self.min_interval = 1  # minimum seconds between uses of same key
         self.logger = logging.getLogger(__name__)
-        
+
         # Initialize tracking for each key
         for key in api_keys:
             self.key_usage_count[key] = 0
             self.key_last_used[key] = 0
             self.key_rate_limited_until[key] = 0
+
+    def get_available_keys(self) -> List[str]:
+        """Get list of currently available (not rate limited) API keys"""
+        current_time = time.time()
+        available_keys = []
+
+        for key in self.api_keys:
+            # Skip if key is currently rate limited
+            if current_time < self.key_rate_limited_until[key]:
+                continue
+
+            # Check minimum interval between uses
+            if current_time - self.key_last_used[key] < self.min_interval:
+                continue
+
+            available_keys.append(key)
+
+        return available_keys
     
     def get_next_key(self) -> str:
         """Get the next available API key with intelligent rotation"""
@@ -114,6 +133,20 @@ class EnhancedGeminiKeywordGenerator:
         self.context_file = context_file
         for cfg in self.model_configs:
             self.model_request_counts[cfg['name']] = []
+
+        # Initialize OpenRouter clients if OpenRouter keys are available
+        self.openrouter_keys = os.getenv("OPENROUTER_API_KEYS", "").split(",") if os.getenv("OPENROUTER_API_KEYS") else []
+        self.openrouter_clients = {}
+        if self.openrouter_keys and any(key.strip() for key in self.openrouter_keys):
+            self.openrouter_keys = [key.strip() for key in self.openrouter_keys if key.strip()]
+            self.logger.info(f"Initialized {len(self.openrouter_keys)} OpenRouter API keys")
+
+        # Initialize OpenRouter clients for each key
+        for key in self.openrouter_keys:
+            self.openrouter_clients[key] = OpenAI(
+                base_url="https://openrouter.ai/api/v1",
+                api_key=key,
+            )
         
         # Setup logging
         logging.basicConfig(
@@ -562,8 +595,10 @@ class EnhancedGeminiKeywordGenerator:
         else:
             prompt = self._get_commercial_prompt(batch, count, iteration, domain_content)
 
+        # Try Gemini first, then fallback to OpenRouter if available
         max_api_retries = len(self.api_key_manager.api_keys) * len(self.model_configs) * 2 # Consider retries for each model
-        
+
+        # First try Gemini
         for api_attempt in range(max_api_retries):
             try:
                 # Check and switch model if RPM limit is reached
@@ -576,13 +611,13 @@ class EnhancedGeminiKeywordGenerator:
                 # Get next API key
                 api_key = self.api_key_manager.get_next_key()
                 client = self._get_client(api_key)
-                
+
                 # Make async API call
                 response = await asyncio.to_thread(
                     client.generate_content,
                     contents=prompt
                 )
-                
+
                 # Record the request regardless of the response
                 self._record_request()
 
@@ -591,41 +626,75 @@ class EnhancedGeminiKeywordGenerator:
                     keywords = self._parse_keyword_response(response.text)
                     if len(keywords) > 0:
                         return keywords
-                
+
                 # Handle empty or invalid response
                 self.logger.warning(f"Empty/invalid response from API for model {self.current_model_config['name']}")
                 self._switch_model()
                 self.logger.info(f"Switched to model: {self.current_model_config['name']} after empty response")
                 await asyncio.sleep(5)
                 continue
-                    
+
             except Exception as e:
                 error_msg = str(e).lower()
-                
+
                 # Check for rate limit errors
                 if 'rate limit' in error_msg or 'quota' in error_msg or '429' in error_msg:
                     self.api_key_manager.mark_rate_limited(api_key)
                     print(f"    Rate limited, switching API key...")
                     await asyncio.sleep(5)
                     continue
-                    
+
                 # Check for timeout errors
                 elif '504' in error_msg or 'deadline' in error_msg:
                     self._switch_model()
                     self.logger.warning(f"Timeout error, switched to model: {self.current_model_config['name']}")
                     await asyncio.sleep(5)
                     continue
-                    
+
                 # Check for other API errors
                 elif 'api' in error_msg or 'request' in error_msg:
                     self._switch_model()
                     self.logger.warning(f"API error, switched to model: {self.current_model_config['name']}")
                     await asyncio.sleep(3)
                     continue
-                    
+
                 else:
                     # Non-API error, re-raise
                     raise e
+
+        # If Gemini fails, try OpenRouter as fallback
+        if self.openrouter_keys:
+            print(f"    🔄 All Gemini attempts failed, trying OpenRouter...")
+            self.logger.info("Switching to OpenRouter as fallback provider")
+
+            for openrouter_key in self.openrouter_keys:
+                try:
+                    client = self.openrouter_clients[openrouter_key]
+
+                    # Make OpenRouter API call
+                    response = await asyncio.to_thread(
+                        client.chat.completions.create,
+                        model="openai/gpt-4o-mini",  # Use a reliable OpenRouter model
+                        messages=[
+                            {"role": "user", "content": prompt}
+                        ],
+                        max_tokens=4000,
+                        temperature=0.7
+                    )
+
+                    # Parse OpenRouter response
+                    if response and response.choices and len(response.choices) > 0:
+                        response_text = response.choices[0].message.content
+                        keywords = self._parse_keyword_response(response_text)
+                        if len(keywords) > 0:
+                            print(f"    ✅ Successfully generated {len(keywords)} keywords using OpenRouter")
+                            return keywords
+
+                except Exception as e:
+                    self.logger.error(f"OpenRouter attempt failed with key {openrouter_key[:10]}...: {str(e)}")
+                    continue
+
+            print(f"    ❌ All OpenRouter attempts also failed")
         
         # If we get here, all API attempts failed
         elapsed = time.time() - start_time
@@ -938,6 +1007,13 @@ if __name__ == "__main__":
         {"name": "gemini-2.5-flash-lite-preview-06-17", "rpm": 15},
         {"name": "gemini-2.0-flash", "rpm": 15},
         {"name": "gemini-2.0-flash-lite", "rpm": 30},
+    ]
+
+    # OpenRouter models for fallback
+    OPENROUTER_MODELS = [
+        {"name": "openai/gpt-4o-mini", "rpm": 50},
+        {"name": "openai/gpt-3.5-turbo", "rpm": 100},
+        {"name": "anthropic/claude-3-haiku", "rpm": 30},
     ]
     
     # Generate 30k keywords with multiple API keys in parallel

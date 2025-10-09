@@ -15,3 +15,4 @@ pandas
 redis
 rq
 sendgrid
+openai
