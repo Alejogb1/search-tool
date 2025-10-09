@@ -44,8 +44,22 @@ async def timeout_middleware(request: Request, call_next):
     """Custom timeout middleware to handle long-running requests"""
     start_time = time.time()
 
+    # Skip timeout for job queuing endpoints (they return immediately)
+    job_endpoints = [
+        "/v1/keywords/expanded",  # Now uses job queue
+        "/v1/keywords/expanded-async",  # Already async
+    ]
+
+    if request.url.path in job_endpoints:
+        # No timeout for job queuing - they return immediately
+        response = await call_next(request)
+        elapsed = time.time() - start_time
+        if elapsed > 5:  # Log if job queuing takes more than 5 seconds
+            logging.warning(f"Slow job queue: {request.method} {request.url.path} took {elapsed:.2f}s")
+        return response
+
     try:
-        # Set a timeout for the request
+        # Set a timeout for other requests
         response = await asyncio.wait_for(call_next(request), timeout=300.0)
 
         # Log slow requests
