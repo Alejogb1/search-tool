@@ -17,7 +17,14 @@ from openai import OpenAI
 
 load_dotenv()
 
-class KeywordCategory(Enum):  
+# OpenRouter models for fallback - free models in order of preference
+OPENROUTER_MODELS = [
+    {"name": "deepseek/deepseek-r1-0528:free", "rpm": 30},
+    {"name": "google/gemini-2.5-pro-exp-03-25", "rpm": 15},
+    {"name": "qwen/qwen3-235b-a22b:free", "rpm": 30},
+]
+
+class KeywordCategory(Enum):
 
     CORE_SERVICES = "core_services"
     PROBLEM_STATEMENTS = "problem_statements"
@@ -137,6 +144,8 @@ class EnhancedGeminiKeywordGenerator:
         # Initialize OpenRouter clients if OpenRouter keys are available
         self.openrouter_keys = os.getenv("OPENROUTER_API_KEYS", "").split(",") if os.getenv("OPENROUTER_API_KEYS") else []
         self.openrouter_clients = {}
+        self.openrouter_model_index = 0
+        self.openrouter_request_counts = {}
         if self.openrouter_keys and any(key.strip() for key in self.openrouter_keys):
             self.openrouter_keys = [key.strip() for key in self.openrouter_keys if key.strip()]
             self.logger.info(f"Initialized {len(self.openrouter_keys)} OpenRouter API keys")
@@ -147,6 +156,10 @@ class EnhancedGeminiKeywordGenerator:
                 base_url="https://openrouter.ai/api/v1",
                 api_key=key,
             )
+
+        # Initialize request tracking for OpenRouter models
+        for model_config in OPENROUTER_MODELS:
+            self.openrouter_request_counts[model_config['name']] = []
         
         # Setup logging
         logging.basicConfig(
@@ -207,7 +220,33 @@ class EnhancedGeminiKeywordGenerator:
         time.sleep(cooldown)
         
         self.logger.info(f"Switched to model: {self.current_model_config['name']} (RPM: {self.current_model_config['rpm']})")
-    
+
+    def _get_next_openrouter_model(self) -> Dict:
+        """Get the next OpenRouter model in preference order."""
+        model_config = OPENROUTER_MODELS[self.openrouter_model_index]
+        self.openrouter_model_index = (self.openrouter_model_index + 1) % len(OPENROUTER_MODELS)
+        return model_config
+
+    def _can_make_openrouter_request(self, model_name: str) -> bool:
+        """Check if a request can be made with the OpenRouter model without exceeding RPM."""
+        current_time = time.time()
+
+        # Clean up old requests (older than 60 seconds)
+        self.openrouter_request_counts[model_name] = [
+            t for t in self.openrouter_request_counts.get(model_name, []) if current_time - t < 60
+        ]
+
+        rpm_limit = next((model['rpm'] for model in OPENROUTER_MODELS if model['name'] == model_name), 30)
+        if len(self.openrouter_request_counts[model_name]) < rpm_limit:
+            return True
+        else:
+            self.logger.warning(f"OpenRouter model {model_name} RPM limit reached ({rpm_limit} RPM).")
+            return False
+
+    def _record_openrouter_request(self, model_name: str):
+        """Record a successful OpenRouter request."""
+        self.openrouter_request_counts[model_name].append(time.time())
+
     async def _append_keywords_to_file_async(self, keywords: Set[str], filename: str):
         """Thread-safe version of append_keywords_to_file"""
         if not keywords:
@@ -667,32 +706,51 @@ class EnhancedGeminiKeywordGenerator:
             print(f"    🔄 All Gemini attempts failed, trying OpenRouter...")
             self.logger.info("Switching to OpenRouter as fallback provider")
 
-            for openrouter_key in self.openrouter_keys:
-                try:
-                    client = self.openrouter_clients[openrouter_key]
+            # Try each OpenRouter model in order of preference
+            for model_config in OPENROUTER_MODELS:
+                model_name = model_config['name']
 
-                    # Make OpenRouter API call
-                    response = await asyncio.to_thread(
-                        client.chat.completions.create,
-                        model="openai/gpt-4o-mini",  # Use a reliable OpenRouter model
-                        messages=[
-                            {"role": "user", "content": prompt}
-                        ],
-                        max_tokens=4000,
-                        temperature=0.7
-                    )
-
-                    # Parse OpenRouter response
-                    if response and response.choices and len(response.choices) > 0:
-                        response_text = response.choices[0].message.content
-                        keywords = self._parse_keyword_response(response_text)
-                        if len(keywords) > 0:
-                            print(f"    ✅ Successfully generated {len(keywords)} keywords using OpenRouter")
-                            return keywords
-
-                except Exception as e:
-                    self.logger.error(f"OpenRouter attempt failed with key {openrouter_key[:10]}...: {str(e)}")
+                # Check if we can make a request with this model
+                if not self._can_make_openrouter_request(model_name):
+                    print(f"    ⏳ OpenRouter model {model_name} rate limited, trying next model...")
                     continue
+
+                # Try each available OpenRouter key with this model
+                for openrouter_key in self.openrouter_keys:
+                    try:
+                        client = self.openrouter_clients[openrouter_key]
+
+                        # Make OpenRouter API call with the current preferred model
+                        response = await asyncio.to_thread(
+                            client.chat.completions.create,
+                            model=model_name,
+                            messages=[
+                                {"role": "user", "content": prompt}
+                            ],
+                            max_tokens=4000,
+                            temperature=0.7
+                        )
+
+                        # Record the successful request
+                        self._record_openrouter_request(model_name)
+
+                        # Parse OpenRouter response
+                        if response and response.choices and len(response.choices) > 0:
+                            response_text = response.choices[0].message.content
+                            keywords = self._parse_keyword_response(response_text)
+                            if len(keywords) > 0:
+                                print(f"    ✅ Successfully generated {len(keywords)} keywords using OpenRouter model {model_name}")
+                                return keywords
+
+                    except Exception as e:
+                        error_msg = str(e).lower()
+                        # Check for rate limit errors
+                        if 'rate limit' in error_msg or '429' in error_msg:
+                            print(f"    ⏳ OpenRouter model {model_name} rate limited, trying next model...")
+                            break  # Try next model instead of next key
+                        else:
+                            self.logger.error(f"OpenRouter attempt failed with model {model_name} and key {openrouter_key[:10]}...: {str(e)}")
+                            continue
 
             print(f"    ❌ All OpenRouter attempts also failed")
         
@@ -1009,12 +1067,7 @@ if __name__ == "__main__":
         {"name": "gemini-2.0-flash-lite", "rpm": 30},
     ]
 
-    # OpenRouter models for fallback
-    OPENROUTER_MODELS = [
-        {"name": "openai/gpt-4o-mini", "rpm": 50},
-        {"name": "openai/gpt-3.5-turbo", "rpm": 100},
-        {"name": "anthropic/claude-3-haiku", "rpm": 30},
-    ]
+
     
     # Generate 30k keywords with multiple API keys in parallel
     # Commercial mode example
