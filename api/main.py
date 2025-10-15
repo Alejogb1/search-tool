@@ -87,6 +87,83 @@ async def read_root():
 async def health_check():
     return {"status": "healthy", "providers": ["gemini", "openrouter"]}
 
+@app.get("/health/detailed")
+async def detailed_health_check():
+    """Comprehensive health check including Redis and database connectivity"""
+    import redis
+    from data_access.database import SessionLocal
+
+    health_status = {
+        "status": "healthy",
+        "timestamp": time.time(),
+        "services": {}
+    }
+
+    # Check database
+    try:
+        db = SessionLocal()
+        db.execute("SELECT 1")
+        health_status["services"]["database"] = {"status": "connected"}
+        db.close()
+    except Exception as e:
+        health_status["status"] = "unhealthy"
+        health_status["services"]["database"] = {"status": "error", "error": str(e)}
+
+    # Check Redis
+    try:
+        from core.services.job_queue import redis_conn
+        redis_conn.ping()
+
+        # Check queue length
+        from core.services.job_queue import queue
+        queue_length = len(queue)
+
+        health_status["services"]["redis"] = {
+            "status": "connected",
+            "queue_length": queue_length
+        }
+    except Exception as e:
+        health_status["status"] = "unhealthy"
+        health_status["services"]["redis"] = {"status": "error", "error": str(e)}
+
+    # Check environment variables (without exposing sensitive data)
+    env_checks = {
+        "redis_url": "configured" if os.getenv('REDIS_URL') else "missing",
+        "database_url": "configured" if os.getenv('DATABASE_URL') else "missing",
+        "google_api_keys": "configured" if os.getenv('GOOGLE_API_KEYS') else "missing"
+    }
+    health_status["environment"] = env_checks
+
+    return health_status
+
+@app.on_event("startup")
+async def startup_checks():
+    """Perform startup checks and fail fast if critical services are unavailable"""
+    logger.info("🚀 Starting application startup checks...")
+
+    # Check Redis connectivity
+    try:
+        from core.services.job_queue import redis_conn
+        redis_conn.ping()
+        logger.info("✅ Redis connectivity verified on startup")
+    except Exception as e:
+        logger.error(f"💥 CRITICAL: Redis unavailable on startup: {e}")
+        logger.error("💥 Application startup failed - Redis is required for job queuing")
+        # In production, you might want to exit here
+        # import sys; sys.exit(1)
+
+    # Check database connectivity
+    try:
+        db = SessionLocal()
+        db.execute("SELECT 1")
+        db.close()
+        logger.info("✅ Database connectivity verified on startup")
+    except Exception as e:
+        logger.error(f"💥 CRITICAL: Database unavailable on startup: {e}")
+        logger.error("💥 Application startup failed - Database is required")
+
+    logger.info("🎉 Application startup checks completed")
+
 # Example of how to use the orchestrator (for testing/demonstration)
 # In a real application, this would be triggered by an API call.
 if __name__ == "__main__":

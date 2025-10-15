@@ -3,6 +3,7 @@ import rq
 import os
 import logging
 import time
+from fastapi import HTTPException
 from core.services.analysis_orchestrator import run_keyword_workflow
 from integrations.email_service import email_service
 
@@ -115,18 +116,22 @@ def get_job_status(job_id: str):
 
 def queue_keyword_expansion(domain: str, email: str = None):
     """Queue a keyword expansion job"""
-    try:
-        logger.info(f"🔄 Queueing job for domain: {domain}, email: {email}")
+    logger.info(f"🔄 Queueing job for domain: {domain}, email: {email}")
 
+    try:
         # Verify Redis connection before queueing
         try:
             redis_conn.ping()
             logger.info("✅ Redis connection verified")
         except Exception as redis_error:
             logger.error(f"❌ Redis connection failed: {redis_error}")
-            raise ValueError(f"Redis connection failed: {redis_error}")
+            raise HTTPException(
+                status_code=503,
+                detail=f"Redis service unavailable: {str(redis_error)}. Please check Redis configuration."
+            )
 
         # Queue the job
+        logger.info("📋 Attempting to enqueue job...")
         job = queue.enqueue(
             background_keyword_expansion,
             domain,
@@ -135,23 +140,39 @@ def queue_keyword_expansion(domain: str, email: str = None):
             result_ttl=86400   # Keep results for 24 hours
         )
 
-        logger.info(f"✅ Job queued successfully with ID: {job.id}")
+        logger.info(f"✅ Job enqueued with ID: {job.id}")
 
-        # Verify job was actually queued
+        # CRITICAL: Verify job was actually stored in Redis
         try:
-            # Check if job exists in queue
+            logger.info("🔍 Verifying job storage in Redis...")
             fetched_job = queue.fetch_job(job.id)
-            if fetched_job:
-                logger.info(f"✅ Job verification successful - found in queue: {fetched_job.get_status()}")
-            else:
-                logger.error(f"❌ Job verification failed - not found in queue")
-                raise ValueError("Job was not found in queue after enqueueing")
-        except Exception as verify_error:
-            logger.error(f"❌ Job verification error: {verify_error}")
-            # Don't raise here, let the job continue but log the issue
 
+            if fetched_job is None:
+                logger.error(f"💥 CRITICAL: Job {job.id} not found in queue after enqueueing!")
+                raise HTTPException(
+                    status_code=500,
+                    detail="Job queuing failed - job not found in Redis after enqueueing"
+                )
+
+            logger.info(f"✅ Job verification successful - status: {fetched_job.get_status()}")
+
+        except HTTPException:
+            raise  # Re-raise our custom exceptions
+        except Exception as verify_error:
+            logger.error(f"💥 Job verification error: {verify_error}")
+            raise HTTPException(
+                status_code=500,
+                detail=f"Job verification failed: {str(verify_error)}"
+            )
+
+        logger.info(f"🎉 Job {job.id} successfully queued and verified")
         return job.id
 
+    except HTTPException:
+        raise  # Re-raise our custom exceptions
     except Exception as e:
-        logger.error(f"💥 Error queueing job: {e}", exc_info=True)
-        raise
+        logger.error(f"💥 CRITICAL: Job queuing failed: {e}", exc_info=True)
+        raise HTTPException(
+            status_code=500,
+            detail=f"Job queuing failed: {str(e)}. Check Redis configuration and connectivity."
+        )

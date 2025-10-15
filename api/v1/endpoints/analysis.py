@@ -234,6 +234,9 @@ async def generate_expanded_async(
             "status": "queued",
             "message": "Keyword expansion started in background. Use GET /jobs/{job_id} to check status."
         }
+    except HTTPException:
+        # Re-raise HTTP exceptions as-is (they have proper status codes)
+        raise
     except Exception as e:
         logger.error(f"Failed to queue job: {e}")
         raise HTTPException(500, f"Failed to queue job: {str(e)}")
@@ -312,6 +315,9 @@ async def generate_expanded(domain: str = Form(...), email: str = Form(None)):
             "note": "This endpoint now uses background processing due to deployment timeout limits."
         }
 
+    except HTTPException:
+        # Re-raise HTTP exceptions as-is (they have proper status codes)
+        raise
     except Exception as e:
         logger.error(f"Failed to queue keyword expansion job: {e}", exc_info=True)
         raise HTTPException(500, f"Failed to start keyword expansion job: {str(e)}")
