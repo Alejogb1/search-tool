@@ -116,13 +116,42 @@ def get_job_status(job_id: str):
 def queue_keyword_expansion(domain: str, email: str = None):
     """Queue a keyword expansion job"""
     try:
+        logger.info(f"🔄 Queueing job for domain: {domain}, email: {email}")
+
+        # Verify Redis connection before queueing
+        try:
+            redis_conn.ping()
+            logger.info("✅ Redis connection verified")
+        except Exception as redis_error:
+            logger.error(f"❌ Redis connection failed: {redis_error}")
+            raise ValueError(f"Redis connection failed: {redis_error}")
+
+        # Queue the job
         job = queue.enqueue(
             background_keyword_expansion,
             domain,
             email,
-            job_timeout=3600  # 1 hour timeout
+            job_timeout=3600,  # 1 hour timeout
+            result_ttl=86400   # Keep results for 24 hours
         )
+
+        logger.info(f"✅ Job queued successfully with ID: {job.id}")
+
+        # Verify job was actually queued
+        try:
+            # Check if job exists in queue
+            fetched_job = queue.fetch_job(job.id)
+            if fetched_job:
+                logger.info(f"✅ Job verification successful - found in queue: {fetched_job.get_status()}")
+            else:
+                logger.error(f"❌ Job verification failed - not found in queue")
+                raise ValueError("Job was not found in queue after enqueueing")
+        except Exception as verify_error:
+            logger.error(f"❌ Job verification error: {verify_error}")
+            # Don't raise here, let the job continue but log the issue
+
         return job.id
+
     except Exception as e:
-        logger.error(f"Error queueing job: {e}")
+        logger.error(f"💥 Error queueing job: {e}", exc_info=True)
         raise

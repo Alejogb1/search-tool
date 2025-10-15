@@ -17,9 +17,14 @@ router = APIRouter()
 @router.get("/jobs/{job_id}", response_class=JSONResponse)
 async def get_job_status_endpoint(job_id: str):
     """Get the status of a background job"""
+    logger.info(f"🔍 Checking status for job: {job_id}")
+
     job_status = get_job_status(job_id)
     if job_status is None:
+        logger.warning(f"❌ Job not found: {job_id}")
         raise HTTPException(404, "Job not found")
+
+    logger.info(f"✅ Job found: {job_id}, status: {job_status['rq_status']}")
 
     # Enhanced response with better status information
     response = {
@@ -43,6 +48,7 @@ async def get_job_status_endpoint(job_id: str):
     else:
         response["status_description"] = "Job status unknown"
 
+    logger.info(f"📊 Returning status for job {job_id}: {response['status_description']}")
     return response
 
 @router.get("/jobs/{job_id}/download", response_class=FileResponse)
@@ -310,6 +316,25 @@ async def generate_expanded(domain: str = Form(...), email: str = Form(None)):
         logger.error(f"Failed to queue keyword expansion job: {e}", exc_info=True)
         raise HTTPException(500, f"Failed to start keyword expansion job: {str(e)}")
 
+# Add route aliases to match frontend expectations
+@router.post("/api/v1/analyze", response_class=JSONResponse)
+async def analyze_endpoint(domain: str = Form(...), email: str = Form(None)):
+    """
+    Alias for /keywords/expanded to match frontend expectations.
+    Frontend expects POST /api/v1/analyze but backend provides /v1/keywords/expanded
+    """
+    logger.info(f"Alias endpoint /api/v1/analyze called with domain: {domain}, email: {email}")
+    return await generate_expanded(domain, email)
+
+@router.get("/api/v1/report/{job_id}", response_class=JSONResponse)
+async def report_endpoint(job_id: str):
+    """
+    Alias for /jobs/{job_id} to match frontend expectations.
+    Frontend expects GET /api/v1/report/[job_id] but backend provides /v1/jobs/[job_id]
+    """
+    logger.info(f"Alias endpoint /api/v1/report/{job_id} called")
+    return await get_job_status_endpoint(job_id)
+
 @router.post("/keywords/expand-input", response_class=PlainTextResponse)
 async def expand_input_keywords_endpoint(input_file: str = "input-keywords.txt"):
     """Expand existing keywords from input file via Google Ads API"""
@@ -323,3 +348,71 @@ async def expand_input_keywords_endpoint(input_file: str = "input-keywords.txt")
         raise HTTPException(400, str(e))
     except Exception as e:
         raise HTTPException(500, str(e))
+
+@router.get("/debug/redis", response_class=JSONResponse)
+async def debug_redis():
+    """Debug endpoint to test Redis connectivity"""
+    try:
+        from core.services.job_queue import redis_conn
+
+        # Test basic Redis operations
+        redis_conn.ping()
+
+        # Get queue info
+        queue_length = len(queue)
+        queue_name = queue.name
+
+        # Test job storage
+        test_key = f"debug:test:{int(time.time())}"
+        redis_conn.set(test_key, "test_value", ex=60)  # Expires in 60 seconds
+        test_value = redis_conn.get(test_key)
+
+        return {
+            "redis_status": "connected",
+            "queue_name": queue_name,
+            "queue_length": queue_length,
+            "test_key_set": test_value == "test_value",
+            "redis_url": os.getenv('REDIS_URL', 'not_set')[:20] + "..." if os.getenv('REDIS_URL') else "not_set"
+        }
+
+    except Exception as e:
+        logger.error(f"Redis debug failed: {e}")
+        return {
+            "redis_status": "error",
+            "error": str(e),
+            "redis_url": os.getenv('REDIS_URL', 'not_set')
+        }
+
+@router.get("/debug/jobs", response_class=JSONResponse)
+async def debug_jobs():
+    """Debug endpoint to list all jobs in queue"""
+    try:
+        from core.services.job_queue import queue
+
+        # Get all jobs in queue
+        jobs = queue.get_jobs()
+
+        job_list = []
+        for job in jobs:
+            job_info = {
+                "id": job.id,
+                "status": job.get_status(),
+                "created_at": job.created_at.isoformat() if job.created_at else None,
+                "args": job.args if hasattr(job, 'args') else None,
+                "result": job.result if hasattr(job, 'result') else None,
+                "error": str(job.exc_info) if hasattr(job, 'exc_info') and job.exc_info else None
+            }
+            job_list.append(job_info)
+
+        return {
+            "queue_name": queue.name,
+            "total_jobs": len(job_list),
+            "jobs": job_list
+        }
+
+    except Exception as e:
+        logger.error(f"Jobs debug failed: {e}")
+        return {
+            "status": "error",
+            "error": str(e)
+        }
