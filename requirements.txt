@@ -14,5 +14,6 @@ google-generativeai
 pandas
 redis
 rq
+upstash-redis
 sendgrid
 openai

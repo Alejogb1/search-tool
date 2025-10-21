@@ -9,9 +9,54 @@ from integrations.email_service import email_service
 
 logger = logging.getLogger(__name__)
 
-# Redis connection
-redis_url = os.getenv('REDIS_URL', 'redis://localhost:6379')
-redis_conn = redis.from_url(redis_url)
+# Upstash Redis connection for Render deployment
+def create_upstash_redis_connection():
+    """Create Upstash Redis connection optimized for Render"""
+    # Use UPSTASH_REDIS_REST_URL if available, fallback to REDIS_URL
+    redis_url = os.getenv('UPSTASH_REDIS_REST_URL') or os.getenv('REDIS_URL', 'redis://localhost:6379')
+
+    logger.info(f"🔗 Connecting to Upstash Redis at: {redis_url[:50]}...")
+
+    try:
+        # For Upstash REST API (HTTP-based)
+        if redis_url.startswith('https://'):
+            # Use Upstash REST API
+            from upstash_redis import Redis
+
+            rest_url = os.getenv('UPSTASH_REDIS_REST_URL')
+            rest_token = os.getenv('UPSTASH_REDIS_REST_TOKEN')
+
+            if not rest_url or not rest_token:
+                raise ValueError("UPSTASH_REDIS_REST_URL and UPSTASH_REDIS_REST_TOKEN required for Upstash")
+
+            redis_conn = Redis(url=rest_url, token=rest_token)
+            logger.info("✅ Upstash Redis connection established successfully")
+            return redis_conn
+
+        else:
+            # Regular Redis connection (fallback)
+            connection_kwargs = {
+                'socket_timeout': 5,
+                'socket_connect_timeout': 5,
+                'retry_on_timeout': True,
+                'decode_responses': True,
+                'health_check_interval': 30,
+            }
+
+            redis_conn = redis.from_url(redis_url, **connection_kwargs)
+            redis_conn.ping()
+            logger.info("✅ Redis connection established successfully")
+            return redis_conn
+
+    except Exception as e:
+        logger.error(f"❌ Redis connection failed: {e}")
+        raise HTTPException(
+            status_code=503,
+            detail=f"Redis connection failed: {str(e)}. Check UPSTASH_REDIS_REST_URL/REDIS_URL configuration."
+        )
+
+# Create optimized Redis connection
+redis_conn = create_upstash_redis_connection()
 queue = rq.Queue('keyword_expansion', connection=redis_conn)
 
 def background_keyword_expansion(domain: str, email: str = None):
