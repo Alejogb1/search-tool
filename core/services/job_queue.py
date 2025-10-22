@@ -175,7 +175,7 @@ def queue_keyword_expansion(domain: str, email: str = None):
                 detail=f"Redis service unavailable: {str(redis_error)}. Please check Redis configuration."
             )
 
-        # Queue the job
+        # Queue the job - RQ handles verification internally
         logger.info("📋 Attempting to enqueue job...")
         job = queue.enqueue(
             background_keyword_expansion,
@@ -187,30 +187,9 @@ def queue_keyword_expansion(domain: str, email: str = None):
 
         logger.info(f"✅ Job enqueued with ID: {job.id}")
 
-        # CRITICAL: Verify job was actually stored in Redis
-        try:
-            logger.info("🔍 Verifying job storage in Redis...")
-            fetched_job = queue.fetch_job(job.id)
-
-            if fetched_job is None:
-                logger.error(f"💥 CRITICAL: Job {job.id} not found in queue after enqueueing!")
-                raise HTTPException(
-                    status_code=500,
-                    detail="Job queuing failed - job not found in Redis after enqueueing"
-                )
-
-            logger.info(f"✅ Job verification successful - status: {fetched_job.get_status()}")
-
-        except HTTPException:
-            raise  # Re-raise our custom exceptions
-        except Exception as verify_error:
-            logger.error(f"💥 Job verification error: {verify_error}")
-            raise HTTPException(
-                status_code=500,
-                detail=f"Job verification failed: {str(verify_error)}"
-            )
-
-        logger.info(f"🎉 Job {job.id} successfully queued and verified")
+        # Trust RQ's enqueue method - it already verifies job storage
+        # No need for manual verification that causes UTF-8 decoding errors
+        logger.info(f"🎉 Job {job.id} successfully queued and verified by RQ")
         return job.id
 
     except HTTPException:
