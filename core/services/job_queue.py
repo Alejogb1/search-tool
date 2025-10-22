@@ -39,7 +39,7 @@ def create_upstash_redis_connection():
                 'socket_timeout': 5,
                 'socket_connect_timeout': 5,
                 'retry_on_timeout': True,
-                'decode_responses': True,
+                'decode_responses': False,  # ← FIX: Disable UTF-8 decoding for Upstash compatibility
                 'health_check_interval': 30,
             }
 
