@@ -189,23 +189,26 @@ async def startup_checks():
     """Perform startup checks and fail fast if critical services are unavailable"""
     logger.info("🚀 Starting application startup checks...")
 
-    # TEMPORARILY SKIP REDIS CHECK TO ALLOW APP TO START
-    # Redis will be checked at runtime when routes are called
-    logger.info("ℹ️ Redis check moved to runtime (per-route)")
-
-    # Check database connectivity (this is critical)
+    # Check database connectivity (make it non-blocking for deployment)
     try:
         db = SessionLocal()
         db.execute("SELECT 1")
         db.close()
         logger.info("✅ Database connectivity verified on startup")
     except Exception as e:
-        logger.error(f"💥 CRITICAL: Database unavailable on startup: {e}")
-        logger.error("💥 Application startup failed - Database is required")
-        # In production, you might want to exit here
-        # import sys; sys.exit(1)
+        logger.warning(f"⚠️ Database not available during startup: {e}")
+        logger.warning("🚀 Starting anyway - database will reconnect later")
 
-    logger.info("🎉 Application startup checks completed")
+    # Redis check: Make it optional - don't fail startup
+    try:
+        from core.services.job_queue import redis_conn
+        redis_conn.ping()
+        logger.info("✅ Redis connectivity verified on startup")
+    except Exception as e:
+        logger.warning(f"⚠️ Redis not configured/misconfigured: {e}")
+        logger.warning("🚀 Starting anyway - Redis will be checked per-route")
+
+    logger.info("🎉 Application startup checks completed - app will bind to port 8000")
 
 # Example of how to use the orchestrator (for testing/demonstration)
 # In a real application, this would be triggered by an API call.
