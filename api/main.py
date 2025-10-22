@@ -6,18 +6,34 @@ import os
 import asyncio
 import time
 import logging
+import sys
+import traceback
 
-# Configure logging
+# Configure comprehensive logging to catch runtime crashes
 logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    level=logging.DEBUG,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(sys.stdout),
+        logging.StreamHandler(sys.stderr)
+    ]
 )
 
-app = FastAPI(
-    title="Market Intelligence API",
-    description="API for keyword research and market intelligence",
-    version="1.0.0"
-)
+logger = logging.getLogger(__name__)
+logger.info("🚀 STARTING FASTAPI APPLICATION IMPORTS")
+
+try:
+    logger.info("🔧 Creating FastAPI application...")
+    app = FastAPI(
+        title="Market Intelligence API",
+        description="API for keyword research and market intelligence",
+        version="1.0.0"
+    )
+    logger.info("✅ FastAPI application created successfully")
+except Exception as e:
+    logger.critical(f"💥 CRITICAL: FastAPI app creation failed: {e}")
+    logger.critical(traceback.format_exc())
+    sys.exit(3)
 
 # CORS Configuration
 origins = ["*"]  # Adjust for production environments
