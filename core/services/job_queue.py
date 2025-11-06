@@ -11,48 +11,33 @@ logger = logging.getLogger(__name__)
 
 # Upstash Redis connection for Render deployment
 def create_upstash_redis_connection():
-    """Create Upstash Redis connection optimized for Render"""
-    # Use UPSTASH_REDIS_REST_URL if available, fallback to REDIS_URL
-    redis_url = os.getenv('UPSTASH_REDIS_REST_URL') or os.getenv('REDIS_URL', 'redis://localhost:6379')
+    """Create Upstash Redis connection optimized for Render - uses standard Redis client for RQ compatibility"""
+    # Always use REDIS_URL with standard Redis client for RQ compatibility
+    # RQ internally uses Redis pipelines which don't work with REST clients
+    redis_url = os.getenv('REDIS_URL', 'redis://localhost:6379')
 
-    logger.info(f"🔗 Connecting to Upstash Redis at: {redis_url[:50]}...")
+    logger.info(f"🔗 Connecting to Redis at: {redis_url[:50]}...")
 
     try:
-        # For Upstash REST API (HTTP-based)
-        if redis_url.startswith('https://'):
-            # Use Upstash REST API
-            from upstash_redis import Redis
+        # Use standard Redis client for RQ compatibility
+        connection_kwargs = {
+            'socket_timeout': 5,
+            'socket_connect_timeout': 5,
+            'retry_on_timeout': True,
+            'decode_responses': False,  # Disable UTF-8 decoding for compatibility
+            'health_check_interval': 30,
+        }
 
-            rest_url = os.getenv('UPSTASH_REDIS_REST_URL')
-            rest_token = os.getenv('UPSTASH_REDIS_REST_TOKEN')
-
-            if not rest_url or not rest_token:
-                raise ValueError("UPSTASH_REDIS_REST_URL and UPSTASH_REDIS_REST_TOKEN required for Upstash")
-
-            redis_conn = Redis(url=rest_url, token=rest_token)
-            logger.info("✅ Upstash Redis connection established successfully")
-            return redis_conn
-
-        else:
-            # Regular Redis connection (fallback)
-            connection_kwargs = {
-                'socket_timeout': 5,
-                'socket_connect_timeout': 5,
-                'retry_on_timeout': True,
-                'decode_responses': False,  # ← FIX: Disable UTF-8 decoding for Upstash compatibility
-                'health_check_interval': 30,
-            }
-
-            redis_conn = redis.from_url(redis_url, **connection_kwargs)
-            redis_conn.ping()
-            logger.info("✅ Redis connection established successfully")
-            return redis_conn
+        redis_conn = redis.from_url(redis_url, **connection_kwargs)
+        redis_conn.ping()
+        logger.info("✅ Redis connection established successfully")
+        return redis_conn
 
     except Exception as e:
         logger.error(f"❌ Redis connection failed: {e}")
         raise HTTPException(
             status_code=503,
-            detail=f"Redis connection failed: {str(e)}. Check UPSTASH_REDIS_REST_URL/REDIS_URL configuration."
+            detail=f"Redis connection failed: {str(e)}. Check REDIS_URL configuration."
         )
 
 # Create optimized Redis connection
