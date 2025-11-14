@@ -9,26 +9,16 @@ from integrations.email_service import email_service
 
 logger = logging.getLogger(__name__)
 
-# Upstash Redis connection for Render deployment
-def create_upstash_redis_connection():
-    """Create Upstash Redis connection optimized for Render - uses standard Redis client for RQ compatibility"""
-    # Always use REDIS_URL with standard Redis client for RQ compatibility
-    # RQ internally uses Redis pipelines which don't work with REST clients
+# Redis connection using Redis TLS endpoint (works with Upstash, Railway, etc.)
+def create_redis_connection():
+    """Create Redis connection using standard Redis protocol (TLS)"""
     redis_url = os.getenv('REDIS_URL', 'redis://localhost:6379')
 
     logger.info(f"🔗 Connecting to Redis at: {redis_url[:50]}...")
 
     try:
-        # Use standard Redis client for RQ compatibility
-        connection_kwargs = {
-            'socket_timeout': 5,
-            'socket_connect_timeout': 5,
-            'retry_on_timeout': True,
-            'decode_responses': False,  # Disable UTF-8 decoding for compatibility
-            'health_check_interval': 30,
-        }
-
-        redis_conn = redis.from_url(redis_url, **connection_kwargs)
+        # Use standard Redis client - works with Redis TLS endpoints
+        redis_conn = redis.from_url(redis_url)
         redis_conn.ping()
         logger.info("✅ Redis connection established successfully")
         return redis_conn
@@ -40,8 +30,8 @@ def create_upstash_redis_connection():
             detail=f"Redis connection failed: {str(e)}. Check REDIS_URL configuration."
         )
 
-# Create optimized Redis connection
-redis_conn = create_upstash_redis_connection()
+# Create Redis connection
+redis_conn = create_redis_connection()
 queue = rq.Queue('keyword_expansion', connection=redis_conn)
 
 def background_keyword_expansion(domain: str, email: str = None):
@@ -119,10 +109,12 @@ def update_job_status(job_id: str, status: str, message: str):
 
 def get_job_status(job_id: str):
     """Get job status from Redis"""
+    logger.info(f"🔍 Checking status for job: {job_id}")
     try:
         # First check RQ job status
         job = queue.fetch_job(job_id)
         if job:
+            logger.info(f"✅ RQ job found: {job_id}")
             rq_status = job.get_status()
             rq_result = job.result
             rq_error = str(job.exc_info) if job.exc_info else None
@@ -131,7 +123,7 @@ def get_job_status(job_id: str):
             status_key = f"job:{job_id}:status"
             custom_status = redis_conn.hgetall(status_key)
 
-            return {
+            result = {
                 "job_id": job_id,
                 "rq_status": rq_status,
                 "rq_result": rq_result,
@@ -139,9 +131,13 @@ def get_job_status(job_id: str):
                 "custom_status": custom_status.decode('utf-8') if custom_status else None,
                 "last_updated": custom_status.get(b'timestamp', b'').decode('utf-8') if custom_status else None
             }
-        return None
+            logger.info(f"📊 Job {job_id} status: {rq_status}")
+            return result
+        else:
+            logger.warning(f"❌ RQ job not found: {job_id}")
+            return None
     except Exception as e:
-        logger.error(f"Error fetching job status: {e}")
+        logger.error(f"💥 Error fetching job status for {job_id}: {e}", exc_info=True)
         return None
 
 def queue_keyword_expansion(domain: str, email: str = None):
@@ -167,14 +163,25 @@ def queue_keyword_expansion(domain: str, email: str = None):
             domain,
             email,
             job_timeout=3600,  # 1 hour timeout
-            result_ttl=86400   # Keep results for 24 hours
+            result_ttl=86400,  # Keep results for 24 hours
+            ttl=86400          # Keep job in queue for 24 hours
         )
 
         logger.info(f"✅ Job enqueued with ID: {job.id}")
 
-        # Trust RQ's enqueue method - it already verifies job storage
-        # No need for manual verification that causes UTF-8 decoding errors
-        logger.info(f"🎉 Job {job.id} successfully queued and verified by RQ")
+        # Verify job was actually stored
+        try:
+            stored_job = queue.fetch_job(job.id)
+            if stored_job:
+                logger.info(f"✅ Job {job.id} verified in queue")
+            else:
+                logger.error(f"❌ Job {job.id} not found immediately after enqueue!")
+                raise HTTPException(500, f"Job storage failed - job not found after enqueue")
+        except Exception as verify_error:
+            logger.error(f"❌ Job verification failed: {verify_error}")
+            raise HTTPException(500, f"Job verification failed: {str(verify_error)}")
+
+        logger.info(f"🎉 Job {job.id} successfully queued and verified")
         return job.id
 
     except HTTPException:
