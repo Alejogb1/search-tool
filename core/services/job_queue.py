@@ -122,10 +122,10 @@ def get_job_status(job_id: str):
     """Get job status from Redis"""
     logger.info(f"🔍 Checking status for job: {job_id}")
     try:
-        # First check RQ job status
+        # First check active/completed RQ jobs
         job = queue.fetch_job(job_id)
         if job:
-            logger.info(f"✅ RQ job found: {job_id}")
+            logger.info(f"✅ Active RQ job found: {job_id}")
             rq_status = job.get_status()
             rq_result = job.result
             rq_error = str(job.exc_info) if job.exc_info else None
@@ -144,9 +144,38 @@ def get_job_status(job_id: str):
             }
             logger.info(f"📊 Job {job_id} status: {rq_status}")
             return result
-        else:
-            logger.warning(f"❌ RQ job not found: {job_id}")
-            return None
+
+        # If not found in active jobs, check failed jobs
+        logger.info(f"🔍 Job {job_id} not in active queue, checking failed jobs...")
+        try:
+            failed_registry = queue.failed_job_registry
+            failed_job = failed_registry.get_job(job_id)
+            if failed_job:
+                logger.info(f"✅ Failed job found: {job_id}")
+
+                # Get failure details
+                exc_string = str(failed_job.exc_info) if failed_job.exc_info else "Unknown error"
+
+                # Also check our custom status
+                status_key = f"job:{job_id}:status"
+                custom_status = redis_conn.hgetall(status_key)
+
+                result = {
+                    "job_id": job_id,
+                    "rq_status": "failed",
+                    "rq_result": None,
+                    "rq_error": exc_string,
+                    "custom_status": custom_status.decode('utf-8') if custom_status else "Job failed during execution",
+                    "last_updated": custom_status.get(b'timestamp', b'').decode('utf-8') if custom_status else None
+                }
+                logger.info(f"📊 Failed job {job_id} details retrieved")
+                return result
+        except Exception as failed_check_error:
+            logger.warning(f"⚠️ Error checking failed jobs for {job_id}: {failed_check_error}")
+
+        logger.warning(f"❌ Job {job_id} not found in active or failed queues")
+        return None
+
     except Exception as e:
         logger.error(f"💥 Error fetching job status for {job_id}: {e}", exc_info=True)
         return None
