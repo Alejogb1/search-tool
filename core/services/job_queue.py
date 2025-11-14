@@ -36,6 +36,8 @@ queue = rq.Queue('keyword_expansion', connection=redis_conn)
 
 def background_keyword_expansion(domain: str, email: str = None):
     """Background task to run keyword expansion and send email"""
+    import asyncio
+
     job_id = None
     try:
         # Get current job ID for status tracking
@@ -48,9 +50,18 @@ def background_keyword_expansion(domain: str, email: str = None):
         # Update job status to running
         update_job_status(job_id, "running", "Processing keyword expansion...")
 
-        # Run the keyword workflow
+        # Run the async keyword workflow in a new event loop
         logger.info(f"📊 Running keyword workflow for {domain}")
-        csv_path = run_keyword_workflow(domain)
+        try:
+            # Create new event loop for async function
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
+            csv_path = loop.run_until_complete(run_keyword_workflow(domain))
+            loop.close()
+        except Exception as workflow_error:
+            logger.error(f"❌ Keyword workflow failed: {workflow_error}")
+            update_job_status(job_id, "failed", f"Workflow failed: {str(workflow_error)}")
+            raise
 
         # Verify CSV was created
         if not csv_path or not os.path.exists(csv_path):
