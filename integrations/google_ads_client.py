@@ -15,6 +15,7 @@
 """This example generates keyword ideas from a list of seed keywords."""
 
 import sys
+import os
 from google.ads.googleads.client import GoogleAdsClient as AdsClient
 from google.ads.googleads.errors import GoogleAdsException
 
@@ -110,7 +111,11 @@ class GoogleAdsClient:
     #_DEFAULT_LANGUAGE_ID = "1001"  # German
 
     _DEFAULT_LANGUAGE_ID = "1000"  # English
-    def __init__(self, config_path='google-ads.yaml'):
+    def __init__(self, config_path=None):
+        if config_path is None:
+            # Check for environment variable first, then fall back to Render secret files path
+            config_path = os.getenv('GOOGLE_ADS_CONFIG_FILE', '/etc/secrets/google-ads.yaml')
+
         self.client = AdsClient.load_from_storage(config_path, version="v20")
 
     def generate_keyword_ideas(self, customer_id, keyword_texts, page_url=None, location_ids=None, language_id=None):
