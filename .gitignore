@@ -6,6 +6,12 @@ ENV/
 .env.development
 .env.test
 
+chunked_files/*
+dataclay_analysis_results/*
+keywords_chunks_dataclay/*
+other_files/*
+output-keywords*
+
 # Secrets and credentials
 google-ads.yaml
 
