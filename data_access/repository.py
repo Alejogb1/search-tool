@@ -126,8 +126,6 @@ def update_keywords_with_expanded_data(db: Session, domain_id: int, expanded_key
         mark_batch_processed(db, domain_id, batch_hash, 0)
         return 0
 
-    print(f"Repository: Saving {len(new_keywords)} new keywords from batch {batch_hash}.")
-
     # Bulk insert new keywords
     keyword_objects = []
     for kw_data in new_keywords:
@@ -187,6 +185,46 @@ def get_processed_batches(db: Session, domain_id: int) -> set:
     except Exception as e:
         print(f"Repository: Failed to get processed batches: {e}")
         return set()
+
+def update_seed_keywords_status(db: Session, domain_id: int, seed_keywords: list[str], status: models.SeedStatus):
+    """
+    Update the seed_status for a list of seed keywords in a domain.
+    """
+    if not seed_keywords:
+        print("Repository: No seed keywords provided to update status.")
+        return
+
+    print(f"Repository: Updating {len(seed_keywords)} seed keywords to status '{status.value}' for domain ID {domain_id}.")
+
+    # Update seed keywords status and processed_at timestamp
+    db.query(models.Keyword).filter(
+        models.Keyword.domain_id == domain_id,
+        models.Keyword.text.in_(seed_keywords),
+        models.Keyword.keyword_type == models.KeywordType.SEED_ONLY
+    ).update({
+        'seed_status': status,
+        'processed_at': func.now()
+    })
+
+    db.commit()
+    print(f"Repository: Successfully updated status for {len(seed_keywords)} seed keywords.")
+
+def get_seed_keywords_with_status(db: Session, domain_id: int):
+    """
+    Get all seed keywords for a domain with their current status.
+    """
+    print(f"Repository: Retrieving seed keywords with status for domain ID {domain_id}.")
+    seed_keywords = db.query(models.Keyword).filter(
+        models.Keyword.domain_id == domain_id,
+        models.Keyword.keyword_type == models.KeywordType.SEED_ONLY
+    ).all()
+
+    return [{
+        'id': kw.id,
+        'text': kw.text,
+        'status': kw.seed_status.value,
+        'processed_at': kw.processed_at
+    } for kw in seed_keywords]
 
 def get_domain_with_keywords(db: Session, domain_id: int) -> models.Domain | None:
     """

@@ -26,6 +26,12 @@ class KeywordType(enum.Enum):
     SEED_EXPANDED = "seed_expanded"   # Started as seed, got expanded data
     EXPANDED_ONLY = "expanded_only"   # Only found during expansion
 
+# Define an Enum for seed keyword API success tracking
+class SeedStatus(enum.Enum):
+    UNPROCESSED = "unprocessed"       # Not yet processed by API
+    SUCCESSFUL = "successful"         # API returned keyword ideas for this seed
+    FAILED = "failed"                 # API returned no keyword ideas for this seed
+
 Base = declarative_base()
 
 class Domain(Base):
@@ -60,11 +66,13 @@ class Keyword(Base):
 
     # New fields for seed vs expanded keyword distinction using enum
     keyword_type = Column(Enum(KeywordType), nullable=False, default=KeywordType.SEED_ONLY)
+    seed_status = Column(Enum(SeedStatus), nullable=False, default=SeedStatus.UNPROCESSED)  # Track API success for seed keywords
     batch_info = Column(String, nullable=True)  # Track which batch this keyword came from
 
     # Timestamps to track keyword lifecycle
     seeded_at = Column(DateTime(timezone=True), nullable=True)    # When it was first seeded
     expanded_at = Column(DateTime(timezone=True), nullable=True)  # When it got expansion data
+    processed_at = Column(DateTime(timezone=True), nullable=True)  # When seed was processed by API
 
     # This is the foreign key linking back to the Domain table
     domain_id = Column(Integer, ForeignKey("domains.id"), nullable=False)

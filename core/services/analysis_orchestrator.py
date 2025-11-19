@@ -9,8 +9,15 @@ from core.services.keyword_enricher import KeywordEnricher
 from data_access.database import SessionLocal
 from data_access import repository, models
 
-# Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# Configure comprehensive logging to stdout for Render compatibility
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(sys.stdout),
+        logging.StreamHandler(sys.stderr)
+    ]
+)
 logger = logging.getLogger(__name__)
 
 @contextmanager

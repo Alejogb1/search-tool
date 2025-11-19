@@ -205,6 +205,12 @@ async def startup_checks():
     """Perform startup checks and fail fast if critical services are unavailable"""
     logger.info("🚀 Starting application startup checks...")
 
+    # Log environment variables for debugging split-brain issues
+    redis_url = os.getenv('REDIS_URL', 'NOT_SET')
+    database_url = os.getenv('DATABASE_URL', 'NOT_SET')
+    logger.info(f"🔧 API Process Environment - REDIS_URL: {redis_url[:50]}...")
+    logger.info(f"🔧 API Process Environment - DATABASE_URL: {database_url[:50]}...")
+
     # Check database connectivity (make it non-blocking for deployment)
     try:
         db = SessionLocal()

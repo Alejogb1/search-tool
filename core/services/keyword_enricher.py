@@ -22,6 +22,7 @@ class KeywordEnricher:
         """
         Expand keywords with incremental database saving and progress tracking.
         Saves each batch immediately after processing for fault tolerance.
+        Tracks which seed keywords return results from the API.
 
         Args:
             seed_keywords: List of seed keywords to expand
@@ -37,9 +38,13 @@ class KeywordEnricher:
 
         from data_access import repository
 
-        batch_size = 20
+        # Reduced batch size for better seed keyword success/failure granularity
+        batch_size = 5
         total_batches = (len(seed_keywords) + batch_size - 1) // batch_size
         logger.info(f"Processing in {total_batches} batches of size {batch_size}")
+
+        # Initialize seed results log
+        self._initialize_seed_results_log()
 
         start_time = time.time()
         total_keywords_saved = 0
@@ -74,6 +79,13 @@ class KeywordEnricher:
                 if keyword_ideas:
                     logger.info(f"Batch {batch_num + 1} returned {len(keyword_ideas)} keyword ideas")
 
+                    # Note: Google Ads API doesn't provide per-seed attribution
+                    # We mark seeds as SUCCESSFUL since the batch succeeded, but this is batch-level attribution
+                    repository.update_seed_keywords_status(db, domain_id, batch, repository.models.SeedStatus.SUCCESSFUL)
+
+                    # Log seed keywords with batch-level success attribution
+                    self._log_seed_results(batch, 'batch_successful', len(keyword_ideas), batch_num + 1)
+
                     # Create batch hash for tracking
                     batch_hash = self._create_batch_hash(keyword_ideas)
 
@@ -99,6 +111,12 @@ class KeywordEnricher:
                 else:
                     logger.warning(f"Batch {batch_num + 1} returned no keyword ideas")
 
+                    # Mark seed keywords in this batch as FAILED - this is definitive since batch failed
+                    repository.update_seed_keywords_status(db, domain_id, batch, repository.models.SeedStatus.FAILED)
+
+                    # Log failed seed keywords
+                    self._log_seed_results(batch, 'failed', 0, batch_num + 1)
+
             except Exception as e:
                 batch_elapsed = time.time() - batch_start_time
                 logger.error(f"Error expanding keywords for batch {batch_num + 1} (took {batch_elapsed:.1f}s): {e}", exc_info=True)
@@ -111,6 +129,7 @@ class KeywordEnricher:
     def expand_keywords(self, seed_keywords, timeout_seconds=300):
         """
         Legacy method for backward compatibility - collects all results in memory.
+        Now includes seed keyword success/failure tracking.
         """
         logger.warning("Using legacy expand_keywords method. Consider using expand_keywords_incremental for better performance.")
         if not seed_keywords:
@@ -118,9 +137,13 @@ class KeywordEnricher:
             return []
 
         all_keyword_ideas = []
-        batch_size = 20
+        # Reduced batch size for better seed keyword success/failure granularity
+        batch_size = 5
         total_batches = (len(seed_keywords) + batch_size - 1) // batch_size
         logger.info(f"Processing in {total_batches} batches of size {batch_size}")
+
+        # Initialize seed results log
+        self._initialize_seed_results_log()
 
         start_time = time.time()
 
@@ -155,11 +178,18 @@ class KeywordEnricher:
                     logger.info(f"Batch {batch_num + 1} returned {len(keyword_ideas)} keyword ideas")
                     logger.debug(f"Sample keyword ideas: {[kw.get('text', '') for kw in keyword_ideas[:3]]}")
 
+                    # Log seed keywords with batch-level success attribution
+                    # Note: Cannot determine which individual seeds contributed to results
+                    self._log_seed_results(batch, 'batch_successful', len(keyword_ideas), batch_num + 1)
+
                     self._append_to_csv(keyword_ideas)
                     all_keyword_ideas.extend(keyword_ideas)
                     logger.debug(f"Total keywords collected so far: {len(all_keyword_ideas)}")
                 else:
                     logger.warning(f"Batch {batch_num + 1} returned no keyword ideas")
+
+                    # Log failed seed keywords - definitive since entire batch failed
+                    self._log_seed_results(batch, 'failed', 0, batch_num + 1)
 
             except Exception as e:
                 batch_elapsed = time.time() - batch_start_time
@@ -214,6 +244,25 @@ class KeywordEnricher:
             writer = csv.DictWriter(f, fieldnames=['text', 'avg_monthly_searches', 'competition'])
             for idea in keyword_ideas:
                 writer.writerow(idea)
+
+    def _initialize_seed_results_log(self):
+        """Initialize the seed keyword results log file."""
+        self.seed_log_file = 'seed-keyword-results-log.csv'
+        with open(self.seed_log_file, 'w', newline='') as f:
+            writer = csv.writer(f)
+            # Note: api_success indicates batch-level success, not individual seed attribution
+            # since Google Ads API doesn't provide per-seed result mapping
+            writer.writerow(['seed_keyword', 'batch_success', 'result_count', 'batch_id', 'processed_at'])
+
+    def _log_seed_results(self, seed_keywords, status, result_count, batch_id):
+        """Log seed keyword results to the CSV file."""
+        import datetime
+
+        with open(self.seed_log_file, 'a', newline='') as f:
+            writer = csv.writer(f)
+            processed_at = datetime.datetime.now().isoformat()
+            for seed_keyword in seed_keywords:
+                writer.writerow([seed_keyword, status, result_count, batch_id, processed_at])
 
 if __name__ == '__main__':
     # This is an example of how to use the KeywordEnricher

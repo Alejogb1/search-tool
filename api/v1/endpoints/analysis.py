@@ -5,6 +5,8 @@ import os
 import logging
 import uuid
 import asyncio
+import json
+import time
 from core.services.analysis_orchestrator import run_keyword_workflow, expand_input_keywords, generate_csv_from_database
 from core.services.job_queue import queue_keyword_expansion, get_job_status
 from integrations.llm_client import generate_with_multiple_keys
@@ -418,6 +420,80 @@ async def debug_jobs():
 
     except Exception as e:
         logger.error(f"Jobs debug failed: {e}")
+        return {
+            "status": "error",
+            "error": str(e)
+        }
+
+@router.get("/debug/workers", response_class=JSONResponse)
+async def debug_workers():
+    """Debug endpoint to check worker health status"""
+    try:
+        from core.services.job_queue import get_worker_health
+
+        workers = get_worker_health()
+
+        return {
+            "total_workers": len(workers),
+            "workers": workers,
+            "timestamp": time.time()
+        }
+
+    except Exception as e:
+        logger.error(f"Workers debug failed: {e}")
+        return {
+            "status": "error",
+            "error": str(e)
+        }
+
+@router.get("/debug/persistence", response_class=JSONResponse)
+async def debug_persistence():
+    """Debug endpoint to check job persistence state"""
+    try:
+        from core.services.job_queue import redis_conn, JOB_PERSISTENCE_KEY
+
+        # Get all persisted jobs
+        persisted_jobs = redis_conn.hgetall(JOB_PERSISTENCE_KEY)
+
+        jobs_data = {}
+        for job_id_bytes, job_data_bytes in persisted_jobs.items():
+            try:
+                job_id = job_id_bytes.decode('utf-8')
+                job_data = json.loads(job_data_bytes.decode('utf-8'))
+                jobs_data[job_id] = job_data
+            except Exception as parse_error:
+                jobs_data[job_id_bytes.decode('utf-8')] = f"Parse error: {parse_error}"
+
+        return {
+            "total_persisted_jobs": len(jobs_data),
+            "persisted_jobs": jobs_data,
+            "timestamp": time.time()
+        }
+
+    except Exception as e:
+        logger.error(f"Persistence debug failed: {e}")
+        return {
+            "status": "error",
+            "error": str(e)
+        }
+
+@router.post("/debug/recover-jobs", response_class=JSONResponse)
+async def debug_recover_jobs():
+    """Debug endpoint to manually trigger job recovery"""
+    try:
+        from core.services.job_queue import recover_failed_jobs
+
+        logger.info("🔄 Manual job recovery triggered via debug endpoint")
+        recover_failed_jobs()
+
+        return {
+            "status": "success",
+            "message": "Job recovery completed",
+            "timestamp": time.time()
+        }
+
+    except Exception as e:
+        logger.error(f"Manual job recovery failed: {e}")
         return {
             "status": "error",
             "error": str(e)
