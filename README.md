@@ -1,5 +1,6 @@
 
 More in-depth written article and vision behind -> https://alejogb1.vercel.app/blog/search-tool-g2-alternative
+
 Search-Tool (created by me):
  a market-intelligence tool that connects the Google Ads API + LLMs ...  meant to be a Semrush.com or Ahrefs alternative.
 
