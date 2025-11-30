@@ -1,13 +1,19 @@
 
+More in-depth written article and vision behind -> https://alejogb1.vercel.app/blog/search-tool-g2-alternative
+Search-Tool (created by me):
+ a market-intelligence tool that connects the Google Ads API + LLMs ...  meant to be a Semrush.com or Ahrefs alternative.
+
+● it’s something new, and it replaces heavy, complex infrastructure orchestrations like the
+kind you see at ahrefs’ big-data systems: https://ahrefs.com/big-data (read more about the computers of Ahrefs)
+
+● designed based on the experience i gained working for a year at top.legal, analyzing
+Google Search data from our potential market, with the goal of “getting closer to the
+market” (go-to-market)
+
+UI: https://search-tool2.vercel.app/
+Backend API: https://search-tool-vwmv.onrender.com
+Repo: https://github.com/Alejogb1/search-tool
 RUN Api: uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload   
-
-Currently deploying to: https://search-tool2.vercel.app
-
-# Market Intelligence Engine
-
-This tool is a market intelligence engine that automates the discovery and analysis of a company's Total Addressable Market (TAM) and models user search behavior. It moves beyond traditional, static keyword analysis by creating a dynamic, queryable model of a market's structure, intent, and competitive forces.
-
-The core output is not a simple data report, but a structured knowledge graph that serves as the foundational dataset for advanced analytics and, ultimately, predictive modeling. By analyzing the collective "voice of the customer" as expressed through search engine queries, the system can identify underserved needs, map competitive positioning, and quantify demand for specific product features or use cases, providing a data-driven foundation for strategic business decisions.
 
 ## Project Structure
 
